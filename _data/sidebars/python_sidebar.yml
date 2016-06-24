@@ -5,16 +5,16 @@ entries:
 - title: Sidebar
   product: Python Guides
   folders:
-
   - title: Guides
     output: web
     folderitems:
     - title: Overview
       url: /python-overview/
-      output: web
+      output: web, pdf
     - title: Google Maps API
       url: /python-using-googlemaps-api/
       output: web, pdf
 
-#  - title: Notes
-#    output: web
+  - title: Notes
+    output: web
+    folderitems:

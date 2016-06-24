@@ -2,23 +2,16 @@
 
 entries:
 - title: Sidebar
+  product: News
   levels: one
   folders:
 
-  - title: Navigation
+#  - title: Home
+#    url: /
+#    output: web
+#    type: homepage
+  - title: News
+    url: /news/
     output: web
-    folderitems:
-    - title: Home
-      url: /
-      output: web
-      type: homepage
-    - title: News
-      url: /news/
-      output: web
-    - title: Python
-      url: /python_overview/
-      output: web
-#    - title: Product 2
-#      url: /p2_landing_page/
-#      output: web
+
 

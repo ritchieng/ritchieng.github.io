@@ -6,9 +6,9 @@ entries:
   version:
   folders:
 
-  - title: About
-    output: web
-    folderitems:
+#  - title: About
+#    output: web
+#    folderitems:
   - title: Tags
     output: web
     folderitems:

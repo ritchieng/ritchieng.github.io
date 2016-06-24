@@ -2,7 +2,7 @@
 entries:
 - title: Tags Sidebar
   product: Tags
-  version: all products
+  version:
   levels: one
   output: web
   folders:
