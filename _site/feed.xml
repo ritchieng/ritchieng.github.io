@@ -5,8 +5,8 @@
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>https://ritchieng.github.io/</link>
         <atom:link href="https://ritchieng.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jun 2016 00:23:13 +0800</pubDate>
-        <lastBuildDate>Sat, 25 Jun 2016 00:23:13 +0800</lastBuildDate>
+        <pubDate>Sat, 25 Jun 2016 00:49:17 +0800</pubDate>
+        <lastBuildDate>Sat, 25 Jun 2016 00:49:17 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
@@ -16,6 +16,32 @@
 &lt;p&gt;but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+    };
+    */
+    (function() {  // DON&#39;T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement(&#39;script&#39;);
+
+        s.src = &#39;//ritchieng.disqus.com/embed.js&#39;;
+
+        s.setAttribute(&#39;data-timestamp&#39;, +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 
 </description>
             <pubDate>Fri, 24 Jun 2016 00:00:00 +0800</pubDate>
