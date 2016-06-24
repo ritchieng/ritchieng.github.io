@@ -1,0 +1,20 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Python Guides
+  folders:
+
+  - title: Guides
+    output: web
+    folderitems:
+    - title: Overview
+      url: /python-overview/
+      output: web
+    - title: Google Maps API
+      url: /python-using-googlemaps-api/
+      output: web, pdf
+
+#  - title: Notes
+#    output: web

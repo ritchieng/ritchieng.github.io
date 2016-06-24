@@ -1,0 +1,93 @@
+
+
+
+
+
+
+ 
+tag_about:
+  title: "About"
+  url: /tag_about/
+  link: <a href="/tag_about/">About</a>
+
+
+ 
+tag_news:
+  title: "News"
+  url: /tag_news/
+  link: <a href="/tag_news/">News</a>
+
+
+ 
+tag_becoming_a_coder:
+  title: "Becoming a Coder"
+  url: /tag_becoming_a_coder/
+  link: <a href="/tag_becoming_a_coder/">Becoming a Coder</a>
+
+
+ 
+tag_machine_learning:
+  title: "Machine Learning"
+  url: /tag_machine_learning/
+  link: <a href="/tag_machine_learning/">Machine Learning</a>
+
+
+ 
+tag_data_science:
+  title: "Data Science"
+  url: /tag_data_science/
+  link: <a href="/tag_data_science/">Data Science</a>
+
+
+ 
+tag_algorithmic_trading:
+  title: "Algorithmic Trading"
+  url: /tag_algorithmic_trading/
+  link: <a href="/tag_algorithmic_trading/">Algorithmic Trading</a>
+
+
+ 
+tag_python:
+  title: "Python"
+  url: /tag_python/
+  link: <a href="/tag_python/">Python</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-overview:
+  title: "Python"
+  url: "python-overview"
+  link: "<a href='/python-overview/'>Python</a>"
+
+
+
+
+
+news:
+  title: "Blog"
+  url: "news"
+  link: "<a href='/news/'>Blog</a>"
+
+
+
+
+

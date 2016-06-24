@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="news,  ">
+<title>Welcome to Jekyll!  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<link rel="stylesheet" href="/css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/css/modern-business.css">
+<link rel="stylesheet" href="/css/lavish-bootstrap.css">
+<link rel="stylesheet" href="/css/customstyles.css">
+<link rel="stylesheet" href="/css/theme-green.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="https://ritchieng.github.io/feed.xml">
+
+
+
+
+ 
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="/">&nbsp;<span class="projectTitle"> Ritchie Ng | The Noob Coder</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="/news/">News</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jekyll Resources<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://github.com/tomjohnson1492/documentation-theme-jekyll" target="_blank">Github Repo</a></li>
+                        
+                        
+                        
+                        <li><a href="https://talk.jekyllrb.com" target="_blank">Jekyll Talk</a></li>
+                        
+                        
+                        
+                        <li><a href="http://jekyllrb.com/docs/home/" target="_blank">Jekyll documentation</a></li>
+                        
+                        
+                        
+                        <li><a href="http://stackoverflow.com/questions/tagged/jekyll" target="_blank">Jekyll on Stack Overflow</a></li>
+                        
+                        
+                        
+                        <li><a href="http://idratherbewriting.com/category-jekyll/" target="_blank">Jekyll on my blog</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="/mydoc_introduction/">Jekyll Documentation Theme</a></li>
+                        
+                        
+                        
+                        <li><a href="/p1_landing_page/">Product 1</a></li>
+                        
+                        
+                        
+                        <li><a href="/p2_landing_page/">Product 2</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="/js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: '/search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Welcome to Jekyll!">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle">Tags all products</li>
+    
+    
+    
+    <li>
+        <a href="#">News</a>
+        <ul>
+            
+            
+            
+            <li><a href="/news/">News</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/news_archive/">News archive</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Tags</a>
+        <ul>
+            
+            
+            
+            <li><a href="/tag_collaboration/">Collaboration</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_content_types/">Content Types</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_formatting/">Formatting</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_getting_started/">Getting started</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_mobile/">Mobile</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_navigation/">Navigation</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_news/">News</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_publishing/">Publishing</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_single_sourcing/">Single sourcing</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_special_layouts/">Special layouts</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_troubleshooting/">Troubleshooting</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+    <!-- Content Column -->
+    <div class="col-md-9">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+        <p class="post-meta"><time datetime="2016-02-24T00:00:00+08:00" itemprop="datePublished">Feb 24, 2016</time> /
+            
+            
+            
+            <a href="/tag_news">news</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+
+        <p>Theme updates:</p>
+
+<ul>
+  <li>Permalinks</li>
+  <li>Kramdown</li>
+  <li>URL specified in config file</li>
+  <li>removed PDF output</li>
+  <li>removed some of the alternative layouts</li>
+  <li>added blog feature</li>
+  <li>sidebars configurable per page</li>
+</ul>
+
+    </div>
+
+
+
+</article>
+
+
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2016 Ritchie Ng. All rights reserved. <br />
+ Site last generated: Jun 24, 2016 <br />
+<p><img src="/images/company_logo.png" alt="Ritchie Ng"/></p>
+                </div>
+            </div>
+</footer>
+
+
+
+
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+    <script>
+    jQuery(function ($) {
+        $('.post-content').annotator()
+                .annotator('setupPlugins', {tokenUrl: 'http://example.com/api/token'})
+    });
+    </script>
+</body>
+
+</html>
