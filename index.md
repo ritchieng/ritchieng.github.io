@@ -5,9 +5,18 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 
-## Overview
+## Introduction
 
-These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+I am... Ritchie!
 
-## This is me
-![Ritchie Ng](https://raw.githubusercontent.com/ritchieng/ritchieng.github.io/f8e9d7090de9c8563efb35b7cd95d3a10e17cf36/_site/images/ritchieng_web.JPG)
+## Background
+Currently an undergraduate.
+
+## Social Media
+- [Github](https://github.com/ritchieng)
+- [Linkedin](https://www.linkedin.com/in/ritchieng)
+
+## Mugshot
+Just to put a face on this website, this is me!
+<br />
+![Ritchie Ng](https://raw.githubusercontent.com/ritchieng/ritchieng.github.io/6dbfad1b6d7ea21464d6b6ba8d406e04c6b3f9ab/_site/images/ritchieng_web.png)
