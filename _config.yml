@@ -1,6 +1,6 @@
 permalink: /:year/:month/:day/:title/
 # this sets the style for permalinks. The date formatting (/:year/:month/:day/) will only apply to blog posts, while the pages will just show the title.
-url: https://ritchieng.github.io
+url: https://www.ritchieng.com
 # where you plan to publish your site
 baseurl:
 # any subdirectory that appears after the domain where you're publishing your site
