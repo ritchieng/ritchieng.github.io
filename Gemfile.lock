@@ -126,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-seo-tag
 
 BUNDLED WITH
    1.12.5

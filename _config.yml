@@ -86,3 +86,23 @@ defaults:
 
 description: "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!"
 # the description is used in the feed.xml file
+
+gems:
+  - jekyll-seo-tag
+
+twitter:
+  username: RitchieNg
+
+facebook:
+  app_id: 1736736559921494
+  publisher: ritchiengz
+  admins: ritchiengz
+
+logo:
+
+author:
+  twitter: RitchieNg
+
+image:
+  twitter: /images/company_logo_big.png
+  facebook: /images/company_logo_big.png

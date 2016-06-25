@@ -4,7 +4,7 @@
 <head>
     {% include head_print.html %}
 
-
+    {% seo %}
 </head>
 
 <body class="{% if page.type == "title"%}title{% elsif page.type == "frontmatter" %}frontmatter{% elsif page.type == "first_page" %}first_page{% endif %} print">
