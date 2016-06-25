@@ -1,5 +1,5 @@
 ---
-title: Machine Learning, Data Science and Algorithmic Trading Guides and Notes
+title: Ritchie Ng
 tags: [about]
 sidebar: mydoc_sidebar
 type: homepage
@@ -15,6 +15,7 @@ Currently an undergraduate.
 ## Social Media
 - [Github](https://github.com/ritchieng)
 - [Linkedin](https://www.linkedin.com/in/ritchieng)
+- [Tech in Asia](https://www.techinasia.com/profile/ritchieng)
 
 ## Mugshot
 Just to put a face on this website, this is me!
