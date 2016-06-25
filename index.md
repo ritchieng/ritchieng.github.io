@@ -19,4 +19,4 @@ Currently an undergraduate.
 ## Mugshot
 Just to put a face on this website, this is me!
 <br />
-![Ritchie Ng](https://raw.githubusercontent.com/ritchieng/ritchieng.github.io/6dbfad1b6d7ea21464d6b6ba8d406e04c6b3f9ab/_site/images/ritchieng_web.png)
+![Ritchie Ng](https://raw.githubusercontent.com/ritchieng/ritchieng.github.io/master/images/ritchieng_web.png)
