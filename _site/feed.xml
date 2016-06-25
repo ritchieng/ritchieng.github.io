@@ -5,13 +5,13 @@
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>https://www.ritchieng.com/</link>
         <atom:link href="https://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jun 2016 16:10:15 +0800</pubDate>
-        <lastBuildDate>Sat, 25 Jun 2016 16:10:15 +0800</lastBuildDate>
+        <pubDate>Sat, 25 Jun 2016 16:12:50 +0800</pubDate>
+        <lastBuildDate>Sat, 25 Jun 2016 16:12:50 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
-            <title>Welcome to my website!</title>
-            <description>&lt;h2 id=&quot;the-beginning&quot;&gt;The Beginning&lt;/h2&gt;
+            <title>The beginning</title>
+            <description>&lt;h2 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h2&gt;
 
 &lt;p&gt;After a year and a half majoring in finance in Business School, National University of Singapore, I will be completing my final semester as a business student after I am back in early 2017 and moving on to my postgraduate experience in Lee Kuan Yew School of Public Policy expanding my knowledge in econometrics. I enjoyed my time restructuring debts and raising money in my first year in NUS. But I enjoy being a newbie software developer even more.&lt;/p&gt;
 
@@ -19,10 +19,10 @@
 
 &lt;p&gt;The point is to let anyone out there know that regardless of what you are studying or currently working as, you can do anything. In fact, I think the combination of BBA, MPP and programming is a weird combination. Just do it. It is going to be a colossal challenge. But what is life without a challenge?&lt;/p&gt;
 
-&lt;h2 id=&quot;the-purpose-of-this-website&quot;&gt;The Purpose of This Website&lt;/h2&gt;
+&lt;h2 id=&quot;what-is-the-purpose-of-this-website&quot;&gt;What is the purpose of this website?&lt;/h2&gt;
 &lt;p&gt;It is to document all my notes and guides that I have created and will create in the near future in the areas of Machine Learning, Data Science and Algorithmic Trading.&lt;/p&gt;
 
-&lt;p&gt;I will feature these major areas on top of my favourite programming languages:
+&lt;p&gt;I will feature these favourite programming languages on top of the three major areas:
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
