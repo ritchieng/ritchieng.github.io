@@ -144,24 +144,24 @@
                 
                 
                 <!--comment out this block if you want to hide search-->
-                <li>
-                    <!--start search-->
-                    <div id="search-demo-container">
-                        <input type="text" id="search-input" placeholder="search...">
-                        <ul id="results-container"></ul>
-                    </div>
-                    <script src="/js/jekyll-search.js" type="text/javascript"></script>
-                    <script type="text/javascript">
-                            SimpleJekyllSearch.init({
-                                searchInput: document.getElementById('search-input'),
-                                resultsContainer: document.getElementById('results-container'),
-                                dataSource: '/search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Python Guides and Notes">{title}</a></li>',
-                    noResultsText: 'No results found.',
-                            limit: 10,
-                            fuzzy: true,
-                    })
-                    </script>
+                <!--<li>-->
+                    <!--&lt;!&ndash;start search&ndash;&gt;-->
+                    <!--<div id="search-demo-container">-->
+                        <!--<input type="text" id="search-input" placeholder="search...">-->
+                        <!--<ul id="results-container"></ul>-->
+                    <!--</div>-->
+                    <!--<script src="/js/jekyll-search.js" type="text/javascript"></script>-->
+                    <!--<script type="text/javascript">-->
+                            <!--SimpleJekyllSearch.init({-->
+                                <!--searchInput: document.getElementById('search-input'),-->
+                                <!--resultsContainer: document.getElementById('results-container'),-->
+                                <!--dataSource: '/search.json',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Python Guides and Notes">{title}</a></li>',-->
+                    <!--noResultsText: 'No results found.',-->
+                            <!--limit: 10,-->
+                            <!--fuzzy: true,-->
+                    <!--})-->
+                    <!--</script>-->
                     <!--end search-->
                 </li>
             </ul>
@@ -281,22 +281,28 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="sample-content">Sample Content</h2>
+  <h2 id="to-be-completed">To be completed</h2>
 
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 
-<h2 id="more-sample-content">More sample content</h2>
 
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.</p>
 
-<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+<div class="tags">
+    
+</div>
+    <!--<div>
 
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+    <a href="http://facebook.com/sharer.php?u=https://www.ritchieng.com/python-overview/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-<p><br />
-<br /></p>
+    <a href="http://twitter.com/intent/tweet?text=Python Guides and Notes&url=https://www.ritchieng.com/python-overview/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+
+    <a href="http://plus.google.com/share?url=https://www.ritchieng.com/python-overview/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+
+</div>-->
+    <br />
+<br />
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -304,11 +310,11 @@ $('#toc').on('click', 'a', function() {
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
     /*
-    var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
 
@@ -318,15 +324,8 @@ $('#toc').on('click', 'a', function() {
         (d.head || d.body).appendChild(s);
     })();
 </script>
-
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-
-<div class="tags">
-    
-</div>
-
-    
 
 </div>
 
