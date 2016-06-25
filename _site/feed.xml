@@ -3,10 +3,10 @@
     <channel>
         <title></title>
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
-        <link>https://ritchieng.github.io/</link>
-        <atom:link href="https://ritchieng.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jun 2016 15:38:03 +0800</pubDate>
-        <lastBuildDate>Sat, 25 Jun 2016 15:38:03 +0800</lastBuildDate>
+        <link>https://www.ritchieng.com/</link>
+        <atom:link href="https://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 25 Jun 2016 15:41:48 +0800</pubDate>
+        <lastBuildDate>Sat, 25 Jun 2016 15:41:48 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
@@ -45,8 +45,8 @@
 
 </description>
             <pubDate>Fri, 24 Jun 2016 00:00:00 +0800</pubDate>
-            <link>https://ritchieng.github.io/welcome-ritchieng/</link>
-            <guid isPermaLink="true">https://ritchieng.github.io/welcome-ritchieng/</guid>
+            <link>https://www.ritchieng.com/welcome-ritchieng/</link>
+            <guid isPermaLink="true">https://www.ritchieng.com/welcome-ritchieng/</guid>
             
             <category>news</category>
             
