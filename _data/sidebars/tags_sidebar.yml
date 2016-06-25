@@ -40,5 +40,8 @@ entries:
     - title: Python
       url: /tag_python/
       output: web
+    - title: Octave
+      url: /tag_octave/
+      output: web
 
 

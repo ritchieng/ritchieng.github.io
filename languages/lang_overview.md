@@ -1,10 +1,10 @@
 ---
-title: Using Google Maps API with Python
-keywords: python
+title: Programming Languages Guides and Notes
+keywords: languages
 summary: "This is just a sample topic..."
-sidebar: python_sidebar
-permalink: /python-using-googlemaps-api/
-folder: pythondocs
+sidebar: lang_sidebar
+permalink: /programming-languages/
+folder: languages
 ---
 
 ## To be completed

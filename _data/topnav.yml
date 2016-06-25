@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: Python
-      url: /python-overview/
+    - title: Languages
+      url: /programming-languages/
 - title: Topnav
   items:
     - title: Blog

@@ -71,10 +71,10 @@ tag_python:
 
 
 
-python-overview:
-  title: "Python"
-  url: "python-overview"
-  link: "<a href='/python-overview/'>Python</a>"
+programming-languages:
+  title: "Languages"
+  url: "programming-languages"
+  link: "<a href='/programming-languages/'>Languages</a>"
 
 
 

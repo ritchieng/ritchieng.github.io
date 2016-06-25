@@ -1,6 +1,7 @@
 allowed-tags:
   - news
   - python
+  - octave
   - machine_learning
   - data_science
   - algorithmic_trading

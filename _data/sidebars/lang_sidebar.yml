@@ -3,18 +3,20 @@
 
 entries:
 - title: Sidebar
-  product: Python Guides
+  product: Programming Languages
   folders:
-  - title: Guides
+  - title: Python
     output: web
     folderitems:
     - title: Overview
       url: /python-overview/
-      output: web, pdf
+      output: web
     - title: Google Maps API
       url: /python-using-googlemaps-api/
-      output: web, pdf
-
-  - title: Notes
+      output: web
+  - title: Octave
     output: web
     folderitems:
+    - title: Mac OSX Setup
+      url: /octave-mac-setup/
+      output: web
