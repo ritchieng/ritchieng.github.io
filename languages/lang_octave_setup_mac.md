@@ -38,4 +38,4 @@ Issue this command in your terminal.
 ### 4b. Create and edit .octaverc file
 <script src="https://gist.github.com/ritchieng/53ec2b2ba492d8893e146e47c819576c.js"></script>
 
-That is all, your should be done! If you have any issues, you can drop a comment below.
+That is all, you should be done! If you have any issues, you can drop a comment below.
