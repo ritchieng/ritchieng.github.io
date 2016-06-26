@@ -5,8 +5,8 @@ topnav:
   items:
     - title: Languages
       url: /programming-languages/
-- title: Topnav
-  items:
+    - title: Machine Learning
+      url: /machine-learning/
     - title: Blog
       url: /news/
 

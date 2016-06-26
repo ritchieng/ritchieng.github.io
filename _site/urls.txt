@@ -78,6 +78,11 @@ programming-languages:
 
 
 
+machine-learning:
+  title: "Machine Learning"
+  url: "machine-learning"
+  link: "<a href='/machine-learning/'>Machine Learning</a>"
+
 
 
 news:

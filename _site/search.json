@@ -56,6 +56,36 @@
 
 
 {
+"title": "Machine Learning Overview",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/machine-learning/",
+"summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
+"title": "Linear Algebra for Machine Learning",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/linear-algebra-machine-learning/",
+"summary": "Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse matrix and transposing matrices."
+},
+
+
+
+{
+"title": "One Variable Linear Regression",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/one-variable-linear-regression/",
+"summary": "Supervised learning, unsupervised learning, parameter learning and model and cost functions."
+},
+
+
+
+{
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
