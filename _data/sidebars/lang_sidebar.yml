@@ -11,8 +11,8 @@ entries:
     - title: Overview
       url: /python-overview/
       output: web
-    - title: Google Maps API
-      url: /python-using-googlemaps-api/
+    - title: Useful Python Scripts
+      url: /python-useful-scripts/
       output: web
   - title: Octave
     output: web

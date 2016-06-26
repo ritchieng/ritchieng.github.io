@@ -1,9 +1,9 @@
 ---
-title: Using Google Maps API with Python
+title: Useful Python Scripts
 keywords: python
 summary: "This is just a sample topic..."
 sidebar: lang_sidebar
-permalink: /python-using-googlemaps-api/
+permalink: /python-useful-scripts/
 folder: languages
 ---
 
