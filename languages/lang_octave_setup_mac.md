@@ -38,4 +38,9 @@ Issue this command in your terminal.
 ### 4b. Create and edit .octaverc file
 <script src="https://gist.github.com/ritchieng/53ec2b2ba492d8893e146e47c819576c.js"></script>
 
+## 5. Edit bash or zsh file
+<script src="https://gist.github.com/ritchieng/ff45f02987b497421505471c9ee468d7.js"></script>
+
+Restart your computer!
+
 That is all, you should be done! If you have any issues, you can drop a comment below.
