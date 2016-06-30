@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Classification, logistic regression, advanced optimization, multi-class classification, overfitting, and regularization.">
+<meta name="keywords" content=" machine_learning">
+<title>Logistic Regression  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<link rel="stylesheet" href="/css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/css/modern-business.css">
+<link rel="stylesheet" href="/css/lavish-bootstrap.css">
+<link rel="stylesheet" href="/css/customstyles.css">
+<link rel="stylesheet" href="/css/theme-green.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://www.ritchieng.com/feed.xml">
+
+
+
+
+ 
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+    <!-- Begin Jekyll SEO tag v1.3.1 -->
+<title>Logistic Regression</title>
+<meta property="og:title" content="Logistic Regression" />
+<meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<link rel="canonical" href="http://www.ritchieng.com/logistic-regression/" />
+<meta property='og:url' content='http://www.ritchieng.com/logistic-regression/' />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@RitchieNg" />
+<meta name="twitter:title" content="Logistic Regression" />
+<meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<meta name="twitter:creator" content="@RitchieNg" />
+<meta property="article:publisher" content="ritchiengz" />
+<meta property="fb:app_id" content="1736736559921494" />
+<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+
+
+    "@type" : "WebPage",
+
+    "headline": "Logistic Regression",
+
+    "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
+
+
+    "url" : "http://www.ritchieng.com/logistic-regression/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">&nbsp;<span class="projectTitle"> Ritchie Ng</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="/programming-languages/">Languages</a></li>
+                
+                
+                
+                <li><a href="/machine-learning/">Machine Learning</a></li>
+                
+                
+                
+                <li><a href="/news/">Blog</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <!--<li>-->
+                    <!--&lt;!&ndash;start search&ndash;&gt;-->
+                    <!--<div id="search-demo-container">-->
+                        <!--<input type="text" id="search-input" placeholder="search...">-->
+                        <!--<ul id="results-container"></ul>-->
+                    <!--</div>-->
+                    <!--<script src="/js/jekyll-search.js" type="text/javascript"></script>-->
+                    <!--<script type="text/javascript">-->
+                            <!--SimpleJekyllSearch.init({-->
+                                <!--searchInput: document.getElementById('search-input'),-->
+                                <!--resultsContainer: document.getElementById('results-container'),-->
+                                <!--dataSource: '/search.json',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Logistic Regression">{title}</a></li>',-->
+                    <!--noResultsText: 'No results found.',-->
+                            <!--limit: 10,-->
+                            <!--fuzzy: true,-->
+                    <!--})-->
+                    <!--</script>-->
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle">Machine Learning </li>
+    
+    
+    
+    <li>
+        <a href="#">Introduction</a>
+        <ul>
+            
+            
+            
+            <li><a href="/machine-learning/">Overview</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/one-variable-linear-regression/">One Variable Linear Regression</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/linear-algebra-machine-learning/">Linear Algebra</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/multi-variable-linear-regression/">Multiple Variable Linear Regression</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="/logistic-regression/">Logistic Regression</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+    <!-- Content Column -->
+    <div class="col-md-9">
+        <div class="post-header">
+   <h1 class="post-title-main">Logistic Regression</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Classification, logistic regression, advanced optimization, multi-class classification, overfitting, and regularization.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+    
+
+    
+
+    
+
+  <h2 id="classification-and-representation">1. Classification and Representation</h2>
+
+<h3 id="a-classification">1a. Classification</h3>
+<ul>
+  <li>y variable (binary classification)
+    <ul>
+      <li>0: negative class</li>
+      <li>1: positive class</li>
+    </ul>
+  </li>
+  <li>Examples
+    <ul>
+      <li>Email: spam / not spam</li>
+      <li>Online transactions: fraudulent / not fraudulent</li>
+      <li>Tumor: malignant / not malignant</li>
+    </ul>
+  </li>
+  <li>Issue 1 of Linear Regression
+    <ul>
+      <li>As you can see on the graph, your prediction would leave out malignant tumors as the gradient becomes less steep with an additional data point on the extreme right
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_classification.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Issue 2 of Linear Regression
+    <ul>
+      <li>Hypothesis can be larger than 1 or smaller than zero</li>
+      <li>Hence, we have to use logistic regression</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="b-logistic-regression-hypothesis">1b. Logistic Regression Hypothesis</h2>
+<ul>
+  <li>Logistic Regression Model
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression.png" alt="" /></li>
+  <li>Interpretation of Hypothesis Output
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_interpretation.png" alt="" /></li>
+</ul>
+
+<h2 id="c-decision-boundary">1c. Decision Boundary</h2>
+<ul>
+  <li>Boundaries
+    <ul>
+      <li>Max 1</li>
+      <li>Min 0
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_boundaries.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Boundaries are properties of the hypothesis not the data set
+    <ul>
+      <li>You do not need to plot the data set to get the boundaries</li>
+      <li>This will be discussed subsequently
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_boundaries2.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Non-linear decision boundaries
+    <ul>
+      <li>Add higher order polynomial terms as features
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_boundaries3.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="logistic-regression-model">2. Logistic Regression Model</h2>
+
+<h3 id="a-cost-function">2a. Cost Function</h3>
+<ul>
+  <li>How do we choose parameters?
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_parameters.png" alt="" /></li>
+  <li>If y = 1
+    <ul>
+      <li>If h(x) = 0 &amp; y = 1, costs infinite</li>
+      <li>If h(x) = 1 &amp; y = 1
+  , costs = 0
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_parameters_y1.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>If y = 0
+    <ul>
+      <li>If h(x) = 0 &amp; y = 0, costs = 0</li>
+      <li>If h(x) = 1 &amp; y = 0, costs infinite
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_parameters_y0.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="b-simplified-cost-function--gradient-descent">2b. Simplified Cost Function &amp; Gradient Descent</h3>
+<ul>
+  <li>Simplified Cost Function Derivatation
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_simple.png" alt="" /></li>
+  <li>Simplified Cost Function
+    <ul>
+      <li>Always convex so we will reach global minimum all the time
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_simple2.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Gradient Descent
+    <ul>
+      <li>It looks identical, but the hypothesis for Logistic Regression is different from Linear Regression
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_gd.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Ensuring Gradient Descent is Running Correctly
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/logistic_regression_gd2.png" alt="" /></li>
+</ul>
+
+<h2 id="c-advanced-optimization">2c. Advanced Optimization</h2>
+<ul>
+  <li>Background
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/optimisation.png" alt="" /></li>
+  <li>Optimization algorithm
+    <ul>
+      <li>Gradient descent</li>
+      <li>Others
+        <ul>
+          <li>Conjugate gradient</li>
+          <li>BFGS</li>
+          <li>L-BFGS</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Advantages “Others”
+    <ul>
+      <li>No need to manually pick alpha</li>
+      <li>Often faster than gradient descent</li>
+    </ul>
+  </li>
+  <li>Disadvantages “Others”
+    <ul>
+      <li>More complex</li>
+      <li>Should not implement these yourself unless you’re an expert in numerical computing
+        <ul>
+          <li>Use a software library to do them</li>
+          <li>There are good and bad implementations, choose wisely</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Components of code explanation
+    <ul>
+      <li>Code
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/optimisation2.png" alt="" /></li>
+      <li>‘Gradobj’, ‘on’
+        <ul>
+          <li>We will be providing gradient to this algorithm</li>
+        </ul>
+      </li>
+      <li>‘MaxIter’, ‘100’
+        <ul>
+          <li>Max iterations to 100</li>
+        </ul>
+      </li>
+      <li>fminunc
+        <ul>
+          <li>Function minimisation unconstrained</li>
+          <li>Cost minimisation function in octave</li>
+        </ul>
+      </li>
+      <li>@costFunction
+        <ul>
+          <li>Points to our defined function</li>
+        </ul>
+      </li>
+      <li>optTheta
+        <ul>
+          <li>Automatically choose learning rate</li>
+          <li>Gradient descent on steriods</li>
+        </ul>
+      </li>
+      <li>Results
+        <ul>
+          <li>Theta0 = 5</li>
+          <li>Theta1 = 5</li>
+          <li>functionVal = 1.5777e-030
+            <ul>
+              <li>Essentially 0 for J(theta), what we are hoping for</li>
+            </ul>
+          </li>
+          <li>exitFlag = 1
+            <ul>
+              <li>Verify if it has converged, 1 = converged</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Theta must be more than 2 dimensions</li>
+      <li>Main point is to write a function that returns J(theta) and gradient to apply to logistic or linear regression
+        <ul>
+          <li><img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/optimisation3.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="multi-class-classification">3. Multi-class Classification</h2>
+<ul>
+  <li>Similar terms
+    <ul>
+      <li>One-vs-all</li>
+      <li>One-vs-rest</li>
+    </ul>
+  </li>
+  <li>Examples
+    <ul>
+      <li>Email folders or tags (4 classes)
+        <ul>
+          <li>Work</li>
+          <li>Friends</li>
+          <li>Family</li>
+          <li>Hobby</li>
+        </ul>
+      </li>
+      <li>Medical Diagnosis (3 classes)
+        <ul>
+          <li>Not ill</li>
+          <li>Cold</li>
+          <li>Flu</li>
+        </ul>
+      </li>
+      <li>Weather (4 classes)
+        <ul>
+          <li>Sunny</li>
+          <li>Cloudy</li>
+          <li>Rainy</li>
+          <li>Snow</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Binary vs Multi-class
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification.png" alt="" /></li>
+  <li>One-vs-all (One-vs-rest)
+    <ul>
+      <li>Split them into 3 distinct groups and compare them to the rest</li>
+      <li>If you have k classes, you need to train k logistic regression classifiers
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification2.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification3.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="solving-problem-of-overfitting">3. Solving Problem of Overfitting</h2>
+
+<h3 id="a-problem-of-overfitting">3a. Problem of Overfitting</h3>
+<ul>
+  <li>Linear Regression: Overfitting
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/overfitting.png" alt="" />
+    <ul>
+      <li>Overfit
+        <ul>
+          <li>High Variance</li>
+          <li>Too many features</li>
+          <li>Fit well but fail to generalize new examples</li>
+        </ul>
+      </li>
+      <li>Underfit
+        <ul>
+          <li>High Bias</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Logistic Regression: Overfitting
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/overfitting2.png" alt="" /></li>
+  <li>Solutions to Overfitting
+    <ul>
+      <li>Reduce number of features
+        <ul>
+          <li>Manually select features to keep</li>
+          <li>Model selection algorithm</li>
+        </ul>
+      </li>
+      <li>Regularization
+        <ul>
+          <li>Keep all features, but reduce magnitude or values of parameters theta_j</li>
+          <li>Works well when we’ve a lot of features</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="b-cost-function">3b. Cost Function</h3>
+<ul>
+  <li>Intuition
+    <ul>
+      <li>Making theta so small that is almost equivalent to zero
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/theta_small.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Regularization
+    <ul>
+      <li>Small values for parameters (thetas)
+        <ul>
+          <li>“Simpler” hypothesis</li>
+          <li>Less prone to overfitting</li>
+        </ul>
+      </li>
+      <li>Add regularization parameter to J(theta) to shrink parameters
+        <ul>
+          <li>First goal: fit training set well (first term)</li>
+          <li>Second goal: keep parameter small (second, pink, term)</li>
+        </ul>
+      </li>
+      <li>If lamda is set to an extremely large value, this would result in underfitting
+        <ul>
+          <li>High bias</li>
+        </ul>
+      </li>
+      <li>Only penalize thetas from 1, not from 0
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization1.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="c-regularized-linear-regression">3c. Regularized Linear Regression</h3>
+<ul>
+  <li>Gradient Descent Equation
+    <ul>
+      <li>Usually, (1- alpha * lambda / m) is 0.99
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/gd_logistic_regularization.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Normal Equation
+    <ul>
+      <li>Alternative to minimise J(theta) only for linear regression
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/normaleqn_regularization_lg.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Non-invertibility
+    <ul>
+      <li>Regularization takes care of non-invertibility</li>
+      <li>Matrix will not be singular, it will be invertible</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="c-regularized-logistic-regression">3c. Regularized Logistic Regression</h3>
+<ul>
+  <li>Cost function with regularization
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization_lg.png" alt="" /></li>
+  <li>Using Gradient Descent for Regularized Logistic Regression Cost Function
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization_lg_gd.png" alt="" /></li>
+  <li>To check if Gradient Descent is working well
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization_lg_gd_check.png" alt="" /></li>
+  <li>Using Advanced Optimisation
+    <ul>
+      <li>Pass in fminunc in costFunction</li>
+      <li>costFunction need to return
+        <ul>
+          <li>jVal</li>
+          <li>gradient
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization_lg_advopt.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+<div class="tags">
+    
+</div>
+    <!--<div>
+
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/logistic-regression/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+
+    <a href="http://twitter.com/intent/tweet?text=Logistic Regression&url=http://www.ritchieng.com/logistic-regression/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/logistic-regression/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+
+</div>-->
+    <br />
+<br />
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//ritchieng.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy; 2016 Ritchie Ng. All rights reserved. <br />
+ Site last updated: Jul 1, 2016 <br />
+                    <a href="https://github.com/ritchieng">Github</a> | <a href="https://www.linkedin.com/in/ritchieng">Linkedin</a> | <a href="https://www.facebook.com/ritchiengz">Facebook</a> | <a href="https://twitter.com/ritchieng">Twitter</a> | <a href="https://www.techinasia.com/profile/ritchieng">Tech in Asia</a>
+<!--<p><img src="/images/company_logo.png" alt="Ritchie Ng"/></p>-->
+                </div>
+            </div>
+</footer>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+    <script>
+    jQuery(function ($) {
+        $('.post-content').annotator()
+                .annotator('setupPlugins', {tokenUrl: 'http://example.com/api/token'})
+    });
+    </script>
+</body>
+
+</html>

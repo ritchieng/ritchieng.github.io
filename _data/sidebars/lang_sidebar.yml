@@ -8,9 +8,6 @@ entries:
   - title: Python
     output: web
     folderitems:
-    - title: Overview
-      url: /python-overview/
-      output: web
     - title: Useful Python Scripts
       url: /python-useful-scripts/
       output: web
@@ -19,4 +16,7 @@ entries:
     folderitems:
     - title: Mac OSX Setup
       url: /octave-mac-setup/
+      output: web
+    - title: Introductory Octave for Machine Learning
+      url: /octave-introduction-machine-learning/
       output: web

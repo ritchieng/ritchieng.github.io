@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://www.ritchieng.com/machine-learning-the-beginning/</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://www.ritchieng.com/welcome-ritchieng/</loc>
   </url>
   
@@ -17,6 +23,12 @@
   
   <url>
     <loc>http://www.ritchieng.com/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/octave-introduction-machine-learning/</loc>
   </url>
   
   
@@ -40,12 +52,6 @@
   
   
   <url>
-    <loc>http://www.ritchieng.com/python-overview/</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://www.ritchieng.com/machine-learning/</loc>
   </url>
   
@@ -53,6 +59,18 @@
   
   <url>
     <loc>http://www.ritchieng.com/linear-algebra-machine-learning/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/logistic-regression/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/multi-variable-linear-regression/</loc>
   </url>
   
   

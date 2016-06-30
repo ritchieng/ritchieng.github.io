@@ -17,3 +17,9 @@ entries:
     - title: Linear Algebra
       url: /linear-algebra-machine-learning/
       output: web
+    - title: Multiple Variable Linear Regression
+      url: /multi-variable-linear-regression/
+      output: web
+    - title: Logistic Regression
+      url: /logistic-regression/
+      output: web

@@ -16,6 +16,16 @@
 
 
 {
+"title": "Introductory Octave for Machine Learning",
+"tags": "",
+"keywords": "octave",
+"url": "/octave-introduction-machine-learning/",
+"summary": "This is a short introduction to Octave for Machine Learning."
+},
+
+
+
+{
 "title": "Set up Octave with Mac OSX",
 "tags": "",
 "keywords": "octave",
@@ -30,7 +40,7 @@
 "tags": "",
 "keywords": "languages",
 "url": "/programming-languages/",
-"summary": "This is just a sample topic..."
+"summary": "Discover Python, Octave, Java, and Javascript."
 },
 
 
@@ -40,17 +50,7 @@
 "tags": "",
 "keywords": "python",
 "url": "/python-useful-scripts/",
-"summary": "This is just a sample topic..."
-},
-
-
-
-{
-"title": "Python Guides and Notes",
-"tags": "",
-"keywords": "python",
-"url": "/python-overview/",
-"summary": "This is just a sample topic..."
+"summary": "Useful python scripts, feel free to use them."
 },
 
 
@@ -71,6 +71,26 @@
 "keywords": "machine_learning",
 "url": "/linear-algebra-machine-learning/",
 "summary": "Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse matrix and transposing matrices."
+},
+
+
+
+{
+"title": "Logistic Regression",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/logistic-regression/",
+"summary": "Classification, logistic regression, advanced optimization, multi-class classification, overfitting, and regularization."
+},
+
+
+
+{
+"title": "Linear Regression with Multiple Variables",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/multi-variable-linear-regression/",
+"summary": "Linear Regression with Multiple Variables."
 },
 
 
@@ -133,6 +153,16 @@
 
 
 
+
+
+{
+"title": "Machine Learning by Andrew Ng, Stanford University",
+"tags": "news",
+"keywords": "",
+"url": "/machine-learning-the-beginning/",
+"summary": "I just started on Machine Learning by Andrew Ng from Stanford University."
+}
+,
 
 
 {

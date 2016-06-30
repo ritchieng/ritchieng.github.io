@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This is a short introduction to Octave for Machine Learning.">
+<meta name="keywords" content=" octave">
+<title>Introductory Octave for Machine Learning  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<link rel="stylesheet" href="/css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/css/modern-business.css">
+<link rel="stylesheet" href="/css/lavish-bootstrap.css">
+<link rel="stylesheet" href="/css/customstyles.css">
+<link rel="stylesheet" href="/css/theme-green.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://www.ritchieng.com/feed.xml">
+
+
+
+
+ 
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+    <!-- Begin Jekyll SEO tag v1.3.1 -->
+<title>Introductory Octave for Machine Learning</title>
+<meta property="og:title" content="Introductory Octave for Machine Learning" />
+<meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<link rel="canonical" href="http://www.ritchieng.com/octave-introduction-machine-learning/" />
+<meta property='og:url' content='http://www.ritchieng.com/octave-introduction-machine-learning/' />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@RitchieNg" />
+<meta name="twitter:title" content="Introductory Octave for Machine Learning" />
+<meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
+<meta name="twitter:creator" content="@RitchieNg" />
+<meta property="article:publisher" content="ritchiengz" />
+<meta property="fb:app_id" content="1736736559921494" />
+<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+
+
+    "@type" : "WebPage",
+
+    "headline": "Introductory Octave for Machine Learning",
+
+    "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
+
+
+    "url" : "http://www.ritchieng.com/octave-introduction-machine-learning/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">&nbsp;<span class="projectTitle"> Ritchie Ng</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="/programming-languages/">Languages</a></li>
+                
+                
+                
+                <li><a href="/machine-learning/">Machine Learning</a></li>
+                
+                
+                
+                <li><a href="/news/">Blog</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <!--<li>-->
+                    <!--&lt;!&ndash;start search&ndash;&gt;-->
+                    <!--<div id="search-demo-container">-->
+                        <!--<input type="text" id="search-input" placeholder="search...">-->
+                        <!--<ul id="results-container"></ul>-->
+                    <!--</div>-->
+                    <!--<script src="/js/jekyll-search.js" type="text/javascript"></script>-->
+                    <!--<script type="text/javascript">-->
+                            <!--SimpleJekyllSearch.init({-->
+                                <!--searchInput: document.getElementById('search-input'),-->
+                                <!--resultsContainer: document.getElementById('results-container'),-->
+                                <!--dataSource: '/search.json',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Introductory Octave for Machine Learning">{title}</a></li>',-->
+                    <!--noResultsText: 'No results found.',-->
+                            <!--limit: 10,-->
+                            <!--fuzzy: true,-->
+                    <!--})-->
+                    <!--</script>-->
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle">Programming Languages </li>
+    
+    
+    
+    <li>
+        <a href="#">Python</a>
+        <ul>
+            
+            
+            
+            <li><a href="/python-useful-scripts/">Useful Python Scripts</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Octave</a>
+        <ul>
+            
+            
+            
+            <li><a href="/octave-mac-setup/">Mac OSX Setup</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="/octave-introduction-machine-learning/">Introductory Octave for Machine Learning</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+    <!-- Content Column -->
+    <div class="col-md-9">
+        <div class="post-header">
+   <h1 class="post-title-main">Introductory Octave for Machine Learning</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This is a short introduction to Octave for Machine Learning.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+    
+
+    
+
+    
+
+  <h2 id="basic-operations">1. Basic Operations</h2>
+<ul>
+  <li>Not equal to
+    <ul>
+      <li><code class="highlighter-rouge">1 ~= 2</code></li>
+    </ul>
+  </li>
+  <li>And
+    <ul>
+      <li><code class="highlighter-rouge">1 &amp;&amp; 2</code></li>
+    </ul>
+  </li>
+  <li>Or
+    <ul>
+      <li><code class="highlighter-rouge">1 || 2</code></li>
+    </ul>
+  </li>
+  <li>Variable
+    <ul>
+      <li><code class="highlighter-rouge">a = pi</code>
+        <ul>
+          <li>3.1316</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Print 2 decimal places
+    <ul>
+      <li><code class="highlighter-rouge">disp(sprintf('2 decimals: %0.2f', a))</code></li>
+      <li><code class="highlighter-rouge">disp(sprintf('6 decimals: %0.6f', a))</code></li>
+    </ul>
+  </li>
+  <li>Longer decimal places
+    <ul>
+      <li><code class="highlighter-rouge">format short</code></li>
+      <li><code class="highlighter-rouge">a</code></li>
+    </ul>
+  </li>
+  <li>Matrices
+    <ul>
+      <li>3 x 2
+        <ul>
+          <li><code class="highlighter-rouge">A = [1 2; 3 4; 5 6]</code></li>
+          <li>Semicolon implies go to the next row</li>
+        </ul>
+      </li>
+      <li>1 x 3
+        <ul>
+          <li><code class="highlighter-rouge">B = [1 2 3]</code></li>
+        </ul>
+      </li>
+      <li>3 x 1
+        <ul>
+          <li><code class="highlighter-rouge">C = [1; 2; 3]</code></li>
+        </ul>
+      </li>
+      <li>2 x 3 ones
+        <ul>
+          <li><code class="highlighter-rouge">ones(2, 3)</code></li>
+          <li><code class="highlighter-rouge">D = 2*ones(2,3)</code></li>
+        </ul>
+      </li>
+      <li>1 x 3 zeros
+        <ul>
+          <li><code class="highlighter-rouge">zeros(1, 3)</code></li>
+        </ul>
+      </li>
+      <li>1 x 3 rand
+        <ul>
+          <li><code class="highlighter-rouge">rand(1, 3)</code></li>
+        </ul>
+      </li>
+      <li>1 x 3 Gaussian Distribution, mean = 0, SD = 1
+        <ul>
+          <li><code class="highlighter-rouge">randn(1, 3)</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Start from 1, increment 0.1, up to 2
+    <ul>
+      <li><code class="highlighter-rouge">v = 1:0.1:2</code></li>
+    </ul>
+  </li>
+  <li>Start from 1, increment 1, up to 6
+    <ul>
+      <li><code class="highlighter-rouge">v = 1:6</code></li>
+    </ul>
+  </li>
+  <li>Histogram
+    <ul>
+      <li><code class="highlighter-rouge">w = -6 + sqrt(10)*(randn(1, 10))</code></li>
+      <li><code class="highlighter-rouge">hist(w)</code></li>
+      <li>50 bins
+        <ul>
+          <li><code class="highlighter-rouge">hist(w, 50)</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Identity Matrix
+    <ul>
+      <li><code class="highlighter-rouge">eye(4)</code>
+        <ul>
+          <li>4 x 4</li>
+        </ul>
+      </li>
+      <li><code class="highlighter-rouge">eye(3)</code>
+        <ul>
+          <li>3 x 3</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>quit
+    <ul>
+      <li>press ‘q’</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="moving-data-around">2. Moving Data Around</h2>
+<ul>
+  <li><code class="highlighter-rouge">A = [1 2; 3 4; 5 6]</code></li>
+  <li>Getting matrix dimensions
+    <ul>
+      <li><code class="highlighter-rouge">size(A)</code></li>
+      <li>get first and second dimension
+        <ul>
+          <li><code class="highlighter-rouge">size(A, 1)</code></li>
+          <li><code class="highlighter-rouge">size(A, 2)</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Get longest dimension (normally applied to vectors)
+    <ul>
+      <li><code class="highlighter-rouge">length(A)</code></li>
+    </ul>
+  </li>
+  <li>Load file
+    <ul>
+      <li><code class="highlighter-rouge">load file.dat</code></li>
+    </ul>
+  </li>
+  <li>Show variables in current workspace
+    <ul>
+      <li><code class="highlighter-rouge">who</code></li>
+      <li>for a more detailed version
+        <ul>
+          <li><code class="highlighter-rouge">whos</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Get data from file priceY
+    <ul>
+      <li><code class="highlighter-rouge">v = priceY(1:10)</code></li>
+    </ul>
+  </li>
+  <li>Save file
+    <ul>
+      <li><code class="highlighter-rouge">save hello.txt v -ascii;</code></li>
+    </ul>
+  </li>
+  <li>Accessing elements in matrix (array)
+    <ul>
+      <li><code class="highlighter-rouge">A(3, 2)</code>
+        <ul>
+          <li>This would give row 6, column 2, so 6</li>
+        </ul>
+      </li>
+      <li><code class="highlighter-rouge">A(2, :)</code>
+        <ul>
+          <li>This would give all of row 2</li>
+        </ul>
+      </li>
+      <li><code class="highlighter-rouge">A(:, 2)</code>
+        <ul>
+          <li>This would give all of column 2</li>
+        </ul>
+      </li>
+      <li><code class="highlighter-rouge">A([1,3], :)</code>
+        <ul>
+          <li>This gives everything from Row 1, 3 and all Columns</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Replace Elements
+    <ul>
+      <li><code class="highlighter-rouge">A(:, 2) = [10; 11; 12]</code>
+        <ul>
+          <li>This would replace second column (all rows)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Append Elements
+    <ul>
+      <li><code class="highlighter-rouge">A = [A, [100; 101; 102]];</code>
+        <ul>
+          <li>Appends new column vector [100; 101; 102]</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Put all elements of A into a single vector
+    <ul>
+      <li><code class="highlighter-rouge">A(:)</code></li>
+    </ul>
+  </li>
+  <li>Concatenate Matrices Horizontally
+    <ul>
+      <li><code class="highlighter-rouge">A = [1 2; 3 4; 5 6]</code></li>
+      <li><code class="highlighter-rouge">B = [4 5; 6 7; 8 9]</code></li>
+      <li><code class="highlighter-rouge">C = [A B]</code></li>
+    </ul>
+  </li>
+  <li>Concatenate Matrices Vertically
+    <ul>
+      <li><code class="highlighter-rouge">C = [A; B]</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="computing-on-data">3. Computing on Data</h2>
+<ul>
+  <li><code class="highlighter-rouge">A = [1 2; 3 4; 5 6]</code></li>
+  <li><code class="highlighter-rouge">B = [11 12; 13 14; 15 16]</code></li>
+  <li><code class="highlighter-rouge">C = [1 1; 2 2]</code></li>
+  <li>Muliply matrices
+    <ul>
+      <li><code class="highlighter-rouge">A*C</code></li>
+    </ul>
+  </li>
+  <li>Element-wise Multiplication
+    <ul>
+      <li>Literal multiplication of cell to cell</li>
+      <li>`[1 2] .* [2 2]</li>
+      <li><code class="highlighter-rouge">= [2 4]</code></li>
+    </ul>
+  </li>
+  <li>Element-wise squaring
+    <ul>
+      <li><code class="highlighter-rouge">A .^ 2</code></li>
+      <li>Squares each cell</li>
+    </ul>
+  </li>
+  <li>Element-wise reciprocal
+    <ul>
+      <li><code class="highlighter-rouge">1 ./ A</code></li>
+    </ul>
+  </li>
+  <li>Element-wise log and exponential
+    <ul>
+      <li><code class="highlighter-rouge">log(A)</code></li>
+      <li><code class="highlighter-rouge">exp(A)</code></li>
+    </ul>
+  </li>
+  <li>Element-wise absolute value
+    <ul>
+      <li><code class="highlighter-rouge">abs(A)</code></li>
+    </ul>
+  </li>
+  <li>Add numbers to each cell
+    <ul>
+      <li><code class="highlighter-rouge">A + 1</code></li>
+    </ul>
+  </li>
+  <li>Transpose (m x n to n x m)
+    <ul>
+      <li><code class="highlighter-rouge">A'</code></li>
+    </ul>
+  </li>
+  <li>Maximum Value of matrix
+    <ul>
+      <li><code class="highlighter-rouge">max(A)</code></li>
+      <li>Does column-wise maximum</li>
+    </ul>
+  </li>
+  <li>Comparison
+    <ul>
+      <li><code class="highlighter-rouge">A &lt; 3</code></li>
+      <li>1: true</li>
+      <li>0: false</li>
+    </ul>
+  </li>
+  <li>Finding elements that fulfil inequality (vector)
+    <ul>
+      <li><code class="highlighter-rouge">find(A&lt;3)</code></li>
+      <li>gives which elements are &lt; 3</li>
+    </ul>
+  </li>
+  <li>Magic(num)
+    <ul>
+      <li>Each row, column and diagonal add up to the same thing</li>
+      <li>Something like sudoku</li>
+      <li><code class="highlighter-rouge">magic(3)</code></li>
+    </ul>
+  </li>
+  <li>Find which element in an array fulfills inequality
+    <ul>
+      <li><code class="highlighter-rouge">[r, c] = find(A &gt;= 7)</code></li>
+      <li><img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w2_linear_regression_multiple/element.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Sum all elements
+    <ul>
+      <li><code class="highlighter-rouge">sum(A)</code></li>
+    </ul>
+  </li>
+  <li>Product all elements
+    <ul>
+      <li><code class="highlighter-rouge">prod(A)</code></li>
+    </ul>
+  </li>
+  <li>Round down
+    <ul>
+      <li><code class="highlighter-rouge">floor(A)</code></li>
+    </ul>
+  </li>
+  <li>Round up
+    <ul>
+      <li><code class="highlighter-rouge">ceil(A)</code></li>
+    </ul>
+  </li>
+  <li>Create random matrix
+    <ul>
+      <li><code class="highlighter-rouge">rand(3)</code></li>
+      <li><code class="highlighter-rouge">max(rand(3), rand(3))</code>
+        <ul>
+          <li>This takes max of 2 3x3 matrices</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Finding max per column
+    <ul>
+      <li><code class="highlighter-rouge">max(A, [], 1)</code></li>
+    </ul>
+  </li>
+  <li>Finding max per row
+    <ul>
+      <li><code class="highlighter-rouge">max(A, [], 2)</code></li>
+    </ul>
+  </li>
+  <li>Finding max of all numbers
+    <ul>
+      <li><code class="highlighter-rouge">max(max(A))</code></li>
+    </ul>
+  </li>
+  <li>Converting to vector
+    <ul>
+      <li><code class="highlighter-rouge">A(:)</code></li>
+    </ul>
+  </li>
+  <li>Sum each column
+    <ul>
+      <li><code class="highlighter-rouge">sum(A, 1)</code></li>
+    </ul>
+  </li>
+  <li>Sum each row
+    <ul>
+      <li><code class="highlighter-rouge">sum(A, 2)</code></li>
+    </ul>
+  </li>
+  <li>Sum diagonal
+    <ul>
+      <li><code class="highlighter-rouge">A .* eye(9)</code></li>
+      <li>Assuming A is 9 x 9</li>
+      <li><code class="highlighter-rouge">sum(sum(A .* eye(9)))</code></li>
+      <li><code class="highlighter-rouge">sum(sum(A .* flipud(eye(9))))</code></li>
+    </ul>
+  </li>
+  <li>Inverse Matrix
+    <ul>
+      <li><code class="highlighter-rouge">pinv(A)</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="plotting-data">4. Plotting Data</h2>
+<ul>
+  <li><code class="highlighter-rouge">t = [0:0.01:0.98];</code></li>
+  <li><code class="highlighter-rouge">y1 = sin(2*pi*4*t);</code></li>
+  <li><code class="highlighter-rouge">plot(t, y1);</code></li>
+  <li><code class="highlighter-rouge">hold on;</code>
+    <ul>
+      <li>This ‘hold on’ allows you to print two graphs together</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">y2 = cos(2*pi*4*t);</code></li>
+  <li><code class="highlighter-rouge">plot(t, y2);</code></li>
+  <li><code class="highlighter-rouge">xlabel('time')</code></li>
+  <li><code class="highlighter-rouge">ylabel('value')</code></li>
+  <li><code class="highlighter-rouge">legend('sin', 'cos')</code></li>
+  <li><code class="highlighter-rouge">title('my plot')</code></li>
+  <li><code class="highlighter-rouge">rint -dpng 'myPlot.png'</code>
+    <ul>
+      <li>Save file</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">close</code>
+    <ul>
+      <li>Get rid of figure</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">figure(1); plot(t, y1)</code></li>
+  <li><code class="highlighter-rouge">figure(2); plot(t, y2)</code>
+    <ul>
+      <li>Multiple figures</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">subplot(1, 2, 1); </code>
+    <ul>
+      <li><code class="highlighter-rouge">plot(t, y1); </code></li>
+      <li>Divides plot a 1 x 2 grid, access first element</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">subplot(1, 2, 2); </code>
+    <ul>
+      <li><code class="highlighter-rouge">plot(t, y2); </code></li>
+      <li>Divides plot a 1 x 2 grid, access second element</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">axis([0.5 1 -1 1])</code>
+    <ul>
+      <li>x-axis: 0.5 to 1</li>
+      <li>y-axis: -1 to 1</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">clf</code>
+    <ul>
+      <li>Clear figure</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">imagesc(A), colorbar, colormap gray</code>
+    <ul>
+      <li>Three commands using comma to chain commands</li>
+      <li>Determine concentration of numbers on a grid</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="control-statements">5. Control Statements</h2>
+<ul>
+  <li>for
+<script src="https://gist.github.com/ritchieng/98adb1cb9ca14c321f76f54bb4aade35.js"></script></li>
+  <li>while
+<script src="https://gist.github.com/ritchieng/43e649e63f62c4c770bde9bb2c2acf30.js"></script></li>
+  <li>else
+<script src="https://gist.github.com/ritchieng/0c00b2c4bcedfd700f8965e7915803fc.js"></script></li>
+</ul>
+
+<h2 id="vectorization">6. Vectorization</h2>
+<ul>
+  <li>Matlab/Octave index starts from 1</li>
+  <li>Transposing theta would have a more simpler and efficient code</li>
+  <li>Implementation in Octave</li>
+  <li>Compress for loop to one line of vectorized code
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w2_linear_regression_multiple/vectorization.png" alt="" /></li>
+  <li>Vectorized implementation of gradient descent
+    <ul>
+      <li>Delta and Theta are vectors
+        <ul>
+          <li>Elements of Delta Vector (black boxes)</li>
+          <li>Elements of Theta Vector (Theta0, Theta1, Theta2)
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w2_linear_regression_multiple/vectorization_gd.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+<div class="tags">
+    
+</div>
+    <!--<div>
+
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/octave-introduction-machine-learning/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+
+    <a href="http://twitter.com/intent/tweet?text=Introductory Octave for Machine Learning&url=http://www.ritchieng.com/octave-introduction-machine-learning/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/octave-introduction-machine-learning/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+
+</div>-->
+    <br />
+<br />
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//ritchieng.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy; 2016 Ritchie Ng. All rights reserved. <br />
+ Site last updated: Jul 1, 2016 <br />
+                    <a href="https://github.com/ritchieng">Github</a> | <a href="https://www.linkedin.com/in/ritchieng">Linkedin</a> | <a href="https://www.facebook.com/ritchiengz">Facebook</a> | <a href="https://twitter.com/ritchieng">Twitter</a> | <a href="https://www.techinasia.com/profile/ritchieng">Tech in Asia</a>
+<!--<p><img src="/images/company_logo.png" alt="Ritchie Ng"/></p>-->
+                </div>
+            </div>
+</footer>
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+    <script>
+    jQuery(function ($) {
+        $('.post-content').annotator()
+                .annotator('setupPlugins', {tokenUrl: 'http://example.com/api/token'})
+    });
+    </script>
+</body>
+
+</html>
