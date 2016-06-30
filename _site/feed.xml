@@ -5,15 +5,15 @@
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 Jul 2016 00:14:38 +0800</pubDate>
-        <lastBuildDate>Fri, 01 Jul 2016 00:14:38 +0800</lastBuildDate>
+        <pubDate>Fri, 01 Jul 2016 00:20:32 +0800</pubDate>
+        <lastBuildDate>Fri, 01 Jul 2016 00:20:32 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
             <title>Machine Learning by Andrew Ng, Stanford University</title>
             <description>&lt;h2 id=&quot;machine-learning-by-andrew-ng&quot;&gt;Machine Learning by Andrew Ng&lt;/h2&gt;
 
-&lt;p&gt;So I just started this course and I have documented my notes under &lt;a href=&quot;http://127.0.0.1:4005/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;. I made it to the end of week 3 in 6 days while committing a few hours everyday. Rather slow but I am currently travelling now with commitments so I have to make do.&lt;/p&gt;
+&lt;p&gt;So I just started this course and I have documented my notes under &lt;a href=&quot;http://127.0.0.1:4005/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;. I made it to the end of week 3 in 7 days while committing a few hours everyday. Rather slow but I am currently travelling now with commitments so I have to make do.&lt;/p&gt;
 
 &lt;p&gt;I intend to complete this course in another 6 more days. Sure I can.&lt;/p&gt;
 
@@ -21,7 +21,7 @@
 &lt;p&gt;Meanwhile, you can check out my full Github repository &lt;a href=&quot;https://github.com/ritchieng&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
+            <pubDate>Wed, 29 Jun 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/machine-learning-the-beginning/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/machine-learning-the-beginning/</guid>
             
