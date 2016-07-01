@@ -5,6 +5,7 @@ summary: "This is just a sample topic..."
 sidebar: lang_sidebar
 permalink: /octave-mac-setup/
 folder: languages
+tags: [octave]
 ---
 
 

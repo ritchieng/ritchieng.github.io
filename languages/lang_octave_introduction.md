@@ -5,6 +5,7 @@ summary: "This is a short introduction to Octave for Machine Learning."
 sidebar: lang_sidebar
 permalink: /octave-introduction-machine-learning/
 folder: languages
+tags: [octave]
 ---
 
 ## 1. Basic Operations

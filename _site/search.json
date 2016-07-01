@@ -17,7 +17,7 @@
 
 {
 "title": "Introductory Octave for Machine Learning",
-"tags": "",
+"tags": "octave",
 "keywords": "octave",
 "url": "/octave-introduction-machine-learning/",
 "summary": "This is a short introduction to Octave for Machine Learning."
@@ -27,7 +27,7 @@
 
 {
 "title": "Set up Octave with Mac OSX",
-"tags": "",
+"tags": "octave",
 "keywords": "octave",
 "url": "/octave-mac-setup/",
 "summary": "This is just a sample topic..."
@@ -47,7 +47,7 @@
 
 {
 "title": "Useful Python Scripts",
-"tags": "",
+"tags": "python",
 "keywords": "python",
 "url": "/python-useful-scripts/",
 "summary": "Useful python scripts, feel free to use them."
@@ -57,7 +57,7 @@
 
 {
 "title": "Machine Learning Overview",
-"tags": "",
+"tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/machine-learning/",
 "summary": "Machine Learning theory and applications using Octave or Python."
@@ -67,7 +67,7 @@
 
 {
 "title": "Linear Algebra for Machine Learning",
-"tags": "",
+"tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/linear-algebra-machine-learning/",
 "summary": "Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse matrix and transposing matrices."
@@ -77,7 +77,7 @@
 
 {
 "title": "Logistic Regression",
-"tags": "",
+"tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/logistic-regression/",
 "summary": "Classification, logistic regression, advanced optimization, multi-class classification, overfitting, and regularization."
@@ -87,7 +87,7 @@
 
 {
 "title": "Linear Regression with Multiple Variables",
-"tags": "",
+"tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/multi-variable-linear-regression/",
 "summary": "Linear Regression with Multiple Variables."
@@ -97,7 +97,7 @@
 
 {
 "title": "One Variable Linear Regression",
-"tags": "",
+"tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/one-variable-linear-regression/",
 "summary": "Supervised learning, unsupervised learning, parameter learning and model and cost functions."
@@ -157,7 +157,7 @@
 
 {
 "title": "Machine Learning by Andrew Ng, Stanford University",
-"tags": "news",
+"tags": "newsmachine_learningbecoming_a_coder",
 "keywords": "",
 "url": "/machine-learning-the-beginning/",
 "summary": "I just started on Machine Learning by Andrew Ng from Stanford University."

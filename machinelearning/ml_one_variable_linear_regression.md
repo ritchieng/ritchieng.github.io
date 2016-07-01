@@ -5,6 +5,7 @@ summary: "Supervised learning, unsupervised learning, parameter learning and mod
 sidebar: ml_sidebar
 permalink: /one-variable-linear-regression/
 folder: machinelearning
+tags: [machine_learning]
 ---
 
 # Introduction to Machine Learning: Supervised and Unsupervised Learning

@@ -5,6 +5,7 @@ summary: "Useful python scripts, feel free to use them."
 sidebar: lang_sidebar
 permalink: /python-useful-scripts/
 folder: languages
+tags: [python]
 ---
 
 ## Files for Scripts

@@ -5,6 +5,7 @@ summary: "Machine Learning theory and applications using Octave or Python."
 sidebar: ml_sidebar
 permalink: /machine-learning/
 folder: machinelearning
+tags: [machine_learning]
 ---
 
 ## Machine Learning: Statistical Learning

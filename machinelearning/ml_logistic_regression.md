@@ -5,6 +5,7 @@ summary: "Classification, logistic regression, advanced optimization, multi-clas
 sidebar: ml_sidebar
 permalink: /logistic-regression/
 folder: machinelearning
+tags: [machine_learning]
 ---
 
 ## 1. Classification and Representation

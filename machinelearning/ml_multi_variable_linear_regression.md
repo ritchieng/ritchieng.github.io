@@ -5,6 +5,7 @@ summary: "Linear Regression with Multiple Variables."
 sidebar: ml_sidebar
 permalink: /multi-variable-linear-regression/
 folder: machinelearning
+tags: [machine_learning]
 ---
 
 ## 1. Multivariate Linear Regression

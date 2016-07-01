@@ -5,6 +5,7 @@ summary: "Matrices, vectors, addition, scalar multiplication, matrix vector mult
 sidebar: ml_sidebar
 permalink: /linear-algebra-machine-learning/
 folder: machinelearning
+tags: [machine_learning]
 ---
 
 ## 1. Matrices and Vectors
