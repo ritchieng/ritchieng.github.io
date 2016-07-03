@@ -1,145 +1,147 @@
 ---
-title: One Variable Linear Regression
+title: Neural Networks (Representation)
 keywords: machine_learning
-summary: "Supervised learning, unsupervised learning, parameter learning and model and cost functions."
+summary: "Non-linear hypothesis, neurons and the brain, model representation, and multi-class classification."
 sidebar: ml_sidebar
-permalink: /one-variable-linear-regression/
+permalink: /neural-networks-representation/
 folder: machinelearning
 tags: [machine_learning]
 ---
 
-# Introduction to Machine Learning: Supervised and Unsupervised Learning
+## 1. Motivations
 
-## Examples of ML
-- Database Mining
-- Applications that can't program by hand
-    - Handwriting recognition
-    - NLP
-- Self-customising programs
-    - Amazon
-    - Netflix recommendation systems
-- Understand human learning
-    - Brain
-    - Real AI
+### 1a. Non-linear Hypothesis
+- You can add more features
+    - But it will be slow to process
+- If you have an image with 50 x 50 pixels (greyscale, not RGB)
+    - n = 50 x 50 = 2500
+    - quadratic features = (2500 x 2500) / 2
+    - ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/example.png)
+- Neural networks are much better for a complex nonlinear hypothesis
 
-## 1. Supervised Learning
-- Gave data set answers
-- Regression: predict continuous valued output
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/supervised.png)
+### 1b. Neurons and the Brain
+- Origins
+    - Algorithms that try to mimic the brain
+- Was very widely used in the 80s and early 90's
+    - Popularity diminished in the late 90's
+- Recent resurgence
+    - State-of-the-art techniques for many applications
+- The "one learning algorithm" hypothesis
+    - Auditory cortex handles hearing
+        - Re-wire to learn to see
+    - Somatosensory cortex handles feeling
+        - Re-wire to learn to see
+    - Plug in data and the brain will learn accordingly
+- Examples of learning
+    - ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/example2.png)
 
-### 1a. Classification
-- Discrete valued output (0 or 1)
-- Example: Breast cancer (malignant and benign)
-    1. Tumor size
-    2. Age
-        - Classify 2 clusters to determine which is more likely
+## 2. Neural Networks
 
-### 1c. Problem 1 (Regression Problem)
-You have a large inventory of identical items. You want to predict how many
-of these items will sell within the next 3 months.
-    10000 items (continuous value)
+### 2a. Model Representation I
+- Neuron in the brain
+    - Many neurons in our brain
+    - Dendrite: receive input
+    - Axon: produce output
+        - When it sends a message through the Axon to another neuron
+        - It sends to another neuron's Dendrite
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neuron.png)
+- Neuron model: logistic unit
+    - Yellow circle: body of neuron
+    - Input wires: dendrites
+    - Output wire: axon
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neuron_model.png)
+- Neural Network
+    - 3 Layers
+        - 1 Layer: input layer
+        - 2 Layer: hidden layer
+            - Unable to observe values
+            - Anything other than input or output layer
+        - 3 Layer: output layer
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network.png)
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network2.png)
+        - We calculate each of the layer-2 activations based on the input values with the bias term (which is equal to 1)
+            - i.e. x0 to x3
+            - We then calculate the final hypothesis (i.e. the single node in layer 3) using exactly the same logic, except in input is not x values, but the activation values from the preceding layer
+        - The activation value on each hidden unit (e.g. a12 ) is equal to the sigmoid function applied to the linear combination of inputs
+            - Three input units
+            - Ɵ(1) is the matrix of parameters governing the mapping of the input units to hidden units
+                - Ɵ(1) here is a [3 x 4] dimensional matrix
+        - Three hidden units
+            - Then Ɵ(2) is the matrix of parameters governing the mapping of the hidden layer to the output layer
+                - Ɵ(2) here is a [1 x 4] dimensional matrix (i.e. a row vector)
+        - Every input/activation goes to every node in following layer
+            - Which means each "layer transition" uses a matrix of parameters with the following significance
+            ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/theta.png)
+                - j (first of two subscript numbers)= ranges from 1 to the number of units in layer l+1
+                - i (second of two subscript numbers) = ranges from 0 to the number of units in layer l
+                - l is the layer you're moving FROM
+                ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/theta2.png)
 
-### 1d. Problem 2 (Classification Problem)
-You'd like a software to examine individual accounts and decide, for each account,
-if it has been hacked/compromised.
-    0: not hacked
-    1: hacked
-
-## 2. Unsupervised Learning
-- Making sense of data; patterns we don't know in advance
-- Examples
-    - Social network analysis
-    - Market segmentation
-    - Astronomical data analysis
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/unsupervised.png)
-
-### 2a. Cocktail Party Problem
-- Give 2 audio recording
-- Feed to unsupervised learning algorithm
-- Find structure
-    - Separate audio sources
-
-### 2b. Unsupervised Learning Problems
-1. Given a set of news articles found on the web, group them into set of articles about
-   the same story
-2. Given a database of customer data, automatically discover market segments and group
-   customers into different market segments
-
-## 3. Model and Cost Function
-
-### 3a. Model Representation
-- Supervised learning: given the right answer for each example in the data
-- Regression: predict real-valued output
-- Classification: predict discrete-valued output
-- Training set: original data
-    - m = number of training examples
-    - x = input variable/features
-    - y = output variable/target
-    - (x, y) = one training example
-    - (x^(i), y^(i)) = i-th training example
-- Representing hypothesis h
-    - linear regression with one variable (univariate linear regression)
-        - h(x) = a + bx
-            - a,b: parameters
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/hypothesis.png)
+- Notation
+![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/notation.png)
 
 
-### 3b. Cost Function
-- Minimise squared error function
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/minimisation.png)
+### 2a. Model Representation II
+- Here we'll look at how to carry out the computation efficiently through a vectorized implementation. We'll also consider
+why neural networks are good and how we can use them to learn complex non-linear things
+- Forward propagation: vectorized implementation
+    - g applies sigmoid-function element-wise to z
+    - This process of calculating H(x) is called forward propagation
+        - Worked out from the first layer
+        - Starts off with activations of input unit
+        - Propagate forward and calculate the activation of each layer sequentially
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/forward_propagation.png)
+- Similar to logistic regression if you leave out the first layer
+    - Only second and third layer
+    - Third layer resembles a logistic regression node
+    - The features in layer 2 are calculated/learned, not original features
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/logistic_regression.png)
+    - Neural network, learns its own features
+        - The features a's are learned from x's
+        - It learns its own features to feed into logistic regression
+        - Better hypothesis than if we were constrained with just x1, x2, x3
+        - We can have whatever features we want to feed to the final logistic regression function
+        - Implemention in Octave for a2
+            - `a2 = sigmoid (Theta1 * x);`
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_learn_features.png)
+- Other network architectures
+    - Layer 2 and 3 are hidden layers
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network3.png)
 
-### 3c. h(x) and J(theta): 1 Parameter
-- Assuming simplified cost function with only theta1
-- Minimising J(theta) would fit the data most well
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/rationale_minimisation.png)
+## 2. Neural Network Application
 
-### 3d. h(x) and J(theta0, theta1): 2 Parameters
-- 3D graph
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/2_params.png)
+### 2a. Examples and Intuitions I
+- XOR/XNOR
+    - XOR: or
+    - XNOR: not or
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/xnor.png)
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/xnor2.png)
+- AND function
+    - Outputs 1 only if x1 and x2 are 1
+    - Draw a table to determine if OR or AND
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/and.png)
+- NAND function
+    - NOT AND
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/NAND.png)
+- OR function
+![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/or2.png)
 
-- Contour graphs
-    - Minimum is in the smallest concentric circle
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/contour.png)
+### 2b. Examples and Intuitions II
+- NOT function
+    - ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/not.png)
+- XNOR function
+    - NOT XOR
+    - NOT an exclusive or
+        - Hence we would want
+            - AND
+            - Neither
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/intuition.png)
 
-## 4. Parameter Learning
-
-### 4a. Gradient Descent
-- Concept
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_minimisation.png)
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent.png)
-
-- Gradient Descent Algorithm
-    - repeat until convergence
-    - a:= b (this means assignment)
-    - a = b (truth assertion)
-    - alpha (number, learning rate)
-        - large: aggressive gradient descent
-    - derivative: slope of J(theta)
-    ![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent_algorithm.png)
-
-### 4b. Gradient Descent Intuition
-
-- Derivative intuition
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/derivative.png)
-- Alpha intuition
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/alpha.png)
-    - If already at local optima --> derivative = 0
-        - Theta will not change!
-    - Steps will be smaller even with alpha fixed
-        - This is because derivative decreases (slope decreases) nearing local minimum
-
-
-### 4c. Gradient Descent for Linear Regression
-- Apply gradient descent algorithm to linear regression
-- _For derivative: d (single parameter), delta (multiple derivative, partial differentiation)_
-- Plug J(theta_0, theta_1) into Gradient Descent's derivative
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent_linear_regression.png)
-![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/algorithm2.png)
-- Cost function for linear regression will always be convex function
-    - One global minimum
-    ![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/2_params.png)
-    - Gradient descent for linear regression
-        - Keep changing parameters to reach global minimum
-        - This is called "Batch Gradient Descent"
-        - Each step uses all the training examples (batch)
-    ![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/contour.png)
+### 2c. Multi-class Classification
+- Example: identify 4 classes
+    - You would want a 4 x 1 vector for h_theta(X)
+    - 4 logistic regression classifiers in the output layer
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/multiclass.png)
+    - There will be 4 output
+    - y would be a 4 x 1 vector instead of an integer
+    ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/multiclass2.png)

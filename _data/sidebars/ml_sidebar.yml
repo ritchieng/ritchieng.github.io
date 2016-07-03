@@ -1,11 +1,9 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
-
 entries:
 - title: Sidebar
   product: Machine Learning
   folders:
-  - title: Introduction
+  - title: Intro (Stanford University)
     output: web
     folderitems:
     - title: Overview
@@ -23,3 +21,21 @@ entries:
     - title: Logistic Regression
       url: /logistic-regression/
       output: web
+    - title: Neural Networks (Representation)
+      url: /neural-networks-representation/
+      output: web
+    - title: Neural Networks (Learning)
+      url: /neural-networks-learning/
+      output: web
+  - title: Machine Learning in Octave
+    output: web
+    folderitems:
+#      - title: Linear Regression
+#        url: /linear-regression-octave/
+#        output: web
+#      - title: Logistic Regression
+#        url: /logistic-regression-octave/
+#        output: web
+  - title: Machine Learning in Python
+    output: web
+    folderitems:

@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Supervised learning, unsupervised learning, parameter learning and model and cost functions.">
+<meta name="description" content="Non-linear hypothesis, neurons and the brain, model representation, and multi-class classification.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>One Variable Linear Regression  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<title>Neural Networks (Representation)  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -80,15 +80,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>One Variable Linear Regression</title>
-<meta property="og:title" content="One Variable Linear Regression" />
+<title>Neural Networks (Representation)</title>
+<meta property="og:title" content="Neural Networks (Representation)" />
 <meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/one-variable-linear-regression/" />
-<meta property='og:url' content='http://www.ritchieng.com/one-variable-linear-regression/' />
+<link rel="canonical" href="http://www.ritchieng.com/neural-networks-representation/" />
+<meta property='og:url' content='http://www.ritchieng.com/neural-networks-representation/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="One Variable Linear Regression" />
+<meta name="twitter:title" content="Neural Networks (Representation)" />
 <meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -100,12 +100,12 @@
 
     "@type" : "WebPage",
 
-    "headline": "One Variable Linear Regression",
+    "headline": "Neural Networks (Representation)",
 
     "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
 
 
-    "url" : "http://www.ritchieng.com/one-variable-linear-regression/"
+    "url" : "http://www.ritchieng.com/neural-networks-representation/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -158,7 +158,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="One Variable Linear Regression">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Neural Networks (Representation)">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -210,7 +210,7 @@
             
             
             
-            <li class="active"><a href="/one-variable-linear-regression/">One Variable Linear Regression</a></li>
+            <li><a href="/one-variable-linear-regression/">One Variable Linear Regression</a></li>
             
             
             
@@ -238,7 +238,7 @@
             
             
             
-            <li><a href="/neural-networks-representation/">Neural Networks (Representation)</a></li>
+            <li class="active"><a href="/neural-networks-representation/">Neural Networks (Representation)</a></li>
             
             
             
@@ -284,7 +284,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">One Variable Linear Regression</h1>
+   <h1 class="post-title-main">Neural Networks (Representation)</h1>
 </div>
 
 
@@ -292,7 +292,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Supervised learning, unsupervised learning, parameter learning and model and cost functions.</div>
+    <div class="summary">Non-linear hypothesis, neurons and the brain, model representation, and multi-class classification.</div>
    
 
     
@@ -326,120 +326,242 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h1 id="introduction-to-machine-learning-supervised-and-unsupervised-learning">Introduction to Machine Learning: Supervised and Unsupervised Learning</h1>
+  <h2 id="motivations">1. Motivations</h2>
 
-<h2 id="examples-of-ml">Examples of ML</h2>
+<h3 id="a-non-linear-hypothesis">1a. Non-linear Hypothesis</h3>
 <ul>
-  <li>Database Mining</li>
-  <li>Applications that can’t program by hand
+  <li>You can add more features
     <ul>
-      <li>Handwriting recognition</li>
-      <li>NLP</li>
+      <li>But it will be slow to process</li>
     </ul>
   </li>
-  <li>Self-customising programs
+  <li>If you have an image with 50 x 50 pixels (greyscale, not RGB)
     <ul>
-      <li>Amazon</li>
-      <li>Netflix recommendation systems</li>
+      <li>n = 50 x 50 = 2500</li>
+      <li>quadratic features = (2500 x 2500) / 2</li>
+      <li><img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/example.png" alt="" /></li>
     </ul>
   </li>
-  <li>Understand human learning
-    <ul>
-      <li>Brain</li>
-      <li>Real AI</li>
-    </ul>
-  </li>
+  <li>Neural networks are much better for a complex nonlinear hypothesis</li>
 </ul>
 
-<h2 id="supervised-learning">1. Supervised Learning</h2>
+<h3 id="b-neurons-and-the-brain">1b. Neurons and the Brain</h3>
 <ul>
-  <li>Given data set answers</li>
-  <li>Regression: predict continuous valued output
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/supervised.png" alt="alt text" /></li>
-</ul>
-
-<h3 id="a-classification">1a. Classification</h3>
-<ul>
-  <li>Discrete valued output (0 or 1)</li>
-  <li>Example: Breast cancer (malignant and benign)
-    <ol>
-      <li>Tumor size</li>
-      <li>Age
+  <li>Origins
+    <ul>
+      <li>Algorithms that try to mimic the brain</li>
+    </ul>
+  </li>
+  <li>Was very widely used in the 80s and early 90’s
+    <ul>
+      <li>Popularity diminished in the late 90’s</li>
+    </ul>
+  </li>
+  <li>Recent resurgence
+    <ul>
+      <li>State-of-the-art techniques for many applications</li>
+    </ul>
+  </li>
+  <li>The “one learning algorithm” hypothesis
+    <ul>
+      <li>Auditory cortex handles hearing
         <ul>
-          <li>Classify 2 clusters to determine which is more likely</li>
+          <li>Re-wire to learn to see</li>
         </ul>
       </li>
-    </ol>
-  </li>
-</ul>
-
-<h3 id="c-problem-1-regression-problem">1c. Problem 1 (Regression Problem)</h3>
-<p>You have a large inventory of identical items. You want to predict how many
-of these items will sell within the next 3 months.
-    10000 items (continuous value)</p>
-
-<h3 id="d-problem-2-classification-problem">1d. Problem 2 (Classification Problem)</h3>
-<p>You’d like a software to examine individual accounts and decide, for each account,
-if it has been hacked/compromised.
-    0: not hacked
-    1: hacked</p>
-
-<h2 id="unsupervised-learning">2. Unsupervised Learning</h2>
-<ul>
-  <li>Making sense of data; patterns we don’t know in advance</li>
-  <li>Examples
-    <ul>
-      <li>Social network analysis</li>
-      <li>Market segmentation</li>
-      <li>Astronomical data analysis
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/unsupervised.png" alt="alt text" /></li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="a-cocktail-party-problem">2a. Cocktail Party Problem</h3>
-<ul>
-  <li>Give 2 audio recording</li>
-  <li>Feed to unsupervised learning algorithm</li>
-  <li>Find structure
-    <ul>
-      <li>Separate audio sources</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="b-unsupervised-learning-problems">2b. Unsupervised Learning Problems</h3>
-<ol>
-  <li>Given a set of news articles found on the web, group them into set of articles about
-the same story</li>
-  <li>Given a database of customer data, automatically discover market segments and group
-customers into different market segments</li>
-</ol>
-
-<h2 id="model-and-cost-function">3. Model and Cost Function</h2>
-
-<h3 id="a-model-representation">3a. Model Representation</h3>
-<ul>
-  <li>Supervised learning: given the right answer for each example in the data</li>
-  <li>Regression: predict real-valued output</li>
-  <li>Classification: predict discrete-valued output</li>
-  <li>Training set: original data
-    <ul>
-      <li>m = number of training examples</li>
-      <li>x = input variable/features</li>
-      <li>y = output variable/target</li>
-      <li>(x, y) = one training example</li>
-      <li>(x^(i), y^(i)) = i-th training example</li>
-    </ul>
-  </li>
-  <li>Representing hypothesis h
-    <ul>
-      <li>linear regression with one variable (univariate linear regression)
+      <li>Somatosensory cortex handles feeling
         <ul>
-          <li>h(x) = a + bx
+          <li>Re-wire to learn to see</li>
+        </ul>
+      </li>
+      <li>Plug in data and the brain will learn accordingly</li>
+    </ul>
+  </li>
+  <li>Examples of learning
+    <ul>
+      <li><img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/example2.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="neural-networks">2. Neural Networks</h2>
+
+<h3 id="a-model-representation-i">2a. Model Representation I</h3>
+<ul>
+  <li>Neuron in the brain
+    <ul>
+      <li>Many neurons in our brain</li>
+      <li>Dendrite: receive input</li>
+      <li>Axon: produce output
+        <ul>
+          <li>When it sends a message through the Axon to another neuron</li>
+          <li>It sends to another neuron’s Dendrite
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neuron.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Neuron model: logistic unit
+    <ul>
+      <li>Yellow circle: body of neuron</li>
+      <li>Input wires: dendrites</li>
+      <li>Output wire: axon
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neuron_model.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Neural Network
+    <ul>
+      <li>3 Layers
+        <ul>
+          <li>1 Layer: input layer</li>
+          <li>2 Layer: hidden layer
             <ul>
-              <li>a,b: parameters
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/hypothesis.png" alt="alt text" /></li>
+              <li>Unable to observe values</li>
+              <li>Anything other than input or output layer</li>
+            </ul>
+          </li>
+          <li>3 Layer: output layer
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network2.png" alt="" /></li>
+          <li>We calculate each of the layer-2 activations based on the input values with the bias term (which is equal to 1)
+            <ul>
+              <li>i.e. x0 to x3</li>
+              <li>We then calculate the final hypothesis (i.e. the single node in layer 3) using exactly the same logic, except in input is not x values, but the activation values from the preceding layer</li>
+            </ul>
+          </li>
+          <li>The activation value on each hidden unit (e.g. a12 ) is equal to the sigmoid function applied to the linear combination of inputs
+            <ul>
+              <li>Three input units</li>
+              <li>Ɵ(1) is the matrix of parameters governing the mapping of the input units to hidden units
+                <ul>
+                  <li>Ɵ(1) here is a [3 x 4] dimensional matrix</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Three hidden units
+            <ul>
+              <li>Then Ɵ(2) is the matrix of parameters governing the mapping of the hidden layer to the output layer
+                <ul>
+                  <li>Ɵ(2) here is a [1 x 4] dimensional matrix (i.e. a row vector)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Every input/activation goes to every node in following layer
+            <ul>
+              <li>Which means each “layer transition” uses a matrix of parameters with the following significance
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/theta.png" alt="" />
+                <ul>
+                  <li>j (first of two subscript numbers)= ranges from 1 to the number of units in layer l+1</li>
+                  <li>i (second of two subscript numbers) = ranges from 0 to the number of units in layer l</li>
+                  <li>l is the layer you’re moving FROM
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/theta2.png" alt="" /></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Notation
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/notation.png" alt="" /></li>
+</ul>
+
+<h3 id="a-model-representation-ii">2a. Model Representation II</h3>
+<ul>
+  <li>Here we’ll look at how to carry out the computation efficiently through a vectorized implementation. We’ll also consider
+why neural networks are good and how we can use them to learn complex non-linear things</li>
+  <li>Forward propagation: vectorized implementation
+    <ul>
+      <li>g applies sigmoid-function element-wise to z</li>
+      <li>This process of calculating H(x) is called forward propagation
+        <ul>
+          <li>Worked out from the first layer</li>
+          <li>Starts off with activations of input unit</li>
+          <li>Propagate forward and calculate the activation of each layer sequentially
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/forward_propagation.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Similar to logistic regression if you leave out the first layer
+    <ul>
+      <li>Only second and third layer</li>
+      <li>Third layer resembles a logistic regression node</li>
+      <li>The features in layer 2 are calculated/learned, not original features
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/logistic_regression.png" alt="" /></li>
+      <li>Neural network, learns its own features
+        <ul>
+          <li>The features a’s are learned from x’s</li>
+          <li>It learns its own features to feed into logistic regression</li>
+          <li>Better hypothesis than if we were constrained with just x1, x2, x3</li>
+          <li>We can have whatever features we want to feed to the final logistic regression function</li>
+          <li>Implemention in Octave for a2
+            <ul>
+              <li><code class="highlighter-rouge">a2 = sigmoid (Theta1 * x);</code>
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_learn_features.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Other network architectures
+    <ul>
+      <li>Layer 2 and 3 are hidden layers
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/neural_network3.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="neural-network-application">2. Neural Network Application</h2>
+
+<h3 id="a-examples-and-intuitions-i">2a. Examples and Intuitions I</h3>
+<ul>
+  <li>XOR/XNOR
+    <ul>
+      <li>XOR: or</li>
+      <li>XNOR: not or
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/xnor.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/xnor2.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>AND function
+    <ul>
+      <li>Outputs 1 only if x1 and x2 are 1</li>
+      <li>Draw a table to determine if OR or AND
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/and.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>NAND function
+    <ul>
+      <li>NOT AND
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/NAND.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>OR function
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/or2.png" alt="" /></li>
+</ul>
+
+<h3 id="b-examples-and-intuitions-ii">2b. Examples and Intuitions II</h3>
+<ul>
+  <li>NOT function
+    <ul>
+      <li><img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/not.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>XNOR function
+    <ul>
+      <li>NOT XOR</li>
+      <li>NOT an exclusive or
+        <ul>
+          <li>Hence we would want
+            <ul>
+              <li>AND</li>
+              <li>Neither
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/intuition.png" alt="" /></li>
             </ul>
           </li>
         </ul>
@@ -448,101 +570,16 @@ customers into different market segments</li>
   </li>
 </ul>
 
-<h3 id="b-cost-function">3b. Cost Function</h3>
+<h3 id="c-multi-class-classification">2c. Multi-class Classification</h3>
 <ul>
-  <li>Minimise squared error function
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/minimisation.png" alt="alt text" /></li>
-</ul>
-
-<h3 id="c-hx-and-jtheta-1-parameter">3c. h(x) and J(theta): 1 Parameter</h3>
-<ul>
-  <li>Assuming simplified cost function with only theta1</li>
-  <li>Minimising J(theta) would fit the data most well
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/rationale_minimisation.png" alt="alt text" /></li>
-</ul>
-
-<h3 id="d-hx-and-jtheta0-theta1-2-parameters">3d. h(x) and J(theta0, theta1): 2 Parameters</h3>
-<ul>
-  <li>
-    <p>3D graph
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/2_params.png" alt="alt text" /></p>
-  </li>
-  <li>
-    <p>Contour graphs</p>
+  <li>Example: identify 4 classes
     <ul>
-      <li>Minimum is in the smallest concentric circle
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/contour.png" alt="alt text" /></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="parameter-learning">4. Parameter Learning</h2>
-
-<h3 id="a-gradient-descent">4a. Gradient Descent</h3>
-<ul>
-  <li>
-    <p>Concept
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_minimisation.png" alt="alt text" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent.png" alt="alt text" /></p>
-  </li>
-  <li>
-    <p>Gradient Descent Algorithm</p>
-    <ul>
-      <li>repeat until convergence</li>
-      <li>a:= b (this means assignment)</li>
-      <li>a = b (truth assertion)</li>
-      <li>alpha (number, learning rate)
-        <ul>
-          <li>large: aggressive gradient descent</li>
-        </ul>
-      </li>
-      <li>derivative: slope of J(theta)
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent_algorithm.png" alt="alt text" /></li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="b-gradient-descent-intuition">4b. Gradient Descent Intuition</h3>
-
-<ul>
-  <li>Derivative intuition
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/derivative.png" alt="alt text" /></li>
-  <li>Alpha intuition
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/alpha.png" alt="alt text" />
-    <ul>
-      <li>If already at local optima –&gt; derivative = 0
-        <ul>
-          <li>Theta will not change!</li>
-        </ul>
-      </li>
-      <li>Steps will be smaller even with alpha fixed
-        <ul>
-          <li>This is because derivative decreases (slope decreases) nearing local minimum</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="c-gradient-descent-for-linear-regression">4c. Gradient Descent for Linear Regression</h3>
-<ul>
-  <li>Apply gradient descent algorithm to linear regression</li>
-  <li><em>For derivative: d (single parameter), delta (multiple derivative, partial differentiation)</em></li>
-  <li>Plug J(theta_0, theta_1) into Gradient Descent’s derivative
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/gradient_descent_linear_regression.png" alt="alt text" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/algorithm2.png" alt="alt text" /></li>
-  <li>Cost function for linear regression will always be convex function
-    <ul>
-      <li>One global minimum
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/2_params.png" alt="alt text" /></li>
-      <li>Gradient descent for linear regression
-        <ul>
-          <li>Keep changing parameters to reach global minimum</li>
-          <li>This is called “Batch Gradient Descent”</li>
-          <li>Each step uses all the training examples (batch)
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/contour.png" alt="alt text" /></li>
-        </ul>
-      </li>
+      <li>You would want a 4 x 1 vector for h_theta(X)</li>
+      <li>4 logistic regression classifiers in the output layer
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/multiclass.png" alt="" /></li>
+      <li>There will be 4 output</li>
+      <li>y would be a 4 x 1 vector instead of an integer
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w4_neural_networks_representation/multiclass2.png" alt="" /></li>
     </ul>
   </li>
 </ul>
@@ -561,11 +598,11 @@ customers into different market segments</li>
 </div>
     <!--<div>
 
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/one-variable-linear-regression/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/neural-networks-representation/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=One Variable Linear Regression&url=http://www.ritchieng.com/one-variable-linear-regression/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=Neural Networks (Representation)&url=http://www.ritchieng.com/neural-networks-representation/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/one-variable-linear-regression/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/neural-networks-representation/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
     <br />
