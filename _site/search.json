@@ -106,21 +106,21 @@
 
 
 {
-"title": "Machine Learning Overview",
-"tags": "machine_learning",
-"keywords": "machine_learning",
-"url": "/machine-learning/",
-"summary": "Machine Learning theory and applications using Octave or Python."
-},
-
-
-
-{
 "title": "Neural Networks (Representation)",
 "tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/neural-networks-representation/",
 "summary": "Non-linear hypothesis, neurons and the brain, model representation, and multi-class classification."
+},
+
+
+
+{
+"title": "One Variable Linear Regression",
+"tags": "",
+"keywords": "machine_learning",
+"url": "/one-variable-linear-regression/",
+"summary": "Supervised learning, unsupervised learning, parameter learning and model and cost functions."
 },
 
 
