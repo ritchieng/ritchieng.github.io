@@ -100,7 +100,7 @@
 "tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/neural-networks-learning/",
-"summary": "Learning."
+"summary": "Cost function, back propagation, forward propagation, unrolling parameters, gradient checking, and random initialization."
 },
 
 

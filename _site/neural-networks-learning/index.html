@@ -3,7 +3,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Learning.">
+<meta name="description" content="Cost function, back propagation, forward propagation, unrolling parameters, gradient checking, and random initialization.">
 <meta name="keywords" content="machine_learning,  machine_learning">
 <title>Neural Networks (Learning)  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
 <link rel="stylesheet" href="/css/syntax.css">
@@ -292,7 +292,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Learning.</div>
+    <div class="summary">Cost function, back propagation, forward propagation, unrolling parameters, gradient checking, and random initialization.</div>
    
 
     
@@ -326,7 +326,238 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  
+  <h2 id="cost-function-and-back-propagation">1. Cost Function and Back Propagation</h2>
+
+<h3 id="a-cost-function">1a. Cost Function</h3>
+<ul>
+  <li>Neural Network Introduction
+    <ul>
+      <li>One of the most powerful learning algorithms</li>
+      <li>Learning algorithm for fitting the derived parameters given a training set</li>
+    </ul>
+  </li>
+  <li>Neural Network Classification
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/k.png" alt="" /></li>
+  <li>Cost Function for Neural Network
+    <ul>
+      <li>Two parts in the NN’s cost function
+        <ul>
+          <li>First half (-1 / m part)
+            <ul>
+              <li>For each training data (1 to m)
+                <ul>
+                  <li>Sum each position in the output vector (1 to K)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Second half (lambda / 2m part)
+            <ul>
+              <li>Weight decay term
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/costfunction.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="b-overview">1b. Overview</h2>
+<ul>
+  <li>Forward propagation
+    <ul>
+      <li>Algorithm that takes your neural network and the initial input (x) and pushes the input through the network</li>
+    </ul>
+  </li>
+  <li>Back propagation
+    <ul>
+      <li>Takes output from your neural network H(Ɵ)
+        <ul>
+          <li>Compares it to actual output y</li>
+          <li>Calculates H(Ɵ)’s deviation from actual output</li>
+        </ul>
+      </li>
+      <li>Takes the error H(Ɵ) - y from layer L
+        <ul>
+          <li>Back calculates error associated with each unit from the preceding layer L - 1</li>
+          <li>Error calculated from each unit used to calculate partial derivatives</li>
+        </ul>
+      </li>
+      <li>Use partial derivatives with gradient descent to minimise cost function J(Ɵ)</li>
+    </ul>
+  </li>
+  <li>Basic things to note
+    <ul>
+      <li>Ɵ matrix for each layer in the network
+        <ul>
+          <li>This has each node in layer l as one dimension and each node in l+1 as the other dimension</li>
+        </ul>
+      </li>
+      <li>Δ matrix for each layer
+        <ul>
+          <li>This has each node as one dimension and each training data example as the other</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="c-backpropagation-algorithm">1c. Backpropagation Algorithm</h2>
+<ul>
+  <li>Gradient Computation
+    <ul>
+      <li>Purpose is to find parameters Ɵ that minimizes J(Ɵ)
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/jtheta.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Forward Propagation
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation.png" alt="" /></li>
+  <li>Backpropagation Equation
+    <ul>
+      <li>For each node we can calculate δj^l
+        <ul>
+          <li>This is the error of node j in layer l</li>
+        </ul>
+      </li>
+      <li>aj^l is the activation of node j in layer l
+        <ul>
+          <li>activation would have some error compared to the “real” value</li>
+          <li>delta calculates this error</li>
+        </ul>
+      </li>
+      <li>But the “real” value is an issue
+        <ul>
+          <li>The neural network is an artificial construct we made</li>
+          <li>We have to use the actual output, y and work from there</li>
+        </ul>
+      </li>
+      <li>Work from the last/output layer, L
+        <ul>
+          <li>If L = 4</li>
+          <li>delta^4 = a^4 - y</li>
+        </ul>
+      </li>
+      <li>We can determine error in the preceding layers once we’ve the error from the output layer
+        <ul>
+          <li>delta^3</li>
+          <li>delta^2</li>
+          <li>There is no error in the first layer as it’s simply the actual input x</li>
+        </ul>
+      </li>
+      <li>Once we get the deltas, we can calculate the gradient or the partial derivative of the cost function</li>
+      <li>Terms in equation
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/terms.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation2.png" alt="" /></li>
+      <li>Dimensions
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/bp.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Backpropagation Algorithm
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation3.png" alt="" /></li>
+</ul>
+
+<h2 id="d-backpropagation-intuition">1d. Backpropagation Intuition</h2>
+<ul>
+  <li>Forward Propagation
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation2.png" alt="" />
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation3.png" alt="" /></li>
+  <li>Backpropagation’s cost function with 1 output unit
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/costfunction.png" alt="" />
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation4.png" alt="" /></li>
+</ul>
+
+<h2 id="backpropagation-in-practice">2. Backpropagation in Practice</h2>
+
+<h3 id="a-unrolling-parameters">2a. Unrolling Parameters</h3>
+<ul>
+  <li>Advanced optimization
+    <ul>
+      <li>Issue here is that we’ve to unroll the matrices into vectors for the algorithm fminunc
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Example
+    <ul>
+      <li>s1 (layer 1 units) = 10</li>
+      <li>s2 (layer 2 units) = 10</li>
+      <li>s3 (layer 3 units) = 1</li>
+      <li>Ɵ1(:) unrolls into a vector</li>
+      <li>You can go back with reshape by pulling up each bunch of elements and reshape accordingly
+        <ul>
+          <li>thetaVec(1:110) pulls up Ɵ1, the first 10 x 11 elements
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam2.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Learning Algorithm
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam3.png" alt="" /></li>
+</ul>
+
+<h3 id="b-gradient-checking">2b. Gradient Checking</h3>
+<ul>
+  <li>It might look like J(Ɵ) is decreasing
+    <ul>
+      <li>But you might not know that there is a bug</li>
+      <li>You can do gradient checking to ensure your implementation is 100% correct</li>
+    </ul>
+  </li>
+  <li>We can numerically estimate gradients
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est.png" alt="" /></li>
+  <li>Octave implementation
+    <ul>
+      <li>n is the dimension of Ɵ
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est2.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Implementation Note
+    <ul>
+      <li>Always turn off your numerical checking code as it’s very slow to execute
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est3.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="c-random-initialization">2c. Random Initialization</h3>
+<ul>
+  <li>Initial value of Ɵ
+    <ul>
+      <li>Initialising Ɵ with zeros would not work for neural networks</li>
+      <li>After each update, parameters corresponding to inputs going into each of two hidden units are identical</li>
+      <li>You NN would not learn anything interesting</li>
+      <li>Solution is to have a random initialisation
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/zerotheta_initialisation.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Random initialization: symmetry breaking
+    <ul>
+      <li>You will be able to use gradient descent or any advanced optimisation methods to find good values for theta
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/random_initialisation.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="d-putting-everything-together">2d. Putting everything together</h3>
+<ul>
+  <li>NN’s layers
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/training_nn.png" alt="" /></li>
+  <li>Six steps for training a neural network
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/4steps.png" alt="" />
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/2steps.png" alt="" /></li>
+  <li>J(Ɵ) closeness to actual values
+    <ul>
+      <li>Gradient descent: taking little steps downhill to find lowest J(theta)</li>
+      <li>Backpropagation: computing direction of gradient
+        <ul>
+          <li>Able to fit non-linear functions
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/jtheta2.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 
 
 <div class="tags">
