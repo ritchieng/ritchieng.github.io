@@ -27,7 +27,7 @@ entries:
     - title: Neural Networks (Learning)
       url: /neural-networks-learning/
       output: web
-  - title: Machine Learning in Octave
+  - title: Machine Learning in Octave/Matlab
     output: web
     folderitems:
 #      - title: Linear Regression
