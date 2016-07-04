@@ -19,7 +19,7 @@ Instead, I am currently an undergraduate majoring in Finance, and Economic and P
 Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the oppportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey through studying in 3 continents.
 
 ## About My Professional Background
-At age 12, I started a gaming business, KrytecMaple, generating thousands in net profit per month. I closed it to pursue my studies.
+At age 12, I started a gaming business generating thousands in net profit per month. I closed it to pursue my studies.
 
 At age 18, I started a company, Tesglo, specialising in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
 
@@ -27,7 +27,7 @@ At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technolog
 
 At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious grant VaSCo grant.
 
-Currently I am building an end-to-end algorithmic trading ecosystem using machine learning data scrapping algorithms.
+Currently I am building an end-to-end algorithmic trading ecosystem using machine learning and data scrapping algorithms.
 
 ## Location
 I am currently based in the sunny island, Singapore.
