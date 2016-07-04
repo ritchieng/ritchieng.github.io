@@ -25,7 +25,7 @@ tags: [machine_learning]
             - Weight decay term
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/costfunction.png)
 
-## 1b. Overview
+### 1b. Overview
 - Forward propagation
     - Algorithm that takes your neural network and the initial input (x) and pushes the input through the network
 - Back propagation
@@ -42,7 +42,7 @@ tags: [machine_learning]
     - Δ matrix for each layer
         - This has each node as one dimension and each training data example as the other
 
-## 1c. Backpropagation Algorithm
+### 1c. Backpropagation Algorithm
 - Gradient Computation
     - Purpose is to find parameters Ɵ that minimizes J(Ɵ)
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/jtheta.png)
@@ -73,7 +73,7 @@ tags: [machine_learning]
 - Backpropagation Algorithm
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation3.png)
 
-## 1d. Backpropagation Intuition
+### 1d. Backpropagation Intuition
 - Forward Propagation
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation2.png)
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation3.png)
