@@ -56,6 +56,26 @@
 
 
 {
+"title": "Applying Machine Learning",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/applying-machine-learning/",
+"summary": "Evaluating machine learning algorithms, training set, cross validation set, test set, bias, variance, learning curves and improving algorithm performance."
+},
+
+
+
+{
+"title": "Machine Learning Systems Design",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-systems-design/",
+"summary": "Spam classifier example, error analysis, skewed data, precision, recall and large data sets."
+},
+
+
+
+{
 "title": "Machine Learning Overview",
 "tags": "machine_learning",
 "keywords": "machine_learning",

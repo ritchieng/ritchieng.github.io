@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse ...">
+<meta name="description" content="Spam classifier example, error analysis, skewed data, precision, recall and large data sets.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Linear Algebra for Machine Learning  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<title>Machine Learning Systems Design  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -80,15 +80,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Linear Algebra for Machine Learning</title>
-<meta property="og:title" content="Linear Algebra for Machine Learning" />
+<title>Machine Learning Systems Design</title>
+<meta property="og:title" content="Machine Learning Systems Design" />
 <meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/linear-algebra-machine-learning/" />
-<meta property='og:url' content='http://www.ritchieng.com/linear-algebra-machine-learning/' />
+<link rel="canonical" href="http://www.ritchieng.com/machine-learning-systems-design/" />
+<meta property='og:url' content='http://www.ritchieng.com/machine-learning-systems-design/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Linear Algebra for Machine Learning" />
+<meta name="twitter:title" content="Machine Learning Systems Design" />
 <meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -100,12 +100,12 @@
 
     "@type" : "WebPage",
 
-    "headline": "Linear Algebra for Machine Learning",
+    "headline": "Machine Learning Systems Design",
 
     "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
 
 
-    "url" : "http://www.ritchieng.com/linear-algebra-machine-learning/"
+    "url" : "http://www.ritchieng.com/machine-learning-systems-design/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -158,7 +158,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Linear Algebra for Machine Learning">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Machine Learning Systems Design">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -217,7 +217,7 @@
             
             
             
-            <li class="active"><a href="/linear-algebra-machine-learning/">Linear Algebra</a></li>
+            <li><a href="/linear-algebra-machine-learning/">Linear Algebra</a></li>
             
             
             
@@ -259,7 +259,7 @@
             
             
             
-            <li><a href="/machine-learning-systems-design/">Machine Learning Systems Design</a></li>
+            <li class="active"><a href="/machine-learning-systems-design/">Machine Learning Systems Design</a></li>
             
             
             
@@ -298,7 +298,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Linear Algebra for Machine Learning</h1>
+   <h1 class="post-title-main">Machine Learning Systems Design</h1>
 </div>
 
 
@@ -306,7 +306,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse matrix and transposing matrices.</div>
+    <div class="summary">Spam classifier example, error analysis, skewed data, precision, recall and large data sets.</div>
    
 
     
@@ -340,105 +340,274 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="matrices-and-vectors">1. Matrices and Vectors</h2>
+  <h2 id="building-a-spam-classifier">1. Building a Spam Classifier</h2>
+<p>### 1a. Prioritizing 
+- Let’s say you want to build a spam classifier
+- How do you implement supervised learning?
+    - We can create the following
+        - x = features of email
+            - Choose 100 words indicative of spam or not spam
+            - In practice is to look through training set and choose most frequently occurring n words (10 000 to 50 000)
+        - y = spam (1) or non-spam (0)
+        - Example
+        <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/spam_classifier.png" alt="" />
+- How do you spend your time to have a low error?
+    - Collect lots of data
+    - Develop sophisticated features based on email routing information (from email header)
+    - Develop sophisticated features for message body
+        - Should ‘discount’ and ‘discounts’ be treated as the same word?
+        - How about ‘deal’ and ‘Dealer’?
+        - Punctuation?
+    - Develop sophisticated algorithm to detect misspellings
+        - med1cine
+        - w4tches
+        - m0rtage
+- Don’t base on your gut feeling!</p>
 
-<h3 id="a-matrices">1a. Matrices</h3>
+<h3 id="b-error-analysis">1b. Error Analysis</h3>
 <ul>
-  <li>Rectangular array of numbers</li>
-  <li>2D array</li>
-  <li>Number of <strong>Rows</strong> x Number of <strong>Columns</strong>
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices.png" alt="alt text" /></li>
-</ul>
-
-<h3 id="b-vector">1b. Vector</h3>
-<ul>
-  <li>n x 1 matrix</li>
-  <li>y(i): i-th element</li>
-  <li>1-indexed (start from 1-th)
+  <li>Recommended Approach
     <ul>
-      <li>Normally this</li>
+      <li>Start with a simple algorithm that you can quickly implement and test it on your cross validation data</li>
+      <li>Plot learning curves to decide if more data, more features, etc. are likely to help</li>
+      <li>Error analysis:
+        <ul>
+          <li>Manually examine the examples (in cross validation set) that your algorithm made errors on</li>
+          <li>See if you spot any systematic trend in what type of examples it is making errors on</li>
+          <li>Don’t base anything off your gut feeling!</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>0-indexed (start from 0-th)
+  <li>Error Analysis Example
     <ul>
-      <li>Used in Machine Learning</li>
+      <li>m_cv = 500
+        <ul>
+          <li>number of cross-validation examples</li>
+        </ul>
+      </li>
+      <li>Algorithm misclassified 100 emails</li>
+      <li>Manually examine the 100 errors and categorize them base don
+        <ul>
+          <li>What type of email they are
+            <ul>
+              <li>Pharma: 12</li>
+              <li>Replica: 4</li>
+              <li>Phishing: 53</li>
+              <li>Other: 31</li>
+            </ul>
+          </li>
+          <li>What cues (features) you think would have helped the algorithms classify them correctly
+            <ul>
+              <li>Deliberate misspellings: 5
+                <ul>
+                  <li>m0rtgage</li>
+                  <li>med1cine
+                    <ul>
+                      <li>This indicates how there are a small number here</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Unusual email routing: 16</li>
+              <li>Unusual punctuation: 32
+                <ul>
+                  <li>This might be worthwhile to spend time to develop sophisticated features</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>This is the reason why we should do a quick and dirty implementation to discover errors and identify areas to focus on</li>
+    </ul>
+  </li>
+  <li>Importance of numerical evaluation
+    <ul>
+      <li>Should discount, discounts, discounted, discounting etc. be treated as the same word?
+        <ul>
+          <li>You can use a “stemming” software, “Porter Stemmer”</li>
+          <li>This would allow you to treat all those variations as the same work
+            <ul>
+              <li>Software may mistake universe and university as the same word</li>
+            </ul>
+          </li>
+          <li>Error analysis may not be helpful for deciding if this is likely to improve performance
+            <ul>
+              <li>The only way is to try it</li>
+              <li>We need a numerical solution (cross validation error)of algorithm’s performance with and without stemming
+                <ul>
+                  <li>Without stemming: 5%</li>
+                  <li>With stemming: 3%
+                    <ul>
+                      <li>This implies that it may be useful to implement stemming</li>
+                    </ul>
+                  </li>
+                  <li>Distinguish between upper and lower case: 3.2%</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Why is the recommended approach to perform error analysis using the cross validation data instead of the test data?
+    <ul>
+      <li>If we develop new features by examining the test set, then we may end up choosing features that work well specifically for the test set, so Jtest(θ) is no longer a good estimate of how we generalize to new examples</li>
+      <li>Do error analysis on cross validation set, do not use it on the test set!</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="addition-and-scalar-multiplication">2. Addition and Scalar Multiplication</h2>
+<h2 id="handling-skewed-data">2. Handling Skewed Data</h2>
 
-<h3 id="a-addition">2a. Addition</h3>
+<h3 id="a-error-metrics-for-skewed-classes">2a. Error Metrics for Skewed Classes</h3>
 <ul>
-  <li>You can only add matrices with the same dimensions (r x c)
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices_add.png" alt="alt text" /></li>
-</ul>
-
-<h3 id="b-scalar-number-multiplication">2b. Scalar (Number) Multiplication</h3>
-<ul>
-  <li>Example
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices_scalar_multiply.png" alt="alt text" /></li>
-</ul>
-
-<h2 id="matrix-vector-multiplication">3. Matrix Vector Multiplication</h2>
-<ul>
-  <li>Example
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices_vector_multiply.png" alt="alt text" /></li>
-  <li>Theory
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices_vector_multiply2.png" alt="alt text" /></li>
-  <li>Application to hypothesis by converting given data to matrix</li>
-  <li>prediction = data_matrix x parameters
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrices_vector_multiply_convert.png" alt="alt text" /></li>
-</ul>
-
-<h2 id="matrix-matrix-multiplication">4. Matrix Matrix Multiplication</h2>
-<ul>
-  <li>Example
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_matrix.png" alt="alt text" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_matrix3.png" alt="alt text" /></li>
-  <li>Theory
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_matrix2.png" alt="alt text" /></li>
-  <li>Application to hypothesis by converting given data to matrix
+  <li>Consider a problem where you want to find out if someone has cancer
     <ul>
-      <li>There are linear algebra libraries to do these calculations
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_matrix4.png" alt="alt text" /></li>
+      <li>y = 1, cancer</li>
+      <li>y = 0, no cancer</li>
+      <li>You train a logistic regression model, h0(x) and you find that you have 1% error on a test set
+        <ul>
+          <li>99% correct diagnosis</li>
+        </ul>
+      </li>
+      <li>But only 0.50% of patients have cancer
+        <ul>
+          <li>This is a problem of skewed classes</li>
+          <li>This code would have a 0.5% error, lower than your logistic regression model but it’s simply predicting based on 0.5% of patients who have cancer
+  <code class="highlighter-rouge">
+  function y = predictCancer(x)
+  y = 0;
+  return
+ </code></li>
+        </ul>
+      </li>
+      <li>Let’s say you have
+        <ul>
+          <li>99.2% accuracy
+            <ul>
+              <li>0.8% error</li>
+            </ul>
+          </li>
+          <li>If you improve your algorithm to become 99.5% accuracy
+            <ul>
+              <li>0.5% error</li>
+              <li>It might be the case of just predicting whether you have cancer that would yield this error</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Precision/Recall
+    <ul>
+      <li>By calculating precision/recall, we will have a better sense of how our algorithm is doing
+        <ul>
+          <li>If y = 0
+            <ul>
+              <li>Recall = 0</li>
+              <li>This shows that the classifier is not good
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/precision_recall.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 
-<h2 id="properties-of-matrix-multiplication">5. Properties of Matrix Multiplication</h2>
-
-<h3 id="a-commutative-property">5a. Commutative Property</h3>
+<h3 id="b-trading-off-precision-and-recall">2b. Trading off Precision and Recall</h3>
 <ul>
-  <li>Not commutative
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/commutative.png" alt="alt text" /></li>
-  <li>Associative
+  <li>If we want to avoid false positives
     <ul>
-      <li>A x B x C = (A x B) x C = A x (B x C)</li>
+      <li>We want to be more confident before predicting cancer (y = 1)</li>
+      <li>We can increase the threshold of h0(x) from 0.5 to 0.7 or even 0.9</li>
+      <li>Result
+        <ul>
+          <li>False positives: decrease</li>
+          <li>True positives: decrease</li>
+          <li>Recall: decrease</li>
+          <li>Precision: higher</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>Identity Matrix
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_properties.png" alt="alt text" /></li>
-</ul>
-
-<h2 id="inverse-and-transpose">6. Inverse and Transpose</h2>
-
-<h3 id="a-inverse">6a. Inverse</h3>
-<ul>
-  <li>A * A_inverse = Identity Matrix</li>
-  <li>A_inverse = pinv(A)
+  <li>If we want to avoid false negatives
     <ul>
-      <li>You can use octave code pinv(A)</li>
+      <li>We want to avoid missing too many cases of cancer</li>
+      <li>We can decrease the threshold of h0(x) from 0.5 to 0.3</li>
+      <li>Result
+        <ul>
+          <li>False negatives: decrease</li>
+          <li>True positive: increase</li>
+          <li>Recall: higher</li>
+          <li>Precision: lower</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>Matrices without inverse –&gt; singular or degenerate
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/inverse.png" alt="alt text" /></li>
+  <li>Many different precision recall curve, but here is one example
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/precision_recall_curve.png" alt="" /></li>
+  <li>How do we compare precision/recall numbers? Which pair is best?
+    <ul>
+      <li>We can use an average
+        <ul>
+          <li>At the extremes, neither classifiers is good</li>
+          <li>If we predict y = 1 all the time, it’s a useless classifier even though if it has a high recall</li>
+          <li>But average is not good because the extreme scenarios may have a lower average than other combinations that may be better</li>
+        </ul>
+      </li>
+      <li>We should use the F score (F1 score)
+        <ul>
+          <li>F1 Score = (2 * P * R) / (P + R)</li>
+          <li>Remember to measure P and R on the cross-validation set and choose the threshold which maximizes the F-score
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/f_score.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="b-transpose">6b. Transpose</h3>
+<h2 id="using-large-data-sets">3. Using Large Data Sets</h2>
 <ul>
-  <li>Example and theory
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/transpose.png" alt="alt text" /></li>
+  <li>Under certain conditions, getting a lot of data and training a learning algorithm would result in very good performance</li>
+  <li>Designing a high accuracy learning system
+    <ul>
+      <li>Classify between confusable words
+        <ul>
+          <li>to, two, too</li>
+          <li>then, than</li>
+        </ul>
+      </li>
+      <li>For breakfast, I ate two eggs</li>
+      <li>Algorithms
+        <ul>
+          <li>Perceptron (logistic regression)</li>
+          <li>Winnow (less popular)</li>
+          <li>Memory-based (less popular)</li>
+          <li>Naive Bayes (popular)</li>
+        </ul>
+      </li>
+      <li>Algorithms give roughly similar performance
+        <ul>
+          <li>With larger training set, all algorithms’ precision increase
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/banko_brill.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Often, it is not who has the best algorithm, but who has the most data</li>
+  <li>Large data rationale
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/large_data_rationale.png" alt="" />
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/large_data_rationale2.png" alt="" /></li>
+  <li>In sum
+    <ul>
+      <li>Low bias: use complex algorithm</li>
+      <li>Low variance: use large training set</li>
+    </ul>
+  </li>
 </ul>
 
 
@@ -455,11 +624,11 @@ $('#toc').on('click', 'a', function() {
 </div>
     <!--<div>
 
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/linear-algebra-machine-learning/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/machine-learning-systems-design/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=Linear Algebra for Machine Learning&url=http://www.ritchieng.com/linear-algebra-machine-learning/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=Machine Learning Systems Design&url=http://www.ritchieng.com/machine-learning-systems-design/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/linear-algebra-machine-learning/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/machine-learning-systems-design/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
     <br />

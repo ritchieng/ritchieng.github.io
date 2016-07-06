@@ -27,6 +27,12 @@ entries:
     - title: Neural Networks (Learning)
       url: /neural-networks-learning/
       output: web
+    - title: Applying Machine Learning
+      url: /applying-machine-learning/
+      output: web
+    - title: Machine Learning Systems Design
+      url: /machine-learning-systems-design/
+      output: web
   - title: Machine Learning in Octave/Matlab
     output: web
     folderitems:

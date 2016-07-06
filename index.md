@@ -37,7 +37,7 @@ I am currently based in the sunny island, Singapore.
 - [Linkedin](https://www.linkedin.com/in/ritchieng)
 - [Tech in Asia](https://www.techinasia.com/profile/ritchieng)
 
-## Mugshot
+## Headshot
 Just to put a face on this website, this is me!
 <br />
 ![Ritchie Ng](https://raw.githubusercontent.com/ritchieng/ritchieng.github.io/master/images/ritchieng_web.png)
