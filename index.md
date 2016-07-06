@@ -30,7 +30,7 @@ At age 22, I subsequently dived into tech start-ups and started Kinsheep. My tea
 Currently I am building an end-to-end algorithmic trading system capitalising on machine learning algorithms.
 
 ## Location
-I am currently based in the sunny island, Singapore.
+I am currently based in a sunny island called Singapore.
 
 ## Online Profiles
 - [Github](https://github.com/ritchieng)
