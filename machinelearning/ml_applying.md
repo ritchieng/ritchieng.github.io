@@ -148,6 +148,7 @@ tags: [machine_learning]
         - Your cross validation error decreases
         ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/learning1.png)
 - High Bias (Underfit)
+    - Poor performance on both training and test sets
     - Your cross validation error decreases, but it decreases to a high value
         - Even if you have large m, you still have a straight line with a high bias
         - Your cross validation error would still be high
@@ -156,6 +157,7 @@ tags: [machine_learning]
         - As seen from the two graphs, even with a higher m, there's no use collecting more data to decrease your cross validation error
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/learning2.png)
 - High Variance (Overfit)
+    - Gap in errors where training error is low but test error is high
     - Training error would remain small
         - This happens when you use a small λ
         - Your training error increases with m because it becomes harder to fit your data

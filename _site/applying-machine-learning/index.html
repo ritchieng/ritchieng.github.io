@@ -583,6 +583,7 @@ $('#toc').on('click', 'a', function() {
   </li>
   <li>High Bias (Underfit)
     <ul>
+      <li>Poor performance on both training and test sets</li>
       <li>Your cross validation error decreases, but it decreases to a high value
         <ul>
           <li>Even if you have large m, you still have a straight line with a high bias</li>
@@ -600,6 +601,7 @@ $('#toc').on('click', 'a', function() {
   </li>
   <li>High Variance (Overfit)
     <ul>
+      <li>Gap in errors where training error is low but test error is high</li>
       <li>Training error would remain small
         <ul>
           <li>This happens when you use a small λ</li>
