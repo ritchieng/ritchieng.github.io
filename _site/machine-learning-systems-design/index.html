@@ -341,28 +341,49 @@ $('#toc').on('click', 'a', function() {
     
 
   <h2 id="building-a-spam-classifier">1. Building a Spam Classifier</h2>
-<p>### 1a. Prioritizing 
-- Let’s say you want to build a spam classifier
-- How do you implement supervised learning?
-    - We can create the following
-        - x = features of email
-            - Choose 100 words indicative of spam or not spam
-            - In practice is to look through training set and choose most frequently occurring n words (10 000 to 50 000)
-        - y = spam (1) or non-spam (0)
-        - Example
-        <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/spam_classifier.png" alt="" />
-- How do you spend your time to have a low error?
-    - Collect lots of data
-    - Develop sophisticated features based on email routing information (from email header)
-    - Develop sophisticated features for message body
-        - Should ‘discount’ and ‘discounts’ be treated as the same word?
-        - How about ‘deal’ and ‘Dealer’?
-        - Punctuation?
-    - Develop sophisticated algorithm to detect misspellings
-        - med1cine
-        - w4tches
-        - m0rtage
-- Don’t base on your gut feeling!</p>
+
+<h3 id="a-prioritizing">1a. Prioritizing</h3>
+<ul>
+  <li>Let’s say you want to build a spam classifier</li>
+  <li>How do you implement supervised learning?
+    <ul>
+      <li>We can create the following
+        <ul>
+          <li>x = features of email
+            <ul>
+              <li>Choose 100 words indicative of spam or not spam</li>
+              <li>In practice is to look through training set and choose most frequently occurring n words (10 000 to 50 000)</li>
+            </ul>
+          </li>
+          <li>y = spam (1) or non-spam (0)</li>
+          <li>Example
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/spam_classifier.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>How do you spend your time to have a low error?
+    <ul>
+      <li>Collect lots of data</li>
+      <li>Develop sophisticated features based on email routing information (from email header)</li>
+      <li>Develop sophisticated features for message body
+        <ul>
+          <li>Should ‘discount’ and ‘discounts’ be treated as the same word?</li>
+          <li>How about ‘deal’ and ‘Dealer’?</li>
+          <li>Punctuation?</li>
+        </ul>
+      </li>
+      <li>Develop sophisticated algorithm to detect misspellings
+        <ul>
+          <li>med1cine</li>
+          <li>w4tches</li>
+          <li>m0rtage</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Don’t base on your gut feeling!</li>
+</ul>
 
 <h3 id="b-error-analysis">1b. Error Analysis</h3>
 <ul>

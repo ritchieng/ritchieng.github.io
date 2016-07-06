@@ -9,6 +9,7 @@ tags: [machine_learning]
 ---
 
 ## 1. Building a Spam Classifier
+
 ### 1a. Prioritizing 
 - Let's say you want to build a spam classifier
 - How do you implement supervised learning?
