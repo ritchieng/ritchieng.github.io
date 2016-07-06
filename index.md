@@ -25,9 +25,9 @@ At age 18, I started a company, Tesglo, specialising in materials science and gr
 
 At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technological infrastructure. I also worked with the Managing Director to lead debt restructuring and equity raising deals in India, Indonesia and Singapore for a year. I realised many areas in the investment banking sector can be automated and I have since dedicated my life to software engineering.
 
-At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious grant VaSCo grant.
+At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
 
-Currently I am building an end-to-end algorithmic trading ecosystem using machine learning and data scrapping algorithms.
+Currently I am building an end-to-end algorithmic trading system capitalising on machine learning algorithms.
 
 ## Location
 I am currently based in the sunny island, Singapore.
