@@ -33,6 +33,9 @@ entries:
     - title: Machine Learning Systems Design
       url: /machine-learning-systems-design/
       output: web
+    - title: Support Vector Machines
+      url: /machine-learning-svms-support-vector-machines/
+      output: web
   - title: Machine Learning in Octave/Matlab
     output: web
     folderitems:

@@ -6,7 +6,7 @@ type: homepage
 ---
 ## Purpose of Website
 
-To provide free guides and notes on Machine Learning, Data Science and Algorithmic Trading.
+To document my guides, notes and thoughts on machine learning, data science, algorithmic trading and public policy.
 
 ## About My Educational Background
 
@@ -16,7 +16,7 @@ You would come to realise that I do not have a computer science degree. But it d
 
 Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP) in the National University of Singapore (NUS).
 
-Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the oppportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey through studying in 3 continents.
+Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey through studying in 3 continents.
 
 ## About My Professional Background
 At age 12, I started a gaming business generating thousands in net profit per month. I closed it to pursue my studies.
@@ -27,7 +27,7 @@ At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technolog
 
 At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
 
-Currently I am building an end-to-end algorithmic trading system capitalising on machine learning algorithms.
+Currently, I specialize in machine learning, data science, algorithmic trading and public policy. In my free time, I think of ways to use machine learning for social good.
 
 ## Location
 I am currently based in a sunny island called Singapore.

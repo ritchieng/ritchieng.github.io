@@ -146,6 +146,16 @@
 
 
 {
+"title": "Support Vector Machines (SVMs)",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-svms-support-vector-machines/",
+"summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
