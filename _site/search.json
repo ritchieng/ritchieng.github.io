@@ -76,6 +76,16 @@
 
 
 {
+"title": "Dimensionality Reduction",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-dimensionality-reduction/",
+"summary": "Motivation of dimensionality reduction, Principal Component Analysis (PCA), and applying PCA."
+},
+
+
+
+{
 "title": "Machine Learning Overview",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -151,6 +161,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-svms-support-vector-machines/",
 "summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
+"title": "Unsupervised Learning",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-unsupervised-learning/",
+"summary": "K-Means algorithm, optimization objective, random initialization, and choose number of clusters."
 },
 
 

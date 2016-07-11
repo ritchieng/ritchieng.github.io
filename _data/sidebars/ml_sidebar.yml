@@ -36,6 +36,12 @@ entries:
     - title: Support Vector Machines
       url: /machine-learning-svms-support-vector-machines/
       output: web
+    - title: Unsupervised Learning
+      url: /machine-learning-unsupervised-learning/
+      output: web
+    - title: Dimensionality Reduction
+      url: /machine-learning-dimensionality-reduction/
+      output: web
   - title: Machine Learning in Octave/Matlab
     output: web
     folderitems:

@@ -4,7 +4,7 @@ tags: [about]
 sidebar: mydoc_sidebar
 type: homepage
 ---
-## Purpose of Website
+## Website's Aim
 
 To document my guides, notes and thoughts on machine learning, data science, algorithmic trading and public policy.
 
@@ -27,7 +27,7 @@ At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technolog
 
 At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
 
-Currently, I specialize in machine learning, data science, algorithmic trading and public policy. In my free time, I think of ways to use machine learning for social good.
+Currently, I specialize in machine learning, data science, algorithmic trading and public policy. In my free time, I think of ways to use machine learning for the social good.
 
 ## Location
 I am currently based in a sunny island called Singapore.
