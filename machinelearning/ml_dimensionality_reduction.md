@@ -9,6 +9,7 @@ tags: [machine_learning]
 ---
 
 ## 1. Motivation
+
 ### 1a. Motivation I: Data Compression
 - You are able to reduce the dimension of the data from 2D to 1D
     - For example, pilot skill and pilot happiness can be reduced to pilot's aptitude
