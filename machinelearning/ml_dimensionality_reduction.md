@@ -67,7 +67,7 @@ tags: [machine_learning]
         - You will get 3 matrices: U, S and V
         - But we only need matrix U where we manipulate to get z that is a k x 1 vector
         ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning25.png)
-        ![](uhttps://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/nsupervisedlearning26.png)
+        ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning26.png)
 - Summary of PCA algorithm in octave
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning27.png)
 
