@@ -500,18 +500,7 @@ $('#toc').on('click', 'a', function() {
       <li>Brief details
         <ul>
           <li>u_transpose * v is also called inner product</li>
-          <li>
-            <table>
-              <tbody>
-                <tr>
-                  <td> </td>
-                  <td>u</td>
-                  <td> </td>
-                  <td>= length of u = hypotenuse calculated using Pythagoras’ Theorem</td>
-                </tr>
-              </tbody>
-            </table>
-          </li>
+          <li>length of u = hypotenuse calculated using Pythagoras’ Theorem</li>
         </ul>
       </li>
       <li>If we project vector v on vector u (green line)
@@ -523,19 +512,7 @@ $('#toc').on('click', 'a', function() {
               <li>p would be positive when angle between v and u is <strong>less than</strong> 90</li>
             </ul>
           </li>
-          <li>
-            <table>
-              <tbody>
-                <tr>
-                  <td>u_transpose * v = p .</td>
-                  <td> </td>
-                  <td>u</td>
-                  <td> </td>
-                  <td>= u1 v1 + u2 v2 = v_transpose * v</td>
-                </tr>
-              </tbody>
-            </table>
-          </li>
+          <li>u_transpose * v = p . ll u ll = u1 v1 + u2 v2 = v_transpose * v</li>
         </ul>
       </li>
     </ul>
@@ -544,19 +521,7 @@ $('#toc').on('click', 'a', function() {
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm9.png" alt="" />
     <ul>
       <li>We set the number of features, n, to 2</li>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>As you can see that normalization in SVM is minimizing the squared norm of the square length of the parameter θ,</td>
-              <td> </td>
-              <td>θ</td>
-              <td> </td>
-              <td>^2</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li>As you can see that normalization in SVM is minimizing the squared norm of the square length of the parameter θ, ll θ ll^2</li>
     </ul>
   </li>
   <li>SVM decision boundary: projections and hypothesis
@@ -568,76 +533,17 @@ $('#toc').on('click', 'a', function() {
         <ul>
           <li>p1 is projection of x1 example on θ (red)
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>p1 .</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>&gt;= 1</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>For this to be true</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>has to be large</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>p1 . ll θ ll &gt;= 1</li>
+              <li>For this to be true ll θ ll has to be large</li>
             </ul>
           </li>
           <li>p2 is a projection of x2 example on θ (magenta)
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>p2 .</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>&lt;= -1</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>p2 . ll θ ll &lt;= -1</li>
             </ul>
           </li>
-          <li>
-            <table>
-              <tbody>
-                <tr>
-                  <td>For this to be true</td>
-                  <td> </td>
-                  <td>θ</td>
-                  <td> </td>
-                  <td>has to be large</td>
-                </tr>
-              </tbody>
-            </table>
-          </li>
-          <li>
-            <table>
-              <tbody>
-                <tr>
-                  <td>But our purpose is to minimise</td>
-                  <td> </td>
-                  <td>θ</td>
-                  <td> </td>
-                  <td>^2</td>
-                </tr>
-              </tbody>
-            </table>
+          <li>For this to be true ll θ ll has to be large</li>
+          <li>But our purpose is to minimise ll θ ll^2
             <ul>
               <li>This decision boundary choice does not appear to be suitable</li>
             </ul>
@@ -648,67 +554,19 @@ $('#toc').on('click', 'a', function() {
         <ul>
           <li>p1 is projection of x1 example on θ (red)
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>p1 is much bigger so norm of θ,</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>, can be smaller</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>p1 is much bigger so norm of θ, ll θ ll, can be smaller</li>
             </ul>
           </li>
           <li>p2 is a projection of x2 example on θ (magenta)
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>p2 is much bigger so norm of θ,</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>, can be smaller</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>p2 is much bigger so norm of θ, ll θ ll, can be smaller</li>
             </ul>
           </li>
-          <li>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Hence</td>
-                  <td> </td>
-                  <td>θ</td>
-                  <td> </td>
-                  <td>^2 would be smaller</td>
-                </tr>
-              </tbody>
-            </table>
-          </li>
+          <li>Hence ll θ ll^2 would be smaller</li>
           <li>And this is why SVM would choice this decision boundary</li>
           <li>Magnitude of margin is value of p1, p2, p3 and so on
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ,</td>
-                      <td> </td>
-                      <td>θ</td>
-                      <td> </td>
-                      <td>^2</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ, ll θ ll^2</li>
             </ul>
           </li>
         </ul>
@@ -831,19 +689,7 @@ $('#toc').on('click', 'a', function() {
         <ul>
           <li>We have to do feature scaling before using Gaussian kernel
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>This is because if we don’t,</td>
-                      <td> </td>
-                      <td>x - l</td>
-                      <td> </td>
-                      <td>^2 would be dominated mainly by the features that are large in scale such as the 1000sqft feature</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>This is because if we don’t, ll x - l ll^2 would be dominated mainly by the features that are large in scale such as the 1000sqft feature</li>
             </ul>
           </li>
           <li>The Gaussian kernel is also parameterized by a bandwidth pa- rameter, σ, which determines how fast the similarity metric decreases (to 0) as the examples are further apart</li>

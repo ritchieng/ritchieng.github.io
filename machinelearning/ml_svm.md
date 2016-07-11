@@ -78,39 +78,39 @@ tags: [machine_learning]
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm8.png)
     - Brief details
         - u_transpose * v is also called inner product
-        - ||u|| = length of u = hypotenuse calculated using Pythagoras' Theorem 
+        - length of u = hypotenuse calculated using Pythagoras' Theorem 
     - If we project vector v on vector u (green line)
         - p = length of vector v onto u
             - p can be positive or negative
             - p would be negative when angle between v and u **more than** 90
             - p would be positive when angle between v and u is **less than** 90
-        - u_transpose * v = p . ||u|| = u1 v1 + u2 v2 = v_transpose * v
+        - u_transpose * v = p . ll u ll = u1 v1 + u2 v2 = v_transpose * v
 - SVM decision boundary: introduction
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm9.png)
     - We set the number of features, n, to 2
-    - As you can see that normalization in SVM is minimizing the squared norm of the square length of the parameter θ, ||θ||^2
+    - As you can see that normalization in SVM is minimizing the squared norm of the square length of the parameter θ, ll θ ll^2
 - SVM decision boundary: projections and hypothesis
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm10.png)
     - When θ0 = 0, this means the vector passes through the origin
     - θ projection will always be 90 degrees to the decision boundary 
     - Decision boundary choice 1: graph on the left
         - p1 is projection of x1 example on θ (red)
-            - p1 . ||θ|| >= 1
-            - For this to be true ||θ|| has to be large
+            - p1 . ll θ ll >= 1   
+            - For this to be true ll θ ll has to be large
         - p2 is a projection of x2 example on θ (magenta)
-            - p2 . ||θ|| <= -1
-        - For this to be true ||θ|| has to be large
-        - But our purpose is to minimise ||θ||^2 
+            - p2 . ll θ ll <= -1
+        - For this to be true ll θ ll has to be large
+        - But our purpose is to minimise ll θ ll^2 
             - This decision boundary choice does not appear to be suitable
     - Decision boundary choice2: graph on the right
         - p1 is projection of x1 example on θ (red)
-            - p1 is much bigger so norm of θ, ||θ||, can be smaller
+            - p1 is much bigger so norm of θ, ll θ ll, can be smaller
         - p2 is a projection of x2 example on θ (magenta)
-            - p2 is much bigger so norm of θ, ||θ||, can be smaller
-        - Hence ||θ||^2 would be smaller
+            - p2 is much bigger so norm of θ, ll θ ll, can be smaller
+        - Hence ll θ ll^2 would be smaller
         - And this is why SVM would choice this decision boundary
         - Magnitude of margin is value of p1, p2, p3 and so on
-            - SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ, ||θ||^2
+            - SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ, ll θ ll^2
 
 ## 2. Kernels
 
@@ -173,7 +173,7 @@ tags: [machine_learning]
     - Octave implementation
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm20.png)
         - We have to do feature scaling before using Gaussian kernel
-            - This is because if we don't, || x - l ||^2 would be dominated mainly by the features that are large in scale such as the 1000sqft feature
+            - This is because if we don't, ll x - l ll^2 would be dominated mainly by the features that are large in scale such as the 1000sqft feature
         - The Gaussian kernel is also parameterized by a bandwidth pa- rameter, σ, which determines how fast the similarity metric decreases (to 0) as the examples are further apart
 - Other choices of kernel
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm21.png)
