@@ -9,6 +9,7 @@ tags: [machine_learning]
 ---
 
 ## 1. Large Margin Classification
+
 ### 1a. Optimization Objective
 - So far we have seen mainly 2 algorithms, logistic regression and neural networks. There are more important aspects of machine learning:
     - The amount of training data
@@ -112,7 +113,8 @@ tags: [machine_learning]
             - SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ, ||θ||^2
 
 ## 2. Kernels
-## 2a. Kernels I
+
+### 2a. Kernels I
 - Non-linear decision boundary
     - Given the data, is there a different or better choice of the features f1, f2, f3 ... fn?
     - We also see that using high order polynomials is computationally expensive

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Motivation of dimensionality reduction, Principal Component Analysis (PCA), and applying PCA.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Dimensionality Reduction  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<title>Dimensionality Reduction  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -403,22 +403,43 @@ $('#toc').on('click', 'a', function() {
 </ul>
 
 <h2 id="principal-component-analysis-pca">2. Principal Component Analysis (PCA)</h2>
-<p>### 2a. Principal Component Analysis Problem Formation
-- Let’s say we have the following 2D data
+
+<h3 id="a-pca-problem-formation">2a. PCA Problem Formation</h3>
+<ul>
+  <li>Let’s say we have the following 2D data
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning20.png" alt="" />
-    1. We can project with a diagonal line (red line)
-        - PCA reduces the blue lines (the projection error)
-            - Before performing PCA, perform mean normalization (mean = 0) and feature scaling
-    2. We can also project with another diagonal line (magenta)
-        - But the projection errors are much larger
-        - Hence PCA would choose the red line instead of this magenta line
-- Goal of PCA
-    - It’s trying to find a lower dimensional surface onto which to project the data, so as to minimize this squared projection error
-    - To minimize the square distance between each point and the location of where it gets projected. 
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning21.png" alt="" />
-- PCA is not linear regression
-    - PCA is a minimization of the orthogonal distance
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning22.png" alt="" /></p>
+    <ol>
+      <li>We can project with a diagonal line (red line)
+        <ul>
+          <li>PCA reduces the blue lines (the projection error)
+            <ul>
+              <li>Before performing PCA, perform mean normalization (mean = 0) and feature scaling</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>We can also project with another diagonal line (magenta)
+        <ul>
+          <li>But the projection errors are much larger</li>
+          <li>Hence PCA would choose the red line instead of this magenta line</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>Goal of PCA
+    <ul>
+      <li>It’s trying to find a lower dimensional surface onto which to project the data, so as to minimize this squared projection error</li>
+      <li>To minimize the square distance between each point and the location of where it gets projected. 
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning21.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>PCA is not linear regression
+    <ul>
+      <li>PCA is a minimization of the orthogonal distance
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning22.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="b-principal-component-analysis-algorithm">2b. Principal Component Analysis Algorithm</h3>
 <ul>
@@ -457,9 +478,12 @@ $('#toc').on('click', 'a', function() {
 </ul>
 
 <h2 id="applying-pca">3. Applying PCA</h2>
-<p>### 3a. Reconstruction from Compressed Representation
-- We can go from lower dimensionality to higher dimensionality
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning28.png" alt="" /></p>
+
+<h3 id="a-reconstruction-from-compressed-representation">3a. Reconstruction from Compressed Representation</h3>
+<ul>
+  <li>We can go from lower dimensionality to higher dimensionality
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning28.png" alt="" /></li>
+</ul>
 
 <h3 id="b-choosing-the-number-of-principal-components">3b. Choosing the Number of Principal Components</h3>
 <ul>

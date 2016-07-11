@@ -9,6 +9,7 @@ tags: [machine_learning]
 ---
 
 ## Clustering 
+
 ### Unsupervised Learning: Introduction
 - While supervised learning algorithms need labeled examples (x,y), unsupervised learning algorithms need only the input (x)
     - In layman terms, unsupervised learning is learning from unlabeled data

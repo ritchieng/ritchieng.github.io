@@ -142,9 +142,9 @@ tags: [machine_learning]
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification2.png)
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/multiclass_classification3.png)
 
-## 3. Solving Problem of Overfitting
+## 4. Solving Problem of Overfitting
 
-### 3a. Problem of Overfitting
+### 4a. Problem of Overfitting
 - Linear Regression: Overfitting
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/overfitting.png)
     - Overfit
@@ -163,7 +163,7 @@ tags: [machine_learning]
          - Keep all features, but reduce magnitude or values of parameters theta_j
          - Works well when we've a lot of features
 
-### 3b. Cost Function
+### 4b. Cost Function
 - Intuition
     - Making theta so small that is almost equivalent to zero
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/theta_small.png)
@@ -180,7 +180,7 @@ tags: [machine_learning]
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization1.png)
 
 
-### 3c. Regularized Linear Regression
+### 4c. Regularized Linear Regression
 - Gradient Descent Equation
     - Usually, (1- alpha * lambda / m) is 0.99
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/gd_logistic_regularization.png)
@@ -191,7 +191,7 @@ tags: [machine_learning]
     - Regularization takes care of non-invertibility
     - Matrix will not be singular, it will be invertible
 
-### 3c. Regularized Logistic Regression
+### 4c. Regularized Logistic Regression
 - Cost function with regularization
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w3_logistic_regression_regularization/regularization_lg.png)
 - Using Gradient Descent for Regularized Logistic Regression Cost Function

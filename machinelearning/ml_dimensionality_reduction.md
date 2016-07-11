@@ -34,7 +34,8 @@ tags: [machine_learning]
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning19.png)
 
 ## 2. Principal Component Analysis (PCA)
-### 2a. Principal Component Analysis Problem Formation
+
+### 2a. PCA Problem Formation
 - Let's say we have the following 2D data
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning20.png)
     1. We can project with a diagonal line (red line)
@@ -71,6 +72,7 @@ tags: [machine_learning]
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning27.png)
 
 ## 3. Applying PCA
+
 ### 3a. Reconstruction from Compressed Representation
 - We can go from lower dimensionality to higher dimensionality
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w8_unsupervised_learning/unsupervisedlearning28.png)

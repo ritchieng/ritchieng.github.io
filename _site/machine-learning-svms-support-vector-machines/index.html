@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Machine Learning theory and applications using Octave or Python.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Support Vector Machines (SVMs)  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<title>Support Vector Machines (SVMs)  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -362,39 +362,78 @@ $('#toc').on('click', 'a', function() {
     
 
   <h2 id="large-margin-classification">1. Large Margin Classification</h2>
-<p>### 1a. Optimization Objective
-- So far we have seen mainly 2 algorithms, logistic regression and neural networks. There are more important aspects of machine learning:
-    - The amount of training data
-    - Skill of applying the algorithms
-- The SVM sometimes give a cleaner and more powerful way to learn parameters
-    - This is the last supervised learning algorithm in this introduction to machine learning
-- Alternative view of logistic regression
-    - If we want hθ = 1, we need z » 0
-    - If we want hθ = 0, we need z « 0
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/lg.png" alt="" />
-    - If y = 1, only the first term would matter
-        - Graph on the left
-        - When z is large, cost function would be small
-        - Magenta curve is a close approximation of the log cost function
-    - If y = 0, only the second term would matter
-        - Magenta curve is a close approximation of the log cost function
-    - Diagram of cost contributions (y-axis)
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/lg2.png" alt="" />
-- Support Vector Machine
-    - Changes to logistic regression equation
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm.png" alt="" />
-        - We replace the first and second terms of logistic regression with the respective cost functions 
-        - We remove (1 / m) because it does not matter
-        - Instead of A + λB, we use CA + B
-            - Parameter C similar to the role (1 / λ)
-            - When C = (1 / λ), the two optimization equations would give same parameters θ
-- Compared to logistic regression, it does not output a probability
-    - We get a direct prection of 1 or 0 instead
-        - If θTx is =&gt; 0 
-            - hθ(x) = 1
-        - If θTx is &lt;= 0 
-            - hθ(x) = 0
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm2.png" alt="" /></p>
+
+<h3 id="a-optimization-objective">1a. Optimization Objective</h3>
+<ul>
+  <li>So far we have seen mainly 2 algorithms, logistic regression and neural networks. There are more important aspects of machine learning:
+    <ul>
+      <li>The amount of training data</li>
+      <li>Skill of applying the algorithms</li>
+    </ul>
+  </li>
+  <li>The SVM sometimes give a cleaner and more powerful way to learn parameters
+    <ul>
+      <li>This is the last supervised learning algorithm in this introduction to machine learning</li>
+    </ul>
+  </li>
+  <li>Alternative view of logistic regression
+    <ul>
+      <li>If we want hθ = 1, we need z » 0</li>
+      <li>If we want hθ = 0, we need z « 0
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/lg.png" alt="" /></li>
+      <li>If y = 1, only the first term would matter
+        <ul>
+          <li>Graph on the left</li>
+          <li>When z is large, cost function would be small</li>
+          <li>Magenta curve is a close approximation of the log cost function</li>
+        </ul>
+      </li>
+      <li>If y = 0, only the second term would matter
+        <ul>
+          <li>Magenta curve is a close approximation of the log cost function</li>
+        </ul>
+      </li>
+      <li>Diagram of cost contributions (y-axis)
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/lg2.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Support Vector Machine
+    <ul>
+      <li>Changes to logistic regression equation
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm.png" alt="" />
+        <ul>
+          <li>We replace the first and second terms of logistic regression with the respective cost functions</li>
+          <li>We remove (1 / m) because it does not matter</li>
+          <li>Instead of A + λB, we use CA + B
+            <ul>
+              <li>Parameter C similar to the role (1 / λ)</li>
+              <li>When C = (1 / λ), the two optimization equations would give same parameters θ</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Compared to logistic regression, it does not output a probability
+    <ul>
+      <li>We get a direct prection of 1 or 0 instead
+        <ul>
+          <li>If θTx is =&gt; 0
+            <ul>
+              <li>hθ(x) = 1</li>
+            </ul>
+          </li>
+          <li>If θTx is &lt;= 0
+            <ul>
+              <li>hθ(x) = 0
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm2.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="b-large-margin-intuition">1b. Large Margin Intuition</h3>
 <ul>
@@ -679,37 +718,67 @@ $('#toc').on('click', 'a', function() {
 </ul>
 
 <h2 id="kernels">2. Kernels</h2>
-<p>## 2a. Kernels I
-- Non-linear decision boundary
-    - Given the data, is there a different or better choice of the features f1, f2, f3 … fn?
-    - We also see that using high order polynomials is computationally expensive
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm11.png" alt="" />
-- Gaussian kernel
+
+<h3 id="a-kernels-i">2a. Kernels I</h3>
+<ul>
+  <li>Non-linear decision boundary
+    <ul>
+      <li>Given the data, is there a different or better choice of the features f1, f2, f3 … fn?</li>
+      <li>We also see that using high order polynomials is computationally expensive
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm11.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Gaussian kernel
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm12.png" alt="" />
-    - We will manually pick 3 landmarks (points)
-    - Given an example x, we will define the features as a measure of similarity between x and the landmarks
-        - f1 = similarity(x, l(1))
-        - f2 = similarity(x, l(2))
-        - f3 = similarity(x, l(3))
-    - The different similarity functions are Gaussian Kernels
-        - This kernel is often denoted as k(x, l(i))
-- Kernels and similarity
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm13.png" alt="" />
-- Kernel Example
+    <ul>
+      <li>We will manually pick 3 landmarks (points)</li>
+      <li>Given an example x, we will define the features as a measure of similarity between x and the landmarks
+        <ul>
+          <li>f1 = similarity(x, l(1))</li>
+          <li>f2 = similarity(x, l(2))</li>
+          <li>f3 = similarity(x, l(3))</li>
+        </ul>
+      </li>
+      <li>The different similarity functions are Gaussian Kernels
+        <ul>
+          <li>This kernel is often denoted as k(x, l(i))</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Kernels and similarity
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm13.png" alt="" /></li>
+  <li>Kernel Example
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm14.png" alt="" />
-    - As you increase sigma square
-        - As you move away from l1, the value of the feature falls away much more slowly
-- Kernel Example 2
+    <ul>
+      <li>As you increase sigma square
+        <ul>
+          <li>As you move away from l1, the value of the feature falls away much more slowly</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Kernel Example 2
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w7_support_vector_machines/svm15.png" alt="" />
-    - For the first point (magenta), you will predict 1 because hθ &gt;= 0 
-    - For the second point (cyan), you will predict 0 because hθ &lt; 0 
-- We can learn complex non-linear decision boundaries
-    - We predict positive when we’re close to the landmarks
-    - We predict negative when we’re far away from the landmarks
-- Questions we have yet to answer
-    - How do we get these landmarks?
-    - How do we choose these landmarks?
-    - What other similarity functions can we use beside the Gaussian kernel?</p>
+    <ul>
+      <li>For the first point (magenta), you will predict 1 because hθ &gt;= 0</li>
+      <li>For the second point (cyan), you will predict 0 because hθ &lt; 0</li>
+    </ul>
+  </li>
+  <li>We can learn complex non-linear decision boundaries
+    <ul>
+      <li>We predict positive when we’re close to the landmarks</li>
+      <li>We predict negative when we’re far away from the landmarks</li>
+    </ul>
+  </li>
+  <li>Questions we have yet to answer
+    <ul>
+      <li>How do we get these landmarks?</li>
+      <li>How do we choose these landmarks?</li>
+      <li>What other similarity functions can we use beside the Gaussian kernel?</li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="b-kernels-ii">2b. Kernels II</h3>
 <ul>

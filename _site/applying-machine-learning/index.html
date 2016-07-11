@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Evaluating machine learning algorithms, training set, cross validation set, test set, bias, variance, learning curves and improving algorithm performance.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Applying Machine Learning  | Data Science, Machine Learning and Algorithmic Trading Guides</title>
+<title>Applying Machine Learning  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -362,22 +362,40 @@ $('#toc').on('click', 'a', function() {
     
 
   <h2 id="evaluating-learning-algorithm">1. Evaluating Learning Algorithm</h2>
-<p>### 1a. Deciding what to try next
-- Suppose you have implemented regularized linear regression to predict housing prices
-    - However, when you test your hypothesis your hypothesis on new set of houses, you find that it makes unacceptably large errors
-        - You can do the following
-            - Get more training data
-            - Smaller set of features
-            - Get additional features
-            - Try adding polynomial features
-            - Try decreasing lambda 
-            - Try increasing lambda
-        - Typically people randomly choose these avenues and then figure out it may not be suitable
-        - There is a simple technique to weed out avenues that are not suitable
-            - Machine Learning Diagnostic
-                - Test that you can run to gain insight what is or isn’t working with a learning algorithm and gain guidance as to how best to improve its performance
-                - Diagnostics can take time to implement, but doing so can be a very good use of your time
-                - But it’s worth the time compared to spending months on unsuitable avenues</p>
+
+<h3 id="a-deciding-what-to-try-next">1a. Deciding what to try next</h3>
+<ul>
+  <li>Suppose you have implemented regularized linear regression to predict housing prices
+    <ul>
+      <li>However, when you test your hypothesis your hypothesis on new set of houses, you find that it makes unacceptably large errors
+        <ul>
+          <li>You can do the following
+            <ul>
+              <li>Get more training data</li>
+              <li>Smaller set of features</li>
+              <li>Get additional features</li>
+              <li>Try adding polynomial features</li>
+              <li>Try decreasing lambda</li>
+              <li>Try increasing lambda</li>
+            </ul>
+          </li>
+          <li>Typically people randomly choose these avenues and then figure out it may not be suitable</li>
+          <li>There is a simple technique to weed out avenues that are not suitable
+            <ul>
+              <li>Machine Learning Diagnostic
+                <ul>
+                  <li>Test that you can run to gain insight what is or isn’t working with a learning algorithm and gain guidance as to how best to improve its performance</li>
+                  <li>Diagnostics can take time to implement, but doing so can be a very good use of your time</li>
+                  <li>But it’s worth the time compared to spending months on unsuitable avenues</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="b-evaluating-a-hypothesis">1b. Evaluating a hypothesis</h3>
 <ul>
@@ -454,28 +472,55 @@ $('#toc').on('click', 'a', function() {
 </ul>
 
 <h2 id="bias-vs-variance">2. Bias vs Variance</h2>
-<p>### 2a. Diagnosing vs Variance
-- When you run an algorithm and it doesn’t do as well as you hope, it typically has a high bias or high variance issue
-    - High bias (underfitting)
-    - High variance (overfitting)
-    <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/variance_bias.png" alt="" />
-- Plot error against degree of polynomial, d
-    - As you increase your polynomial, d, 
-        - Training error decreases from underfitting to overfitting
-        - Cross validation (CV) error example
-            - d = 1: underfitting, high CV error
-            - d = 2: lower CV error due to better fit
-            - d = 4: overfitting, high CV error
-            <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/plot_error.png" alt="" />
-- How do we distinguish between a high bias or a high variance issue?
-    - High Bias Error
-        - High Jtrain(θ) 
-        - Jtrain(θ) = Jcv(θ)
-    - High Variance Error
-        - Low Jtrain(θ)
-        - Jcv(θ) » Jtrain(θ)
-            - Much greater as seen on the right of the graph
-            <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/distinguish_error.png" alt="" /></p>
+
+<h3 id="a-diagnosing-vs-variance">2a. Diagnosing vs Variance</h3>
+<ul>
+  <li>When you run an algorithm and it doesn’t do as well as you hope, it typically has a high bias or high variance issue
+    <ul>
+      <li>High bias (underfitting)</li>
+      <li>High variance (overfitting)
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/variance_bias.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Plot error against degree of polynomial, d
+    <ul>
+      <li>As you increase your polynomial, d,
+        <ul>
+          <li>Training error decreases from underfitting to overfitting</li>
+          <li>Cross validation (CV) error example
+            <ul>
+              <li>d = 1: underfitting, high CV error</li>
+              <li>d = 2: lower CV error due to better fit</li>
+              <li>d = 4: overfitting, high CV error
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/plot_error.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>How do we distinguish between a high bias or a high variance issue?
+    <ul>
+      <li>High Bias Error
+        <ul>
+          <li>High Jtrain(θ)</li>
+          <li>Jtrain(θ) = Jcv(θ)</li>
+        </ul>
+      </li>
+      <li>High Variance Error
+        <ul>
+          <li>Low Jtrain(θ)</li>
+          <li>Jcv(θ) » Jtrain(θ)
+            <ul>
+              <li>Much greater as seen on the right of the graph
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/distinguish_error.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="b-regularization-and-biasvariance">2b. Regularization and Bias/Variance</h3>
 <ul>

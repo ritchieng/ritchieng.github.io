@@ -9,6 +9,7 @@ tags: [machine_learning]
 ---
 
 ## 1. Evaluating Learning Algorithm
+
 ### 1a. Deciding what to try next
 - Suppose you have implemented regularized linear regression to predict housing prices
     - However, when you test your hypothesis your hypothesis on new set of houses, you find that it makes unacceptably large errors
@@ -65,6 +66,7 @@ tags: [machine_learning]
     ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w6_ml_design/cv3.png)
 
 ## 2. Bias vs Variance
+
 ### 2a. Diagnosing vs Variance
 - When you run an algorithm and it doesn't do as well as you hope, it typically has a high bias or high variance issue
     - High bias (underfitting)

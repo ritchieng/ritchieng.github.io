@@ -54,8 +54,6 @@ tags: [machine_learning]
 ![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/matrix_matrix4.png)
 
 ## 5. Properties of Matrix Multiplication
-
-### 5a. Commutative Property
 - Not commutative
 ![alt text](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w1_linear_regression_one_variable/commutative.png)
 - Associative
