@@ -108,7 +108,7 @@ tags: [machine_learning]
         - p2 is a projection of x2 example on θ (magenta)
             - p2 is much bigger so norm of θ, ll θ ll, can be smaller
         - Hence ll θ ll^2 would be smaller
-        - And this is why SVM would choice this decision boundary
+        - And this is why SVM would choose this decision boundary
         - Magnitude of margin is value of p1, p2, p3 and so on
             - SVM would end up with a large margin because it tries to maximize the margin to minimize the squared norm of θ, ll θ ll^2
 
