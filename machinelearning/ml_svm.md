@@ -37,7 +37,7 @@ tags: [machine_learning]
             - Parameter C similar to the role (1 / λ)
             - When C = (1 / λ), the two optimization equations would give same parameters θ
 - Compared to logistic regression, it does not output a probability
-    - We get a direct prection of 1 or 0 instead
+    - We get a direct prediction of 1 or 0 instead
         - If θTx is => 0 
             - hθ(x) = 1
         - If θTx is <= 0 
