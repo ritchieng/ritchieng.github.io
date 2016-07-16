@@ -56,6 +56,16 @@
 
 
 {
+"title": "Anomaly Detection",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-anomaly-detection/",
+"summary": "Density estimation, anomaly detection system, and multivariate gaussian distribution."
+},
+
+
+
+{
 "title": "Applying Machine Learning",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -91,6 +101,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning/",
 "summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
+"title": "Large Scale Machine Learning",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-large-scale/",
+"summary": "Gradient descent with large data, stochastic gradient descent, mini-batch gradient descent, map reduce, data parallelism, and online learning."
 },
 
 
@@ -151,6 +171,16 @@
 "keywords": "machine_learning",
 "url": "/one-variable-linear-regression/",
 "summary": "Supervised learning, unsupervised learning, parameter learning and model and cost functions."
+},
+
+
+
+{
+"title": "Machine Learning Overview",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-recommender-systems/",
+"summary": "Predicting movie ratings, collaborative filtering, and low rank matrix factorization."
 },
 
 

@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Cost function, back propagation, forward propagation, unrolling parameters, gradient checking, and random initialization.">
+<meta name="description" content="Gradient descent with large data, stochastic gradient descent, mini-batch gradient descent, map reduce, data parallelism, and online learning.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Neural Networks (Learning)  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
+<title>Large Scale Machine Learning  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -80,15 +80,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Neural Networks (Learning)</title>
-<meta property="og:title" content="Neural Networks (Learning)" />
+<title>Large Scale Machine Learning</title>
+<meta property="og:title" content="Large Scale Machine Learning" />
 <meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/neural-networks-learning/" />
-<meta property='og:url' content='http://www.ritchieng.com/neural-networks-learning/' />
+<link rel="canonical" href="http://www.ritchieng.com/machine-learning-large-scale/" />
+<meta property='og:url' content='http://www.ritchieng.com/machine-learning-large-scale/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Neural Networks (Learning)" />
+<meta name="twitter:title" content="Large Scale Machine Learning" />
 <meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -100,12 +100,12 @@
 
     "@type" : "WebPage",
 
-    "headline": "Neural Networks (Learning)",
+    "headline": "Large Scale Machine Learning",
 
     "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
 
 
-    "url" : "http://www.ritchieng.com/neural-networks-learning/"
+    "url" : "http://www.ritchieng.com/machine-learning-large-scale/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -158,7 +158,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Neural Networks (Learning)">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Large Scale Machine Learning">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -245,7 +245,7 @@
             
             
             
-            <li class="active"><a href="/neural-networks-learning/">Neural Networks (Learning)</a></li>
+            <li><a href="/neural-networks-learning/">Neural Networks (Learning)</a></li>
             
             
             
@@ -301,7 +301,7 @@
             
             
             
-            <li><a href="/machine-learning-large-scale/">Large Scale Machine Learning</a></li>
+            <li class="active"><a href="/machine-learning-large-scale/">Large Scale Machine Learning</a></li>
             
             
             
@@ -340,7 +340,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Neural Networks (Learning)</h1>
+   <h1 class="post-title-main">Large Scale Machine Learning</h1>
 </div>
 
 
@@ -348,7 +348,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Cost function, back propagation, forward propagation, unrolling parameters, gradient checking, and random initialization.</div>
+    <div class="summary">Gradient descent with large data, stochastic gradient descent, mini-batch gradient descent, map reduce, data parallelism, and online learning.</div>
    
 
     
@@ -382,35 +382,73 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="cost-function-and-back-propagation">1. Cost Function and Back Propagation</h2>
+  <h2 id="gradient-descent-with-large-data-sets">1. Gradient Descent with Large Data Sets</h2>
 
-<h3 id="a-cost-function">1a. Cost Function</h3>
+<h3 id="a-learning-with-large-data-sets">1a. Learning with Large Data Sets</h3>
 <ul>
-  <li>Neural Network Introduction
+  <li>Why do we want large data set?
     <ul>
-      <li>One of the most powerful learning algorithms</li>
-      <li>Learning algorithm for fitting the derived parameters given a training set</li>
+      <li>This is evident when we take a low-bias learning algorithm and train it on a lot of data
+        <ul>
+          <li>The example of how “I ate two (two) eggs” shows how the algorithm performs well when we feed it a lot of data
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml.png" alt="" /></li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>Neural Network Classification
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/k.png" alt="" /></li>
-  <li>Cost Function for Neural Network
+  <li>Learning with large data sets has computational problems
     <ul>
-      <li>Two parts in the NN’s cost function
+      <li>If m = 100m, we have to sum over 100m entries to compute one step of gradient descent</li>
+      <li>Suppose you are facing a supervised learning problem and have a very large data set (m = 100m), how can you tell if the data is likely to perform much better than using a small subset (m = 100) of the data?
         <ul>
-          <li>First half (-1 / m part)
+          <li>Plot a learning curve for a range of values of m and verify that the algorithm has high variance when m is small
             <ul>
-              <li>For each training data (1 to m)
+              <li>We would then be confident that adding more training examples would increase the accuracy</li>
+              <li>But if it’s high bias, we do not need to plot to a large value of m
                 <ul>
-                  <li>Sum each position in the output vector (1 to K)</li>
+                  <li>In this case, you can add extra features or units (in neural networks)
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml1.png" alt="" /></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li>Second half (lambda / 2m part)
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="b-stochastic-gradient-descent">1b. Stochastic Gradient Descent</h3>
+<ul>
+  <li>Suppose we are training a linear regression model with gradient descent
+    <ul>
+      <li>If m is really large, we have to sum across all the examples</li>
+      <li>This is actually called batch gradient descent when you look at all the training examples
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml2.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml3.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>We can use a stochastic gradient descent instead of a batch gradient descent
+    <ul>
+      <li>Stochastic gradient descent (more efficient)
+        <ul>
+          <li>Define cost of parameter θ with respect to x_i and y_i
             <ul>
-              <li>Weight decay term
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/costfunction.png" alt="" /></li>
+              <li>This measures how well the hypothesis is doing on a single training example (x_i, y_i)</li>
+            </ul>
+          </li>
+          <li>This algorithm will take the first training example and take a step (modify parameter) to fit the first example better until the end of the training set
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml4.png" alt="" /></li>
+          <li>Difference
+            <ul>
+              <li>Rather than waiting to take the parts of all the training examples (batch gradient descent), we look at a single training example and we are making progress towards moving to the global minimum</li>
+              <li>Batch gradient descent (red path)</li>
+              <li>Stochastic gradient descent (magenta path with a more random-looking path where it wonders around near the global minimum)</li>
+              <li>In practice, so long the parameters are near the global minimum, it’s sufficient</li>
+              <li>We can repeat the loop maybe 1 to 10 times</li>
+              <li>It is possible even with 1 loop, where your m is large, you can have good parameters</li>
+              <li>Your J_train (cost function) may not decrease with every iteration for stochastic gradient descent
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml5.png" alt="" /></li>
             </ul>
           </li>
         </ul>
@@ -419,201 +457,170 @@ $('#toc').on('click', 'a', function() {
   </li>
 </ul>
 
-<h3 id="b-overview">1b. Overview</h3>
+<h3 id="c-mini-batch-gradient-descent">1c. Mini-Batch Gradient Descent</h3>
 <ul>
-  <li>Forward propagation
+  <li>This may some times be faster than stochastic gradient descent</li>
+  <li>Difference
     <ul>
-      <li>Algorithm that takes your neural network and the initial input (x) and pushes the input through the network</li>
+      <li>Batch gradient descent
+        <ul>
+          <li>Use all m examples in each iteration</li>
+        </ul>
+      </li>
+      <li>Stochastic gradient descent
+        <ul>
+          <li>Use 1 example in each iteration</li>
+        </ul>
+      </li>
+      <li>Mini-batch gradient descent
+        <ul>
+          <li>Use b examples in each iteration</li>
+          <li>b = mini-batch size
+            <ul>
+              <li>b = 10 examples</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>Back propagation
+  <li>Mini-batch gradient descent algorithm
     <ul>
-      <li>Takes output from your neural network H(Ɵ)
-        <ul>
-          <li>Compares it to actual output y</li>
-          <li>Calculates H(Ɵ)’s deviation from actual output</li>
-        </ul>
-      </li>
-      <li>Takes the error H(Ɵ) - y from layer L
-        <ul>
-          <li>Back calculates error associated with each unit from the preceding layer L - 1</li>
-          <li>Error calculated from each unit used to calculate partial derivatives</li>
-        </ul>
-      </li>
-      <li>Use partial derivatives with gradient descent to minimise cost function J(Ɵ)</li>
+      <li>After looking at the 10 training examples, we start making progress in modifying the parameters</li>
+      <li>Mini-batch gradient descent can outperform stochastic gradient descent if we use a vectorized implementation</li>
+      <li>This algorithm is the same as batch gradient descent if b = m, where we iterate across all training examples
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml6.png" alt="" /></li>
     </ul>
   </li>
-  <li>Basic things to note
+</ul>
+
+<h3 id="d-stochastic-gradient-descent-convergence">1d. Stochastic Gradient Descent Convergence</h3>
+<ul>
+  <li>Checking for convergence
     <ul>
-      <li>Ɵ matrix for each layer in the network
+      <li>When you average over a smaller number of examples, there might be too much noise
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml7.png" alt="" />
+<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml8.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Stochastic gradient descent learning rate issue
+    <ul>
+      <li>Decrease learning rate to allow convergence for a slightly better hypothesis
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml9.png" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="advanced-topics">2. Advanced Topics</h2>
+
+<h3 id="a-online-learning">2a. Online Learning</h3>
+<ul>
+  <li>What is online learning?
+    <ul>
+      <li>When we have a continuous stream of information and we want to learn from that</li>
+      <li>We can use an online learning algorithm to optimize some decisions</li>
+    </ul>
+  </li>
+  <li>Example of online learning: learning whether to buy or not buy
+    <ul>
+      <li>Shipping service website where user comes, specifies origin and destination, you offer to ship their package for some asking price, and users sometimes choose to use your shipping service (y = 1), sometimes not (y = 0)</li>
+      <li>Features x captures properties of user, of origin/destination and asking price</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>We want to learn p(y = 1</td>
+              <td>x;θ) to optimize price</td>
+            </tr>
+          </tbody>
+        </table>
         <ul>
-          <li>This has each node in layer l as one dimension and each node in l+1 as the other dimension</li>
+          <li>Probability of 1 given price and features</li>
+          <li>We can use logistic regression or neural network</li>
         </ul>
       </li>
-      <li>Δ matrix for each layer
+      <li>Online learning algorithm
         <ul>
-          <li>This has each node as one dimension and each training data example as the other</li>
+          <li>If you have a large number of users, you can do this</li>
+          <li>If you have a small number of users, you should save the data and train your parameters on your training data, not on a continuous stream of data</li>
+          <li>This online algorithm can adapt to users’ preferences
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml10.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Example 2 of online learning: learning to search
+    <ul>
+      <li>User searches for “Android phone 1080p camera”</li>
+      <li>Have 100 phones in store with 10 results</li>
+      <li>x = features of phone, how many words in user query match name of phone, how many words in query match description of phone</li>
+      <li>y = 1 if user clicks on link</li>
+      <li>y = 0 if otherwise</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>We want to learn p(y = 1</td>
+              <td>x;θ) to predict CTR</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Use to show users’ 10 phones they’re most likely to click on</li>
+    </ul>
+  </li>
+  <li>Other examples
+    <ul>
+      <li>Choosing special offers to show user</li>
+      <li>Customized selection of news articles</li>
+      <li>Product recommendation</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="b-map-reduce-and-data-parallelism">2b. Map Reduce and Data Parallelism</h3>
+<ul>
+  <li>Map reduce and linear regression
+    <ul>
+      <li>This is an alternative to stochastic gradient descent and mini-batch gradient descent</li>
+      <li>It is exactly equal to batch gradient descent but
+        <ol>
+          <li>Split the training sets</li>
+          <li>Split to 4 computers</li>
+          <li>Combine results</li>
+        </ol>
+      </li>
+      <li>Many learning algorithms can be expressed as computing sums of functions over the training set
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml11.png" alt="" />
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml12.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Map reduce and logistic regression
+    <ul>
+      <li>This can be done too as we can compute sums of fractions
+  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w10_large_scale_ml/largescaleml13.png" alt="" /></li>
+    </ul>
+  </li>
+  <li>Map reduce and neural network
+    <ul>
+      <li>Suppose you want to apply map-reduce to train a neural network on 10 machines
+        <ul>
+          <li>In each iteration, compute forward propagation and back propagation on 1/10 of the data to compute the derivative with respect to that 1/10 of the data</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Multi-core machines
+    <ul>
+      <li>We can split training sets to different cores and then combine the results
+        <ul>
+          <li>“Parallelizing” over multiple cores in the same machine makes network latency less of an issue</li>
+          <li>There are some libraries to automatically “parallelize” by just implementing the usual vectorized implementation</li>
         </ul>
       </li>
     </ul>
   </li>
 </ul>
-
-<h3 id="c-backpropagation-algorithm">1c. Backpropagation Algorithm</h3>
-<ul>
-  <li>Gradient Computation
-    <ul>
-      <li>Purpose is to find parameters Ɵ that minimizes J(Ɵ)
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/jtheta.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Forward Propagation
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation.png" alt="" /></li>
-  <li>Backpropagation Equation
-    <ul>
-      <li>For each node we can calculate δj^l
-        <ul>
-          <li>This is the error of node j in layer l</li>
-        </ul>
-      </li>
-      <li>aj^l is the activation of node j in layer l
-        <ul>
-          <li>activation would have some error compared to the “real” value</li>
-          <li>delta calculates this error</li>
-        </ul>
-      </li>
-      <li>But the “real” value is an issue
-        <ul>
-          <li>The neural network is an artificial construct we made</li>
-          <li>We have to use the actual output, y and work from there</li>
-        </ul>
-      </li>
-      <li>Work from the last/output layer, L
-        <ul>
-          <li>If L = 4</li>
-          <li>delta^4 = a^4 - y</li>
-        </ul>
-      </li>
-      <li>We can determine error in the preceding layers once we’ve the error from the output layer
-        <ul>
-          <li>delta^3</li>
-          <li>delta^2</li>
-          <li>There is no error in the first layer as it’s simply the actual input x</li>
-        </ul>
-      </li>
-      <li>Once we get the deltas, we can calculate the gradient or the partial derivative of the cost function</li>
-      <li>Terms in equation
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/terms.png" alt="" />
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation2.png" alt="" /></li>
-      <li>Dimensions
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/bp.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Backpropagation Algorithm
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation3.png" alt="" /></li>
-</ul>
-
-<h3 id="d-backpropagation-intuition">1d. Backpropagation Intuition</h3>
-<ul>
-  <li>Forward Propagation
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation2.png" alt="" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/forwardpropagation3.png" alt="" /></li>
-  <li>Backpropagation’s cost function with 1 output unit
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/costfunction.png" alt="" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/backpropagation4.png" alt="" /></li>
-</ul>
-
-<h2 id="backpropagation-in-practice">2. Backpropagation in Practice</h2>
-
-<h3 id="a-unrolling-parameters">2a. Unrolling Parameters</h3>
-<ul>
-  <li>Advanced optimization
-    <ul>
-      <li>Issue here is that we’ve to unroll the matrices into vectors for the algorithm fminunc
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Example
-    <ul>
-      <li>s1 (layer 1 units) = 10</li>
-      <li>s2 (layer 2 units) = 10</li>
-      <li>s3 (layer 3 units) = 1</li>
-      <li>Ɵ1(:) unrolls into a vector</li>
-      <li>You can go back with reshape by pulling up each bunch of elements and reshape accordingly
-        <ul>
-          <li>thetaVec(1:110) pulls up Ɵ1, the first 10 x 11 elements
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam2.png" alt="" /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Learning Algorithm
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/unrollparam3.png" alt="" /></li>
-</ul>
-
-<h3 id="b-gradient-checking">2b. Gradient Checking</h3>
-<ul>
-  <li>It might look like J(Ɵ) is decreasing
-    <ul>
-      <li>But you might not know that there is a bug</li>
-      <li>You can do gradient checking to ensure your implementation is 100% correct</li>
-    </ul>
-  </li>
-  <li>We can numerically estimate gradients
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est.png" alt="" /></li>
-  <li>Octave implementation
-    <ul>
-      <li>n is the dimension of Ɵ
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est2.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Implementation Note
-    <ul>
-      <li>Always turn off your numerical checking code as it’s very slow to execute
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/numerical_gradient_est3.png" alt="" /></li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="c-random-initialization">2c. Random Initialization</h3>
-<ul>
-  <li>Initial value of Ɵ
-    <ul>
-      <li>Initialising Ɵ with zeros would not work for neural networks</li>
-      <li>After each update, parameters corresponding to inputs going into each of two hidden units are identical</li>
-      <li>You NN would not learn anything interesting</li>
-      <li>Solution is to have a random initialisation
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/zerotheta_initialisation.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Random initialization: symmetry breaking
-    <ul>
-      <li>You will be able to use gradient descent or any advanced optimisation methods to find good values for theta
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/random_initialisation.png" alt="" /></li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="d-putting-everything-together">2d. Putting everything together</h3>
-<ul>
-  <li>NN’s layers
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/training_nn.png" alt="" /></li>
-  <li>Six steps for training a neural network
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/4steps.png" alt="" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/2steps.png" alt="" /></li>
-  <li>J(Ɵ) closeness to actual values
-    <ul>
-      <li>Gradient descent: taking little steps downhill to find lowest J(theta)</li>
-      <li>Backpropagation: computing direction of gradient
-        <ul>
-          <li>Able to fit non-linear functions
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w5_neural_networks_learning/jtheta2.png" alt="" /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
 
 
 <div class="tags">
@@ -629,11 +636,11 @@ $('#toc').on('click', 'a', function() {
 </div>
     <!--<div>
 
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/neural-networks-learning/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/machine-learning-large-scale/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=Neural Networks (Learning)&url=http://www.ritchieng.com/neural-networks-learning/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=Large Scale Machine Learning&url=http://www.ritchieng.com/machine-learning-large-scale/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/neural-networks-learning/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/machine-learning-large-scale/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
     <br />

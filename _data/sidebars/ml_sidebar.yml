@@ -42,6 +42,15 @@ entries:
     - title: Dimensionality Reduction
       url: /machine-learning-dimensionality-reduction/
       output: web
+    - title: Anomaly Detection
+      url: /machine-learning-anomaly-detection/
+      output: web
+    - title: Recommender Systems
+      url: /machine-learning-recommender-systems/
+      output: web
+    - title: Large Scale Machine Learning
+      url: /machine-learning-large-scale/
+      output: web
   - title: Machine Learning in Octave/Matlab
     output: web
     folderitems:
