@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Predicting movie ratings, collaborative filtering, and low rank matrix factorization.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Machine Learning Overview  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
+<title>Recommender Systems  | Machine Learning, Data Science, Algorithmic Trading & Public Policy</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -80,15 +80,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Machine Learning Overview</title>
-<meta property="og:title" content="Machine Learning Overview" />
+<title>Recommender Systems</title>
+<meta property="og:title" content="Recommender Systems" />
 <meta name="description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <link rel="canonical" href="http://www.ritchieng.com/machine-learning-recommender-systems/" />
 <meta property='og:url' content='http://www.ritchieng.com/machine-learning-recommender-systems/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Machine Learning Overview" />
+<meta name="twitter:title" content="Recommender Systems" />
 <meta name="twitter:description" content="I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -100,7 +100,7 @@
 
     "@type" : "WebPage",
 
-    "headline": "Machine Learning Overview",
+    "headline": "Recommender Systems",
 
     "description": "I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!",
 
@@ -158,7 +158,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Machine Learning Overview">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Recommender Systems">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -340,7 +340,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Machine Learning Overview</h1>
+   <h1 class="post-title-main">Recommender Systems</h1>
 </div>
 
 
@@ -472,7 +472,18 @@ $('#toc').on('click', 'a', function() {
 <h3 id="a-vectorization-low-rank-matrix-factorization">3a. Vectorization: Low Rank Matrix Factorization</h3>
 <ul>
   <li>Low rank matrix factorization
+    <ul>
+      <li>Y matrix: all the predicted ratings</li>
+      <li>We conduct matrix factorization by decomposing the matrix into a product of matrices
+        <ul>
+          <li>X matrix: features of each movie stacked in rows</li>
+          <li>H matrix: parameters of each user stacked in rows</li>
+          <li>Product of X and H_transpose equals Y matrix
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w9_anomaly_recommender/anomaly_detection34.png" alt="" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>Finding related movies
 <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w9_anomaly_recommender/anomaly_detection35.png" alt="" /></li>
 </ul>
@@ -513,7 +524,7 @@ $('#toc').on('click', 'a', function() {
 
     <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/machine-learning-recommender-systems/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=Machine Learning Overview&url=http://www.ritchieng.com/machine-learning-recommender-systems/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=Recommender Systems&url=http://www.ritchieng.com/machine-learning-recommender-systems/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
     <a href="http://plus.google.com/share?url=http://www.ritchieng.com/machine-learning-recommender-systems/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 

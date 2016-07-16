@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Overview
+title: Recommender Systems
 keywords: machine_learning
 summary: "Predicting movie ratings, collaborative filtering, and low rank matrix factorization."
 sidebar: ml_sidebar
@@ -64,6 +64,11 @@ This is an important practical application of machine learning. Netflix, Spotify
 
 ### 3a. Vectorization: Low Rank Matrix Factorization
 - Low rank matrix factorization
+    - Y matrix: all the predicted ratings
+    - We conduct matrix factorization by decomposing the matrix into a product of matrices
+        - X matrix: features of each movie stacked in rows
+        - H matrix: parameters of each user stacked in rows
+        - Product of X and H_transpose equals Y matrix
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w9_anomaly_recommender/anomaly_detection34.png)
 - Finding related movies
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w9_anomaly_recommender/anomaly_detection35.png)
