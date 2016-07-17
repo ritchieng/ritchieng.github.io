@@ -3,6 +3,9 @@ entries:
 - title: Sidebar
   product: Machine Learning
   folders:
+  - title: Machine Learning Resources
+    url: /machine-learning-resources/
+    output: web
   - title: Intro (Stanford University)
     output: web
     folderitems:

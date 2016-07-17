@@ -78,10 +78,10 @@ programming-languages:
 
 
 
-machine-learning:
+machine-learning-resources:
   title: "Machine Learning"
-  url: "machine-learning"
-  link: "<a href='/machine-learning/'>Machine Learning</a>"
+  url: "machine-learning-resources"
+  link: "<a href='/machine-learning-resources/'>Machine Learning</a>"
 
 
 

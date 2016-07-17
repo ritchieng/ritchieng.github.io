@@ -176,11 +176,31 @@
 
 
 {
+"title": "Machine Learning Photo OCR",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-photo-ocr/",
+"summary": "Pipeline, sliding windows, artificial data synthesis, and ceiling analysis."
+},
+
+
+
+{
 "title": "Recommender Systems",
 "tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/machine-learning-recommender-systems/",
 "summary": "Predicting movie ratings, collaborative filtering, and low rank matrix factorization."
+},
+
+
+
+{
+"title": "Machine Learning Resources",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-resources/",
+"summary": "Discover how you can become a machine learning engineer with free and paid online resources."
 },
 
 
@@ -253,6 +273,16 @@
 
 
 
+
+
+{
+"title": "Completed Machine Learning by Andrew Ng, Stanford University!",
+"tags": "newsmachine_learningbecoming_a_coder",
+"keywords": "",
+"url": "/completed-machine-learning-andrew-ng-stanford/",
+"summary": "After almost a month or so, I have completed Andrew Ng's course on Machine Learning!"
+}
+,
 
 
 {
