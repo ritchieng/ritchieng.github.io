@@ -51,15 +51,9 @@ entries:
     - title: Large Scale Machine Learning
       url: /machine-learning-large-scale/
       output: web
-  - title: Machine Learning in Octave/Matlab
-    output: web
-    folderitems:
-#      - title: Linear Regression
-#        url: /linear-regression-octave/
-#        output: web
-#      - title: Logistic Regression
-#        url: /logistic-regression-octave/
-#        output: web
+    - title: Photo OCR
+      url: /machine-learning-photo-ocr/
+      output: web
   - title: Machine Learning in Python
     output: web
     folderitems:
