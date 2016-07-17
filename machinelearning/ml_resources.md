@@ -15,6 +15,7 @@ These are the resources you can use to become a machine learning engineer. All r
 ### 1. Learn Machine Learning Theory
 - [Machine Learning, Stanford University](https://www.coursera.org/learn/machine-learning)
 - [Machine Learning, Carnegie Mellon University](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml)
+- [Machine Learning, California Institute of Technology](http://work.caltech.edu/library/index.html)
 - [Machine Learning, Data School](http://www.dataschool.io/machine-learning-with-scikit-learn/)
  
 ### 2. Learn Python
