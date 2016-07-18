@@ -4,9 +4,12 @@ entries:
   product: Machine Learning
   folders:
   - title: Machine Learning Resources
-    url: /machine-learning-resources/
     output: web
-  - title: Intro (Stanford University)
+    folderitems:
+    - title: Online Resources
+      url: /machine-learning-resources/
+      output: web
+  - title: Machine Learning Theory
     output: web
     folderitems:
     - title: Overview
@@ -60,3 +63,9 @@ entries:
   - title: Machine Learning in Python
     output: web
     folderitems:
+    - title: Introduction
+      url: /machine-learning-intro-data-school/
+      output: web
+    - title: Linear Regression
+      url: /machine-learning-linear-regression-ds/
+      output: web

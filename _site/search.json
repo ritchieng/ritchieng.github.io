@@ -96,6 +96,16 @@
 
 
 {
+"title": "Machine Learning Introduction",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-intro-data-school/",
+"summary": "Machine Learning introduction by Data School"
+},
+
+
+
+{
 "title": "Machine Learning Overview",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -121,6 +131,16 @@
 "keywords": "machine_learning",
 "url": "/linear-algebra-machine-learning/",
 "summary": "Matrices, vectors, addition, scalar multiplication, matrix vector multiplication, matrix matrix multiplication, properties of matrix multiplication, inverse matrix and transposing matrices."
+},
+
+
+
+{
+"title": "Machine Learning Linear Regression",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-linear-regression-ds/",
+"summary": "Linear Regression using <scikit-learn></scikit-learn> by Data School"
 },
 
 
