@@ -41,4 +41,4 @@ I am currently based in a sunny island called Singapore.
 ## Headshot
 Just to put a face on this website, this is me!
 <br />
-![Ritchie Ng](http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/ritchieng_web_small_tyffvp.jpg)
+![Ritchie Ng](http://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
