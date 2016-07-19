@@ -3,7 +3,7 @@ title:  "Machine Learning by Andrew Ng, Stanford University"
 published: true
 permalink: /machine-learning-the-beginning/
 summary: "I just started on Machine Learning by Andrew Ng from Stanford University."
-tags: [news, machine_learning, becoming_a_coder]
+tags: [news, machine_learning, becoming_a_machine_learning_engineer]
 ---
 
 ## Machine Learning by Andrew Ng

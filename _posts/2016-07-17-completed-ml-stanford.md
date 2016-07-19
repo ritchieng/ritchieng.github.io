@@ -3,7 +3,7 @@ title:  "Completed Machine Learning by Andrew Ng, Stanford University!"
 published: true
 permalink: /completed-machine-learning-andrew-ng-stanford/
 summary: "After almost a month or so, I have completed Andrew Ng's course on Machine Learning!"
-tags: [news, machine_learning, becoming_a_coder]
+tags: [news, machine_learning, becoming_a_machine_learning_engineer]
 ---
 
 ## Machine Learning by Andrew Ng

@@ -5,8 +5,8 @@
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 Jul 2016 03:10:15 +0800</pubDate>
-        <lastBuildDate>Wed, 20 Jul 2016 03:10:15 +0800</lastBuildDate>
+        <pubDate>Wed, 20 Jul 2016 03:18:19 +0800</pubDate>
+        <lastBuildDate>Wed, 20 Jul 2016 03:18:19 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
@@ -42,7 +42,7 @@
             
             <category>machine_learning</category>
             
-            <category>becoming_a_coder</category>
+            <category>becoming_a_machine_learning_engineer</category>
             
             
         </item>
@@ -67,7 +67,7 @@
             
             <category>machine_learning</category>
             
-            <category>becoming_a_coder</category>
+            <category>becoming_a_machine_learning_engineer</category>
             
             
         </item>
@@ -129,6 +129,8 @@ And so I begin…&lt;/p&gt;
             <guid isPermaLink="true">http://www.ritchieng.com/welcome-ritchieng/</guid>
             
             <category>news</category>
+            
+            <category>becoming_a_machine_learning_engineer</category>
             
             
         </item>
