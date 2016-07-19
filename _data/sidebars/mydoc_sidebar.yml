@@ -18,8 +18,8 @@ entries:
     - title: News
       url: /tag_news/
       output: web
-    - title: Becoming a Coder
-      url: /tag_becoming_a_coder/
+    - title: Becoming a Machine Learning Engineer
+      url: /tag_becoming_a_machine_learning_engineer/
       output: web
     - title: Machine Learning
       url: /tag_machine_learning/

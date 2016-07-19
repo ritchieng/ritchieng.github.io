@@ -17,10 +17,10 @@ tag_news:
 
 
  
-tag_becoming_a_coder:
-  title: "Becoming a Coder"
-  url: /tag_becoming_a_coder/
-  link: <a href="/tag_becoming_a_coder/">Becoming a Coder</a>
+tag_becoming_a_machine_learning_engineer:
+  title: "Becoming a Machine Learning Engineer"
+  url: /tag_becoming_a_machine_learning_engineer/
+  link: <a href="/tag_becoming_a_machine_learning_engineer/">Becoming a Machine Learning Engineer</a>
 
 
  
