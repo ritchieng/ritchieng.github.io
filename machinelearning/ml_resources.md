@@ -23,6 +23,7 @@ These are the resources you can use to become a machine learning engineer. All r
 ### 2. Learn Python
 - [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
+- [Python, Google](https://developers.google.com/edu/python/)
 - [Pandas, Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/)
 - [IPython Notebook Introduction, Stanford](http://cs231n.github.io/ipython-tutorial/)
 
@@ -46,6 +47,14 @@ These are the resources you can use to become a machine learning engineer. All r
 - [Decision Trees, The Grimm Scientist](http://thegrimmscientist.com/2014/10/23/tutorial-decision-trees/)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Theano Tutorial](http://nbviewer.jupyter.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
+- Neural Networks Demystified with Python, Welch Labs
+    - [Part 1: Data and Architecture](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
+    - [Part 2: Forward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
+    - [Part 3: Gradient Descent](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-3-gradient-descent)
+    - [Part 4: Backward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-4-backpropagation)
+    - [Part 5: Numerical Gradient Checking](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-5-numerical-gradient-checking)
+    - [Part 6: BFGS Numerical Optimization Algorithm](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-6)
+    - [Part 7: Overfitting, Testing and Regularization](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-7-overfitting-testing-and-regularization)
 
 ### 4. Learn Data Science with Python
 These are related to Machine Learning in teaching data mining, data munging (wrangling), data visualization and more.
@@ -54,10 +63,16 @@ These are related to Machine Learning in teaching data mining, data munging (wra
 - [Data Analyst Nanodegree, Udacity](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
 - [Microsoft Professional Degree in Data Science](https://academy.microsoft.com/en-US/professional-degree/data-science)
 
-### 5. Learn Mathematics
-- [Discete Mathematics, MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
+### 5. Learn Algorithmic Trading with Python
+- [Algorithmic Trading, Quantstart](https://www.quantstart.com/successful-algorithmic-trading-ebook)
+- [Advanced Algorithmic Trading, Quantstart](https://www.quantstart.com/advanced-algorithmic-trading-ebook)
 
-### 6. Machine Learning Research
+### 6. Learn Mathematics
+- [Discrete Mathematics, MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
+- [Linear Algebra, MIT](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+- [Single Variable Calculus, MIT](http://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
+
+### 7. Machine Learning Research
 - [Journal of Machine Learning Research](http://www.jmlr.org)
 - [IEEE Transactions on Pattern Analysis and Machine Intelligence](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
 - [Artificial Intelligence](http://www.sciencedirect.com/science/journal/00043702)
