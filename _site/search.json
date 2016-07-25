@@ -16,6 +16,16 @@
 
 
 {
+"title": "K-nearest Neighbors (KNN) Classification Model",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-k-nearest-neighbors-knn/",
+"summary": "Train a KNN classification model with scikit-learn"
+},
+
+
+
+{
 "title": "Introductory Octave for Machine Learning",
 "tags": "octave",
 "keywords": "octave",
@@ -76,6 +86,16 @@
 
 
 {
+"title": "Cross-Validation",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-cross-validation/",
+"summary": "Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection"
+},
+
+
+
+{
 "title": "Machine Learning Systems Design",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -96,11 +116,31 @@
 
 
 {
+"title": "Optimal Tuning Parameters",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-efficiently-search-tuning-param/",
+"summary": "Efficiently Searching Optimal Tuning Parameters"
+},
+
+
+
+{
+"title": "Evaluating a Classification Model",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-evaluate-classification-model/",
+"summary": "ROC, AUC, confusion matrix, and metrics"
+},
+
+
+
+{
 "title": "Machine Learning Introduction",
 "tags": "machine_learning",
 "keywords": "machine_learning",
-"url": "/machine-learning-intro-data-school/",
-"summary": "Machine Learning introduction by Data School"
+"url": "/machine-learning-intro-easy/",
+"summary": "An easy introduction to machine learning"
 },
 
 
@@ -111,6 +151,26 @@
 "keywords": "machine_learning",
 "url": "/machine-learning/",
 "summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
+"title": "IPython Introduction",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/ipython-introduction/",
+"summary": "Quick IPython introduction for machine learning"
+},
+
+
+
+{
+"title": "Iris Dataset",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-iris-dataset/",
+"summary": "Getting started with the famous Iris dataset"
 },
 
 
@@ -139,8 +199,8 @@
 "title": "Machine Learning Linear Regression",
 "tags": "machine_learning",
 "keywords": "machine_learning",
-"url": "/machine-learning-linear-regression-ds/",
-"summary": "Linear Regression using scikit-learn by Data School"
+"url": "/machine-learning-linear-regression/",
+"summary": "Machine Learning introduction by Data School"
 },
 
 

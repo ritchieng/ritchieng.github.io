@@ -55,7 +55,11 @@ These are the resources you can use to become a machine learning engineer. All r
     - [Part 5: Numerical Gradient Checking](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-5-numerical-gradient-checking)
     - [Part 6: BFGS Numerical Optimization Algorithm](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-6)
     - [Part 7: Overfitting, Testing and Regularization](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-7-overfitting-testing-and-regularization)
-
+- Andreas Mueller
+    - [Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python)
+    - [Scikit-learn tutorial](https://github.com/amueller/scipy-2016-sklearn)
+    - [Advanced scikit-learn](https://github.com/amueller/advanced_training)
+    
 ### 4. Learn Data Science with Python
 These are related to Machine Learning in teaching data mining, data munging (wrangling), data visualization and more.
 

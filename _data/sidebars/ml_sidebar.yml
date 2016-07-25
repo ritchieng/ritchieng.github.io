@@ -63,9 +63,27 @@ entries:
   - title: Machine Learning in Python
     output: web
     folderitems:
-    - title: Introduction
-      url: /machine-learning-intro-data-school/
+    - title: Introduction to Machine Learning
+      url: /machine-learning-intro-easy/
       output: web
-    - title: Linear Regression
-      url: /machine-learning-linear-regression-ds/
+    - title: IPython Introduction
+      url: /ipython-introduction/
+      output: web
+    - title: Iris Dataset
+      url: /machine-learning-iris-dataset/
+      output: web
+    - title: K-nearest Neighbors (KNN) Classification Model
+      url: /machine-learning-k-nearest-neighbors-knn/
+      output: web
+    - title: Linear Regression Model
+      url: /machine-learning-linear-regression/
+      output: web
+    - title: Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection
+      url: /machine-learning-cross-validation/
+      output: web
+    - title: Efficiently Searching Optimal Tuning Parameters
+      url: /machine-learning-efficiently-search-tuning-param/
+      output: web
+    - title: Evaluating a Classification Model
+      url: /machine-learning-evaluate-classification-model/
       output: web
