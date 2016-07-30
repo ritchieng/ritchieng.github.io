@@ -5,9 +5,55 @@
         <description>I am Ritchie Ng, a budding programmer specialising in data science, machine learning and algorithmic trading. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 Jul 2016 02:47:54 +0800</pubDate>
-        <lastBuildDate>Wed, 27 Jul 2016 02:47:54 +0800</lastBuildDate>
+        <pubDate>Sat, 30 Jul 2016 11:45:47 +0800</pubDate>
+        <lastBuildDate>Sat, 30 Jul 2016 11:45:47 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>Started on Data School&#39;s free Machine Learning tutorials</title>
+            <description>&lt;h2 id=&quot;machine-learning-with-scikit-learn-with-data-school&quot;&gt;Machine Learning with scikit-learn with Data School&lt;/h2&gt;
+
+&lt;p&gt;This is a free course offered by Data School.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/machine-learning-with-scikit-learn/&quot;&gt;Machine Learning with scikit-learn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Introduction to Pandas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+&lt;p&gt;The course is good for people who have completed Andrew Ng’s class on Machine Learning. You would start to realise how scikit-learn automates a lot of the low-level Octave code you implemented in Andrew Ng’s class from the simple gradient descent algorithm, to regularization, and the mind-boggling neural networks. Although I will be writing more on Neural Networks using Tensorflow (formerly known as Skflow).&lt;/p&gt;
+
+&lt;p&gt;Also, the tutorials offered by Data School are good for people who are new to scikit-learn and Python in general. If you do not want to watch his free open-source videos, you can check out my notes on all his tutorials.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-intro-easy/&quot;&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/ipython-introduction/&quot;&gt;IPython Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-iris-dataset/&quot;&gt;Exploring Iris Dataset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-k-nearest-neighbors-knn/&quot;&gt;KNN Classification Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-linear-regression/&quot;&gt;Linear Regression Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-cross-validation/&quot;&gt;Cross-validation for Parameter Tuning, Model Selection and Feature Selection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/&quot;&gt;Efficiently Searching Optimal Tuning Parameters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-evaluate-classification-model/&quot;&gt;Evaluating a Classification Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hope you enjoyed the notes I have derived from Data School! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer.&lt;/p&gt;
+
+&lt;p&gt;I will be moving on to Udacity’s Machine Learning nanodegree along with other online resources where I will document my progress. You can view my personal list on how to be a Machine Learning Engineer &lt;a href=&quot;http://www.ritchieng.com/machine-learning-resources/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All the best, Ritchie.&lt;/p&gt;
+</description>
+            <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/completed-machine-learning-data-school-start/</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/completed-machine-learning-data-school-start/</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            <category>becoming_a_machine_learning_engineer</category>
+            
+            
+        </item>
         
         <item>
             <title>Completed Machine Learning by Andrew Ng, Stanford University!</title>

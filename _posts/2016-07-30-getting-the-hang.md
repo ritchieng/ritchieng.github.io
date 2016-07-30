@@ -1,7 +1,7 @@
 ---
 title:  "Started on Data School's free Machine Learning tutorials"
 published: true
-permalink: /completed-machine-learning-andrew-ng-stanford/
+permalink: /completed-machine-learning-data-school-start/
 summary: "I have gone on from Andrew Ng's class on Machine Learning to applying the concepts using scikit-learn and wrangling data using Pandas through Data School's tutorial"
 tags: [news, machine_learning, becoming_a_machine_learning_engineer]
 ---
@@ -9,6 +9,7 @@ tags: [news, machine_learning, becoming_a_machine_learning_engineer]
 ## Machine Learning with scikit-learn with Data School
  
 This is a free course offered by Data School. 
+
 - [Machine Learning with scikit-learn](http://www.dataschool.io/machine-learning-with-scikit-learn/)
 - [Introduction to Pandas](http://www.dataschool.io/easier-data-analysis-with-pandas/)
 
