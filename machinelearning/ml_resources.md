@@ -30,9 +30,8 @@ These are the resources you can use to become a machine learning engineer. All r
 ### 3. Learn Machine Learning with Python
 - Data School
     - [Machine Learning with scikit-learn](http://www.dataschool.io/machine-learning-with-scikit-learn/)
-    - [Linear Regression](http://www.dataschool.io/linear-regression-in-python/)
-    - [Logistic Regression](http://www.dataschool.io/logistic-regression-in-python-using-scikit-learn/)
     - [Comparing Supervised Learning Algorithm](http://www.dataschool.io/comparing-supervised-learning-algorithms/)
+- [Machine Learning, General Assembly, Washington](
 - [Machine Learning Nanodegree, Udacity](https://www.udacity.com/degrees/machine-learning-engineer-nanodegree-by-google--nd009)
 - Jake Vanderplas
     - [Introduction to scikit-learn](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb)
