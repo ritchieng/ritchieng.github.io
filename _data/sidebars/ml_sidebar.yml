@@ -78,6 +78,9 @@ entries:
     - title: Linear Regression Model
       url: /machine-learning-linear-regression/
       output: web
+    - title: Linear Regression Model Evaluation
+      url: /machine-learning-evaluate-linear-regression-model/
+      output: web
     - title: Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection
       url: /machine-learning-cross-validation/
       output: web

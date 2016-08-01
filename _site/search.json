@@ -206,6 +206,16 @@
 
 
 {
+"title": "Evaluating a Linear Regression Model",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-evaluate-linear-regression-model/",
+"summary": "Confidence in model, hypothesis testing, p-values, feature selection, train/test split"
+},
+
+
+
+{
 "title": "Logistic Regression",
 "tags": "machine_learning",
 "keywords": "machine_learning",
