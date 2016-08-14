@@ -90,3 +90,6 @@ entries:
     - title: Evaluating a Classification Model
       url: /machine-learning-evaluate-classification-model/
       output: web
+    - title: Vectorization, Multinomial Naive Bayes Classifier and Evaluation
+      url: /machine-learning-multinomial-naive-bayes-vectorization/
+      output: web
