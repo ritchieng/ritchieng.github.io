@@ -92,5 +92,12 @@ news:
 
 
 
+search:
+  title: "Search"
+  url: "search"
+  link: "<a href='/search/'>Search</a>"
+
+
+
 
 

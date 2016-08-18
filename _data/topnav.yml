@@ -9,6 +9,8 @@ topnav:
       url: /machine-learning-resources/
     - title: Blog
       url: /news/
+    - title: Search
+      url: /search/
 
 
 #Topnav dropdowns
