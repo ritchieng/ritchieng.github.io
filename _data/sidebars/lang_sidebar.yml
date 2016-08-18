@@ -88,7 +88,7 @@ entries:
       url: /pandas-changing-display-options/
       output: web
     - title: Creating a DataFrame from objects
-      url: /pandas-creating-dataframe-from-objects/
+      url: /creating-dataframe-from-objects/
       output: web
   - title: Python
     output: web
