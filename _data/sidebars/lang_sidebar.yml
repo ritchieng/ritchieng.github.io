@@ -1,10 +1,95 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
-
 entries:
 - title: Sidebar
   product: Programming Languages
   folders:
+  - title: Pandas
+    output: web
+    folderitems:
+    - title: Introduction to Pandas
+      url: /pandas-introduction/
+      output: web
+    - title: Reading Tabular Data
+      url: /pandas-reading-tabular-data/
+      output: web
+    - title: Selecting Pandas Series
+      url: /pandas-selecting-series/
+      output: web
+    - title: Pandas Parentheses
+      url: /pandas-parentheses/
+      output: web
+    - title: Renaming Columns
+      url: /pandas-renaming-columns/
+      output: web
+    - title: Removing Columns
+      url: /pandas-removing-columns/
+      output: web
+    - title: Sorting
+      url: /pandas-sorting/
+      output: web
+    - title: Filtering
+      url: /pandas-filtering/
+      output: web
+    - title: Multiple Criteria Filtering
+      url: /pandas-multi-criteria-filtering/
+      output: web
+    - title: Examining Dataset
+      url: /pandas-examining/
+      output: web
+    - title: Using "axis" Parameter
+      url: /pandas-axis-parameter/
+      output: web
+    - title: Using String Methods
+      url: /pandas-string-methods/
+      output: web
+    - title: Changing data type
+      url: /pandas-changing-datatype/
+      output: web
+    - title: Using "groupby"
+      url: /pandas-groupby/
+      output: web
+    - title: Exploring Series
+      url: /pandas-exploring-series/
+      output: web
+    - title: Handling Missing Values
+      url: /pandas-handling-missing-values/
+      output: web
+    - title: Using Pandas Index
+      url: /pandas-pandas-index/
+      output: web
+    - title: Selecting Multiple Rows and Columns
+      url: /pandas-selecting-multiple-rows-and-columns/
+      output: web
+    - title: Using "inplace" parameter
+      url: /pandas-inplace-parameter/
+      output: web
+    - title: Making DataFrame Smaller and Faster
+      url: /pandas-making-dataframe-smaller-faster/
+      output: web
+    - title: Pandas and Scikit-Learn
+      url: /pandas-scikit-learn/
+      output: web
+    - title: Randomly Sample Rows
+      url: /pandas-randomly-sample-rows/
+      output: web
+    - title: Creating Dummy Variables
+      url: /pandas-creating-dummy-variables/
+      output: web
+    - title: Working with Date and Time
+      url: /pandas-date-time/
+      output: web
+    - title: Removing duplicate rows
+      url: /pandas-removing-duplicate-rows/
+      output: web
+    - title: Filtering and Converting Series to NaN
+      url: /pandas-filtering-converting-series-NaN/
+      output: web
+    - title: Changing Display Options
+      url: /pandas-changing-display-options/
+      output: web
+    - title: Creating a DataFrame from objects
+      url: /pandas-creating-dataframe-from-objects/
+      output: web
   - title: Python
     output: web
     folderitems:

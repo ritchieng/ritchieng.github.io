@@ -1,6 +1,266 @@
 [
 
 
+{
+"title": "Examining Dataset",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-examining/",
+"summary": ""
+},
+
+
+
+{
+"title": "Using &quot;axis&quot; Parameter",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-axis-parameter/",
+"summary": ""
+},
+
+
+
+{
+"title": "Using String Methods",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-string-methods/",
+"summary": ""
+},
+
+
+
+{
+"title": "Changing data type",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-changing-datatype/",
+"summary": ""
+},
+
+
+
+{
+"title": "Using &quot;groupby&quot;",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-groupby/",
+"summary": ""
+},
+
+
+
+{
+"title": "Exploring Series",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-exploring-series/",
+"summary": ""
+},
+
+
+
+{
+"title": "Handling Missing Values",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-handling-missing-values/",
+"summary": ""
+},
+
+
+
+{
+"title": "Using Pandas Index",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-pandas-index/",
+"summary": ""
+},
+
+
+
+{
+"title": "Selecting Multiple Rows and Columns",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-selecting-multiple-rows-and-columns/",
+"summary": ""
+},
+
+
+
+{
+"title": "Using &quot;inplace&quot; parameter",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-inplace-parameter/",
+"summary": ""
+},
+
+
+
+{
+"title": "Introduction to Pandas",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-introduction/",
+"summary": ""
+},
+
+
+
+{
+"title": "Making DataFrame Smaller and Faster",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-making-dataframe-smaller-faster/",
+"summary": ""
+},
+
+
+
+{
+"title": "Pandas and Scikit-Learn",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-scikit-learn/",
+"summary": ""
+},
+
+
+
+{
+"title": "Randomly Sample Rows",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-randomly-sample-rows/",
+"summary": ""
+},
+
+
+
+{
+"title": "Creating Dummy Variables",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-creating-dummy-variables/",
+"summary": ""
+},
+
+
+
+{
+"title": "Working with Date and Time",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-date-time/",
+"summary": ""
+},
+
+
+
+{
+"title": "Removing duplicate rows",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-removing-duplicate-rows/",
+"summary": ""
+},
+
+
+
+{
+"title": "Filtering and Converting Series to NaN",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-filtering-converting-series-NaN/",
+"summary": ""
+},
+
+
+
+{
+"title": "Reading Tabular Data",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-reading-tabular-data/",
+"summary": ""
+},
+
+
+
+{
+"title": "Selecting Pandas Series",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-selecting-series/",
+"summary": ""
+},
+
+
+
+
+
+{
+"title": "Pandas Parentheses",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-parentheses/",
+"summary": ""
+},
+
+
+
+{
+"title": "Renaming Columns",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-renaming-columns/",
+"summary": ""
+},
+
+
+
+{
+"title": "Removing Columns",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-removing-columns/",
+"summary": ""
+},
+
+
+
+{
+"title": "Sorting",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-sorting/",
+"summary": ""
+},
+
+
+
+{
+"title": "Filtering",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-filtering/",
+"summary": ""
+},
+
+
+
+{
+"title": "Multiple Criteria Filtering",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-multi-criteria-filtering/",
+"summary": ""
+},
+
 
 
 
@@ -342,6 +602,8 @@
 "url": "/news_archive/",
 "summary": ""
 },
+
+
 
 
 
