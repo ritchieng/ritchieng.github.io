@@ -18,7 +18,7 @@ If you do not like reading books or guides, this is a very good series. You migh
 
 Again, I cannot emphasise how Mark has a way to deliver simple and succinct explanations on complicated topics. This is very important for beginners. 
 
-I hope you found the notes that I have derived from the course useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
+I hope you found the [notes](http://www.ritchieng.com/pandas-introduction/) that I have derived from the course useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
 
 I will be moving on to Udacity's Machine Learning nanodegree along with other online resources where I will document my progress. You can view my personal list on how to be a Machine Learning Engineer [here](http://www.ritchieng.com/machine-learning-resources/).
 
