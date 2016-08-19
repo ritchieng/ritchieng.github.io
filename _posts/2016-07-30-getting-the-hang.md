@@ -28,6 +28,6 @@ Also, the tutorials offered by Data School are good for people who are new to sc
 7. [Efficiently Searching Optimal Tuning Parameters](http://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/)
 8. [Evaluating a Classification Model](http://www.ritchieng.com/machine-learning-evaluate-classification-model/)
 
-I hope you found my notes useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
+I hope you found my [notes](http://www.ritchieng.com/machine-learning-intro-easy/) useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
 
 I will be moving on [Pandas Series by Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/). Pandas plays an important role in data wrangling. Check out my review on this series soon!
