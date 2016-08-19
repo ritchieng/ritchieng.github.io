@@ -1,5 +1,5 @@
 ---
-title:  "Started on Data School's free Machine Learning tutorials"
+title:  "Completed Data School's free Machine Learning tutorials"
 published: true
 permalink: /completed-machine-learning-data-school-start/
 summary: "I have gone on from Andrew Ng's class on Machine Learning to applying the concepts using scikit-learn and wrangling data using Pandas through Data School's tutorial"
@@ -28,8 +28,6 @@ Also, the tutorials offered by Data School are good for people who are new to sc
 7. [Efficiently Searching Optimal Tuning Parameters](http://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/)
 8. [Evaluating a Classification Model](http://www.ritchieng.com/machine-learning-evaluate-classification-model/)
 
-Hope you enjoyed the notes I have derived from Data School! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
+I hope you found my notes useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer. 
 
-I will be moving on to Udacity's Machine Learning nanodegree along with other online resources where I will document my progress. You can view my personal list on how to be a Machine Learning Engineer [here](http://www.ritchieng.com/machine-learning-resources/)
-
-All the best, Ritchie.
+I will be moving on [Pandas Series by Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/). Pandas plays an important role in data wrangling. Check out my review on this series soon!
