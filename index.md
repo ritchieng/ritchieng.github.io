@@ -12,7 +12,7 @@ To document my guides, notes and thoughts on machine learning for trading and pu
 
 I am a self-taught programmer specializing in machine learning for trading and public policy. 
 
-You would come to realise that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics or mathematics in general.
+You would come to realize that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics or mathematics in general.
 
 Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP), National University of Singapore (NUS).
 
@@ -21,9 +21,9 @@ Also, I am an NUS Global Merit Scholar where my school fees, college accommodati
 ## About My Professional Background
 At age 12, I started a gaming business generating thousands in net profit per month. I closed it to pursue my studies.
 
-At age 18, I started a company, Tesglo, specialising in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
+At age 18, I started a company, Tesglo, specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
 
-At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technological infrastructure. I also worked with the Managing Director to lead debt restructuring and equity raising deals in India, Indonesia and Singapore for a year. I realised many areas in the investment banking sector can be automated and I have since dedicated my life to software engineering.
+At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technological infrastructure. I also worked with the Managing Director to lead debt restructuring and equity raising deals in India, Indonesia and Singapore for a year. I realized many areas in the investment banking sector can be automated and I have since dedicated my life to programming.
 
 At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
 
