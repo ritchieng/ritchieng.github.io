@@ -10,7 +10,7 @@ To document my guides, notes and thoughts on machine learning for trading and pu
 
 ## About My Educational Background
 
-I am a self-taught programmer specialising in machine learning for trading and public policy. 
+I am a self-taught programmer specializing in machine learning for trading and public policy. 
 
 You would come to realise that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics or mathematics in general.
 
