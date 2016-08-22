@@ -6,17 +6,17 @@ type: homepage
 ---
 ## Website's Aim
 
-To document my guides, notes and thoughts on machine learning, data science, algorithmic trading and public policy.
+To document my guides, notes and thoughts on machine learning for trading and public policy.
 
 ## About My Educational Background
 
-I am a self-taught programmer specialising in applying data science and machine learning to algorithmic trading. I used to trade stocks in Singapore manually. I had enough of attempting to keep my emotions in check, making manual trades and digesting a huge amount of data manually using Excel. As such, I am currently building an automated end-to-end algorithmic trading ecosystem trading my own assets.
+I am a self-taught programmer specialising in machine learning for trading and public policy. 
 
 You would come to realise that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics or mathematics in general.
 
-Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP) in the National University of Singapore (NUS).
+Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP), National University of Singapore (NUS).
 
-Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey through studying in 3 continents.
+Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey of studying in three continents.
 
 ## About My Professional Background
 At age 12, I started a gaming business generating thousands in net profit per month. I closed it to pursue my studies.
@@ -27,7 +27,7 @@ At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technolog
 
 At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
 
-Currently, I specialize in machine learning, data science, algorithmic trading and public policy. In my free time, I think of ways to use machine learning for the social good.
+Currently, I specialize in machine learning for trading and public policy.
 
 ## Location
 I am currently based in a sunny island called Singapore.
