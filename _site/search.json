@@ -222,6 +222,16 @@
 
 
 {
+"title": "Dot Function",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-dot-function/",
+"summary": "Use pandas dot function on Series and DataFrames"
+},
+
+
+
+{
 "title": "Selecting Pandas Series",
 "tags": "pandas",
 "keywords": "pandas",
@@ -426,6 +436,16 @@
 
 
 {
+"title": "F1 Score",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machinelearning-f1-score/",
+"summary": "Evaluate classification models using F1 score."
+},
+
+
+
+{
 "title": "Machine Learning Introduction",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -471,6 +491,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-large-scale/",
 "summary": "Gradient descent with large data, stochastic gradient descent, mini-batch gradient descent, map reduce, data parallelism, and online learning."
+},
+
+
+
+{
+"title": "Learning Curve",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machinelearning-learning-curve/",
+"summary": "Evaluate bias and variance with a learning curve"
 },
 
 
@@ -556,6 +586,16 @@
 
 
 {
+"title": "One Hot Encoding in Scikit-Learn",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machinelearning-one-hot-encoding/",
+"summary": "Convert categorical data into numerical data automatically"
+},
+
+
+
+{
 "title": "One Variable Linear Regression",
 "tags": "",
 "keywords": "machine_learning",
@@ -631,6 +671,76 @@
 "keywords": "news, blog, updates, release notes, announcements",
 "url": "/news_archive/",
 "summary": ""
+},
+
+
+
+{
+"title": "Create Arrays",
+"tags": "numpy",
+"keywords": "numpy",
+"url": "/numpy-create-arrays/",
+"summary": "Create arrays in Numpy"
+},
+
+
+
+{
+"title": "Indexing and Slicing",
+"tags": "numpy",
+"keywords": "numpy",
+"url": "/numpy-indexing-slicing/",
+"summary": "Manipulate your dataset with Numpy's indexing and slicing capabilities."
+},
+
+
+
+{
+"title": "Matrix Arithmetic",
+"tags": "numpy",
+"keywords": "numpy",
+"url": "/numpy-matrices-arithmetic/",
+"summary": "Multiple, add, and divide element-wise and more with matrices."
+},
+
+
+
+{
+"title": "Mean and dot",
+"tags": "numpy",
+"keywords": "numpy",
+"url": "/numpy-mean-dot/",
+"summary": "Calculate the mean of a row or column, and use the dot multiplication on matrices."
+},
+
+
+
+{
+"title": "Central Tendency",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-central-tendency/",
+"summary": "Calculate mean and median"
+},
+
+
+
+{
+"title": "Variability of Data with Pandas",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-variability/",
+"summary": "Calculate variance, interquartile range and other variance measures"
+},
+
+
+
+{
+"title": "Vectorization Methods",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-vectorization/",
+"summary": "Vectorize your data"
 },
 
 

@@ -162,6 +162,12 @@
   
   
   <url>
+    <loc>http://www.ritchieng.com/pandas-dot-function/</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://www.ritchieng.com/pandas-selecting-series/</loc>
   </url>
   
@@ -286,6 +292,12 @@
   
   
   <url>
+    <loc>http://www.ritchieng.com/machinelearning-f1-score/</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://www.ritchieng.com/machine-learning-intro-easy/</loc>
   </url>
   
@@ -311,6 +323,12 @@
   
   <url>
     <loc>http://www.ritchieng.com/machine-learning-large-scale/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/machinelearning-learning-curve/</loc>
   </url>
   
   
@@ -364,6 +382,12 @@
   
   
   <url>
+    <loc>http://www.ritchieng.com/machinelearning-one-hot-encoding/</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://www.ritchieng.com/one-variable-linear-regression/</loc>
   </url>
   
@@ -407,6 +431,48 @@
   
   <url>
     <loc>http://www.ritchieng.com/news_archive/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/numpy-create-arrays/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/numpy-indexing-slicing/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/numpy-matrices-arithmetic/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/numpy-mean-dot/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/pandas-central-tendency/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/pandas-variability/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://www.ritchieng.com/pandas-vectorization/</loc>
   </url>
   
   
