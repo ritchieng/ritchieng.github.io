@@ -90,6 +90,36 @@ entries:
     - title: Creating a DataFrame from objects
       url: /creating-dataframe-from-objects/
       output: web
+    - title: Apply function to Series and DataFrame
+      url: /pandas-apply/
+      output: web
+    - title: Dot function
+      url: /pandas-dot-function/
+      output: web
+    - title: Calculate Central Tendency Measures
+      url: /pandas-central-tendency/
+      output: web
+    - title: Calculate Variability Measures
+      url: /pandas-variability/
+      output: web
+    - title: Vectorization Methods
+      url: /pandas-vectorization/
+      output: web
+  - title: Numpy
+    output: web
+    folderitems:
+    - title: Create Arrays
+      url: /numpy-create-arrays/
+      output: web
+    - title: Indexing and Slicing
+      url: /numpy-indexing-slicing/
+      output: web
+    - title: Matrix Arithmetic
+      url: /numpy-matrices-arithmetic/
+      output: web
+    - title: Indexing and Slicing
+      url: /numpy-mean-dot/
+      output: web
   - title: Python
     output: web
     folderitems:

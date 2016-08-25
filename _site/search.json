@@ -202,6 +202,16 @@
 
 
 {
+"title": "Apply function to Series and DataFrame",
+"tags": "pandas",
+"keywords": "pandas",
+"url": "/pandas-apply/",
+"summary": "Apply function to Series and DataFrame using .map() and .applymap()"
+},
+
+
+
+{
 "title": "Reading Tabular Data",
 "tags": "pandas",
 "keywords": "pandas",
@@ -632,6 +642,8 @@
 "url": "/search/",
 "summary": ""
 },
+
+
 
 
 

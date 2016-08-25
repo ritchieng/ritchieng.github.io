@@ -51,6 +51,27 @@ tag_python:
   link: <a href="/tag_python/">Python</a>
 
 
+ 
+tag_pandas:
+  title: "Pandas"
+  url: /tag_pandas/
+  link: <a href="/tag_pandas/">Pandas</a>
+
+
+ 
+tag_numpy:
+  title: "Python"
+  url: /tag_numpy/
+  link: <a href="/tag_numpy/">Python</a>
+
+
+ 
+tag_octave:
+  title: "Octave"
+  url: /tag_octave/
+  link: <a href="/tag_octave/">Octave</a>
+
+
 
 
 

@@ -93,3 +93,12 @@ entries:
     - title: Vectorization, Multinomial Naive Bayes Classifier and Evaluation
       url: /machine-learning-multinomial-naive-bayes-vectorization/
       output: web
+    - title: One Hot Encoding
+      url: /machinelearning-one-hot-encoding/
+      output: web
+    - title: F1 Score
+      url: /machinelearning-f1-score/
+      output: web
+    - title: One Hot Encoding
+      url: /machinelearning-learning-curve/
+      output: web
