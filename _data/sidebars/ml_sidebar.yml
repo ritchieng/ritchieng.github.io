@@ -99,6 +99,6 @@ entries:
     - title: F1 Score
       url: /machinelearning-f1-score/
       output: web
-    - title: One Hot Encoding
+    - title: Learning Curve
       url: /machinelearning-learning-curve/
       output: web
