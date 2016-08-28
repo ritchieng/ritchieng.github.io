@@ -102,3 +102,12 @@ entries:
     - title: Learning Curve
       url: /machinelearning-learning-curve/
       output: web
+  - title: Machine Learning Projects
+    output: web
+    folderitems:
+    - title: Titanic Survival Data Exploration
+      url: /machine-learning-project-titanic-survival/
+      output: web
+    - title: Boston House Prices Prediction and Evaluation
+      url: /machine-learning-project-boston-home-prices/
+      output: web

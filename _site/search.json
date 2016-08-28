@@ -616,6 +616,26 @@
 
 
 {
+"title": "Boston Home Prices Prediction and Evaluation",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-project-boston-home-prices/",
+"summary": "Exploring data with pandas, numpy and pyplot, make predictions with a scikit-learn, evaluate using R_2, k-fold cross-validation, learning curves, complexity curves, GridSearchCV, RandomizedSearchCV and more."
+},
+
+
+
+{
+"title": "Titanic Survival Data Exploration",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-project-titanic-survival/",
+"summary": "Exploring data with pandas, numpy and pyplot, make predictions with a simple custom algorithm, and calculate and compare accuracy with a simple custom algorithm."
+},
+
+
+
+{
 "title": "Recommender Systems",
 "tags": "machine_learning",
 "keywords": "machine_learning",
