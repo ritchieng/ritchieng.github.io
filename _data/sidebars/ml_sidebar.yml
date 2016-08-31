@@ -60,7 +60,7 @@ entries:
     - title: Photo OCR
       url: /machine-learning-photo-ocr/
       output: web
-  - title: Machine Learning in Python
+  - title: Machine Learning in Scikit-Learn
     output: web
     folderitems:
     - title: Introduction to Machine Learning
