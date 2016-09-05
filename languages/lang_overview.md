@@ -10,4 +10,6 @@ folder: languages
 ## Languages Available
 
 1. Python
-2. Octave
+2. Pandas (Python)
+3. NumPy (Python)
+4. Octave

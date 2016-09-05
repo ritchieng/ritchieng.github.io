@@ -12,20 +12,20 @@ To document my guides, notes and thoughts on machine learning for trading and pu
 
 I am a self-taught programmer specializing in machine learning for trading and public policy. 
 
-You would come to realize that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics or mathematics in general.
+You would come to realize that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics and mathematics in general.
 
 Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP), National University of Singapore (NUS).
 
-Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! Check out my posts on my journey of studying in three continents.
+Also, I am an NUS Global Merit Scholar where my school fees, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016! It gave me time to concentrate on machine learning too. 
 
 ## About My Professional Background
-At age 12, I started a gaming business generating thousands in net profit per month. I closed it to pursue my studies.
+Before 2014, I started a company, [Tesglo](http://www.tesglo.com), specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
 
-At age 18, I started a company, Tesglo, specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
+In 2014, I joined Indo-Sing Business Advisory [(ISBA)](http://www.isbabiz.com/about/) and built their technological infrastructure. Subsequently, I went on to lead [Moirai's](http://www.moiraidesign.com) web development.
 
-At age 21, I joined Indo-Sing Business Advisory (ISBA) and built their technological infrastructure. I also worked with the Managing Director to lead debt restructuring and equity raising deals in India, Indonesia and Singapore for a year. I realized many areas in the investment banking sector can be automated and I have since dedicated my life to programming.
+In 2015, I co-founded [Kinsheep](http://www.jfdi.asia/blog/jfdi-discover-helps-kinsheep-win-10k) using a full-stack Javascript framework including Ionic, NodeJS and MongoDB. My team shortly clinched the prestigious VaSCo grant from NUS School of Computing.
 
-At age 22, I subsequently dived into tech start-ups and started Kinsheep. My team shortly  clinched the prestigious VaSCo grant from NUS School of Computing.
+In 2016, I went on to become a full-stack Javascript web developer specializing in ReactJS, Meteor and MongoDB and built [reviw.me](https://www.reviw.me) and [PeerCapita](https://www.peercapita.com).
 
 Currently, I specialize in machine learning for trading and public policy.
 
