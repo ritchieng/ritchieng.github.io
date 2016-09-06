@@ -366,6 +366,16 @@
 
 
 {
+"title": "Ensemble Learning, Adaboost",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-ensemble-of-learners-adaboost/",
+"summary": "Bagging, boostrap aggregation, boosting, and adaboost as a boosting method."
+},
+
+
+
+{
 "title": "Anomaly Detection",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -391,6 +401,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-cross-validation/",
 "summary": "Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection"
+},
+
+
+
+{
+"title": "Decision Trees",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-decision-trees/",
+"summary": "Decision Trees, ID3, Entropy, Information again and more."
 },
 
 
@@ -441,6 +461,16 @@
 "keywords": "machine_learning",
 "url": "/machinelearning-f1-score/",
 "summary": "Evaluate classification models using F1 score."
+},
+
+
+
+{
+"title": "Gaussian Naive Bayes",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-gaussian-naive-bayes/",
+"summary": "Gaussian naive bayes, bayesian learning, and bayesian networks"
 },
 
 
@@ -616,11 +646,31 @@
 
 
 {
+"title": "Polynomial Regression",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-polynomial-regression/",
+"summary": "Polynomial regression with scikit-learn"
+},
+
+
+
+{
 "title": "Boston Home Prices Prediction and Evaluation",
 "tags": "machine_learning",
 "keywords": "machine_learning",
 "url": "/machine-learning-project-boston-home-prices/",
 "summary": "Exploring data with pandas, numpy and pyplot, make predictions with a scikit-learn, evaluate using R_2, k-fold cross-validation, learning curves, complexity curves, GridSearchCV, RandomizedSearchCV and more."
+},
+
+
+
+{
+"title": "Building a Student Intervention System",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-project-student-intervention/",
+"summary": "Exploring data with pandas, numpy and pyplot, preprocess data through convertion of non-numerical data to numerical data, make predictions with appropriate supervised learning algorithms such as Naive Bayes, Logistic Regression and Support Vector Machines, and calculate and compare F1 scores."
 },
 
 
@@ -661,6 +711,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-svms-support-vector-machines/",
 "summary": "Machine Learning theory and applications using Octave or Python."
+},
+
+
+
+{
+"title": "Support Vector Machines",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-svms/",
+"summary": "Predicting and hyperparameters tuning"
 },
 
 
@@ -731,6 +791,16 @@
 "keywords": "numpy",
 "url": "/numpy-mean-dot/",
 "summary": "Calculate the mean of a row or column, and use the dot multiplication on matrices."
+},
+
+
+
+{
+"title": "Solving Multiple Linear Equations",
+"tags": "numpy",
+"keywords": "numpy",
+"url": "/numpy-multiple-linear-equations/",
+"summary": "Solving multiple linear equations quickly"
 },
 
 

@@ -72,14 +72,32 @@ entries:
     - title: Iris Dataset
       url: /machine-learning-iris-dataset/
       output: web
-    - title: K-nearest Neighbors (KNN) Classification Model
-      url: /machine-learning-k-nearest-neighbors-knn/
-      output: web
     - title: Linear Regression Model
       url: /machine-learning-linear-regression/
       output: web
     - title: Linear Regression Model Evaluation
       url: /machine-learning-evaluate-linear-regression-model/
+      output: web
+    - title: Polynomial Regression
+      url: /machine-learning-polynomial-regression/
+      output: web
+    - title: Vectorization, Multinomial Naive Bayes Classifier and Evaluation
+      url: /machine-learning-multinomial-naive-bayes-vectorization/
+      output: web
+    - title: Gaussian Naive Bayes
+      url: /machine-learning-gaussian-naive-bayes/
+      output: web
+    - title: K-nearest Neighbors (KNN) Classification Model
+      url: /machine-learning-k-nearest-neighbors-knn/
+      output: web
+    - title: Ensemble Learning and Adaboost
+      url: /machine-learning-ensemble-of-learners-adaboost/
+      output: web
+    - title: Decision Trees
+      url: /machine-learning-decision-trees/
+      output: web
+    - title: Support Vector Machines
+      url: /machine-learning-svms/
       output: web
     - title: Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection
       url: /machine-learning-cross-validation/
@@ -89,9 +107,6 @@ entries:
       output: web
     - title: Evaluating a Classification Model
       url: /machine-learning-evaluate-classification-model/
-      output: web
-    - title: Vectorization, Multinomial Naive Bayes Classifier and Evaluation
-      url: /machine-learning-multinomial-naive-bayes-vectorization/
       output: web
     - title: One Hot Encoding
       url: /machinelearning-one-hot-encoding/
@@ -110,4 +125,7 @@ entries:
       output: web
     - title: Boston House Prices Prediction and Evaluation
       url: /machine-learning-project-boston-home-prices/
+      output: web
+    - title: Building a Student Intervention System
+      url: /machine-learning-project-student-intervention/
       output: web

@@ -120,6 +120,9 @@ entries:
     - title: Indexing and Slicing
       url: /numpy-mean-dot/
       output: web
+    - title: Solving Multiple Linear Equations
+      url: /numpy-multiple-linear-equations/
+      output: web
   - title: Python
     output: web
     folderitems:
