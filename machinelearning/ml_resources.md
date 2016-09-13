@@ -32,7 +32,6 @@ These are the resources you can use to become a machine learning engineer. All r
     - [Machine Learning with scikit-learn](http://www.dataschool.io/machine-learning-with-scikit-learn/)
     - [Comparing Supervised Learning Algorithm](http://www.dataschool.io/comparing-supervised-learning-algorithms/)
     - [Machine Learning with text](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10)
-- [Machine Learning, General Assembly, Washington](
 - [Machine Learning Nanodegree, Udacity](https://www.udacity.com/degrees/machine-learning-engineer-nanodegree-by-google--nd009)
 - Jake Vanderplas
     - [Introduction to scikit-learn](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb)
