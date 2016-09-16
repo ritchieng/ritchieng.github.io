@@ -356,6 +356,16 @@
 
 
 {
+"title": "Python Classes",
+"tags": "python",
+"keywords": "python",
+"url": "/python-classes/",
+"summary": "All about Python classes and related concepts involving classes."
+},
+
+
+
+{
 "title": "Useful Python Scripts",
 "tags": "python",
 "keywords": "python",
@@ -426,6 +436,16 @@
 
 
 {
+"title": "Dimensionality Reduction and Feature Transformation",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-dimensionality-reduction-feature-transform/",
+"summary": "Dimensionality reduction and feature transformation with scikit-learn."
+},
+
+
+
+{
 "title": "Dimensionality Reduction",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -461,6 +481,16 @@
 "keywords": "machine_learning",
 "url": "/machinelearning-f1-score/",
 "summary": "Evaluate classification models using F1 score."
+},
+
+
+
+{
+"title": "Feature Engineering and Scaling",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-feature_engineering_scaling/",
+"summary": "Feature engineering and scaling with scikit-learn."
 },
 
 
@@ -511,6 +541,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-iris-dataset/",
 "summary": "Getting started with the famous Iris dataset"
+},
+
+
+
+{
+"title": "Clustering with KMeans",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-clustering-kmeans/",
+"summary": "Clustering with KMeans in scikit-learn."
 },
 
 
@@ -661,6 +701,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-project-boston-home-prices/",
 "summary": "Exploring data with pandas, numpy and pyplot, make predictions with a scikit-learn, evaluate using R_2, k-fold cross-validation, learning curves, complexity curves, GridSearchCV, RandomizedSearchCV and more."
+},
+
+
+
+{
+"title": "Identifying Customer Segments (Unsupervised Learning)",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-project-customer-segments/",
+"summary": "Unsupervised learning application by identifying customer segments."
 },
 
 

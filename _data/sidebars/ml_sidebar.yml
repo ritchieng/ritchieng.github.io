@@ -9,7 +9,7 @@ entries:
     - title: Online Resources
       url: /machine-learning-resources/
       output: web
-  - title: Machine Learning Theory
+  - title: Supervised Learning Theory
     output: web
     folderitems:
     - title: Overview
@@ -42,6 +42,9 @@ entries:
     - title: Support Vector Machines
       url: /machine-learning-svms-support-vector-machines/
       output: web
+  - title: Unsupervised Learning Theory
+    output: web
+    folderitems:
     - title: Unsupervised Learning
       url: /machine-learning-unsupervised-learning/
       output: web
@@ -59,6 +62,18 @@ entries:
       output: web
     - title: Photo OCR
       url: /machine-learning-photo-ocr/
+      output: web
+  - title: Reinforcement Learning Theory
+    output: web
+    folderitems:
+    - title: Markov Decision Processes
+      url: /machine-learning-markov-decision-processes/
+      output: web
+    - title: Reinforcement Learning
+      url: /machine-learning-reinforcement-learning/
+      output: web
+    - title: Game Theory
+      url: /machine-learning-game-theory/
       output: web
   - title: Machine Learning in Scikit-Learn
     output: web
@@ -99,6 +114,15 @@ entries:
     - title: Support Vector Machines
       url: /machine-learning-svms/
       output: web
+    - title: Clustering with KMeans
+      url: /machine-learning-clustering-kmeans/
+      output: web
+    - title: Dimensionality Reduction and Feature Transformation
+      url: /machine-learning-dimensionality-reduction-feature-transform/
+      output: web
+    - title: Feature Engineering and Scaling
+      url: /machine-learning-feature_engineering_scaling/
+      output: web
     - title: Cross-Validation for Parameter Tuning, Model Selection, and Feature Selection
       url: /machine-learning-cross-validation/
       output: web
@@ -123,9 +147,12 @@ entries:
     - title: Titanic Survival Data Exploration
       url: /machine-learning-project-titanic-survival/
       output: web
-    - title: Boston House Prices Prediction and Evaluation
+    - title: Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)
       url: /machine-learning-project-boston-home-prices/
       output: web
-    - title: Building a Student Intervention System
+    - title: Building a Student Intervention System (Supervised Learning)
       url: /machine-learning-project-student-intervention/
+      output: web
+    - title:  Identifying Customer Segments (Unsupervised Learning)
+      url: /machine-learning-project-customer-segments/
       output: web

@@ -129,6 +129,10 @@ entries:
     - title: Useful Python Scripts
       url: /python-useful-scripts/
       output: web
+    - title: Python Classes
+      url: /python-classe..
+      .s/
+      output: web
   - title: Octave
     output: web
     folderitems:
