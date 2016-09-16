@@ -130,8 +130,7 @@ entries:
       url: /python-useful-scripts/
       output: web
     - title: Python Classes
-      url: /python-classe..
-      .s/
+      url: /python-classes/
       output: web
   - title: Octave
     output: web
