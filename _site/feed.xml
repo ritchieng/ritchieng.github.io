@@ -5,8 +5,8 @@
         <description>I am Ritchie Ng, a budding programmer specializing in machine learning for trading and public policy. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 Sep 2016 20:50:51 -0400</pubDate>
-        <lastBuildDate>Fri, 16 Sep 2016 20:50:51 -0400</lastBuildDate>
+        <pubDate>Fri, 16 Sep 2016 20:55:28 -0400</pubDate>
+        <lastBuildDate>Fri, 16 Sep 2016 20:55:28 -0400</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
@@ -20,6 +20,42 @@
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series-mdp-high-rewards/</guid>
             
             <category>comic_series</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Completed Data School&#39;s Pandas Q&amp;A Series</title>
+            <description>&lt;h2 id=&quot;pandas-series-by-data-school&quot;&gt;Pandas Series by Data School&lt;/h2&gt;
+
+&lt;p&gt;This is a free course offered by Data School.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Introduction to Pandas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+&lt;p&gt;If you do not like reading books or guides, this is a very good series. You might think it’s simply a series of videos but it covers a lot of essential parts of pandas that allow you to have an adequate knowledge to work with scikit-learn and actual data sets.&lt;/p&gt;
+
+&lt;p&gt;Again, I cannot emphasise how Mark has a way to deliver simple and succinct explanations on complicated topics. This is very important for beginners.&lt;/p&gt;
+
+&lt;p&gt;I hope you found the &lt;a href=&quot;http://www.ritchieng.com/pandas-introduction/&quot;&gt;notes&lt;/a&gt; that I have derived from the course useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer.&lt;/p&gt;
+
+&lt;p&gt;I will be moving on to Udacity’s Machine Learning nanodegree along with other online resources where I will document my progress. You can view my personal list on how to be a Machine Learning Engineer &lt;a href=&quot;http://www.ritchieng.com/machine-learning-resources/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All the best, Ritchie.&lt;/p&gt;
+</description>
+            <pubDate>Thu, 18 Aug 2016 00:00:00 -0400</pubDate>
+            <link>http://www.ritchieng.com/completed-pandas-qna-data-school/</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/completed-pandas-qna-data-school/</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            <category>becoming_a_machine_learning_engineer</category>
+            
+            <category>pandas</category>
             
             
         </item>
