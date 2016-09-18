@@ -156,3 +156,6 @@ entries:
     - title:  Identifying Customer Segments (Unsupervised Learning)
       url: /machine-learning-project-customer-segments/
       output: web
+    - title:  Training a Smart Cab (Reinforcement Learning)
+      url: /machine-learning-proj-smart-cab/
+      output: web

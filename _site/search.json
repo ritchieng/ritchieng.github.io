@@ -496,6 +496,16 @@
 
 
 {
+"title": "Game Theory",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-game-theory/",
+"summary": "Game theory is increasingly relevant in reinforcement learning where we have multiple agents. Understand the concept of Nash Equilibrium."
+},
+
+
+
+{
 "title": "Gaussian Naive Bayes",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -616,6 +626,16 @@
 
 
 {
+"title": "Markov Decision Processes",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-markov-decision-processes/",
+"summary": "Solve MDPs' equations and understand the intuition behind it leading to reinforcement learning."
+},
+
+
+
+{
 "title": "Linear Regression with Multiple Variables",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -716,6 +736,16 @@
 
 
 {
+"title": "Smart Cab",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-proj-smart-cab/",
+"summary": "Train a smart cab."
+},
+
+
+
+{
 "title": "Building a Student Intervention System",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -741,6 +771,16 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-recommender-systems/",
 "summary": "Predicting movie ratings, collaborative filtering, and low rank matrix factorization."
+},
+
+
+
+{
+"title": "Reinforcement Learning",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning-reinforcement-learning/",
+"summary": "Understand the intuition behind MDPs leading to Reinforcement Learning and the Q-learning algorithm."
 },
 
 
