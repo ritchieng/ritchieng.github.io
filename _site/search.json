@@ -676,6 +676,36 @@
 
 
 {
+"title": "Deep Convolutional Networks",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/convs/",
+"summary": "Deep convnets for image recognition"
+},
+
+
+
+{
+"title": "Building a Deep Neural Network",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/intro/",
+"summary": "Build a deep neural network with ReLUs and Softmax."
+},
+
+
+
+{
+"title": "Intoduction to Deep Neural Networks",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/neural-nets/",
+"summary": "Similarities to normal neural networks and supervised learning."
+},
+
+
+
+{
 "title": "One Hot Encoding in Scikit-Learn",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -811,6 +841,46 @@
 "keywords": "machine_learning",
 "url": "/machine-learning-svms/",
 "summary": "Predicting and hyperparameters tuning"
+},
+
+
+
+{
+"title": "Convolutional Neural Networks with TensorFlow",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/tensorflow/convnets/",
+"summary": "Build convolutional neural networks with TensorFlow"
+},
+
+
+
+{
+"title": "Deep Neural Networks with TensorFlow",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/tensorflow/deep-neural-nets/",
+"summary": "Build a deep neural networks with ReLUs and Softmax."
+},
+
+
+
+{
+"title": "Exploring notMNIST with TensorFlow",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/tensorflow/notmnist/",
+"summary": "Import, preprocess and visualize notMNIST."
+},
+
+
+
+{
+"title": "Regularization with TensorFlow",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/tensorflow/regularization/",
+"summary": "Prevent overfitting with dropout and regularization."
 },
 
 

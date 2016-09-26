@@ -75,6 +75,33 @@ entries:
     - title: Game Theory
       url: /machine-learning-game-theory/
       output: web
+  - title: Deep Learning Theory
+    output: web
+    folderitems:
+    - title: Deep Learning Intro
+      url: /machine-learning/deep-learning/intro/
+      output: web
+    - title: Deep Neural Networks Intro
+      url: /machine-learning/deep-learning/neural-nets/
+      output: web
+    - title: Deep Convolutional Networks Intro
+      url: /machine-learning/deep-learning/convs/
+      output: web
+  - title: Deep Learning with Tensor
+    output: web
+    folderitems:
+    - title: Exploring NotMNIST
+      url: /machine-learning/deep-learning/tensorflow/notmnist/
+      output: web
+    - title: Deep Neural Networks
+      url: /machine-learning/deep-learning/tensorflow/deep-neural-nets/
+      output: web
+    - title: Regularization
+      url: /machine-learning/deep-learning/tensorflow/regularization/
+      output: web
+    - title: Deep Convolutional Networks
+      url: /machine-learning/deep-learning/tensorflow/convnets/
+      output: web
   - title: Machine Learning in Scikit-Learn
     output: web
     folderitems:
