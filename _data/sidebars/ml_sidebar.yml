@@ -87,7 +87,7 @@ entries:
     - title: Deep Convolutional Networks Intro
       url: /machine-learning/deep-learning/convs/
       output: web
-  - title: Deep Learning with Tensor
+  - title: Deep Learning with TensorFlow
     output: web
     folderitems:
     - title: Exploring NotMNIST
