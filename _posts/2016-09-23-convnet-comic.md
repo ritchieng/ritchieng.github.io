@@ -1,7 +1,7 @@
 ---
 title:  "Comic Series: Convolutional Neural Nets"
 published: true
-permalink: /comic-series-convnet-derpina/
+permalink: /comic-series/convnet-derpina/
 summary: "So Derpina tried to visualize her face that was in the dataset after a few convolutions..."
 tags: [comic_series]
 ---
