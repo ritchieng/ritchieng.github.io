@@ -6,17 +6,32 @@ type: homepage
 ---
 ## Hello! 
 
-I started this website to document my guides on machine learning. This website allows me to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
+I started this website to document my personal guides on machine learning. This website allows me to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
 Oh yes! I am a budding machine learning engineer specializing in deep learning, reinforcement learning and artificial intelligence with images and videos.
 
-## About My Educational Background
+## My Projects
 
-You would come to realize that I do not have a computer science degree. But it does not stop anyone, including myself, from being competent in programming, statistics and mathematics in general.
+1. Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)
+- This project uses TensorFlow and TensorBoard extensively. 
+- [Open-source Code](https://github.com/ritchieng/NumNum)
+- [Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
 
-Instead, I am currently an undergraduate majoring in Finance, and Economic and Policy Analysis under a concurrent degree programme: Bachelor in Business Administration (BBA) and Master in Public Policy (MPP), National University of Singapore (NUS). I took mostly quantitative courses in the later years in NUS relating to econometrics and data analytics.
+2. Training a smart cab using Recurrent Learning
+- This project uses Python and PyGame to train a smart cab with Recurrent Learning.
+- [Python Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
 
-Also, I am an NUS Global Merit Scholar where my school fees, food, college accommodation, overseas programmes and allowance are covered under the auspices of NUS. As a result, I got the opportunity to study in Bocconi University, Milan, Italy for 6 months and the University of Notre Dame, Indiana, USA for another 6 months in 2016. It was an amazing journey where I travelled to more than 15 countries. 
+3. Identifying Customer Segments (Unsupervised Learning)
+- This project uses Scikit-learn with an emphasis on PCA and clustering.
+- [Python Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
+
+4. Building a Student Intervention System (Supervised Learning)
+- This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
+- [Python Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
+
+5. Predicting Boston House Prices 
+- This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
+- [Python Notebook](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
 
 ## About My Professional Background
 Before 2014, I started a company, [Tesglo](http://www.tesglo.com), specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
@@ -27,10 +42,10 @@ In 2015, I co-founded [Kinsheep](http://www.jfdi.asia/blog/jfdi-discover-helps-k
 
 In 2016, I went on to become a full-stack Javascript web developer specializing in ReactJS, Meteor and MongoDB and built [reviw.me](https://www.reviw.me), a web application that allows people to review their financial consultants, and [PeerCapita](https://www.peercapita.com), specializing in connecting investors with collaterized loans.
 
-Currently, I specialize in deep learning with images and videos.
+Currently, I specialize in deep learning with images and videos!
 
-## Location
-I am currently based in a sunny island called Singapore.
+## Personal Information
+I am currently based in the National University of Singapore as a Global Merit Scholar. So feel free to drop me a message if you want some free meals (I have a lot of extra meal credits)!
 
 ## Online Profiles
 - [Github](https://github.com/ritchieng)
