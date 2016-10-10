@@ -12,22 +12,22 @@ Oh yes! I am a budding machine learning engineer specializing in deep learning, 
 
 ## My Projects
 
-1. Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)
-- This project uses TensorFlow and TensorBoard extensively. 
-- [Open-source Code](https://github.com/ritchieng/NumNum)
-- [Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
+**Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
+    - This project uses TensorFlow and TensorBoard extensively. 
+    - [Open-source Code](https://github.com/ritchieng/NumNum)
+    - [Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
 
-2. Training a smart cab using Recurrent Learning
-- This project uses Python and PyGame to train a smart cab with Recurrent Learning.
-- [Python Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
+**Training a smart cab using Recurrent Learning**
+    - This project uses Python and PyGame to train a smart cab with Recurrent Learning.
+    - [Python Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
 
-3. Identifying Customer Segments (Unsupervised Learning)
-- This project uses Scikit-learn with an emphasis on PCA and clustering.
-- [Python Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
+**Identifying Customer Segments (Unsupervised Learning)**
+    - This project uses Scikit-learn with an emphasis on PCA and clustering.
+    - [Python Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
 
-4. Building a Student Intervention System (Supervised Learning)
-- This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
-- [Python Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
+**Building a Student Intervention System (Supervised Learning)**
+    - This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
+    - [Python Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
 
 5. Predicting Boston House Prices 
 - This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
