@@ -13,25 +13,25 @@ Oh yes! I am a budding machine learning engineer specializing in deep learning, 
 ## My Projects
 
 **Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
-    - This project uses TensorFlow and TensorBoard extensively. 
-    - [Open-source Code](https://github.com/ritchieng/NumNum)
-    - [Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
+<br />This project uses TensorFlow and TensorBoard extensively. 
+<br />[Open-source Code](https://github.com/ritchieng/NumNum)
+<br />[Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
 
 **Training a smart cab using Recurrent Learning**
-    - This project uses Python and PyGame to train a smart cab with Recurrent Learning.
-    - [Python Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
+<br />This project uses Python and PyGame to train a smart cab with Recurrent Learning.
+<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
 
 **Identifying Customer Segments (Unsupervised Learning)**
-    - This project uses Scikit-learn with an emphasis on PCA and clustering.
-    - [Python Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
+<br />This project uses Scikit-learn with an emphasis on PCA and clustering.
+<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
 
 **Building a Student Intervention System (Supervised Learning)**
-    - This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
-    - [Python Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
+<br />This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
+<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
 
-5. Predicting Boston House Prices 
-- This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
-- [Python Notebook](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
+**Predicting Boston House Prices** 
+<br />This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
+<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
 
 ## About My Professional Background
 Before 2014, I started a company, [Tesglo](http://www.tesglo.com), specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.

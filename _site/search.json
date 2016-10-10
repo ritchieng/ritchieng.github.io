@@ -1042,10 +1042,20 @@
 
 
 {
+"title": "Comic Series: Support Vector Machines",
+"tags": "comic_series",
+"keywords": "",
+"url": "/comic-series/svms",
+"summary": "Derp and Derpina had a quarrel and Derp took it far too optimally."
+}
+,
+
+
+{
 "title": "Comic Series: Convolutional Neural Nets",
 "tags": "comic_series",
 "keywords": "",
-"url": "/comic-series-convnet-derpina/",
+"url": "/comic-series/convnet-derpina/",
 "summary": "So Derpina tried to visualize her face that was in the dataset after a few convolutions..."
 }
 ,
@@ -1055,7 +1065,7 @@
 "title": "Comic Series: Markov Decision Processes with High Rewards",
 "tags": "comic_series",
 "keywords": "",
-"url": "/comic-series-mdp-high-rewards/",
+"url": "/comic-series/mdp-high-rewards/",
 "summary": "I guess we would want to jump into the hole."
 }
 ,

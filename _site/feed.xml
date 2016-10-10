@@ -5,9 +5,24 @@
         <description>I am Ritchie Ng, a budding programmer specializing in machine learning for trading and public policy. Check out my code snippets, guides and transition from a background without Computer Science to a budding programmer. Keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 26 Sep 2016 20:22:03 -0400</pubDate>
-        <lastBuildDate>Mon, 26 Sep 2016 20:22:03 -0400</lastBuildDate>
+        <pubDate>Sun, 09 Oct 2016 20:09:15 -0400</pubDate>
+        <lastBuildDate>Sun, 09 Oct 2016 20:09:15 -0400</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>Comic Series: Support Vector Machines</title>
+            <description>&lt;p&gt;Support Vector Machines are often called Largest Margin Classifier.
+&lt;br /&gt;&lt;img src=&quot;https://66.media.tumblr.com/f812e7d53d4ee4a75bae2fdfd8125257/tumblr_oekxc5CLuc1vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+            <pubDate>Wed, 05 Oct 2016 00:00:00 -0400</pubDate>
+            <link>http://www.ritchieng.com/comic-series/svms</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/svms</guid>
+            
+            <category>comic_series</category>
+            
+            
+        </item>
         
         <item>
             <title>Comic Series: Convolutional Neural Nets</title>
@@ -16,8 +31,8 @@
 
 </description>
             <pubDate>Fri, 23 Sep 2016 00:00:00 -0400</pubDate>
-            <link>http://www.ritchieng.com/comic-series-convnet-derpina/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series-convnet-derpina/</guid>
+            <link>http://www.ritchieng.com/comic-series/convnet-derpina/</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/convnet-derpina/</guid>
             
             <category>comic_series</category>
             
@@ -31,8 +46,8 @@
 
 </description>
             <pubDate>Fri, 16 Sep 2016 00:00:00 -0400</pubDate>
-            <link>http://www.ritchieng.com/comic-series-mdp-high-rewards/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series-mdp-high-rewards/</guid>
+            <link>http://www.ritchieng.com/comic-series/mdp-high-rewards/</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/mdp-high-rewards/</guid>
             
             <category>comic_series</category>
             
