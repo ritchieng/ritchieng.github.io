@@ -22,6 +22,9 @@ entries:
     - title: About
       url: /tag_about/
       output: web
+    - title: Comic Series
+      url: /tag_comic_series/
+      output: web
     - title: News
       url: /tag_news/
       output: web
