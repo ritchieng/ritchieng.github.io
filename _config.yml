@@ -8,7 +8,7 @@ output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 topnav_title: Ritchie Ng
 # this appears on the top navigation bar next to the home button
-site_title: Machine Learning, Deep Learning, Reinforcement Learning and Artificial Intelligence for Videos and Images
+site_title: Machine Learning, Deep Learning, and Computer Vision
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 company_name: Ritchie Ng
 # this appears in the footer
@@ -84,7 +84,7 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 
-description: "I am Ritchie Ng, a budding programmer specializing in deep learning, reinforcement learning and artificial intelligence with images and videos. Check out my code guides and keep ritching for the skies!"
+description: "I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!"
 # the description is used in the feed.xml file
 
 gems:
