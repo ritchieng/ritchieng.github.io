@@ -6,7 +6,7 @@ type: homepage
 ---
 ## Hello! 
 
-I started this website to document my personal guides on machine learning. This website allows me or anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
+I started this website to document my personal guides on machine learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
 Oh yes! I am a machine learning engineer specializing in deep learning and computer vision.. You can check out some of my "cool" [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking for something less technical.
 
