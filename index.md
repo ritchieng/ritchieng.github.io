@@ -42,7 +42,7 @@ In 2015, I co-founded [Kinsheep](http://www.jfdi.asia/blog/jfdi-discover-helps-k
 
 In 2016, I went on to become a full-stack Javascript web developer specializing in ReactJS, Meteor and MongoDB and built [reviw.me](https://www.reviw.me), a web application that allows people to review their financial consultants, and [PeerCapita](https://www.peercapita.com), specializing in connecting investors with collaterized loans.
 
-Currently, I specialize in deep learning with images and videos!
+Currently, I am a research assistant in deep learning at the National University of Singapore (NUS)!
 
 ## Personal Information
 I am currently based in the National University of Singapore as a Global Merit Scholar. So feel free to drop me a message if you want some free meals (I have a lot of extra meal credits)!
