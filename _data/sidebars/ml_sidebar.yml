@@ -78,6 +78,9 @@ entries:
   - title: Deep Learning Theory
     output: web
     folderitems:
+    - title: Deep Learning Terms
+      url: /machine-learning/deep-learning/terms/
+      output: web
     - title: Deep Learning Intro
       url: /machine-learning/deep-learning/intro/
       output: web

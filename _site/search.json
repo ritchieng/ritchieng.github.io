@@ -426,6 +426,16 @@
 
 
 {
+"title": "Deep Learning Essential Terms",
+"tags": "machine_learning",
+"keywords": "machine_learning",
+"url": "/machine-learning/deep-learning/terms/",
+"summary": "Essential terms for understanding deep learning research papers, tutorials and textbooks."
+},
+
+
+
+{
 "title": "Machine Learning Systems Design",
 "tags": "machine_learning",
 "keywords": "machine_learning",
@@ -1039,6 +1049,16 @@
 
 
 
+
+
+{
+"title": "Comic Series: The Future of Labelled Data",
+"tags": "comic_series",
+"keywords": "",
+"url": "/comic-series/labels",
+"summary": "A new type of low-skilled labour now and in the future: ensemble of labellers."
+}
+,
 
 
 {

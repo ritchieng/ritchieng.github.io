@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Pipeline, sliding windows, artificial data synthesis, and ceiling analysis.">
+<meta name="description" content="Essential terms for understanding deep learning research papers, tutorials and textbooks.">
 <meta name="keywords" content="machine_learning,  machine_learning">
-<title>Machine Learning Photo OCR  | Machine Learning, Deep Learning, and Computer Vision</title>
+<title>Deep Learning Essential Terms  | Machine Learning, Deep Learning, and Computer Vision</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -80,15 +80,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Machine Learning Photo OCR</title>
-<meta property="og:title" content="Machine Learning Photo OCR" />
+<title>Deep Learning Essential Terms</title>
+<meta property="og:title" content="Deep Learning Essential Terms" />
 <meta name="description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/machine-learning-photo-ocr/" />
-<meta property='og:url' content='http://www.ritchieng.com/machine-learning-photo-ocr/' />
+<link rel="canonical" href="http://www.ritchieng.com/machine-learning-deep-learning-terms/" />
+<meta property='og:url' content='http://www.ritchieng.com/machine-learning-deep-learning-terms/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Machine Learning Photo OCR" />
+<meta name="twitter:title" content="Deep Learning Essential Terms" />
 <meta name="twitter:description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -100,14 +100,14 @@
 
     "@type" : "WebPage",
 
-    "headline": "Machine Learning Photo OCR",
+    "headline": "Deep Learning Essential Terms",
 
     "description": "I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!",
 
     "logo": "http://www.ritchieng.com/http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_big_ycwbod.png",
 
 
-    "url" : "http://www.ritchieng.com/machine-learning-photo-ocr/"
+    "url" : "http://www.ritchieng.com/machine-learning-deep-learning-terms/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -165,7 +165,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Machine Learning Photo OCR">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Deep Learning Essential Terms">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -338,7 +338,7 @@
             
             
             
-            <li class="active"><a href="/machine-learning-photo-ocr/">Photo OCR</a></li>
+            <li><a href="/machine-learning-photo-ocr/">Photo OCR</a></li>
             
             
             
@@ -660,7 +660,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Machine Learning Photo OCR</h1>
+   <h1 class="post-title-main">Deep Learning Essential Terms</h1>
 </div>
 
 
@@ -668,7 +668,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Pipeline, sliding windows, artificial data synthesis, and ceiling analysis.</div>
+    <div class="summary">Essential terms for understanding deep learning research papers, tutorials and textbooks.</div>
    
 
     
@@ -702,211 +702,11 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="photo-ocr">Photo OCR</h2>
+  <p>Jacobian matrix
+- The matrix containing all partial derivatives of a function whose input and output are both vectors.</p>
 
-<h3 id="problem-description-and-pipeline">Problem Description and Pipeline</h3>
-<ul>
-  <li>Photo OCR (Optical Character Recognition) Problem
-    <ol>
-      <li>Given picture, detect location of text in the picture</li>
-      <li>Read text at that location</li>
-    </ol>
-  </li>
-  <li>Photo OCR Pipeline
-    <ol>
-      <li>Text detection</li>
-      <li>Character segmentation
-        <ul>
-          <li>Splitting “ADD” for example</li>
-        </ul>
-      </li>
-      <li>Character classification
-        <ul>
-          <li>First character “A”, second “D”, and so on
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png" alt="" /></li>
-        </ul>
-      </li>
-    </ol>
-  </li>
-  <li>When you design a machine learning algorithm, one of the most important steps is defining the pipeline
-    <ul>
-      <li>A sequence of steps or components for the algorithms</li>
-      <li>Each step/module can be worked on by different groups to split the workload</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="sliding-windows">Sliding Windows</h3>
-<ul>
-  <li>In order to detect things in images we can use an example of pedestrian detection
-    <ul>
-      <li>We can identify the pedestrians easily because the aspect ratio of most pedestrians are similar
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr1.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Supervised learning for pedestrian detection
-    <ul>
-      <li>x = pixels in 82 x 36 image patches</li>
-      <li>We can train a neural network to classify image patch as either containing a pedestrian or not
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr2.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Sliding window detection
-    <ul>
-      <li>We slide a green box (82 x 36) with a defined step-size/stride</li>
-      <li>We continue sliding the window over the whole image
-        <ul>
-          <li>We can take a large box and resize to 82 x 36</li>
-          <li>That’s how we train we train a supervised learning classifier to identify pedestrians
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr3.png" alt="" /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Text detection
-    <ul>
-      <li>Positive examples (y = 1), patches with text</li>
-      <li>Negative examples (y = 0), patches without text</li>
-      <li>Let us run a sliding window classifier on the image
-        <ul>
-          <li>We have (on the bottom left) white areas that indicate text areas</li>
-          <li>Bright white: classifier output a very high probability of text in the location</li>
-        </ul>
-      </li>
-      <li>If we take one more text by taking the output of the classifier and apply an expansion operator
-        <ul>
-          <li>It takes the white region and expand them</li>
-          <li>If we use heuristics and discard those with abnormal height-to-width ratio
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr4.png" alt="" /></li>
-        </ul>
-      </li>
-      <li>Now we have the text
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr5.png" alt="" />
-        <ul>
-          <li>We can start with the green rectangle and slide the window
-            <ul>
-              <li>Should we put a split in the window?</li>
-              <li>Train a NN to recognize the text</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Photo OCR pipeline summary
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr6.png" alt="" /></li>
-</ul>
-
-<h3 id="getting-lots-of-data-and-artificial-data">Getting Lots of Data and Artificial Data</h3>
-<ul>
-  <li>Artificial data synthesis
-    <ul>
-      <li>Creating data from scratch</li>
-      <li>If we have a small training set, we turn that into a large training set</li>
-    </ul>
-  </li>
-  <li>Example of artificial data synthesis for photo OCR: Method 1 (new data)
-    <ul>
-      <li>We can take free fonts, copy the alphabets and paste them on random backgrounds</li>
-      <li>As you can see, the image on the right are synthesized
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr7.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Example of artificial data synthesis for photo OCR: Method 2 (distortion)
-    <ul>
-      <li>We can distort existing examples to create new data</li>
-      <li>In this case, the way to distort is through warping the image
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr8.png" alt="" />
-  <img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr9.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Discussion on getting more data
-    <ol>
-      <li>Make sure you have a low bias (high variance) classifier before expending the effort to get more data
-        <ul>
-          <li>Plot the learning curves to find out</li>
-          <li>Keep increasing the number of features or number of hidden units in the neural network until you have a low bias classifier</li>
-        </ul>
-      </li>
-      <li>How much work would it be to get 10x as much data as you currently have
-        <ul>
-          <li>Artificial data synthesis</li>
-          <li>Collect/label it yourself</li>
-          <li>Crowd course
-            <ul>
-              <li>Hire people on the web to label data (amazon mechanical turk)</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ol>
-  </li>
-</ul>
-
-<h3 id="ceiling-analysis-what-part-of-the-pipeline-to-work-on-next">Ceiling Analysis: What Part of the Pipeline to Work on Next</h3>
-<ul>
-  <li>Ceiling analysis
-    <ul>
-      <li>When you have a team working on a pipeline machine learning system
-        <ul>
-          <li>This gives you an indication on which part of the pipeline is worth working on</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Ceiling analysis definition
-    <ul>
-      <li>Estimating the errors due to each component</li>
-    </ul>
-  </li>
-  <li>Photo OCR example
-    <ul>
-      <li>Choose any metric you would like
-        <ul>
-          <li>Overall system</li>
-          <li>Text detection</li>
-        </ul>
-      </li>
-      <li>By putting a check mark on “text detection”
-        <ul>
-          <li>Going to go to the test set and give it the correct answers</li>
-          <li>It’s as if you have a perfect text detection system</li>
-          <li>Check the accuracy of the whole system (72% to 89%: 17% improvement)</li>
-          <li>You run the algorithm and go to the next component in the pipeline
-            <ul>
-              <li>You give it the correct “character segmentation”</li>
-              <li>Check accuracy of the whole system (89% to 90%: 1% only)</li>
-            </ul>
-          </li>
-          <li>You run the algorithm mon the last component in the pipeline
-            <ul>
-              <li>Check accuracy of the whole system (90% to 100%: 10%)</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>This shows the upside potential from each component 
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr10.png" alt="" /></li>
-    </ul>
-  </li>
-  <li>Another ceiling analysis example: face recognition from images
-    <ul>
-      <li>Components most worthwhile
-        <ul>
-          <li>Perfect face detection (5.9%)</li>
-          <li>Perfect eye segmentation (4%)
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr11.png" alt="" />
-<img src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr12.png" alt="" /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Do not use your gut feeling
-    <ul>
-      <li>Use ceiling analysis</li>
-    </ul>
-  </li>
-</ul>
+<p>Hessian matrix
+- Similar to Jacobian matrix but it contains the second derivatives collected in a matrix.</p>
 
 
 
@@ -923,11 +723,11 @@ $('#toc').on('click', 'a', function() {
 </div>
     <!--<div>
 
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/machine-learning-photo-ocr/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/machine-learning-deep-learning-terms/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=Machine Learning Photo OCR&url=http://www.ritchieng.com/machine-learning-photo-ocr/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=Deep Learning Essential Terms&url=http://www.ritchieng.com/machine-learning-deep-learning-terms/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/machine-learning-photo-ocr/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/machine-learning-deep-learning-terms/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
     <br />
