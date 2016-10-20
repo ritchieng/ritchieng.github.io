@@ -41,6 +41,20 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 - [Github](https://github.com/ritchieng)
 - [Linkedin](https://www.linkedin.com/in/ritchieng)
 
+## Languages, Libraries and Frameworks
+
+**Machine Learning**   | **Web Development** | **Others** |
+Python                 | JavaScript          | LaTeX |
+TensorFlow/TensorBoard | MeteorJS            | Bash |
+TensorLayer            | MongoDB             || 
+Keras                  |                     ||
+Scikit-learn           |                     ||
+OpenCV                 |                     || 
+
+
+
+ 
+
 ## Headshot
 This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
 <br />
