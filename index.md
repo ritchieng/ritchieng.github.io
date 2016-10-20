@@ -6,9 +6,13 @@ type: homepage
 ---
 ## Hello! 
 
+I am Ritchie, a machine learning engineer from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
+
+Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I've a lot of free meal credits to spare! 
+
 I started this website to document my personal guides on machine learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
-Oh yes! I am a machine learning engineer specializing in deep learning and computer vision.. You can check out some of my "cool" [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking for something less technical.
+Oh yes! You can check out some of my "cool" [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking for something less technical.
 
 ## My Projects
 
@@ -32,20 +36,6 @@ Oh yes! I am a machine learning engineer specializing in deep learning and compu
 **Predicting Boston House Prices** 
 <br />This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
 <br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
-
-## About My Professional Background
-Before 2014, I started a company, [Tesglo](http://www.tesglo.com), specializing in materials science and grew it to become a GST-registered firm having an array of MNCs as our loyal clientele. It has been profitable every year and it funds my tech ventures.
-
-In 2014, I joined Indo-Sing Business Advisory [(ISBA)](http://www.isbabiz.com/about/) and built their technological infrastructure. Subsequently, I went on to lead web development at [Moirai](http://www.moiraidesign.com), a high-end fashion firm where every single apparel is unique.
-
-In 2015, I co-founded [Kinsheep](http://www.jfdi.asia/blog/jfdi-discover-helps-kinsheep-win-10k), a social networking application, using a full-stack Javascript framework including Ionic, NodeJS and MongoDB. My team shortly clinched the prestigious VaSCo grant from NUS School of Computing.
-
-In 2016, I went on to become a full-stack Javascript web developer specializing in ReactJS, Meteor and MongoDB and built [reviw.me](https://www.reviw.me), a web application that allows people to review their financial consultants, and [PeerCapita](https://www.peercapita.com), specializing in connecting investors with collaterized loans.
-
-Currently, I am a research assistant in deep learning at the National University of Singapore (NUS)!
-
-## Personal Information
-I am currently based in the National University of Singapore as a Global Merit Scholar. So feel free to drop me a message if you want some free meals (I have a lot of extra meal credits)!
 
 ## Online Profiles
 - [Github](https://github.com/ritchieng)
