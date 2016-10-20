@@ -6,7 +6,7 @@ type: homepage
 ---
 ## Hello! 
 
-I am Ritchie, a machine learning engineer from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
+I am Ritchie Ng, a machine learning engineer from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
 
 Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I've a lot of free meal credits to spare! 
 
