@@ -50,8 +50,6 @@ I am currently based in the National University of Singapore as a Global Merit S
 ## Online Profiles
 - [Github](https://github.com/ritchieng)
 - [Linkedin](https://www.linkedin.com/in/ritchieng)
-- [Tech in Asia](https://www.techinasia.com/profile/ritchieng)
-- [Kaggle](https://www.kaggle.com/ritchieng)
 
 ## Headshot
 Just to put a face on this website, this is me!
