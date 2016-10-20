@@ -12,7 +12,7 @@ Currently, I am conducting research in the areas of deep learning and hyperparam
 
 I started this website to document my personal guides on machine learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
-Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickmans.
+Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
 
 ## My Projects
 
