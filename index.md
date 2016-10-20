@@ -42,6 +42,6 @@ Oh yes! You can check out some of my "cool" [comics](http://www.ritchieng.com/ta
 - [Linkedin](https://www.linkedin.com/in/ritchieng)
 
 ## Headshot
-Just to put a face on this website, this is me attempting to look dapper with my blazer! Albeit, I rarely wear suits.
+This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
 <br />
 ![Ritchie Ng](http://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
