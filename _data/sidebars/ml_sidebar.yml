@@ -9,6 +9,9 @@ entries:
     - title: Online Resources
       url: /machine-learning-resources/
       output: web
+    - title: Journal Library
+      url: /machine-learning/journals-library/
+      output: web
   - title: Supervised Learning Theory
     output: web
     folderitems:
