@@ -23,6 +23,7 @@ These are the resources you can use to become a machine learning or deep learnin
 ### Deep Learning Theory
 - [Deep Learning, Ian Goodfellow](http://www.deeplearningbook.org)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
  
 ### Python
 - [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)

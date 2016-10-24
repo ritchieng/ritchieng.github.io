@@ -10,6 +10,7 @@ tags: [machine_learning]
 ### Batch 1
 - [Deep Q-Networks for Accelerating the Training of Deep Neural Networks](https://arxiv.org/abs/1606.01467)
 - [Learning Step Size Controllers for Robust Neural Network Training](https://arxiv.org/pdf/1606.04474.pdf)
+- [Weight Features for Predicting Future Model Performance of Deep Neural Networks](http://www.ijcai.org/Proceedings/16/Papers/318.pdf)
 - [Actor-Critic Methods](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html)
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 - [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
