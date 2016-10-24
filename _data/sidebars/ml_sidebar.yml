@@ -12,6 +12,9 @@ entries:
     - title: Journal Library
       url: /machine-learning/journals-library/
       output: web
+    - title: Datasets for Machine Learning
+      url: /machine-learning/datasets
+      output: web
   - title: Supervised Learning Theory
     output: web
     folderitems:

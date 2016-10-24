@@ -62,6 +62,7 @@ These are the resources you can use to become a machine learning or deep learnin
 - [TensorFlow Tutorial for Beginners](https://github.com/aymericdamien/TensorFlow-Examples)
 - [RNN](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
 - [Sequence-to-Sequence](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
+- [One-click AWS AMI with TensorFlow and Keras](https://github.com/ritchieng/tensorflow-aws-ami)
 
 ### Feed-Forward Neural Networks
 - Neural Networks Demystified with Python, Welch Labs
