@@ -15,6 +15,7 @@ tags: [machine_learning]
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 - [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
 - [Deterministic Policy Gradient Algorithms](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
+- [Wide Residual Networks](https://arxiv.org/abs/1605.07146)
 
 ### Batch 2
 - [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)

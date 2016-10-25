@@ -24,6 +24,7 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Deep Learning, Ian Goodfellow](http://www.deeplearningbook.org)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Deep Residual Learning](http://kaiminghe.com/icml16tutorial/icml2016_tutorial_deep_residual_networks_kaiminghe.pdf)
  
 ### Python
 - [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)
@@ -57,6 +58,7 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Keras Documentation](https://keras.io)
 - [Deep Learning Models like VGG, Inception V3, ResNet and more](https://github.com/fchollet/deep-learning-models)
 - [Practical Deep Learning with Keras, Jason Brownlee](http://machinelearningmastery.com/blog/)
+- [Wide Residual Networks](https://github.com/transcranial/wide-resnet)
 
 ### Deep Learning with TensorFlow
 - [TensorFlow Tutorial for Beginners](https://github.com/aymericdamien/TensorFlow-Examples)
@@ -76,6 +78,7 @@ These are the resources you can use to become a machine learning or deep learnin
 
 ### Reinforcement Learning
 - [Reinforcement Learning Introduction, Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
+- [Reinforcement Learning, Sutton](https://webdocs.cs.ualberta.ca/~sutton/book/)
 - [Using Keras with DPPG to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 
 ### Mathematics Useful for Machine Learning
