@@ -54,17 +54,21 @@ These are the resources you can use to become a machine learning or deep learnin
     - [Scikit-learn tutorial](https://github.com/amueller/scipy-2016-sklearn)
     - [Advanced scikit-learn](https://github.com/amueller/advanced_training)
     
-### Deep Learning with Keras
-- [Keras Documentation](https://keras.io)
-- [Deep Learning Models like VGG, Inception V3, ResNet and more](https://github.com/fchollet/deep-learning-models)
-- [Practical Deep Learning with Keras, Jason Brownlee](http://machinelearningmastery.com/blog/)
-- [Wide Residual Networks](https://github.com/transcranial/wide-resnet)
-
 ### Deep Learning with TensorFlow
 - [TensorFlow Tutorial for Beginners](https://github.com/aymericdamien/TensorFlow-Examples)
 - [RNN](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
 - [Sequence-to-Sequence](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
 - [One-click AWS AMI with TensorFlow and Keras](https://github.com/ritchieng/tensorflow-aws-ami)
+
+### Deep Learning with TensorLayer
+- [Wide ResNet](https://github.com/ritchieng/wideresnet-tensorlayer)
+- [TensorLayer Official Tutorials](http://tensorlayer.readthedocs.io)
+
+### Deep Learning with Keras
+- [Keras Documentation](https://keras.io)
+- [Deep Learning Models like VGG, Inception V3, ResNet and more](https://github.com/fchollet/deep-learning-models)
+- [Practical Deep Learning with Keras, Jason Brownlee](http://machinelearningmastery.com/blog/)
+- [Wide Residual Networks](https://github.com/transcranial/wide-resnet)
 
 ### Feed-Forward Neural Networks
 - Neural Networks Demystified with Python, Welch Labs
