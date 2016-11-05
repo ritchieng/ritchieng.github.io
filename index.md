@@ -14,6 +14,14 @@ I started this website to document my personal guides on machine learning. This 
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
 
+## My Publications
+I'm currently working on 2 other papers relating to reinforcement learning, recurrent neural networks and hyperparameter optimization. 
+
+**Deep Reinforcement Learning for Accelerating the Convergence Rate, Submitted ICML 2017**
+<br />_Jie Fu, Zichuan Lin, Danlu Chen, **Ritchie Ng**, Miao Liu, Nicholas Leonard, Jiashi Feng, Tat-Seng Chua_
+<br />[OpenReview Paper Download](http://104.155.136.4:3000/forum?id=Syg_lYixe)
+<br />[Torch and Lua Code](https://github.com/bigaidream-projects/qan)
+
 ## My Projects
 
 **Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
