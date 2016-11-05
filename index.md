@@ -19,7 +19,7 @@ I'm currently working on 2 other papers relating to reinforcement learning, recu
 
 **Deep Reinforcement Learning for Accelerating the Convergence Rate, Submitted ICML 2017**
 <br />_Jie Fu, Zichuan Lin, Danlu Chen, **Ritchie Ng**, Miao Liu, Nicholas Leonard, Jiashi Feng, Tat-Seng Chua_
-<br />[OpenReview Paper Download](http://104.155.136.4:3000/forum?id=Syg_lYixe)
+<br />[OpenReview Paper Download](http://openreview.net/forum?id=Syg_lYixe)
 <br />[Torch and Lua Code](https://github.com/bigaidream-projects/qan)
 
 ## My Projects
