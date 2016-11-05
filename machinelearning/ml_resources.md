@@ -83,6 +83,7 @@ These are the resources you can use to become a machine learning or deep learnin
 ### Reinforcement Learning
 - [Reinforcement Learning Introduction, Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 - [Reinforcement Learning, Sutton](https://webdocs.cs.ualberta.ca/~sutton/book/)
+    - [Programming Exercises for Sutton's Book](https://github.com/dennybritz/reinforcement-learning)
 - [Using Keras with DPPG to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 
 ### Mathematics Useful for Machine Learning
