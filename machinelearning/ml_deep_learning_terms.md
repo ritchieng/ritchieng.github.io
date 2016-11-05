@@ -29,6 +29,18 @@ tags: [machine_learning]
 | Occam's razor | Among competing hypotheses, one should choose the simplest one |
 | Vapnik-Chervonenkis (VC) dimension | Measures the capacity of a binary classifier |
 | Nearest neighbor Regression | Non-parametric model minimizing the L2 norm of the point and the surrounding points |
+| Parametric Models | Models that learn a function described by a finite-sized parameter vector such as Linear Regression. And if it has less than optimal capacity, it will asymptote with an error value more than the Bayes error |
+| Non-parametric Models | No limitation on parameters such as nearest neighbour regression. And more data yields better generalization |
+| Nearest neighbour regression | It simply stores X and y and when given x it looks up for the nearest entry and returns the label |
+| Bayes error | The error incurred by an oracle, knowing the true probability distribution that generates the data, making predictions from the true distribution p(x, y) |
+| Generalization error | It can never increase with more training examples |
+| No Free Lunch Theorem | Averaged over all possible data generating distributions, every classification algorithm has the same error rate when classifying previously unobserved points |
+
+
+
+
+
+
 
 
 
