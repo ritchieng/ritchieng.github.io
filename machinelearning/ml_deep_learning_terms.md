@@ -35,6 +35,20 @@ tags: [machine_learning]
 | Bayes error | The error incurred by an oracle, knowing the true probability distribution that generates the data, making predictions from the true distribution p(x, y) |
 | Generalization error | It can never increase with more training examples |
 | No Free Lunch Theorem | Averaged over all possible data generating distributions, every classification algorithm has the same error rate when classifying previously unobserved points |
+| Weight decay | Large (underfitting), medium (just right), small (overfitting)|
+| Regularization | We can regularize a model simply by adding a penalty to the cost function called a Regularizer. There are other ways too and a more generic definition is: regularization is any modification we make to the algorithm that is intended to reduce the generalization error not the training error |
+| Hyperparameter | Settings that we can use to control the behaviour of the learning algorithm. The setting must be a hyperparameter because it is not appropriate to learn that hyperparameter for the training set such as hyperparameter controlling model capacity where it would always choose to maximize the model capacity for the training set that results in overftting |
+| Validation set | Examples that the training algorithm does not observe. This is not the test set. It is used to guide the selection of our hyperparameters. Since it is used to "train" the hyperparameters, the validation set error will underestimate the generalization error though typically by a smaller amount than the training error |
+| Test set | This is the set we use to estimate our generalization error after all our hyperparameter optimization is complete. If the test set is small, it can be problematic as this implies statistical uncertainty around the estimated test error |
+| K-fold Cross Validation | This is computationally expensive. We partition the data into k non-overlapping subsets and the test set can be estimated by taking the average test error across k-trials |
+| Point estimator or statistic | Point estimation is the attempt to provide the single “best” prediction of some quantity of interest. Any function of the data that is drawn i.i.d. Since the data is drawn i.i.d. any function of the data is random and therefore the point estimator is a random variable|
+| Function estimator | This can also be called point estimator. But a function estimator is the estimation of the relationship between input and output variables|
+| Bias | $\frac{1}{2}$ |
+
+
+
+
+
 
 
 
