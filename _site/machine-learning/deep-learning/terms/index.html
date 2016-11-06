@@ -41,6 +41,7 @@
 
 
  
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script>
         $(document).ready(function() {
             // Initialize navgoco with default options
@@ -858,7 +859,7 @@ $('#toc').on('click', 'a', function() {
     </tr>
     <tr>
       <td>Bias</td>
-      <td><span>$\frac{1}{2}$</span></td>
+      <td><script type="math/tex">bias(\hat\theta) = \mathbf{E}(\hat\theta_m) - \theta</script> <br />Estimator <script type="math/tex">\hat\theta_m</script> is ubiased if <script type="math/tex">bias(\hat\theta) = 0</script></td>
     </tr>
   </tbody>
 </table>
