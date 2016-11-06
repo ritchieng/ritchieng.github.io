@@ -43,7 +43,7 @@ tags: [machine_learning]
 | K-fold Cross Validation | This is computationally expensive. We partition the data into k non-overlapping subsets and the test set can be estimated by taking the average test error across k-trials |
 | Point estimator or statistic | Point estimation is the attempt to provide the single “best” prediction of some quantity of interest. Any function of the data that is drawn i.i.d. Since the data is drawn i.i.d. any function of the data is random and therefore the point estimator is a random variable|
 | Function estimator | This can also be called point estimator. But a function estimator is the estimation of the relationship between input and output variables|
-| Bias | $\frac{1}{2}$ |
+| Bias | <span>$\frac{1}{2}$</span> |
 
 
 
