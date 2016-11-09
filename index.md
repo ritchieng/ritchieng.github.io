@@ -17,7 +17,7 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 ## My Publications
 I'm currently working on 2 other papers relating to reinforcement learning, recurrent neural networks and hyperparameter optimization. 
 
-**Deep Reinforcement Learning for Accelerating the Convergence Rate, Submitted ICLR 2017**
+**Deep Reinforcement Learning for Accelerating the Convergence Rate, arXiv Preprint & ICLR 2017 Submission**
 <br />_Jie Fu, Zichuan Lin, Danlu Chen, **Ritchie Ng**, Miao Liu, Nicholas Leonard, Jiashi Feng, Tat-Seng Chua_
 <br />[OpenReview Paper Download](http://openreview.net/forum?id=Syg_lYixe)
 <br />[Torch and Lua Code](https://github.com/bigaidream-projects/qan)
@@ -26,7 +26,7 @@ I'm currently working on 2 other papers relating to reinforcement learning, recu
 
 **Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
 <br />This project uses TensorFlow and TensorBoard extensively. 
-<br />[Open-source Code](https://github.com/ritchieng/NumNum)
+<br />[TensorFlow Code](https://github.com/ritchieng/NumNum)
 <br />[Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
 
 **Training a smart cab using Recurrent Learning**
