@@ -89,6 +89,10 @@ These are the resources you can use to become a machine learning or deep learnin
 ### Recurrent Neural Networks
 - [RNN-LSTM with TensorFlow](http://monik.in/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow/)
 - [Introduction to RNN in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
+- [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+### Hyperparameter Optimization
+- [Using DQN to accelerate convergence](
 
 ### Mathematics Useful for Machine Learning
 - [Discrete Mathematics, MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
