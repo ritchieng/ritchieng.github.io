@@ -51,12 +51,8 @@ TensorLayer            |                     | SQL            |
 Keras                  |                     | EViews            |
 Scikit-learn           |                     | Stata             |
 OpenCV                 |                     | Adobe Illustrator | 
-OpenCV                 |                     | Adobe Photoshop   | 
-
-
-
+                       |                     | Adobe Photoshop   | 
  
-
 ## Headshot
 This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
 <br />
