@@ -43,13 +43,15 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 
 ## Languages, Libraries and Frameworks
 
-**Machine Learning**   | **Web Development** | **Others** |
-Python                 | JavaScript          | LaTeX |
-TensorFlow/TensorBoard | MeteorJS            | Bash |
-TensorLayer            | MongoDB             || 
-Keras                  |                     ||
-Scikit-learn           |                     ||
-OpenCV                 |                     || 
+**Machine Learning**   | **Web Development** | **Others**     |
+Python                 | JavaScript          | LaTeX          |
+C/C++                  | MeteorJS            | Bash Scripting |
+TensorFlow             | NodeJS              | MongoDB        |
+TensorLayer            |                     | SQL            | 
+Keras                  |                     | EViews            |
+Scikit-learn           |                     | Stata             |
+OpenCV                 |                     | Adobe Illustrator | 
+OpenCV                 |                     | Adobe Photoshop   | 
 
 
 

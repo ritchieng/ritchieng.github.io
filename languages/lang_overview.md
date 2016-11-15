@@ -29,4 +29,3 @@ folder: languages
 - [Learn C++](http://www.learncpp.com)
 - [Introduction to C++, MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/)
 - [C++ Reference](http://en.cppreference.com/w/)
-
