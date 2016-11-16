@@ -10,3 +10,4 @@ allowed-tags:
   - pandas
   - numpy
   - comic_series
+  - cpp

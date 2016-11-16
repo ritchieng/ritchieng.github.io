@@ -132,6 +132,12 @@ entries:
     - title: Python Classes
       url: /python-classes/
       output: web
+  - title: C++
+    output: web
+    folderitems:
+    - title: C++ Introduction
+      url: /cpp/introduction/
+      output: web
   - title: Octave
     output: web
     folderitems:
