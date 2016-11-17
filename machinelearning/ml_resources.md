@@ -85,14 +85,13 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Reinforcement Learning, Sutton](https://webdocs.cs.ualberta.ca/~sutton/book/)
     - [Programming Exercises for Sutton's Book](https://github.com/dennybritz/reinforcement-learning)
 - [Using Keras with DPPG to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
+- [Uncertainty Estimates](http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html)
+- [Advantage async actor-critic Algorithms (A3C) and Progressive Neural Network in TensorFlow](https://github.com/yao62995/A3C)
 
 ### Recurrent Neural Networks
 - [RNN-LSTM with TensorFlow](http://monik.in/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow/)
 - [Introduction to RNN in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
 - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-
-### Hyperparameter Optimization
-- [Using DQN to accelerate convergence](
 
 ### Mathematics Useful for Machine Learning
 - [Discrete Mathematics, MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
