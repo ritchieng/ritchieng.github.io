@@ -14,6 +14,12 @@ I started this website to document my personal guides on machine learning. This 
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
 
+## Ongoing Applications
+
+**[Gloqo](https://www.gloqo.com)**
+<br />**Search for code for research papers on arXiv.** 
+<br />This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
+
 ## My Projects
 
 **Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
