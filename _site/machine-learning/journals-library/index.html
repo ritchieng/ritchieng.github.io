@@ -3,7 +3,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="My personal list of journals I use for my research and projects. They are all available online.">
+<meta name="description" content="My personal list of journals I use for my research and projects where I wrote one-sentence summaries.">
 <meta name="keywords" content="machine_learning,  machine_learning">
 <title>Machine Learning Journal Library  | Machine Learning, Deep Learning, and Computer Vision</title>
 <link rel="stylesheet" href="/css/syntax.css">
@@ -683,7 +683,7 @@
 <div class="post-content">
 
    
-    <div class="summary">My personal list of journals I use for my research and projects. They are all available online.</div>
+    <div class="summary">My personal list of journals I use for my research and projects where I wrote one-sentence summaries.</div>
    
 
     
@@ -720,30 +720,81 @@ $('#toc').on('click', 'a', function() {
   <h3 id="deep-reinforcement-learning">Deep Reinforcement Learning</h3>
 <ul>
   <li><a href="https://arxiv.org/abs/1606.01467">Deep Q-Networks for Accelerating the Training of Deep Neural Networks</a></li>
-  <li><a href="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html">Actor-Critic Methods</a></li>
   <li><a href="https://arxiv.org/abs/1312.5602">Playing Atari with Deep Reinforcement Learning</a></li>
   <li><a href="https://arxiv.org/abs/1509.02971">Continuous Control with Deep Reinforcement Learning</a></li>
   <li><a href="http://jmlr.org/proceedings/papers/v32/silver14.pdf">Deterministic Policy Gradient Algorithms</a></li>
-  <li><a href="https://arxiv.org/pdf/1606.04671.pdf">Progressive Neural Network, Reinforcment Learning Context</a></li>
+  <li><a href="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html">Actor-Critic Methods</a>
+    <ul>
+      <li>Summary: an actor neural network would determine the actions (student) while the critic neural network would evaluate the actor’s actions (teacher)</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/pdf/1606.04671.pdf">Progressive Neural Network, Reinforcment Learning Context</a>
+    <ul>
+      <li>Summary: adding columns for each new task results in better transfer learning compared to partial or complete fine-tuning which causes catastrophic forgetting</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="deep-convolutional-neural-networks">Deep Convolutional Neural Networks</h3>
 <ul>
-  <li><a href="https://arxiv.org/abs/1605.07146">Wide Residual Networks</a></li>
+  <li><a href="https://arxiv.org/abs/1605.07146">Wide Residual Networks</a>
+    <ul>
+      <li>Summary: a variation of residual networks where width over depth has shown better performance</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="deep-neural-networks">Deep Neural Networks</h3>
 <ul>
-  <li><a href="https://arxiv.org/pdf/1606.04474.pdf">Learning Step Size Controllers for Robust Neural Network Training</a></li>
-  <li><a href="http://www.ijcai.org/Proceedings/16/Papers/318.pdf">Weight Features for Predicting Future Model Performance of Deep Neural Networks</a></li>
-  <li><a href="http://papers.nips.cc/paper/5059-compete-to-compute.pdf">Compete to Compute</a></li>
+  <li><a href="http://www.nature.com/nature/journal/v534/n7605/full/nature17955.html">A shared neural ensemble links distinct contextual memories encoded close in time</a>
+    <ul>
+      <li>Summary: spatial memories that are acquired near in time are associated with overlapping neuronal ensembles in the brain’s hippocampus</li>
+    </ul>
+  </li>
+  <li><a href="http://www.nature.com/nature/journal/v536/n7617/full/536405a.html">Memories linked within a window of time</a>
+    <ul>
+      <li>Summary: a theory called temporal context memory (TCM) explains why people have a better memory for words that occur close together in a list than for words that are further apart</li>
+    </ul>
+  </li>
+  <li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/daniel2016stepsizecontrol.pdf">Learning Step Size Controllers for Robust Neural Network Training</a>
+    <ul>
+      <li>Summary: identifying informative states, using the states for learning step size and showing generalization to different tasks</li>
+    </ul>
+  </li>
+  <li><a href="http://www.ijcai.org/Proceedings/16/Papers/318.pdf">Weight Features for Predicting Future Model Performance of Deep Neural Networks</a>
+    <ul>
+      <li>Summary: using statistics of weights instead of actual weights</li>
+    </ul>
+  </li>
+  <li><a href="http://papers.nips.cc/paper/5059-compete-to-compute.pdf">Compete to Compute</a>
+    <ul>
+      <li>Summary: using competing linear units to outperform non-competing nonlinear units and avoid catastrophic forgetting when training sets change over time</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/pdf/1609.09106v3.pdf">HyperNetworks</a>
+    <ul>
+      <li>Summary: using a HyperLSTMCell over BasicLSTM cell by using a small number of parameters (small LSTM) to generate a large number of parameters (larger LSTM)</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="hyper-parameter-optimization">Hyper-parameter Optimization</h3>
 <ul>
-  <li><a href="https://arxiv.org/abs/1606.04474">Learning to learn by gradient descent by gradient descent</a></li>
-  <li><a href="https://arxiv.org/abs/1609.01596">Direct Feedback Alignment Provides Learning in Deep Neural Networks</a></li>
-  <li><a href="https://arxiv.org/abs/1601.00917">DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks</a></li>
+  <li><a href="https://arxiv.org/abs/1606.04474">Learning to learn by gradient descent by gradient descent</a>
+    <ul>
+      <li>Summary: learning an optimization algorithm that works on a class of optimization problems by parameterizing the optimizer</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/abs/1609.01596">Direct Feedback Alignment Provides Learning in Deep Neural Networks</a>
+    <ul>
+      <li>Summary: an alternative to error backpropagation by propagating the error through fixed random feedback connections directly from the output layer to each hidden layer</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/abs/1601.00917">DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks</a>
+    <ul>
+      <li>Summary: using a convex combination of the starting and ending points to accelerate convergence</li>
+    </ul>
+  </li>
 </ul>
 
 
