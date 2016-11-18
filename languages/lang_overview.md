@@ -12,6 +12,7 @@ folder: languages
 ### Python
 - [Learn Python the Hard Way](https://learnpythonthehardway.org)
 - [Getting Started with Python](https://www.coursera.org/learn/python)
+- [Python Property Feature](http://www.programiz.com/python-programming/property)
 
 ### Pandas (Python)
 - [Introduction to Pandas](http://www.ritchieng.com/pandas-introduction/)
