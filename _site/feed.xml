@@ -5,9 +5,30 @@
         <description>I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 18 Nov 2016 02:00:37 -0500</pubDate>
-        <lastBuildDate>Fri, 18 Nov 2016 02:00:37 -0500</lastBuildDate>
+        <pubDate>Fri, 18 Nov 2016 02:08:46 -0500</pubDate>
+        <lastBuildDate>Fri, 18 Nov 2016 02:08:46 -0500</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>Gloqo: Search for code for research papers on arXiv</title>
+            <description>&lt;p&gt;This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.&lt;/p&gt;
+
+&lt;p&gt;As an undergraduate conducting research in deep learning, I actively try to verify past papers’ experiments before building on them for major projects and papers. And I found that many, if not most, authors do not release their codes. And there are many issues associated with research that is not reproducible as shown in &lt;a href=&quot;http://www.nature.com/news/reproducibility-1.17552&quot;&gt;Nature Reproducible Research&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I will keep it short and just repeat the &lt;a href=&quot;http://sciencecodemanifesto.org&quot;&gt;Science Code Manifesto&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.&lt;/strong&gt;&lt;/p&gt;
+</description>
+            <pubDate>Fri, 18 Nov 2016 00:00:00 -0500</pubDate>
+            <link>http://www.ritchieng.com/gloqo/arxiv-like-code</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/gloqo/arxiv-like-code</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
         
         <item>
             <title>Comic Series: The Future of Labelled Data</title>
