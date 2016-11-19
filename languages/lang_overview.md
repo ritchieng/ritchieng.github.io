@@ -7,8 +7,6 @@ permalink: /programming-languages/
 folder: languages
 ---
 
-## Languages Available
-
 ### Python
 - [Learn Python the Hard Way](https://learnpythonthehardway.org)
 - [Getting Started with Python](https://www.coursera.org/learn/python)
