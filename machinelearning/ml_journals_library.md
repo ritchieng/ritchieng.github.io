@@ -34,7 +34,10 @@ tags: [machine_learning]
     - Summary: using competing linear units to outperform non-competing nonlinear units and avoid catastrophic forgetting when training sets change over time
 - [HyperNetworks](https://arxiv.org/pdf/1609.09106v3.pdf)
     - Summary: using a HyperLSTMCell over BasicLSTM cell by using a small number of parameters (small LSTM) to generate a large number of parameters (larger LSTM)
-
+- [Non-Local Interaction via Diffusible Resource Prevents Coexistence of Cooperators and Cheaters in a Lattice Model](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0063304&type=printable)
+- [Decoupled Neural Interfaces using Synthetic Gradients](https://arxiv.org/abs/1608.05343)
+    - Summary: by modelling error gradients (synthetic gradients), we can decouple subgraphs and update them independently and asynchronously
+  
 ### Hyper-parameter Optimization
 - [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)
     - Summary: learning an optimization algorithm that works on a class of optimization problems by parameterizing the optimizer

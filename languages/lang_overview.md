@@ -1,7 +1,7 @@
 ---
 title: Programming Languages Guides and Notes
 keywords: languages
-summary: "Discover Python, Octave, Java, and Javascript."
+summary: "Discover Python, C++, Octave, NumPy, and Pandas."
 sidebar: lang_sidebar
 permalink: /programming-languages/
 folder: languages
