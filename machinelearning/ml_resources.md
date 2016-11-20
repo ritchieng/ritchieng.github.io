@@ -99,7 +99,13 @@ These are the resources you can use to become a machine learning or deep learnin
 ### Mathematics Useful for Machine Learning
 - [Discrete Mathematics, MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
 - [Linear Algebra, MIT](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+- [Linear Algebra Review, Stanford](http://cs229.stanford.edu/section/cs229-linalg.pdf)
+- [Probability Review, Stanford](http://cs229.stanford.edu/section/cs229-prob.pdf)
+- [Convex optimization overview, Stanford](http://cs229.stanford.edu/section/cs229-cvxopt.pdf)
+- [More convex optimization overview, Stanford](http://cs229.stanford.edu/section/cs229-cvxopt.pdf)
 - [Single Variable Calculus, MIT](http://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
+- [Practical Guide for Matrix Calculus for Deep Learning](http://www.psi.toronto.edu/~andrew/papers/matrix_calculus_for_learning.pdf)
+
 
 ### Machine Learning Research
 - [ICLR](http://www.iclr.cc)
