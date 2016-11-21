@@ -138,6 +138,9 @@ entries:
     - title: C++ Introduction
       url: /cpp/introduction/
       output: web
+    - title: C++ Control Flow
+      url: /cpp/control-flow/
+      output: web
   - title: Octave
     output: web
     folderitems:
