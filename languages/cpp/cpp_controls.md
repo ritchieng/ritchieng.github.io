@@ -92,4 +92,6 @@ for(initialization; condition; incrementation){
 Working example.
 <script src="https://gist.github.com/ritchieng/365192e736559347036a85a6ed522670.js"></script>
 
+Minor note: you can easily replace `\n` with `endl`.
+
 Now you can create any complex nested loops and/or for conditionals! 
