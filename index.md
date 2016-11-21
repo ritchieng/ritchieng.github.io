@@ -14,33 +14,29 @@ I started this website to document my personal guides on machine learning. This 
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
 
-## Ongoing Applications
-<br />[![https://www.gloqo.com](http://res.cloudinary.com/ritchieng/image/upload/c_scale,w_159/v1479450911/gloqo_edf0ag.png)](https://www.gloqo.com)
-<br />**Search for code for research papers on arXiv.**
+## Ongoing Projects
+**[Gloqo](https://www.gloqo.com)**
 <br />This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
 
-## Projects
+**[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
+<br /> This is an open-source and actively-maintained Amazon Web Service AMI that allows anyone to work with Python, TensorFlow, Keras, TensorLayer, CUDA, cuDNN, and OpenAI Gym within 5 minutes.
 
-**Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)**
-<br />This project uses TensorFlow and TensorBoard extensively. 
-<br />[TensorFlow Code](https://github.com/ritchieng/NumNum)
-<br />[Report](https://github.com/ritchieng/NumNum/blob/master/NumNum/report/report.pdf)
+## Past Projects
 
-**Training a smart cab using Recurrent Learning**
-<br />This project uses Python and PyGame to train a smart cab with Recurrent Learning.
-<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
+**[Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)**
+<br />This project uses Python, TensorFlow, TensorBoard and OpenCV.
 
-**Identifying Customer Segments (Unsupervised Learning)**
-<br />This project uses Scikit-learn with an emphasis on PCA and clustering.
-<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-customer-segments/)
+**[Training a Smart Cab using Reinforcement Learning](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
+<br />This project uses Python and PyGame to train a smart cab with reinforcement learning.
 
-**Building a Student Intervention System (Supervised Learning)**
-<br />This project uses Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
-<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-student-intervention/)
+**[Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)**
+<br />This project uses Python and Scikit-learn with an emphasis on PCA and clustering.
 
-**Predicting Boston House Prices** 
-<br />This project uses Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
-<br />[IPython Notebook](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
+**[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
+<br />This project uses Python and Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
+
+**[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
+<br />This project uses Python and Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
 
 ## Online Profiles
 - [Github](https://github.com/ritchieng)

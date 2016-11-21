@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content="about,  ">
-<title>Ritchie Ng  | Machine Learning, Deep Learning, and Computer Vision</title>
+<meta name="description" content="It's basically a google for quickly finding code for research papers.">
+<meta name="keywords" content="newsmachine_learning,  ">
+<title>Gloqo: Search for code for research papers on arXiv  | Machine Learning, Deep Learning, and Computer Vision</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -81,16 +81,19 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Ritchie Ng</title>
-<meta property="og:title" content="Ritchie Ng" />
-<meta name="description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
-<meta property='og:description' content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/" />
-<meta property='og:url' content='http://www.ritchieng.com/' />
+<title>Gloqo: Search for code for research papers on arXiv</title>
+<meta property="og:title" content="Gloqo: Search for code for research papers on arXiv" />
+<meta name="description" content="This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others." />
+<meta property='og:description' content="This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others." />
+<link rel="canonical" href="http://www.ritchieng.com/gloqo/arxiv-like-code" />
+<meta property='og:url' content='http://www.ritchieng.com/gloqo/arxiv-like-code' />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-11-21T00:00:00-05:00" />
+<link rel="prev" href="http://www.ritchieng.com/gloqo/arxiv-like-code" title="Gloqo: Search for code for research papers on arXiv" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Ritchie Ng" />
-<meta name="twitter:description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
+<meta name="twitter:title" content="Gloqo: Search for code for research papers on arXiv" />
+<meta name="twitter:description" content="This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others." />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
 <meta property="fb:app_id" content="1736736559921494" />
@@ -99,16 +102,18 @@
     "@context" : "http://schema.org",
 
 
-    "@type" : "WebSite",
+    "@type" : "BlogPosting",
 
-    "headline": "Ritchie Ng",
+    "headline": "Gloqo: Search for code for research papers on arXiv",
 
-    "description": "I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!",
+    "datePublished": "2016-11-21T00:00:00-05:00",
+
+    "description": "This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.",
 
     "logo": "http://www.ritchieng.com/http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_big_ycwbod.png",
 
 
-    "url" : "http://www.ritchieng.com/"
+    "url" : "http://www.ritchieng.com/gloqo/arxiv-like-code"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -166,7 +171,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Ritchie Ng">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="Gloqo: Search for code for research papers on arXiv">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -201,9 +206,31 @@
 
 
 <ul id="mysidebar" class="nav">
-    <li class="sidebarTitle">Welcome! </li>
+    <li class="sidebarTitle">Tags </li>
     
     
+    
+    <li>
+        <a href="#">News</a>
+        <ul>
+            
+            
+            
+            <li><a href="/news/">News</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/news_archive/">News archive</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
     
     <li>
         <a href="#">Tags</a>
@@ -212,6 +239,13 @@
             
             
             <li><a href="/tag_about/">About</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/tag_comic_series/">Comic Series</a></li>
             
             
             
@@ -296,166 +330,58 @@
 <script>$("li.active").parents('li').toggleClass("active");</script>
     <!-- Content Column -->
     <div class="col-md-9">
-        <div class="post-header">
-   <h1 class="post-title-main">Ritchie Ng</h1>
-</div>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Gloqo: Search for code for research papers on arXiv</h1>
+        <p class="post-meta"><time datetime="2016-11-21T00:00:00-05:00" itemprop="datePublished">Nov 21, 2016</time> /
+            
+            
+            
+            <a href="/tag_news">news</a>, 
+            
+            
+            
+            <a href="/tag_machine_learning">machine_learning</a>
+            
+            
+            
+
+        </p>
+
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">It's basically a google for quickly finding code for research papers.</div>
+        
+
+        This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
+
+As an undergraduate conducting research in deep learning, I actively try to verify past papers' experiments before building on them for major projects and papers. And I found that many, if not most, authors do not release their codes. And there are many issues associated with research that is not reproducible as shown in [Nature Reproducible Research](http://www.nature.com/news/reproducibility-1.17552).
+
+And because I ran out of ways to extend this website well that is proudly served through Github by Github Pages for free forever, I decided to create a separate application. If you understand how Github Pages only allow static pages, you would come to realize why I could not effectively build this function on this website; or at least effectively build one where others can post too. It's meant for myself, but I hope some people would find gloqo useful too and contribute!
+
+I will keep it short and just repeat the [Science Code Manifesto](http://sciencecodemanifesto.org):
+
+**All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.**
+    </div>
 
 
 
-<div class="post-content">
+</article>
+<!--<div>
 
-   
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/gloqo/arxiv-like-code" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
+    <a href="http://twitter.com/intent/tweet?text=Gloqo: Search for code for research papers on arXiv&url=http://www.ritchieng.com/gloqo/arxiv-like-code&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
-
-    
-
-    
-
-    
-
-    
-
-  <h2 id="hello">Hello!</h2>
-
-<p>I am Ritchie Ng, a machine learning engineer from the National University of Singapore (NUS) specializing in deep learning and computer vision.</p>
-
-<p>Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I’ve a lot of free meal credits to spare!</p>
-
-<p>I started this website to document my personal guides on machine learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too.</p>
-
-<p>Oh yes! You can check out some of my “cool” stickman <a href="http://www.ritchieng.com/tag_comic_series/">comics</a> on Machine Learning if you are looking to chillax with my stickman.</p>
-
-<h2 id="ongoing-projects">Ongoing Projects</h2>
-<p><strong><a href="https://www.gloqo.com">Gloqo</a></strong>
-<br />This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.</p>
-
-<p><strong><a href="https://github.com/ritchieng/tensorflow-aws-ami">TensorFlow AWS AMI, TFAMI</a></strong>
-<br /> This is an open-source and actively-maintained Amazon Web Service AMI that allows anyone to work with Python, TensorFlow, Keras, TensorLayer, CUDA, cuDNN, and OpenAI Gym within 5 minutes.</p>
-
-<h2 id="past-projects">Past Projects</h2>
-
-<p><strong><a href="https://github.com/ritchieng/NumNum">Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)</a></strong>
-<br />This project uses Python, TensorFlow, TensorBoard and OpenCV.</p>
-
-<p><strong><a href="http://www.ritchieng.com/machine-learning-proj-smart-cab/">Training a Smart Cab using Reinforcement Learning</a></strong>
-<br />This project uses Python and PyGame to train a smart cab with reinforcement learning.</p>
-
-<p><strong><a href="http://www.ritchieng.com/machine-learning-project-customer-segments/">Identifying Customer Segments (Unsupervised Learning)</a></strong>
-<br />This project uses Python and Scikit-learn with an emphasis on PCA and clustering.</p>
-
-<p><strong><a href="http://www.ritchieng.com/machine-learning-project-student-intervention/">Building a Student Intervention System (Supervised Learning)</a></strong>
-<br />This project uses Python and Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.</p>
-
-<p><strong><a href="http://www.ritchieng.com/machine-learning-project-boston-home-prices/">Predicting Boston House Prices</a></strong> 
-<br />This project uses Python and Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.</p>
-
-<h2 id="online-profiles">Online Profiles</h2>
-<ul>
-  <li><a href="https://github.com/ritchieng">Github</a></li>
-  <li><a href="https://www.linkedin.com/in/ritchieng">Linkedin</a></li>
-</ul>
-
-<h2 id="languages-libraries-and-frameworks">Languages, Libraries and Frameworks</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Machine Learning</strong></td>
-      <td><strong>Web Development</strong></td>
-      <td><strong>Others</strong></td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>JavaScript</td>
-      <td>LaTeX</td>
-    </tr>
-    <tr>
-      <td>C/C++</td>
-      <td>MeteorJS</td>
-      <td>Bash Scripting</td>
-    </tr>
-    <tr>
-      <td>TensorFlow</td>
-      <td>NodeJS</td>
-      <td>MongoDB</td>
-    </tr>
-    <tr>
-      <td>TensorLayer</td>
-      <td> </td>
-      <td>SQL</td>
-    </tr>
-    <tr>
-      <td>Keras</td>
-      <td> </td>
-      <td>EViews</td>
-    </tr>
-    <tr>
-      <td>Scikit-learn</td>
-      <td> </td>
-      <td>Stata</td>
-    </tr>
-    <tr>
-      <td>OpenCV</td>
-      <td> </td>
-      <td>Adobe Illustrator</td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-      <td>Adobe Photoshop</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="headshot">Headshot</h2>
-<p>This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
-<br />
-<img src="http://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png" alt="Ritchie Ng" /></p>
-
-
-<div class="tags">
-    
-    <b>Tags: </b>
-    
-    
-    
-    <a href="/tag_about" class="btn btn-default navbar-btn cursorNorm" role="button">about</a>
-    
-    
-    
-</div>
-    <!--<div>
-
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
-
-    <a href="http://twitter.com/intent/tweet?text=Ritchie Ng&url=http://www.ritchieng.com/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
-
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/gloqo/arxiv-like-code" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
-    <br />
+<br />
 <br />
 <div id="disqus_thread"></div>
 <script>
@@ -481,7 +407,6 @@ $('#toc').on('click', 'a', function() {
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
-</div>
 
 <hr class="shaded"/>
 
@@ -495,6 +420,10 @@ $('#toc').on('click', 'a', function() {
                 </div>
             </div>
 </footer>
+
+
+
+
 
     </div>
     <!-- /.row -->
