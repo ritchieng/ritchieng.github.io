@@ -24,13 +24,13 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 ## Past Projects
 
 **[Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)**
-<br />This project uses Python, TensorFlow, TensorBoard and OpenCV.
+<br />This project uses Python, TensorFlow, TensorBoard and OpenCV to recognize house numbers from Google's Street View images.
 
 **[Training a Smart Cab using Reinforcement Learning](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
 <br />This project uses Python and PyGame to train a smart cab with reinforcement learning.
 
 **[Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)**
-<br />This project uses Python and Scikit-learn with an emphasis on PCA and clustering.
+<br />This project uses Python and Scikit-learn to implement PCA and clustering.
 
 **[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
 <br />This project uses Python and Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
