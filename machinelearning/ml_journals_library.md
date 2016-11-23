@@ -8,7 +8,6 @@ folder: machinelearning
 tags: [machine_learning]
 ---
 ### Deep Reinforcement Learning
-- [Deep Q-Networks for Accelerating the Training of Deep Neural Networks](https://arxiv.org/abs/1606.01467)
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 - [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/abs/1509.02971)
 - [Deterministic Policy Gradient Algorithms](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
