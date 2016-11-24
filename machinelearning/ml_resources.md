@@ -93,6 +93,7 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Introduction to RNN in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
 - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Advanced RNN guides and code](http://r2rt.com)
+- [RNN in TensorFlow with and without API](http://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html)
 - [RNNs in TensorFlow, A Practical Guide and Undocumented Features](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
 - [TensorFlow code for Latest RNN Papers](https://github.com/LeavesBreathe/tensorflow_with_latest_papers)
 
