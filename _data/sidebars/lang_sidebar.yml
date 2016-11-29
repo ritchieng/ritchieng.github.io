@@ -141,6 +141,9 @@ entries:
     - title: C++ Control Flow
       url: /cpp/control-flow/
       output: web
+    - title: C++ Functions
+      url: /cpp/functions/
+      output: web
   - title: Octave
     output: web
     folderitems:

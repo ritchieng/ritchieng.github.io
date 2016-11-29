@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This is a basic introduction where we learn how to output Hello World! and see the differences between Python and C++">
+<meta name="description" content="Writing reusable code in C++">
 <meta name="keywords" content="cpp,  cpp">
-<title>Introduction to C++  | Machine Learning, Deep Learning, and Computer Vision</title>
+<title>C++ Functions  | Machine Learning, Deep Learning, and Computer Vision</title>
 <link rel="stylesheet" href="/css/syntax.css">
 
 
@@ -81,15 +81,15 @@
     </script>
     
     <!-- Begin Jekyll SEO tag v1.3.1 -->
-<title>Introduction to C++</title>
-<meta property="og:title" content="Introduction to C++" />
+<title>C++ Functions</title>
+<meta property="og:title" content="C++ Functions" />
 <meta name="description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
 <meta property='og:description' content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
-<link rel="canonical" href="http://www.ritchieng.com/cpp/introduction/" />
-<meta property='og:url' content='http://www.ritchieng.com/cpp/introduction/' />
+<link rel="canonical" href="http://www.ritchieng.com/cpp/functions/" />
+<meta property='og:url' content='http://www.ritchieng.com/cpp/functions/' />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@RitchieNg" />
-<meta name="twitter:title" content="Introduction to C++" />
+<meta name="twitter:title" content="C++ Functions" />
 <meta name="twitter:description" content="I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!" />
 <meta name="twitter:creator" content="@RitchieNg" />
 <meta property="article:publisher" content="ritchiengz" />
@@ -101,14 +101,14 @@
 
     "@type" : "WebPage",
 
-    "headline": "Introduction to C++",
+    "headline": "C++ Functions",
 
     "description": "I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!",
 
     "logo": "http://www.ritchieng.com/http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_big_ycwbod.png",
 
 
-    "url" : "http://www.ritchieng.com/cpp/introduction/"
+    "url" : "http://www.ritchieng.com/cpp/functions/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -166,7 +166,7 @@
                                 <!--searchInput: document.getElementById('search-input'),-->
                                 <!--resultsContainer: document.getElementById('results-container'),-->
                                 <!--dataSource: '/search.json',-->
-                                <!--searchResultTemplate: '<li><a href="{url}" title="Introduction to C++">{title}</a></li>',-->
+                                <!--searchResultTemplate: '<li><a href="{url}" title="C++ Functions">{title}</a></li>',-->
                     <!--noResultsText: 'No results found.',-->
                             <!--limit: 10,-->
                             <!--fuzzy: true,-->
@@ -515,7 +515,7 @@
             
             
             
-            <li class="active"><a href="/cpp/introduction/">C++ Introduction</a></li>
+            <li><a href="/cpp/introduction/">C++ Introduction</a></li>
             
             
             
@@ -529,7 +529,7 @@
             
             
             
-            <li><a href="/cpp/functions/">C++ Functions</a></li>
+            <li class="active"><a href="/cpp/functions/">C++ Functions</a></li>
             
             
             
@@ -574,7 +574,7 @@
     <!-- Content Column -->
     <div class="col-md-9">
         <div class="post-header">
-   <h1 class="post-title-main">Introduction to C++</h1>
+   <h1 class="post-title-main">C++ Functions</h1>
 </div>
 
 
@@ -582,7 +582,7 @@
 <div class="post-content">
 
    
-    <div class="summary">This is a basic introduction where we learn how to output Hello World! and see the differences between Python and C++</div>
+    <div class="summary">Writing reusable code in C++</div>
    
 
     
@@ -616,70 +616,15 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="main-difference-in-running-c-and-python">Main difference in running C++ and Python</h2>
-<ul>
-  <li>So if you are familiar with python, you know we can easily create a file called <code class="highlighter-rouge">hello.py</code> and simply run it with <code class="highlighter-rouge">python hello.py</code></li>
-  <li>However for C++, we’ve 1 more step: compiling!
-    <ul>
-      <li>Create the file <code class="highlighter-rouge">hello.cpp</code></li>
-      <li>Compile: <code class="highlighter-rouge">g++ hello.cpp -o hello</code></li>
-      <li>Run: <code class="highlighter-rouge">./hello</code></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="getting-started-with-hello-world">Getting started with “Hello World”</h2>
-<p>You would notice it’s less intuitive compared to Python, but nonetheless similar.</p>
-
-<script src="https://gist.github.com/ritchieng/bc6fa46ada69b2ce6d0471b8337ccb44.js"></script>
-
-<h3 id="things-to-note-here">6 things to note here.</h3>
+  <h2 id="why-do-we-define-functions">Why do we define functions?</h2>
 <ol>
-  <li>We use <code class="highlighter-rouge">//</code> for comments</li>
-  <li>Lines beginning with <code class="highlighter-rouge">#</code> are preprocessor commands
-    <ul>
-      <li><code class="highlighter-rouge">#include</code>: tells preprocessor to dump contents in another file</li>
-      <li><code class="highlighter-rouge">&lt;iostream&gt;</code>: file we’re dumping into that defines our IO</li>
-    </ul>
-  </li>
-  <li><code class="highlighter-rouge">int main()</code> defines the code when the program starts
-    <ul>
-      <li><code class="highlighter-rouge"><span class="p">{}</span></code>: multiple commands in a block</li>
-      <li>Think of this as similar to defining a function in Python</li>
-    </ul>
-  </li>
-  <li><code class="highlighter-rouge">::</code> is the scope resolution operator
-    <ul>
-      <li>It tells the compiler to look for the identifier we want in the namespace (directory of identifiers)</li>
-    </ul>
-  </li>
-  <li><code class="highlighter-rouge">cout &lt;&lt;:</code> is the syntax for outputting text
-    <ul>
-      <li>Intuitively, anything after <code class="highlighter-rouge">&lt;&lt;:</code> flows to <code class="highlighter-rouge">cout</code> that prints!</li>
-      <li>On the other hand, we can get user’s input with <code class="highlighter-rouge">cin &gt;&gt;:</code>, see how the data flows in the opposite direction?</li>
-    </ul>
-  </li>
-  <li>In the <code class="highlighter-rouge"><span class="p">{}</span></code> block, you must always use a <code class="highlighter-rouge">;</code> after every line.
-    <ul>
-      <li>This is a common mistake I made when I first started out.</li>
-    </ul>
-  </li>
+  <li>Readability</li>
+  <li>Maintainability</li>
+  <li>Re-usability (I know this is not a word, but you get what I mean)</li>
 </ol>
 
-<h2 id="variables">Variables</h2>
-
-<script src="https://gist.github.com/ritchieng/5cf520d1f55aed2d4dd9750dc7b14447.js"></script>
-
-<p>We can test the file by running where <code class="highlighter-rouge">variable.cpp</code> is the file we saved our above code into:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>g++ variable.cpp -o variable
-./variable
-</code></pre>
-</div>
-
-<h2 id="getting-input">Getting input</h2>
-
-<script src="https://gist.github.com/ritchieng/74a497046132ca6f34662a65ef670e51.js"></script>
+<h2 id="function-declaration-syntax">Function Declaration Syntax</h2>
+<script src="https://gist.github.com/ritchieng/732ced42bfa2677bc90c69e6469585cf.js"></script>
 
 
 
@@ -696,11 +641,11 @@ $('#toc').on('click', 'a', function() {
 </div>
     <!--<div>
 
-    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/cpp/introduction/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
+    <a href="http://facebook.com/sharer.php?u=http://www.ritchieng.com/cpp/functions/" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 6px; text-decoration: none;">Facebook</a>
 
-    <a href="http://twitter.com/intent/tweet?text=Introduction to C++&url=http://www.ritchieng.com/cpp/introduction/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
+    <a href="http://twitter.com/intent/tweet?text=C++ Functions&url=http://www.ritchieng.com/cpp/functions/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 6px; text-decoration: none;">Twitter</a>
 
-    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/cpp/introduction/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
+    <a href="http://plus.google.com/share?url=http://www.ritchieng.com/cpp/functions/" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 6px; text-decoration: none;">Google+</a>
 
 </div>-->
     <br />

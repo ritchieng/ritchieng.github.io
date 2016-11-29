@@ -19,7 +19,7 @@ tags: [machine_learning]
 ### Deep Convolutional Neural Networks
 - [Wide Residual Networks](https://arxiv.org/abs/1605.07146)
     - Summary: a variation of residual networks where width over depth has shown better performance
-
+    
 ### Deep Neural Networks
 - [A shared neural ensemble links distinct contextual memories encoded close in time](http://www.nature.com/nature/journal/v534/n7605/full/nature17955.html)
     - Summary: spatial memories that are acquired near in time are associated with overlapping neuronal ensembles in the brain’s hippocampus
@@ -44,3 +44,7 @@ tags: [machine_learning]
     - Summary: an alternative to error backpropagation by propagating the error through fixed random feedback connections directly from the output layer to each hidden layer
 - [DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks](https://arxiv.org/abs/1601.00917)
     - Summary: using a convex combination of the starting and ending points to accelerate convergence
+
+### Deep Recurrent Neural Networks
+- [HyperNetworks](https://arxiv.org/abs/1609.09106)
+    - Summary: using a small LSTM to generate a large LSTM for substantial model compression
