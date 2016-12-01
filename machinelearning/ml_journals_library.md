@@ -19,6 +19,9 @@ tags: [machine_learning]
 ### Deep Convolutional Neural Networks
 - [Wide Residual Networks](https://arxiv.org/abs/1605.07146)
     - Summary: a variation of residual networks where width over depth has shown better performance
+- [SqueezeNet](https://arxiv.org/abs/1602.07360)
+    - Summary: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
+
     
 ### Deep Neural Networks
 - [A shared neural ensemble links distinct contextual memories encoded close in time](http://www.nature.com/nature/journal/v534/n7605/full/nature17955.html)
@@ -48,3 +51,5 @@ tags: [machine_learning]
 ### Deep Recurrent Neural Networks
 - [HyperNetworks](https://arxiv.org/abs/1609.09106)
     - Summary: using a small LSTM to generate a large LSTM for substantial model compression
+- [Exploring Sparsity in RNN](https://openreview.net/pdf?id=BylSPv9gx)
+    - Summary: model size can be reduced by 90% and speed-up is around 2× to 7× while maintain accuracy by pruning weights during the initial training of the network
