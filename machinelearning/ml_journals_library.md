@@ -47,6 +47,8 @@ tags: [machine_learning]
     - Summary: an alternative to error backpropagation by propagating the error through fixed random feedback connections directly from the output layer to each hidden layer
 - [DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks](https://arxiv.org/abs/1601.00917)
     - Summary: using a convex combination of the starting and ending points to accelerate convergence
+- [Gradient-based Hyperparameter Optimization through Reversible Learning](https://arxiv.org/abs/1502.03492)
+    - Summary: tuning hyperparameters by casting them as a learning problem
 
 ### Deep Recurrent Neural Networks
 - [HyperNetworks](https://arxiv.org/abs/1609.09106)
