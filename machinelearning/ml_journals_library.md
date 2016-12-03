@@ -39,7 +39,9 @@ tags: [machine_learning]
 - [Non-Local Interaction via Diffusible Resource Prevents Coexistence of Cooperators and Cheaters in a Lattice Model](http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0063304&type=printable)
 - [Decoupled Neural Interfaces using Synthetic Gradients](https://arxiv.org/abs/1608.05343)
     - Summary: by modelling error gradients (synthetic gradients), we can decouple subgraphs and update them independently and asynchronously
-  
+- [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
+    - Summary: using soft targets instead of hard targets, we can achieve similar performance from a much smaller network than a large network where we learned the soft targets from
+    
 ### Hyper-parameter Optimization
 - [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)
     - Summary: learning an optimization algorithm that works on a class of optimization problems by parameterizing the optimizer
