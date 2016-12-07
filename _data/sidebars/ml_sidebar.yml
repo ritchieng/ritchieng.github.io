@@ -15,6 +15,12 @@ entries:
     - title: Datasets for Machine Learning
       url: /machine-learning/datasets
       output: web
+  - title: Machine Learning and Econometrics
+    output: web
+    folderitems:
+      - title: Resources
+        url: /machine-learning-econometrics/resources
+        output: web
   - title: Supervised Learning Theory
     output: web
     folderitems:
@@ -111,7 +117,7 @@ entries:
     - title: Deep Convolutional Networks
       url: /machine-learning/deep-learning/tensorflow/convnets/
       output: web
-  - title: Machine Learning in Scikit-Learn
+  - title: Machine Learning with Scikit-Learn
     output: web
     folderitems:
     - title: Introduction to Machine Learning
