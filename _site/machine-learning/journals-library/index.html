@@ -235,6 +235,21 @@
         
     
     <li>
+        <a href="#">Machine Learning and Econometrics</a>
+        <ul>
+            
+            
+            
+            <li><a href="/machine-learning/econometrics/resources">Resources</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
         <a href="#">Supervised Learning Theory</a>
         <ul>
             
@@ -464,7 +479,7 @@
         
     
     <li>
-        <a href="#">Machine Learning in Scikit-Learn</a>
+        <a href="#">Machine Learning with Scikit-Learn</a>
         <ul>
             
             
@@ -741,6 +756,11 @@ $('#toc').on('click', 'a', function() {
       <li>Summary: a variation of residual networks where width over depth has shown better performance</li>
     </ul>
   </li>
+  <li><a href="https://arxiv.org/abs/1602.07360">SqueezeNet</a>
+    <ul>
+      <li>Summary: AlexNet-level accuracy with 50x fewer parameters and &lt;0.5MB model size</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="deep-neural-networks">Deep Neural Networks</h3>
@@ -781,6 +801,11 @@ $('#toc').on('click', 'a', function() {
       <li>Summary: by modelling error gradients (synthetic gradients), we can decouple subgraphs and update them independently and asynchronously</li>
     </ul>
   </li>
+  <li><a href="https://arxiv.org/abs/1503.02531">Distilling the Knowledge in a Neural Network</a>
+    <ul>
+      <li>Summary: using soft targets instead of hard targets, we can achieve similar performance from a much smaller network than a large network where we learned the soft targets from</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="hyper-parameter-optimization">Hyper-parameter Optimization</h3>
@@ -798,6 +823,25 @@ $('#toc').on('click', 'a', function() {
   <li><a href="https://arxiv.org/abs/1601.00917">DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks</a>
     <ul>
       <li>Summary: using a convex combination of the starting and ending points to accelerate convergence</li>
+    </ul>
+  </li>
+  <li><a href="https://arxiv.org/abs/1502.03492">Gradient-based Hyperparameter Optimization through Reversible Learning</a>
+    <ul>
+      <li>Summary: tuning hyperparameters by casting them as a learning problem</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="deep-recurrent-neural-networks">Deep Recurrent Neural Networks</h3>
+<ul>
+  <li><a href="https://arxiv.org/abs/1609.09106">HyperNetworks</a>
+    <ul>
+      <li>Summary: using a small LSTM to generate a large LSTM for substantial model compression</li>
+    </ul>
+  </li>
+  <li><a href="https://openreview.net/pdf?id=BylSPv9gx">Exploring Sparsity in RNN</a>
+    <ul>
+      <li>Summary: model size can be reduced by 90% and speed-up is around 2× to 7× while maintain accuracy by pruning weights during the initial training of the network</li>
     </ul>
   </li>
 </ul>
@@ -857,7 +901,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy; 2016 Ritchie Ng. All rights reserved. <br />
- Site last updated: Nov 24, 2016 <br />
+ Site last updated: Dec 6, 2016 <br />
                     <a href="https://github.com/ritchieng">Github</a> | <a href="https://www.linkedin.com/in/ritchieng">Linkedin</a> | <a href="https://www.facebook.com/ritchiengz">Facebook</a> | <a href="https://twitter.com/ritchieng">Twitter</a> | <a href="https://www.techinasia.com/profile/ritchieng">Tech in Asia</a>
 <!--<p><img src="http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_p3uvgl.png" alt="Ritchie Ng"/></p>-->
                 </div>

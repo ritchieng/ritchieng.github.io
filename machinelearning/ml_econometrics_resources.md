@@ -3,7 +3,7 @@ title: Machine Learning & Econometrics
 keywords: machine_learning
 summary: "Applying Machine Learning to Econometrics and Public Policy."
 sidebar: ml_sidebar
-permalink: url: /machine-learning-econometrics/resources
+permalink: /machine-learning/econometrics/resources
 folder: machinelearning
 tags: [machine_learning, econometrics]
 ---

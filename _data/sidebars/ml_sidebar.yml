@@ -19,7 +19,7 @@ entries:
     output: web
     folderitems:
       - title: Resources
-        url: /machine-learning-econometrics/resources
+        url: /machine-learning/econometrics/resources
         output: web
   - title: Supervised Learning Theory
     output: web
