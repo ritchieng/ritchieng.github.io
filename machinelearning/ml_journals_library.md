@@ -57,3 +57,6 @@ tags: [machine_learning]
     - Summary: using a small LSTM to generate a large LSTM for substantial model compression
 - [Exploring Sparsity in RNN](https://openreview.net/pdf?id=BylSPv9gx)
     - Summary: model size can be reduced by 90% and speed-up is around 2× to 7× while maintain accuracy by pruning weights during the initial training of the network
+
+### Numerical Optimization
+- [Fast Exact Multiplication by the Hessian](http://www.bcl.hamilton.ie/~barak/papers/nc-hessian.pdf)
