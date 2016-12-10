@@ -7,6 +7,16 @@ permalink: /machine-learning/journals-library/
 folder: machinelearning
 tags: [machine_learning]
 ---
+## Machine Learning Research Conferences and Journals
+- [ICLR](http://www.iclr.cc)
+- [IJCAI](http://aij.ijcai.org)
+- [JAIR](https://www.jair.org)
+- [NIPS](https://nips.cc)
+- [Journal of Machine Learning Research](http://www.jmlr.org)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+- [Artificial Intelligence](http://www.sciencedirect.com/science/journal/00043702)
+- [Machine Learning](http://www.springer.com/computer/ai/journal/10994)
+
 ### Deep Reinforcement Learning
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 - [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/abs/1509.02971)

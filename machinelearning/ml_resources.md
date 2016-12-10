@@ -10,7 +10,7 @@ tags: [machine_learning]
 
 ## Machine Learning Resources
 
-These are the resources you can use to become a machine learning or deep learning engineer. All of the resources are available for free online! Please check their respective licenses.
+These are the resources you can use to become a machine learning or deep learning engineer. All of the resources are available for free online. Please check their respective licenses.
 
 ### Machine Learning Theory
 - [Machine Learning, Stanford University](https://www.coursera.org/learn/machine-learning)
@@ -26,19 +26,20 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Deep Residual Learning](http://kaiminghe.com/icml16tutorial/icml2016_tutorial_deep_residual_networks_kaiminghe.pdf)
 
-### Forward and Backpropagation
+### Forward and Backpropagation Theory and Code
 - [Step by Step Forwardpropagation and Backpropagation with Numbers](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 - [Full Manual Backward Propagation with TensorFlow](http://blog.aloni.org/posts/backprop-with-tensorflow/)
 - [Reverse Mode Automatic Differentiation](https://github.com/davidBelanger/tf-hypergrad/blob/master/hypergrad.py)
+- Neural Networks Demystified with Python, Welch Labs
+    - [Part 1: Data and Architecture](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
+    - [Part 2: Forward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
+    - [Part 3: Gradient Descent](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-3-gradient-descent)
+    - [Part 4: Backward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-4-backpropagation)
+    - [Part 5: Numerical Gradient Checking](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-5-numerical-gradient-checking)
+    - [Part 6: BFGS Numerical Optimization Algorithm](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-6)
+    - [Part 7: Overfitting, Testing and Regularization](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-7-overfitting-testing-and-regularization)
 
-### Python
-- [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)
-- [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-- [Python, Google](https://developers.google.com/edu/python/)
-- [Pandas, Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/)
-- [IPython Notebook Introduction, Stanford](http://cs231n.github.io/ipython-tutorial/)
-
-### Machine Learning with Python
+### General Machine Learning with Python and Scikit-learn
 - Machine Learning with scikit-learn, Data School
     - [Machine Learning with scikit-learn](http://www.dataschool.io/machine-learning-with-scikit-learn/)
     - [Comparing Supervised Learning Algorithm](http://www.dataschool.io/comparing-supervised-learning-algorithms/)
@@ -59,44 +60,30 @@ These are the resources you can use to become a machine learning or deep learnin
     - [Scikit-learn tutorial](https://github.com/amueller/scipy-2016-sklearn)
     - [Advanced scikit-learn](https://github.com/amueller/advanced_training)
     
-### Deep Learning with TensorFlow
-- [TensorFlow Tutorial for Beginners](https://github.com/aymericdamien/TensorFlow-Examples)
-- [RNN](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
-- [Sequence-to-Sequence](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
-- [One-click AWS AMI with TensorFlow and Keras](https://github.com/ritchieng/tensorflow-aws-ami)
-
-### Deep Learning with TensorLayer
-- [Wide ResNet](https://github.com/ritchieng/wideresnet-tensorlayer)
+### Convolutional Neural Networks with TensorFlow/Keras
+- [Deep Learning Models like VGG, Inception V3, ResNet and more in Keras](https://github.com/fchollet/deep-learning-models)
+- [Practical Deep Learning with Keras, Jason Brownlee](http://machinelearningmastery.com/blog/)
+- [Wide Residual Networks in Keras](https://github.com/transcranial/wide-resnet)
+- [Wide ResNet in TensorLayer](https://github.com/ritchieng/wideresnet-tensorlayer)
 - [TensorLayer Official Tutorials](http://tensorlayer.readthedocs.io)
 
-### Deep Learning with Keras
-- [Keras Documentation](https://keras.io)
-- [Deep Learning Models like VGG, Inception V3, ResNet and more](https://github.com/fchollet/deep-learning-models)
-- [Practical Deep Learning with Keras, Jason Brownlee](http://machinelearningmastery.com/blog/)
-- [Wide Residual Networks](https://github.com/transcranial/wide-resnet)
-
-### Feed-Forward Neural Networks
-- Neural Networks Demystified with Python, Welch Labs
-    - [Part 1: Data and Architecture](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
-    - [Part 2: Forward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
-    - [Part 3: Gradient Descent](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-3-gradient-descent)
-    - [Part 4: Backward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-4-backpropagation)
-    - [Part 5: Numerical Gradient Checking](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-5-numerical-gradient-checking)
-    - [Part 6: BFGS Numerical Optimization Algorithm](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-6)
-    - [Part 7: Overfitting, Testing and Regularization](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-7-overfitting-testing-and-regularization)
-
-### Reinforcement Learning
+### Reinforcement Learning Theory
 - [Reinforcement Learning Introduction, Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 - [Reinforcement Learning, Sutton](https://webdocs.cs.ualberta.ca/~sutton/book/)
     - [Programming Exercises for Sutton's Book](https://github.com/dennybritz/reinforcement-learning)
-- [Using Keras with DPPG to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 - [Uncertainty Estimates from Dropouts](http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html)
+    
+### Reinforcement Learning with TensorFlow/Keras
+- [Using Keras with DPPG to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 - [Advantage async actor-critic Algorithms (A3C) and Progressive Neural Network in TensorFlow](https://github.com/yao62995/A3C)
 
-### Recurrent Neural Networks
+### Recurrent Neural Networks Theory
+- [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+### Recurrent Neural Networks with TensorFlow
+- [RNN Official TensorFlow Tutorials](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
 - [RNN-LSTM with TensorFlow](http://monik.in/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow/)
 - [Introduction to RNN in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
-- [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Advanced RNN guides and code](http://r2rt.com)
 - [RNN in TensorFlow with and without API](http://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html)
 - [RNNs in TensorFlow, A Practical Guide and Undocumented Features](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
@@ -112,13 +99,5 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Single Variable Calculus, MIT](http://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
 - [Practical Guide for Matrix Calculus for Deep Learning](http://www.psi.toronto.edu/~andrew/papers/matrix_calculus_for_learning.pdf)
 
-
-### Machine Learning Research
-- [ICLR](http://www.iclr.cc)
-- [IJCAI](http://aij.ijcai.org)
-- [JAIR](https://www.jair.org)
-- [NIPS](https://nips.cc)
-- [Journal of Machine Learning Research](http://www.jmlr.org)
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
-- [Artificial Intelligence](http://www.sciencedirect.com/science/journal/00043702)
-- [Machine Learning](http://www.springer.com/computer/ai/journal/10994)
+### Deep Learning Environment
+- [One-click AWS AMI with TensorFlow and Keras](https://github.com/ritchieng/tensorflow-aws-ami)

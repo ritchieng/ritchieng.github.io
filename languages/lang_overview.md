@@ -9,8 +9,11 @@ folder: languages
 
 ### Python
 - [Learn Python the Hard Way](https://learnpythonthehardway.org)
-- [Getting Started with Python](https://www.coursera.org/learn/python)
 - [Python Property Feature](http://www.programiz.com/python-programming/property)
+- [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)
+- [Python, Google](https://developers.google.com/edu/python/)
+- [Pandas, Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/)
+- [IPython Notebook Introduction, Stanford](http://cs231n.github.io/ipython-tutorial/)
 
 ### Pandas (Python)
 - [Introduction to Pandas](http://www.ritchieng.com/pandas-introduction/)
