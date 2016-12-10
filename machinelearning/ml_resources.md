@@ -25,7 +25,13 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Deep Residual Learning](http://kaiminghe.com/icml16tutorial/icml2016_tutorial_deep_residual_networks_kaiminghe.pdf)
- 
+
+
+### Forward and Backpropagation
+- [Step by Step Forwardpropagation and Backpropagation with Numbers](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+- [Full Manual Backward Propagation with TensorFlow](http://blog.aloni.org/posts/backprop-with-tensorflow/)
+- [Reverse Mode Automatic Differentiation](https://github.com/davidBelanger/tf-hypergrad/blob/master/hypergrad.py)
+
 ### Python
 - [Python for Everybody Specialization, University of Michigan](https://www.coursera.org/specializations/python)
 - [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
