@@ -29,7 +29,7 @@ These are the resources you can use to become a machine learning or deep learnin
 ### Forward and Backpropagation Theory and Code
 - [Step by Step Forwardpropagation and Backpropagation with Numbers](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 - [Full Manual Backward Propagation with TensorFlow](http://blog.aloni.org/posts/backprop-with-tensorflow/)
-- [Reverse Mode Automatic Differentiation](https://github.com/davidBelanger/tf-hypergrad/blob/master/hypergrad.py)
+- [Reverse Mode Automatic Differentiation with TensorFlow](https://github.com/davidBelanger/tf-hypergrad/blob/master/hypergrad.py)
 - Neural Networks Demystified with Python, Welch Labs
     - [Part 1: Data and Architecture](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
     - [Part 2: Forward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
