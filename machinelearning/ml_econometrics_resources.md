@@ -19,3 +19,5 @@ This is a relatively new field and these are the resources that I have went thro
 - [Machine Learning and Econometrics, Hal Varian, Google](https://web.stanford.edu/class/ee380/Abstracts/140129-slides-Machine-Learning-and-Econometrics.pdf)
 - [Machine Learning for Causal Effects, Susan Athey, Stanford](http://www.nasonline.org/programs/sackler-colloquia/documents/athey.pdf)
 - [Causal Inference in Machine Learning, Ricardo Silva, UCL](http://www.homepages.ucl.ac.uk/~ucgtrbd/talks/imperial_causality.pdf)
+- [Machine Learning and Decision Making for Sustainability, Stefano Ermon, Stanford](http://forum.stanford.edu/events/2016/slides/plenary/Stefano.pdf)
+
