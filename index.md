@@ -23,10 +23,14 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 
 ## Past Projects
 
+**[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
+
+**[Wide Residual Networks with TensorFlow](https://github.com/ritchieng/wideresnet-tensorlayer)**
+
 **[Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)**
 <br />This project uses Python, TensorFlow, TensorBoard and OpenCV to recognize house numbers from Google's Street View images.
 
-**[Training a Smart Cab using Reinforcement Learning](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
+**[Training a Smart Cab (Reinforcement Learning)](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
 <br />This project uses Python and PyGame to train a smart cab with reinforcement learning.
 
 **[Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)**
