@@ -14,6 +14,8 @@ This is a relatively new field and these are the resources that I have went thro
 - [Deep Learning in Agent-Based Models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2711216)
 - [Big Data: New Tricks for Econometrics](https://www.aeaweb.org/articles?id=10.1257/jep.28.2.3)
 - [Recursive Partitioning for Heterogeneous Causal Effects](https://arxiv.org/abs/1504.01132)
+- [Time series forecasting using a hybrid ARIMA and neural network model](http://www.sciencedirect.com/science/article/pii/S0925231201007020)
+- [Time Series Forecasting Using Hybrid ARIMA and ANN Models Based on DWT Decomposition](http://www.sciencedirect.com/science/article/pii/S1877050915006766)
 
 ## Guides
 - [Machine Learning and Econometrics, Hal Varian, Google](https://web.stanford.edu/class/ee380/Abstracts/140129-slides-Machine-Learning-and-Econometrics.pdf)
