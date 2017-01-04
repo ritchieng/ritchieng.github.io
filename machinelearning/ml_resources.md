@@ -30,6 +30,8 @@ These are the resources you can use to become a machine learning or deep learnin
 - [Step by Step Forwardpropagation and Backpropagation with Numbers](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 - [Full Manual Backward Propagation with TensorFlow](http://blog.aloni.org/posts/backprop-with-tensorflow/)
 - [Reverse Mode Automatic Differentiation with TensorFlow](https://github.com/davidBelanger/tf-hypergrad/blob/master/hypergrad.py)
+- [Simple Backward Propagation with Python](http://iamtrask.github.io/2015/07/12/basic-python-network/)
+- [Backward Propagation from Scratch with Python](http://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 - Neural Networks Demystified with Python, Welch Labs
     - [Part 1: Data and Architecture](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
     - [Part 2: Forward Propagation](http://www.welchlabs.com/blog/2015/1/16/neural-networks-demystified-part-1-data-and-architecture)
@@ -59,6 +61,8 @@ These are the resources you can use to become a machine learning or deep learnin
     - [Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python)
     - [Scikit-learn tutorial](https://github.com/amueller/scipy-2016-sklearn)
     - [Advanced scikit-learn](https://github.com/amueller/advanced_training)
+- Convolutional Neural Networks with Python, Stanford
+    - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
     
 ### Convolutional Neural Networks with TensorFlow/Keras
 - [Deep Learning Models like VGG, Inception V3, ResNet and more in Keras](https://github.com/fchollet/deep-learning-models)
