@@ -16,10 +16,13 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 
 ## Ongoing Projects
 **[Gloqo](https://www.gloqo.com)**
-<br />This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
+<br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
 
 **[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
 <br /> This is an open-source and actively-maintained Amazon Web Service AMI that allows anyone to work with Python, TensorFlow, Keras, TensorLayer, CUDA, cuDNN, and OpenAI Gym within 5 minutes.
+
+**[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
+<br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
 ## Past Projects
 
@@ -56,7 +59,7 @@ TensorLayer            |                     | SQL            |
 Keras                  |                     | EViews            |
 Scikit-learn           |                     | Stata             |
 OpenCV                 |                     | Adobe Illustrator | 
-                       |                     | Adobe Photoshop   | 
+PyTorch                |                     | Adobe Photoshop   | 
  
 ## Headshot
 This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
