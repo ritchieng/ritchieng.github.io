@@ -6,15 +6,21 @@ type: homepage
 ---
 ## Hello! 
 
-I am Ritchie Ng, a machine learning engineer from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
+I am Ritchie Ng, a deep learning researcher from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
 
 Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I've a lot of free meal credits to spare! 
 
-I started this website to document my personal guides on machine learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
+I started this website to document my personal guides on machine learning and deep learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
 
-## Ongoing Projects
+
+## The Purpose of Artificial Intelligence
+John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting (bet you have never heard of this)](http://www.waitomo.com/black-water-rafting/Pages/default.aspx).
+
+We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
+
+## Awesome Ongoing Projects
 **[Gloqo](https://www.gloqo.com)**
 <br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
 
@@ -24,7 +30,7 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
-## Past Projects
+## Incredible Past Projects
 
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
 
