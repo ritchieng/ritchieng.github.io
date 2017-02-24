@@ -5,7 +5,6 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-
 I am Ritchie Ng, a deep learning researcher from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
 
 Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I've a lot of free meal credits to spare! 
@@ -16,9 +15,12 @@ Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchie
 
 
 ## The Purpose of Artificial Intelligence
-John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting (bet you have never heard of this)](http://www.waitomo.com/black-water-rafting/Pages/default.aspx).
+John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting](http://www.waitomo.com/black-water-rafting/Pages/default.aspx). I bet you have never heard of that.
 
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
+
+## Upcoming Talk
+I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
 ## Awesome Ongoing Projects
 **[Gloqo](https://www.gloqo.com)**
@@ -37,23 +39,18 @@ We can and will reach there by improving machine intelligence that can directly 
 **[Wide Residual Networks with TensorFlow](https://github.com/ritchieng/wideresnet-tensorlayer)**
 
 **[Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)**
-<br />This project uses Python, TensorFlow, TensorBoard and OpenCV to recognize house numbers from Google's Street View images.
 
 **[Training a Smart Cab (Reinforcement Learning)](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
-<br />This project uses Python and PyGame to train a smart cab with reinforcement learning.
 
 **[Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)**
-<br />This project uses Python and Scikit-learn to implement PCA and clustering.
 
 **[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
-<br />This project uses Python and Scikit-learn with an emphasis on Naive Bayes, Logistic Regression and Support Vector Machines.
 
 **[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
-<br />This project uses Python and Scikit-learn with an emphasis on learning curves, complexity curves, GridSearchCV and RandomizedSearchCV.
 
 ## Online Profiles
-- [Github](https://github.com/ritchieng)
-- [Linkedin](https://www.linkedin.com/in/ritchieng)
+[Github](https://github.com/ritchieng)
+<br />[Linkedin](https://www.linkedin.com/in/ritchieng)
 
 ## Languages, Libraries and Frameworks
 

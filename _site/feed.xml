@@ -5,8 +5,8 @@
         <description>I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 Dec 2016 00:42:06 -0500</pubDate>
-        <lastBuildDate>Fri, 16 Dec 2016 00:42:06 -0500</lastBuildDate>
+        <pubDate>Thu, 23 Feb 2017 20:10:20 +0800</pubDate>
+        <lastBuildDate>Thu, 23 Feb 2017 20:10:20 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
         
         <item>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;&lt;strong&gt;All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.&lt;/strong&gt;&lt;/p&gt;
 </description>
-            <pubDate>Fri, 18 Nov 2016 00:00:00 -0500</pubDate>
+            <pubDate>Fri, 18 Nov 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/gloqo/arxiv-like-code</link>
             <guid isPermaLink="true">http://www.ritchieng.com/gloqo/arxiv-like-code</guid>
             
@@ -38,7 +38,7 @@
 &lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/c5b10a31b2b4e7166765fc1aaa7b3afa/tumblr_of1vvyIlU41vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 14 Oct 2016 00:00:00 -0400</pubDate>
+            <pubDate>Fri, 14 Oct 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/comic-series/labels</link>
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series/labels</guid>
             
@@ -53,7 +53,7 @@
 &lt;br /&gt;&lt;img src=&quot;https://66.media.tumblr.com/f812e7d53d4ee4a75bae2fdfd8125257/tumblr_oekxc5CLuc1vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
-            <pubDate>Wed, 05 Oct 2016 00:00:00 -0400</pubDate>
+            <pubDate>Wed, 05 Oct 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/comic-series/svms</link>
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series/svms</guid>
             
@@ -68,7 +68,7 @@
 &lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/184bf6df1de46292400acdd00b833585/tumblr_odzjaoOxt91vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 23 Sep 2016 00:00:00 -0400</pubDate>
+            <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/comic-series/convnet-derpina/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series/convnet-derpina/</guid>
             
@@ -83,7 +83,7 @@
 &lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/fd42817dab067cab16d3fb5b9e4287a0/tumblr_odmi9cp6cH1vf3ktto1_r1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 16 Sep 2016 00:00:00 -0400</pubDate>
+            <pubDate>Fri, 16 Sep 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/comic-series/mdp-high-rewards/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series/mdp-high-rewards/</guid>
             
@@ -113,7 +113,7 @@
 
 &lt;p&gt;All the best, Ritchie.&lt;/p&gt;
 </description>
-            <pubDate>Thu, 18 Aug 2016 00:00:00 -0400</pubDate>
+            <pubDate>Thu, 18 Aug 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/completed-pandas-qna-data-school/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/completed-pandas-qna-data-school/</guid>
             
@@ -159,7 +159,7 @@
 
 &lt;p&gt;I will be moving on &lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Pandas Series by Data School&lt;/a&gt;. Pandas plays an important role in data wrangling. Check out my review on this series soon!&lt;/p&gt;
 </description>
-            <pubDate>Sat, 30 Jul 2016 00:00:00 -0400</pubDate>
+            <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/completed-machine-learning-data-school-start/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/completed-machine-learning-data-school-start/</guid>
             
@@ -197,7 +197,7 @@
 &lt;p&gt;And from late August, I will be embarking on Udacity’s Machine Learning nanodegree programme where I will offer my detailed review!&lt;/p&gt;
 
 </description>
-            <pubDate>Sun, 17 Jul 2016 00:00:00 -0400</pubDate>
+            <pubDate>Sun, 17 Jul 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/completed-machine-learning-andrew-ng-stanford/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/completed-machine-learning-andrew-ng-stanford/</guid>
             
@@ -222,7 +222,7 @@
 &lt;p&gt;Meanwhile, you can check out my full Github repository &lt;a href=&quot;https://github.com/ritchieng&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-            <pubDate>Wed, 29 Jun 2016 00:00:00 -0400</pubDate>
+            <pubDate>Wed, 29 Jun 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/machine-learning-the-beginning/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/machine-learning-the-beginning/</guid>
             
@@ -287,7 +287,7 @@
 And so I begin…&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 24 Jun 2016 00:00:00 -0400</pubDate>
+            <pubDate>Fri, 24 Jun 2016 00:00:00 +0800</pubDate>
             <link>http://www.ritchieng.com/welcome-ritchieng/</link>
             <guid isPermaLink="true">http://www.ritchieng.com/welcome-ritchieng/</guid>
             
