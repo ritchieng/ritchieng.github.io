@@ -22,17 +22,15 @@ We can and will reach there by improving machine intelligence that can directly 
 ## Upcoming Talk
 I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
-## Awesome Ongoing Projects
+## Awesome Actively Maintained Projects
 **[Gloqo](https://www.gloqo.com)**
 <br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
-
-**[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
-<br /> This is an open-source and actively-maintained Amazon Web Service AMI that allows anyone to work with Python, TensorFlow, Keras, TensorLayer, CUDA, cuDNN, and OpenAI Gym within 5 minutes.
 
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
 ## Incredible Past Projects
+**[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
 
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
 
