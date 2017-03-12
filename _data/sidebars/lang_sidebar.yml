@@ -132,6 +132,9 @@ entries:
     - title: Python Classes
       url: /python-classes/
       output: web
+    - title: Python Super
+      url: /python/super/
+      output: web
   - title: C++
     output: web
     folderitems:
