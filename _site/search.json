@@ -304,6 +304,16 @@
 
 
 {
+"title": "Python List, Dictionary and Set Comprehensions",
+"tags": "python",
+"keywords": "python",
+"url": "/python/comprehensions/",
+"summary": "Learn about generators, list, dictionary and set comprehensions."
+},
+
+
+
+{
 "title": "C++ Control Flow",
 "tags": "cpp",
 "keywords": "cpp",
@@ -1121,6 +1131,16 @@
 
 
 
+
+
+{
+"title": "REWORK Deep Learning Summit Singapore",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/conferences/rework-deep-learning-summit-singapore-2017",
+"summary": "Presentation on efficient scalable hyperparameter optimization."
+}
+,
 
 
 {

@@ -7,5 +7,5 @@ tags: [comic_series]
 ---
 
 As a disclaimer, Derpina intentionally set the output to two classes: "pretty girl" or "not so pretty girl". We do not know if she intentionally manipulated the labels that led to her findings.
-<br />![](https://67.media.tumblr.com/184bf6df1de46292400acdd00b833585/tumblr_odzjaoOxt91vf3ktto1_1280.jpg)
+<br />![](https://res.cloudinary.com/ritchieng/image/upload/v1489375614/convnets_ritchie_24_09_2016_mnp9ue.jpg)
 

@@ -5,13 +5,13 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-I am Ritchie Ng, a deep learning researcher from the National University of Singapore (NUS) specializing in deep learning and computer vision. 
+I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre that is jointly setup between National University of Singapore (NUS) and Tsinghua University with the support of Media Development Authority (MDA) of Singapore. 
 
-Currently, I am conducting research in the areas of deep learning and hyperparameter optimization in NUS. And I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I've a lot of free meal credits to spare! 
+Currently I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I have a lot of free meal credits to spare! 
 
 I started this website to document my personal guides on machine learning and deep learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
 
-Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chillax with my stickman.
+Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning.
 
 
 ## The Purpose of Artificial Intelligence

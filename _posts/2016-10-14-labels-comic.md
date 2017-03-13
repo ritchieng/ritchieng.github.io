@@ -7,5 +7,5 @@ tags: [comic_series]
 ---
 
 Weirdly, there is something similar offered by [Scale](https://www.scaleapi.com)
-<br />![](https://67.media.tumblr.com/c5b10a31b2b4e7166765fc1aaa7b3afa/tumblr_of1vvyIlU41vf3ktto1_1280.jpg)
+<br />![](https://res.cloudinary.com/ritchieng/image/upload/v1489375618/labels_ritchie_14_10_2016_hiwspz.jpg)
 

@@ -135,6 +135,9 @@ entries:
     - title: Python Super
       url: /python/super/
       output: web
+    - title: Python Comprehensions
+      url: /python/comprehensions/
+      output: web
   - title: C++
     output: web
     folderitems:

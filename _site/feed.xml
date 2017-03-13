@@ -5,9 +5,28 @@
         <description>I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Mar 2017 21:57:15 +0800</pubDate>
-        <lastBuildDate>Sun, 12 Mar 2017 21:57:15 +0800</lastBuildDate>
+        <pubDate>Mon, 13 Mar 2017 11:29:42 +0800</pubDate>
+        <lastBuildDate>Mon, 13 Mar 2017 11:29:42 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>REWORK Deep Learning Summit Singapore</title>
+            <description>&lt;p&gt;I’ll be presenting at &lt;a href=&quot;https://www.re-work.co/events/deep-learning-summit-singapore-april-2017&quot;&gt;REWORK Deep Learning Summit Singapore&lt;/a&gt; on 27-28 April 2017!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;br /&gt;
+With every deep learning algorithm comes a set of hyperparameters. Optimizing them is crucial in achieving faster convergence and lower error rates. For many years, the majority of people in the deep learning community has been using common heuristics to tune hyperparameters such as learning rates, decay rates and L2 regularization. In recent works, researchers have attempted to cast hyperparameter optimization as a deep learning problem but they are limited by their lack of scalability. I show how it is now possible for scalable hyperparameter optimization that accelerates convergence that can be trained on one problem while enjoying the benefits of transfer learning that is scalable. This has impact on the industrial level where deep learning algorithms can be accelerated to convergence without manual hand-tuning even for large models.&lt;/p&gt;
+</description>
+            <pubDate>Mon, 13 Mar 2017 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/conferences/rework-deep-learning-summit-singapore-2017</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/conferences/rework-deep-learning-summit-singapore-2017</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
         
         <item>
             <title>Gloqo: Search for code for research papers on arXiv</title>
@@ -35,7 +54,7 @@
         <item>
             <title>Comic Series: The Future of Labelled Data</title>
             <description>&lt;p&gt;Weirdly, there is something similar offered by &lt;a href=&quot;https://www.scaleapi.com&quot;&gt;Scale&lt;/a&gt;
-&lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/c5b10a31b2b4e7166765fc1aaa7b3afa/tumblr_of1vvyIlU41vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375618/labels_ritchie_14_10_2016_hiwspz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
             <pubDate>Fri, 14 Oct 2016 00:00:00 +0800</pubDate>
@@ -50,7 +69,7 @@
         <item>
             <title>Comic Series: Support Vector Machines</title>
             <description>&lt;p&gt;Support Vector Machines are often called Largest Margin Classifier.
-&lt;br /&gt;&lt;img src=&quot;https://66.media.tumblr.com/f812e7d53d4ee4a75bae2fdfd8125257/tumblr_oekxc5CLuc1vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375612/svm_ritchie_30_09_2016_q2sxkj.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
             <pubDate>Wed, 05 Oct 2016 00:00:00 +0800</pubDate>
@@ -65,7 +84,7 @@
         <item>
             <title>Comic Series: Convolutional Neural Nets</title>
             <description>&lt;p&gt;As a disclaimer, Derpina intentionally set the output to two classes: “pretty girl” or “not so pretty girl”. We do not know if she intentionally manipulated the labels that led to her findings.
-&lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/184bf6df1de46292400acdd00b833585/tumblr_odzjaoOxt91vf3ktto1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375614/convnets_ritchie_24_09_2016_mnp9ue.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
             <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
@@ -80,7 +99,7 @@
         <item>
             <title>Comic Series: Markov Decision Processes with High Rewards</title>
             <description>&lt;p&gt;Imagine yourself in a grid-like world with two end goals (absorbing states), what would you do? Would you reach for the drumstick or drop into the hole? 
-&lt;br /&gt;&lt;img src=&quot;https://67.media.tumblr.com/fd42817dab067cab16d3fb5b9e4287a0/tumblr_odmi9cp6cH1vf3ktto1_r1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1474072798/mdp_ritchie_16_09_2016_irve8t.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
             <pubDate>Fri, 16 Sep 2016 00:00:00 +0800</pubDate>
@@ -229,69 +248,6 @@
             <category>news</category>
             
             <category>machine_learning</category>
-            
-            <category>becoming_a_machine_learning_engineer</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>The Beginning</title>
-            <description>&lt;h2 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h2&gt;
-
-&lt;p&gt;After a year and a half majoring in finance in Business School, National University of Singapore, I will be completing my final semester as a business student after I am back in early 2017 and moving on to my postgraduate experience in Lee Kuan Yew School of Public Policy expanding my knowledge in econometrics. I enjoyed my time restructuring debts and raising money in my first year in NUS. But I enjoy being a newbie software developer even more.&lt;/p&gt;
-
-&lt;p&gt;I have started a few start-ups since I was 12. Some failed, some succeeded. In search of the big one, I just kept swimming. Remember Dory in Finding Nemo? “Just keep swimming. Just keep swimming. Just keep swimming, swimming, swimming. What do we do? We swim, swim.”&lt;/p&gt;
-
-&lt;p&gt;The point is to let anyone out there know that regardless of what you are studying or currently working as, you can do anything. In fact, I think the combination of BBA, MPP and programming is a weird combination. Just do it. It is going to be a colossal challenge. But what is life without a challenge?&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-the-purpose-of-this-website&quot;&gt;What is the purpose of this website?&lt;/h2&gt;
-&lt;p&gt;It is to document all my notes and guides that I have created and will create in the near future in the areas of Machine Learning, Data Science and Algorithmic Trading.&lt;/p&gt;
-
-&lt;p&gt;I built this website using HTML5, CSS3, Bootstrap, Javascript, Jekyll and Github Pages. It is proudly hosted for free using Github Pages. It is challenging to serve this website entirely using static pages, but I managed to figure a way out and this documentation-style website is nearly perfect for my intention.&lt;/p&gt;
-
-&lt;p&gt;I will feature these favourite programming languages on top of the three major areas:
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Python&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Octave&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Java&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Javascript&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;HTML5&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CSS3&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Meteor&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;ReactJS&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;SCSS&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-And so I begin…&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 24 Jun 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/welcome-ritchieng/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/welcome-ritchieng/</guid>
-            
-            <category>news</category>
             
             <category>becoming_a_machine_learning_engineer</category>
             
