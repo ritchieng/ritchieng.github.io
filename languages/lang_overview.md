@@ -14,14 +14,17 @@ folder: languages
 - [Python, Google](https://developers.google.com/edu/python/)
 - [Pandas, Data School](http://www.dataschool.io/easier-data-analysis-with-pandas/)
 - [IPython Notebook Introduction, Stanford](http://cs231n.github.io/ipython-tutorial/)
-- Python Super
+- Super
     - [Python 201: What is super?](https://www.blog.pythonlibrary.org/2014/01/21/python-201-what-is-super/)
     - [Python Super](https://www.programiz.com/python-programming/methods/built-in/super)
     - [Python’s super() considered super!](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
     - [Python’s super(): Not as Simple as You Thought](http://sixty-north.com/blog/pythons-super-not-as-simple-as-you-thought)
-- Python List Comprehension
+- List Comprehension
     - [List Comprehension Introduction](http://www.python-course.eu/list_comprehension.php)
     - [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+- Lambda, filter, reduce and map
+    - [Filter, reduce and map](http://book.pythontips.com/en/latest/map_filter.html)
+    - [Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)
     
 ### Pandas (Python)
 - [Introduction to Pandas](http://www.ritchieng.com/pandas-introduction/)
