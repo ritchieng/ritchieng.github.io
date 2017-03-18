@@ -5,21 +5,18 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre that is jointly setup between National University of Singapore (NUS) and Tsinghua University with the support of Media Development Authority (MDA) of Singapore. 
+I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University with the support of Media Development Authority (MDA) of Singapore. 
 
 Currently I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I have a lot of free meal credits to spare! 
 
-I started this website to document my personal guides on machine learning and deep learning. This website allows anyone to easily search for a guide I wrote. You can use the Google Search function to easily search for guides too. 
-
-Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning.
-
+Oh yes! You can check out some of my stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning.
 
 ## The Purpose of Artificial Intelligence
 John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting](http://www.waitomo.com/black-water-rafting/Pages/default.aspx). I bet you have never heard of that.
 
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
-## Upcoming Talk
+## Upcoming Talks
 I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
 ## Awesome Actively Maintained Projects
@@ -45,6 +42,15 @@ I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.r
 **[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
 
 **[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
+
+## Awards
+
+**Global Merit Scholarship, NUS**
+<br /> NUS top scholarship with only 4 awarded in NUS across all faculties. 
+<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accomodation, overseas trips and meals.
+
+**Dean's List, NUS**
+<br /> Top 5% of my cohort.
 
 ## Online Profiles
 [Github](https://github.com/ritchieng)
