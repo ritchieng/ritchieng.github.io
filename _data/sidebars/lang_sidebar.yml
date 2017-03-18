@@ -138,6 +138,9 @@ entries:
     - title: Python Comprehensions
       url: /python/comprehensions/
       output: web
+    - title: Python Lambda, Reduce, Map and Filter
+      url: /python/lambda-reduce-map-filter/
+      output: web
   - title: C++
     output: web
     folderitems:
