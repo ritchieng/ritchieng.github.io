@@ -25,6 +25,10 @@ folder: languages
 - Lambda, filter, reduce and map
     - [Filter, reduce and map](http://book.pythontips.com/en/latest/map_filter.html)
     - [Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php)
+- Decorators
+    - [Function Decorators](http://thecodeship.com/patterns/guide-to-python-function-decorators/)
+    - [Python Decorators in 12 Easy Steps](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
+    - [Decorators Explained](https://jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/)
     
 ### Pandas (Python)
 - [Introduction to Pandas](http://www.ritchieng.com/pandas-introduction/)
