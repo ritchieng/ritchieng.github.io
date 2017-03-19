@@ -141,7 +141,7 @@ entries:
     - title: Python Lambda, Reduce, Map and Filter
       url: /python/lambda-reduce-map-filter/
       output: web
-    - title: Python Lambda, Reduce, Map and Filter
+    - title: Python Decorator, Args and Kwargs
       url: /python/decorators-kwargs-args/
       output: web
   - title: C++
