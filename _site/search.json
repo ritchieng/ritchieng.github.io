@@ -6,7 +6,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-examining/",
-"summary": ""
+"summary": "Reading subset of columns or rows, iterating through a Series or DataFrame, dropping all non-numeric columns and passing arguments"
 },
 
 
@@ -16,7 +16,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-axis-parameter/",
-"summary": ""
+"summary": "Using the axis parameter in pandas"
 },
 
 
@@ -26,7 +26,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-string-methods/",
-"summary": ""
+"summary": "Using String Methods in Pandas"
 },
 
 
@@ -36,7 +36,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-changing-datatype/",
-"summary": ""
+"summary": "Changing Data Type in Pandas"
 },
 
 
@@ -46,7 +46,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-groupby/",
-"summary": ""
+"summary": "Using Pandas groupby"
 },
 
 
@@ -56,7 +56,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-exploring-series/",
-"summary": ""
+"summary": "Exploring Pandas Series"
 },
 
 
@@ -66,7 +66,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-handling-missing-values/",
-"summary": ""
+"summary": "Handling missing values in pandas"
 },
 
 
@@ -76,7 +76,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-pandas-index/",
-"summary": ""
+"summary": "Using Pandas index"
 },
 
 
@@ -86,7 +86,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-selecting-multiple-rows-and-columns/",
-"summary": ""
+"summary": "Selecting multiple rows and columns in pandas"
 },
 
 
@@ -96,7 +96,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-inplace-parameter/",
-"summary": ""
+"summary": "Using inplace parameter in pandas"
 },
 
 
@@ -106,7 +106,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-introduction/",
-"summary": ""
+"summary": "Open source data analysis library for providing easy-to-use data structures and data analysis tools"
 },
 
 
@@ -116,7 +116,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-making-dataframe-smaller-faster/",
-"summary": ""
+"summary": "Making DataFrame smaller and faster in pandas"
 },
 
 
@@ -126,7 +126,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-scikit-learn/",
-"summary": ""
+"summary": "Using pandas with scikit-learn effectively"
 },
 
 
@@ -136,7 +136,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-randomly-sample-rows/",
-"summary": ""
+"summary": "Randomly sample rows in pandas"
 },
 
 
@@ -146,7 +146,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-creating-dummy-variables/",
-"summary": ""
+"summary": "Creating dummy variables in pandas"
 },
 
 
@@ -156,7 +156,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-date-time/",
-"summary": ""
+"summary": "Working with date and time in pandas"
 },
 
 
@@ -176,7 +176,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-filtering-converting-series-NaN/",
-"summary": ""
+"summary": "Finding, filtering and converting Series to NaN"
 },
 
 
@@ -186,7 +186,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-changing-display-options/",
-"summary": ""
+"summary": "Tweak display options in pandas"
 },
 
 
@@ -196,7 +196,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/creating-dataframe-from-objects/",
-"summary": ""
+"summary": "Creating a DataFrame from objects in pandas"
 },
 
 
@@ -216,7 +216,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-reading-tabular-data/",
-"summary": ""
+"summary": "Easy tabular data reading and manipulation with pandas"
 },
 
 
@@ -236,7 +236,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-selecting-series/",
-"summary": ""
+"summary": "Selecting and manipulating pandas series"
 },
 
 
@@ -248,7 +248,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-parentheses/",
-"summary": ""
+"summary": "Pandas commands ending with parentheses and those that do not"
 },
 
 
@@ -258,7 +258,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-renaming-columns/",
-"summary": ""
+"summary": "Renaming columns in a pandas DataFrame"
 },
 
 
@@ -268,7 +268,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-removing-columns/",
-"summary": ""
+"summary": "Removing columns from a pandas DataFrame"
 },
 
 
@@ -278,7 +278,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-sorting/",
-"summary": ""
+"summary": "Sorting Pandas DataFrame or Series"
 },
 
 
@@ -288,7 +288,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-filtering/",
-"summary": ""
+"summary": "Filtering rows of a pandas DataFrame by column value"
 },
 
 
@@ -298,7 +298,7 @@
 "tags": "pandas",
 "keywords": "pandas",
 "url": "/pandas-multi-criteria-filtering/",
-"summary": ""
+"summary": "Applying multiple filter criter to a pandas DataFrame"
 },
 
 
@@ -339,6 +339,16 @@
 "keywords": "cpp",
 "url": "/cpp/introduction/",
 "summary": "This is a basic introduction where we learn how to output Hello World! and see the differences between Python and C++"
+},
+
+
+
+{
+"title": "Python Decorators, Kwargs and Args",
+"tags": "python",
+"keywords": "python",
+"url": "/python/decorators-kwargs-args/",
+"summary": "Learn about decorators, kwargs and args."
 },
 
 
