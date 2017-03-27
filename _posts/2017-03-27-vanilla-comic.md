@@ -1,5 +1,5 @@
 ---
-title:  "Comic Series: The Future of Labelled Data"
+title:  "Comic Series: Plain Vanilla"
 published: true
 permalink: /comic-series/plain-vanilla
 summary: "Plain vanilla, deep learning's buzzword."
