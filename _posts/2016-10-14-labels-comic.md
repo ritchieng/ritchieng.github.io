@@ -2,7 +2,7 @@
 title:  "Comic Series: The Future of Labelled Data"
 published: true
 permalink: /comic-series/labels
-summary: "A new type of low-skilled labour now and in the future: ensemble of labellers."
+summary: "A new type of low-skilled labour now and in the future: ensemble of labelers."
 tags: [comic_series]
 ---
 
