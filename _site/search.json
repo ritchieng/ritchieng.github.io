@@ -1154,6 +1154,16 @@
 
 
 {
+"title": "Comic Series: Plain Vanilla",
+"tags": "comic_series",
+"keywords": "",
+"url": "/comic-series/plain-vanilla",
+"summary": "Plain vanilla, deep learning's buzzword."
+}
+,
+
+
+{
 "title": "REWORK Deep Learning Summit Singapore",
 "tags": "newsmachine_learning",
 "keywords": "",
@@ -1178,7 +1188,7 @@
 "tags": "comic_series",
 "keywords": "",
 "url": "/comic-series/labels",
-"summary": "A new type of low-skilled labour now and in the future: ensemble of labellers."
+"summary": "A new type of low-skilled labour now and in the future: ensemble of labelers."
 }
 ,
 

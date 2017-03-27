@@ -17,6 +17,13 @@ tag_news:
 
 
  
+tag_comic_series:
+  title: "Comic Series"
+  url: /tag_comic_series/
+  link: <a href="/tag_comic_series/">Comic Series</a>
+
+
+ 
 tag_becoming_a_machine_learning_engineer:
   title: "Becoming a Machine Learning Engineer"
   url: /tag_becoming_a_machine_learning_engineer/

@@ -2,7 +2,7 @@
 
 entries:
 - title: Sidebar
-  product: Welcome!
+  # product: Welcome!
   version:
   folders:
 
@@ -17,6 +17,9 @@ entries:
       output: web
     - title: News
       url: /tag_news/
+      output: web
+    - title: Comic Series
+      url: /tag_comic_series/
       output: web
     - title: Becoming a Machine Learning Engineer
       url: /tag_becoming_a_machine_learning_engineer/
