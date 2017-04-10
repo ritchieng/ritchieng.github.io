@@ -19,7 +19,7 @@ We can and will reach there by improving machine intelligence that can directly 
 ## Upcoming Talks
 I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
-## Awesome Actively Maintained Projects
+## Awesome Projects
 **[Gloqo](https://www.gloqo.com)**
 <br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
 
@@ -42,6 +42,9 @@ I'll be presenting at [REWORK Deep Learning Summit Singapore 2017](https://www.r
 **[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
 
 **[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
+
+## Cool Past Articles
+**[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
 
