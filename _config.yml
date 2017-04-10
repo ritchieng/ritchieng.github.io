@@ -90,8 +90,8 @@ description: "I am Ritchie Ng, a machine learning engineer specializing in deep 
 gems:
   - jekyll-seo-tag
 
-#twitter:
-#  username:
+twitter:
+  username:
 
 facebook:
   app_id: 1736736559921494
@@ -100,8 +100,8 @@ facebook:
 
 logo: http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_big_ycwbod.png
 
-#author:
-#  twitter:
+author:
+  twitter: RitchieNg
 
 image:
   twitter: http://res.cloudinary.com/ritchieng/image/upload/v1468818828/ritchieng.com/company_logo_big_ycwbod.png
