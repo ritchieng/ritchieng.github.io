@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University. NExT Search Centre is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). 
+I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). 
 
 Currently I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I have a lot of free meal credits to spare! 
 
