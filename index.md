@@ -19,14 +19,14 @@ We can and will reach there by improving machine intelligence that can directly 
 ## Past Talks
 [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
-## Awesome Projects
+## Active Projects
 **[Gloqo](https://www.gloqo.com)**
 <br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
 
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
-## Incredible Past Projects
+## Past Projects
 **[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
 
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
@@ -43,14 +43,14 @@ We can and will reach there by improving machine intelligence that can directly 
 
 **[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
 
-## Cool Past Articles
+## Past Articles
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
 
 **Global Merit Scholarship, NUS**
-<br /> NUS top scholarship with only 4 awarded in NUS across all faculties. 
-<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accomodation, overseas trips and meals.
+<br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
+<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, overseas trips and meals.
 
 **Dean's List, NUS**
 <br /> Top 5% of my cohort.
