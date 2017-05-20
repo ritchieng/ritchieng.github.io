@@ -26,9 +26,10 @@ We can and will reach there by improving machine intelligence that can directly 
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
-## Past Projects
-**[TensorFlow AWS AMI, TFAMI](https://github.com/ritchieng/tensorflow-aws-ami)**
+**[DLAMI](https://github.com/ritchieng/dlami)**
+<br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
 
+## Past Projects
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
 
 **[Wide Residual Networks with TensorFlow](https://github.com/ritchieng/wideresnet-tensorlayer)**
