@@ -16,6 +16,9 @@ John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I b
 
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
+## Upcoming Talks
+[Deep Learning for Self-Driving Cars and Medical Diagnostics by NVIDIA, Singapore](https://goo.gl/PLCU23)
+
 ## Past Talks
 [REWORK Deep Learning Summit Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017) on scalable hyperparameter optimization.
 
