@@ -52,17 +52,14 @@ We can and will reach there by improving machine intelligence that can directly 
 
 ## Awards
 
-**Global Merit Scholarship, NUS**
-<br /> 2014 - 2018
+**Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
 <br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, overseas trips and meals.
 
-**Dean's List, NUS**
-<br /> 2015/2016
+**Dean's List 2015/2016, NUS**
 <br /> Top 5% of my cohort.
 
-**I&E Practicum Award, NUS**
-<br /> 2017
+**I&E Practicum Award 2017, NUS**
 <br /> $10,000 Award
 
 ## Online Profiles
