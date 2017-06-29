@@ -18,7 +18,7 @@ We can and will reach there by improving machine intelligence that can directly 
 
 ## Deep Learning Courses
 [Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
-[Practical Deep Learning with PyTorch](https://www.udemy.com/practical-deep-learning-with-pytorch)
+<br />[Practical Deep Learning with PyTorch](https://www.udemy.com/practical-deep-learning-with-pytorch)
 
 ## Past Talks
 [Deep Learning for Self-Driving Cars and Medical Diagnostics by NVIDIA, Singapore](https://goo.    gl/PLCU23)
