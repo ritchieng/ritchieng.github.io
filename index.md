@@ -21,7 +21,7 @@ We can and will reach there by improving machine intelligence that can directly 
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch)
 
 ## Past Talks
-[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore](https://goo.    gl/PLCU23)
+[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
 <br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
 
 ## Active Projects
