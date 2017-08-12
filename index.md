@@ -20,7 +20,7 @@ We can and will reach there by improving machine intelligence that can directly 
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, JMLR: Workshop and Conference Proceedings, 2017](https://goo.gl/NJ2T2y)
 
 ## Deep Learning Courses
-I am the lead instructor for all courses on Deep Learning Wizard.
+These are some of the courses I created that gradually builds up your deep learning capabilities.
 <br />[Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
