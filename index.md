@@ -16,7 +16,11 @@ John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I b
 
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
+## Papers
+[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, JMLR: Workshop and Conference Proceedings, 2017](https://7bce9816-a-62cb3a1a-s-sites.googlegroups.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf?attachauth=ANoY7cpgi2IOfbHNAxOpmMoJlGeL5mIYztFe_VT05LtnuyAhT3bbu49TMAxAXFc2nGUpmIrObrqF3aDoTXnlbc_-FykOntzbqDi1ceV1JfdKW57m0aeJZdJSL9TDYG737qvrs8N1YTEB52S0Y_TsQJSgTl0wRDLtWzNrz9_CjtofPqZUQC3QUq_Ry7MPb6wVpA9mLhl6Gh7WyG6OrvaC4J8gfIHb6AiemZJa79c3WlNYwFpj596aXNpZX9skNBoUT6FytPRxOYNG&attredirects=0)
+
 ## Deep Learning Courses
+I am the lead instructor for all courses on Deep Learning Wizard.
 [Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
