@@ -67,7 +67,10 @@ These are some of the courses I created that gradually builds up your deep learn
 <br /> Top 5% of my cohort.
 
 **I&E Practicum Award 2017, NUS**
-<br /> $10,000 Award
+<br /> $10,000 Award.
+
+**Philip Yeo Innovation Fellowship 2017, NUS**
+<br /> $20,000 Award with a 1 year mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
 
 ## Online Profiles
 [Github](https://github.com/ritchieng)
