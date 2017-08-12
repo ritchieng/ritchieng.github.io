@@ -25,8 +25,9 @@ These are some of the courses I created that gradually builds up your deep learn
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Past Talks
-[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
-<br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
+<br />[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
+<br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
+<br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
 
 ## Active Projects
 **[Gloqo](https://www.gloqo.com)**
