@@ -22,7 +22,7 @@ We can and will reach there by improving machine intelligence that can directly 
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Deep Learning Courses
-These are some of the courses I created that gradually builds up your deep learning capabilities.
+These are some of the courses I created that will gradually build up your deep learning capabilities.
 <br />[Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
