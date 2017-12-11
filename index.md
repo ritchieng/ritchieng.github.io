@@ -5,8 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-
-Currently I am leading artificial intelligence with my colleagues in ensemblecap.ai, an AI hedge fund based in Singapore. I am also an NVIDIA Deep Learning Institute instructor enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. In my leisure time, I dive into computer vision research, in particular Visual Question Answering (VQA) with researchers in NUS and IVADO (Montreal). 
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an NVIDIA Deep Learning Institute instructor enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. In my leisure time, I dive into computer vision research, in particular Visual Question Answering (VQA) with researchers in NUS and IVADO (Montreal). 
 
 My passion for enabling anyone to leverage on deep learning has led to the creation of Deep Learning Wizard where I have taught and still continue to teach thousands of students in more than 60 countries around the world. 
 
