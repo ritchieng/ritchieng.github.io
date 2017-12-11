@@ -20,7 +20,7 @@ John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I b
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
 ## Papers
-[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, JMLR: Workshop and Conference Proceedings, 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
+[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Deep Learning Courses
 These are some of the courses I created that gradually builds up your deep learning capabilities.
