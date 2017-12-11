@@ -5,11 +5,14 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-I am Ritchie Ng, and I am currently conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). 
 
-Currently I live in University Town, NUS, as a Global Merit Scholar. Feel free to drop me a message if you are ever around NUS, I have a lot of free meal credits to spare! 
+Currently I am leading artificial intelligence with my colleagues in ensemblecap.ai, an AI hedge fund based in Singapore. I am also an NVIDIA Deep Learning Institute instructor enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. In my leisure time, I dive into computer vision research, in particular Visual Question Answering (VQA) with researchers in NUS and IVADO (Montreal). 
 
-Oh yes! You can check out some of my stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning.
+My passion for enabling anyone to leverage on deep learning has led to the creation of Deep Learning Wizard where I have taught and still continue to teach thousands of students in more than 60 countries around the world. 
+
+I was previously conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). During my time there, I managed to publish in top-tier conferences and workshops like ICML.
+
+Oh yes! You can check out some of my cool stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
 ## The Purpose of Artificial Intelligence
 John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting](http://www.waitomo.com/black-water-rafting/Pages/default.aspx). I bet you have never heard of that.
