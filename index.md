@@ -94,3 +94,8 @@ PyTorch                |                     | Adobe Photoshop   |
 This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
 <br />
 ![Ritchie Ng](http://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
+
+## Credits
+I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
+
+I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, Data School and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful. 

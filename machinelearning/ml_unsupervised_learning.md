@@ -8,7 +8,8 @@ folder: machinelearning
 tags: [machine_learning]
 ---
 
-## Clustering 
+## Clustering
+I would like to give full credits to the respective authors as these are my personal python notebooks taken from deep learning courses from Andrew Ng, Data School and Udemy :) This is a simple python notebook hosted generously through Github Pages that is on my main personal notes repository on https://github.com/ritchieng/ritchieng.github.io. They are meant for my personal review but I have open-source my repository of personal notes as a lot of people found it useful.
 
 ### Unsupervised Learning: Introduction
 - While supervised learning algorithms need labeled examples (x,y), unsupervised learning algorithms need only the input (x)

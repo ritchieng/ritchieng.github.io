@@ -11,6 +11,8 @@ tags: [machine_learning]
 ## Training a Smart Cab
 You can find all the relevant code for running this PyGame application and the smart cab navigating through it using Q-learning algorithm [here](https://github.com/ritchieng/machine-learning-nanodegree/tree/master/reinforcement_learning/smartcab).
 
+I would like to give full credits to the respective authors as these are my personal python notebooks taken from deep learning courses from Andrew Ng, Data School and Udemy :) This is a simple python notebook hosted generously through Github Pages that is on my main personal notes repository on https://github.com/ritchieng/ritchieng.github.io. They are meant for my personal review but I have open-source my repository of personal notes as a lot of people found it useful.
+
 ## Installation
 
 ### Python 2 Mac users

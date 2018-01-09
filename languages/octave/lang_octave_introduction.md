@@ -227,3 +227,6 @@ tags: [octave]
         - Elements of Delta Vector (black boxes)
         - Elements of Theta Vector (Theta0, Theta1, Theta2)
 ![](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w2_linear_regression_multiple/vectorization_gd.png)
+
+### Credits
+I would like to give full credits to the respective authors as these are my personal python notebooks taken from deep learning courses from Andrew Ng, Data School and Udemy :) This is a simple python notebook hosted generously through Github Pages that is on my main personal notes repository on https://github.com/ritchieng/ritchieng.github.io. They are meant for my personal review but I have open-source my repository of personal notes as a lot of people found it useful.
