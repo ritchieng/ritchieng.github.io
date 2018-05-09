@@ -26,7 +26,10 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
-## Past Talks
+## Upcoming Talks/Workshops
+[NVIDIA Deep Learning Fundamentals Workshop in NUS, 2018](https://www.eventbrite.sg/e/teaching-you-to-solve-problems-with-deep-learning-by-nvidia-tickets-45464548689)
+
+## Past Talks/Workshops
 [Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
 <br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
 <br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
