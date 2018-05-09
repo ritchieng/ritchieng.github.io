@@ -31,16 +31,6 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
 <br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
 
-## Active Projects
-**[Gloqo](https://www.gloqo.com)**
-<br /> This is basically "the Google" for searching code for computer science papers on arXiv. It's currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.
-
-**[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
-<br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
-
-**[DLAMI](https://github.com/ritchieng/dlami)**
-<br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
-
 ## Past Projects
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
 
@@ -55,6 +45,12 @@ These are some of the courses I created that will gradually build up your deep l
 **[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
 
 **[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
+
+**[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
+<br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
+
+**[DLAMI](https://github.com/ritchieng/dlami)**
+<br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
 
 ## Past Articles
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
