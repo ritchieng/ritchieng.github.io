@@ -18,19 +18,19 @@ John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I b
 
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
-## Key Papers
-[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
-
 ## Deep Learning Courses
 These are some of the courses I created that will gradually build up your deep learning capabilities.
 <br />[Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-[NVIDIA Object Detection with DIGITS in NUS, June 2018](https://www.facebook.com/nus.nvidia/)
+[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/)
+
+## Key Papers
+[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-[NVIDIA Image Classification with DIGITS in NUS, May 2018](https://www.eventbrite.sg/e/teaching-you-to-solve-problems-with-deep-learning-by-nvidia-tickets-45464548689)
+[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
 <br />[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
 <br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
 <br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
