@@ -25,6 +25,8 @@ These are some of the courses I created that will gradually build up your deep l
 
 ## Upcoming Talks/Workshops
 [Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/)
+<br /> Deep Learning Fundamentals Workshop 1, NVIDIA, Singapore, August 2018
+<br /> Deep Learning Fundamentals Workshop 2, NVIDIA, Singapore, September 2018
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
