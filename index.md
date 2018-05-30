@@ -24,7 +24,7 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/)
+[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
 <br /> Deep Learning Fundamentals Workshop 1, NVIDIA, Singapore, August 2018 (more details coming soon)
 <br /> Deep Learning Fundamentals Workshop 2, NVIDIA, Singapore, September 2018 (more details coming soon)
 <br /> [Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/meetings/big-data-ai-leaders-singapore-2018)
