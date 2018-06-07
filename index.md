@@ -99,7 +99,7 @@ PyTorch                |                     | Adobe Photoshop   |
 ## Headshot
 This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
 <br />
-![Ritchie Ng](http://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
+![Ritchie Ng](https://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
 
 ## Credits
 I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
