@@ -78,7 +78,7 @@ These are some of the courses I created that will gradually build up your deep l
 <br /> $20,000 Award with a 1 year mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
 
 **Valedictorian (Reserve) Class of 2018, NUS**
-<br /> I took an unchartered path in NUS , not the typical poster kid for my faculty so this is a surprise after a little birdie made this happen.
+<br /> I took an unchartered path in NUS, not the typical poster kid for my faculty so this is a surprise after a little birdie made this happen.
 
 ## Online Profiles
 [Github](https://github.com/ritchieng)
