@@ -24,16 +24,16 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
-<br /> Deep Learning Fundamentals Workshop 1, NVIDIA, Singapore, August 2018 (more details coming soon)
-<br /> Deep Learning Fundamentals Workshop 2, NVIDIA, Singapore, September 2018 (more details coming soon)
+Deep Learning for Financial Time Series, NVIDIA, Singapore, August 2018 (more details coming soon)
+<br /> Deep Learning for Healthcare, NVIDIA, Singapore, September 2018 (more details coming soon)
 <br /> [Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/meetings/big-data-ai-leaders-singapore-2018)
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
+[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
+<br />[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
 <br />[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
 <br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
 <br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
