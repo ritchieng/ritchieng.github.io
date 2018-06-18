@@ -5,11 +5,11 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. Also, I'm into natural language processing (NLP) research with researchers in [NUS](http://www.nextcenter.org/) and [MILA](https://mila.quebec/en/). 
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. Also, I'm into deep learning research with researchers in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). 
 
-My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach thousands of students in more than 60 countries around the world. 
-
-I was previously conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). During my time there, I managed to publish in top-tier conferences and workshops like ICML.
+My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 2000 students in over 60 countries around the world. The course is recognized by [Soumith Chintala](https://pytorch.org/2018/01/19/a-year-in.html), Facebook AI Research, and [Alfredo Canziani](https://www.linkedin.com/feed/update/urn:li:activity:6407592585275142144), Post-Doctoral Associate under Yann Lecun, as the first comprehensive PyTorch Tutorial. 
+ 
+I was previously conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). During my time there, I managed to publish in top-tier conferences and workshops like ICML and IJCAI.
 
 Oh yes! You can check out some of my cool stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
@@ -24,7 +24,8 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-Deep Learning for Financial Time Series, NVIDIA, Singapore, August 2018 (more details coming soon)
+<br /> Image Classification with DIGITS, NVIDIA, Singapore, July 2018 (more details coming soon)
+<br /> Deep Learning for Financial Time Series, NVIDIA, Singapore, August 2018 (more details coming soon)
 <br /> Deep Learning for Healthcare, NVIDIA, Singapore, September 2018 (more details coming soon)
 <br /> [Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/meetings/big-data-ai-leaders-singapore-2018)
 
