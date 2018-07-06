@@ -56,9 +56,6 @@ These are some of the courses I created that will gradually build up your deep l
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
-**[The Incredible Ubuntu](https://github.com/ritchieng/the-incredible-ubuntu)**
-<br /> This is a curated list of easy copy-paste commands to make your life easier by fixing common problems and enhance your programming environment in Ubuntu.
-
 **[DLAMI](https://github.com/ritchieng/dlami)**
 <br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
 
