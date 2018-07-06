@@ -1,5 +1,5 @@
 ---
-title:  "NVIDIA Deep Learning Workshop 2 2018"
+title:  "NVIDIA Object Detection with DIGITS 2018"
 published: true
 permalink: /nvidia-dli/nvidia-dli-deep-learning-workshop-2
 summary: "NUS NVIDIA DLI Workshop 2"

@@ -24,7 +24,6 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-<br /> [Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
 <br /> Deep Learning for Financial Time Series, NVIDIA, Singapore, August 2018 (more details coming soon)
 <br /> [Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/meetings/big-data-ai-leaders-singapore-2018)
 
@@ -32,7 +31,8 @@ These are some of the courses I created that will gradually build up your deep l
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
+<br />[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
+<br />[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
 <br />[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
 <br />[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
 <br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
@@ -55,6 +55,9 @@ These are some of the courses I created that will gradually build up your deep l
 
 **[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
 <br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
+
+**[The Incredible Ubuntu](https://github.com/ritchieng/the-incredible-ubuntu)**
+<br /> This is a curated list of easy copy-paste commands to make your life easier by fixing common problems and enhance your programming environment in Ubuntu.
 
 **[DLAMI](https://github.com/ritchieng/dlami)**
 <br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
