@@ -66,7 +66,7 @@ Deep Learning for Financial Time Series, NVIDIA, Singapore, October 2018 (more d
 
 **Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
-<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, overseas trips and meals.
+<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
 
 **Dean's List 2015/2016, NUS**
 <br /> Top 5% of my cohort.
@@ -75,10 +75,14 @@ Deep Learning for Financial Time Series, NVIDIA, Singapore, October 2018 (more d
 <br /> $10,000 Award.
 
 **Philip Yeo Innovation Fellowship 2017, NUS**
-<br /> $20,000 Award with a 1 year mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
+<br /> $20,000 Award with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
+<br /> I was fortunately also under the mentorship of [Kiren Kumar (AMD, EBD)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html). 
 
 **Valedictorian (Reserve) Class of 2018, NUS**
 <br /> I took an unchartered path in NUS, not the typical poster kid for my faculty so this is a surprise after a little birdie made this happen.
+
+**Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
+<br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
 
 ## Online Profiles
 [Github](https://github.com/ritchieng)
