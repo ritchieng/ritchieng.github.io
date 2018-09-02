@@ -5,10 +5,10 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. Also, I'm into deep learning research with researchers based in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). 
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. And, I'm into deep learning research with researchers based in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). 
 
 My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 2000 students in over 60 countries around the world. The course is recognized by [Soumith Chintala](https://pytorch.org/2018/01/19/a-year-in.html), Facebook AI Research, and [Alfredo Canziani](https://www.linkedin.com/feed/update/urn:li:activity:6407592585275142144), Post-Doctoral Associate under Yann Lecun, as the first comprehensive PyTorch Tutorial. 
- 
+
 I was previously conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). During my time there, I managed to publish in top-tier conferences and workshops like ICML and IJCAI.
 
 Oh yes! You can check out some of my cool stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
@@ -20,7 +20,7 @@ We can and will reach there by improving machine intelligence that can directly 
 
 ## Deep Learning Courses
 These are some of the courses I created that will gradually build up your deep learning capabilities.
-<br />[Main Course Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
+<br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
@@ -63,7 +63,6 @@ Deep Learning for Financial Time Series, NVIDIA, Singapore, October 2018 (more d
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
-
 **Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
 <br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
@@ -76,10 +75,10 @@ Deep Learning for Financial Time Series, NVIDIA, Singapore, October 2018 (more d
 
 **Philip Yeo Innovation Fellowship 2017, NUS**
 <br /> $20,000 Award with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
-<br /> I was fortunately also under the mentorship of [Kiren Kumar (AMD, EBD)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html). 
+<br /> I was fortunately also under the mentorship of [Kiren Kumar (AMD, EDB)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html). 
 
 **Valedictorian (Reserve) Class of 2018, NUS**
-<br /> I took an unchartered path in NUS, not the typical poster kid for my faculty so this is a surprise after a little birdie made this happen.
+<br /> It happened.
 
 **Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
 <br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
