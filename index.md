@@ -11,6 +11,8 @@ My passion for enabling anyone to leverage on deep learning has led to the creat
 
 I was previously conducting research in deep learning, computer vision and natural language processing in NExT Search Centre led by [Professor Tat-Seng Chua](http://www.comp.nus.edu.sg/~chuats/) that is jointly setup between National University of Singapore (NUS) and Tsinghua University and is part of [NUS Smart Systems Institute](http://ssi.nus.edu.sg/#homepage). During my time there, I managed to publish in top-tier conferences and workshops like ICML and IJCAI.
 
+I'm based in Singapore currently. Previously I was based in Seoul (South Korea), Indiana (USA), and Milan (Italy) for extended periods.
+
 Oh yes! You can check out some of my cool stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
 ## The Purpose of Artificial Intelligence
