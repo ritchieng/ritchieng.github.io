@@ -15,7 +15,7 @@ In this half-day Image Classification with DIGITS workshop, you will learn to
 
 Feel free to sign up [here](https://www.eventbrite.sg/e/teaching-you-to-solve-problems-with-deep-learning-by-nvidia-tickets-45464548689).
 
-![NVIDIA Poster](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/31301576_1895254373882033_4742497653213755937_n.jpg?_nc_cat=0&oh=470d5402c4531357ebacd8fbf0bc96d6&oe=5B507B74)
+![NVIDIA Poster](https://res.cloudinary.com/ritchieng/image/upload/v1538729603/ritchieng.com/nus_nvidia/nus_nvidia_dli_2018_1.jpg)
 
 Cheers,
 <br />Ritchie

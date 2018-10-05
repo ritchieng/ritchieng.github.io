@@ -15,7 +15,7 @@ Many problems have established deep learning solutions, but sometimes the proble
 
 Feel free to sign up [here](https://www.facebook.com/nus.nvidia/posts/166945523975924).
 
-![NVIDIA Poster](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/33900380_166945510642592_8807125676499927040_n.jpg?_nc_cat=0&oh=3a182ce62000fff8616d20291b0fceda&oe=5B7BD57D)
+![NVIDIA Poster](https://res.cloudinary.com/ritchieng/image/upload/v1538729603/ritchieng.com/nus_nvidia/nus_nvidia_dli_2018_2.jpg)
 
 Cheers,
 <br />Ritchie

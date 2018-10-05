@@ -27,7 +27,8 @@ These are some of the courses I created that will gradually build up your deep l
 
 ## Upcoming Talks/Workshops
 PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018
-<br />Deep Learning for Financial Time Series, NVIDIA, Singapore, October 2018 (more details coming soon)
+<br />Explainable Deep Learning, Nanjing, China, November 2018
+<br />Deep Learning for Financial Time Series, NVIDIA, Singapore, December 2018 (more details coming soon)
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
