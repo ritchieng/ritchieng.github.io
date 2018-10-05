@@ -26,7 +26,6 @@ These are some of the courses I created that will gradually build up your deep l
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 
 ## Upcoming Talks/Workshops
-PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018
 <br />Explainable Deep Learning, Nanjing, China, November 2018
 <br />Deep Learning for Financial Time Series, NVIDIA, Singapore, December 2018 (more details coming soon)
 
@@ -34,7 +33,8 @@ PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)
+[PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018
+<br />[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)
 <br />[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
 <br />[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
 <br />[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
