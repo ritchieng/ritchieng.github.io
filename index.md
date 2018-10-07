@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) enabling developers, data scientists, and researchers leverage on deep learning to solve the most challenging problems. And, I'm into deep learning research with researchers based in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). 
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore. I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia. And, I'm into deep learning research with researchers based in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). 
 
 My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 2000 students in over 60 countries around the world. The course is recognized by [Soumith Chintala](https://pytorch.org/2018/01/19/a-year-in.html), Facebook AI Research, and [Alfredo Canziani](https://www.linkedin.com/feed/update/urn:li:activity:6407592585275142144), Post-Doctoral Associate under Yann Lecun, as the first comprehensive PyTorch Tutorial. 
 
