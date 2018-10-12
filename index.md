@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising top quants and traders from JPMorgan and Nomura.
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising quants and traders from JPMorgan and Nomura.
 
 I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
