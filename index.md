@@ -31,7 +31,7 @@ These are some of the courses I created that will gradually build up your deep l
 
 ## Upcoming Talks/Workshops
 AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018
-Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
+<br />Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
