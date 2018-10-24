@@ -26,7 +26,7 @@ We can and will reach there by improving machine intelligence that can directly 
 These are some of the courses I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
 <br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
-<img src="https://res.cloudinary.com/ritchieng/image/upload/v1540341011/logos/nvidia_inception.png" alt="drawing" width="200"/>
+<img src="https://res.cloudinary.com/ritchieng/image/upload/v1540341011/logos/nvidia_inception.png" alt="drawing" width="100"/>
 
 ## Upcoming Talks/Workshops
 AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018
