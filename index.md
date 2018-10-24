@@ -19,7 +19,7 @@ I'm based in Singapore currently. Previously I was based in Seoul (South Korea),
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
-<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540343136/logos/ritchie_website_affliated_logos.png" /></p>
+<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
 
 ## Deep Learning Courses
