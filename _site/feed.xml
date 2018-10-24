@@ -5,9 +5,211 @@
         <description>I am Ritchie Ng, a machine learning engineer specializing in deep learning and computer vision. Check out my code guides and keep ritching for the skies!</description>
         <link>http://www.ritchieng.com/</link>
         <atom:link href="http://www.ritchieng.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Apr 2017 19:50:04 +0800</pubDate>
-        <lastBuildDate>Mon, 10 Apr 2017 19:50:04 +0800</lastBuildDate>
+        <pubDate>Wed, 24 Oct 2018 09:24:01 +0800</pubDate>
+        <lastBuildDate>Wed, 24 Oct 2018 09:24:01 +0800</lastBuildDate>
         <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>Recap of 2018 PyTorch Developer Conference</title>
+            <description>&lt;p&gt;Proud of how far PyTorch has come. Thanks Soumith Chintala, it is a great journey and it just started. And thanks to Adam Paszke too!&lt;/p&gt;
+
+&lt;p&gt;Finally got to catch up with Soumith Chintala, Alfredo Canziani and Marek Bardoński and found Andrej Karpathy! Back to Singapore tonight 🤗&lt;/p&gt;
+
+&lt;p&gt;Here are some photos of my trip!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1538729876/ritchieng.com/pytorch_devcon_2018/IMG_2078_02-10-2018-21-00-43.jpg&quot; alt=&quot;Soumith Chintala&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1538729876/ritchieng.com/pytorch_devcon_2018/IMG_2081_02-10-2018-21-00-01.jpg&quot; alt=&quot;Alfredo Canziani&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1538729876/ritchieng.com/pytorch_devcon_2018/IMG_2075_02-10-2018-21-02-31.jpg&quot; alt=&quot;Andrej Karpathy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Tue, 02 Oct 2018 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/pytorch/pytorch-devcon-2018</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/pytorch/pytorch-devcon-2018</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>NVIDIA Image Classification at NUS-NUHS-MIT Datathon</title>
+            <description>&lt;p&gt;I held NVIDIA’s third deep learning workshop in NUS this year at the &lt;a href=&quot;http://www.nus-datathon.com/workshop&quot;&gt;NUS-NUHS-MIT-Datathon&lt;/a&gt;! It’s amazing to see how deep learning is gaining traction in healthcare in Singapore. Fast forward 10 years and I see doctors working closely with deep learning algorithms.&lt;/p&gt;
+
+&lt;p&gt;Kudos to fellow people delivering the other 3 workshops: Prof Leo Celi (MIT) &amp;amp; Data Scientist team (MIT), Asst Prof Mengling ‘Mornin’ Feng (NUS), Dr Jason Pitt (CSI, NUS), and Dr Ngiam Kee Yuan (CTO, NUHS).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/36656138_185674162103060_5268631017589047296_n.jpg?_nc_cat=0&amp;amp;oh=ecbc26fda2692387f409be42214174e3&amp;amp;oe=5BA2E57A&quot; alt=&quot;NVIDIA Workshop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Wed, 04 Jul 2018 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/nvidia-dli/nvidia-dli-nuhs-mit-nus-datathon</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/nvidia-dli/nvidia-dli-nuhs-mit-nus-datathon</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>NVIDIA Object Detection with DIGITS 2018</title>
+            <description>&lt;p&gt;I am holding NVIDIA’s second deep learning workshop in NUS after popular demand for the first one.&lt;/p&gt;
+
+&lt;p&gt;Many problems have established deep learning solutions, but sometimes the problem that you want to solve does not. Learn to create custom solutions through the challenge of detecting whale faces from aerial images by:
+- Combining traditional computer vision with deep learning
+- Performing minor “brain surgery” on an existing neural network using the deep learning framework Caffe
+- Harnessing the knowledge of the deep learning community by identifying and using a purpose built network and end-to-end labeled data&lt;/p&gt;
+
+&lt;p&gt;Feel free to sign up &lt;a href=&quot;https://www.facebook.com/nus.nvidia/posts/166945523975924&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1538729603/ritchieng.com/nus_nvidia/nus_nvidia_dli_2018_2.jpg&quot; alt=&quot;NVIDIA Poster&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Tue, 29 May 2018 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop-2</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop-2</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>NVIDIA Image Classification with DIGITS 2018</title>
+            <description>&lt;p&gt;As you know, I held NUS’ first NVIDIA Deep Learning Institute Workshop. Feel free to follow our &lt;a href=&quot;https://www.facebook.com/nus.nvidia/&quot;&gt;NUS NVIDIA Facebook&lt;/a&gt; page for more workshops!&lt;/p&gt;
+
+&lt;p&gt;In this half-day Image Classification with DIGITS workshop, participants learnt to
+- leverage deep neural networks (DNN) within the deep learning workflow to solve a real-world image classification problem using NVIDIA DIGITS.
+- walk through the process of data preparation, model definition, model training and troubleshooting
+- use validation data to test and try different strategies for improving model performance using GPUs.&lt;/p&gt;
+
+&lt;p&gt;It was a full house!&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Fri, 13 Apr 2018 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop-postmort</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop-postmort</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>NVIDIA Deep Learning Workshop 2018</title>
+            <description>&lt;p&gt;I am holding NVIDIA’s first deep learning workshop in NUS :)&lt;/p&gt;
+
+&lt;p&gt;In this half-day Image Classification with DIGITS workshop, you will learn to
+- leverage deep neural networks (DNN) within the deep learning workflow to solve a real-world image classification problem using NVIDIA DIGITS.
+- walk through the process of data preparation, model definition, model training and troubleshooting
+- use validation data to test and try different strategies for improving model performance using GPUs.&lt;/p&gt;
+
+&lt;p&gt;Feel free to sign up &lt;a href=&quot;https://www.eventbrite.sg/e/teaching-you-to-solve-problems-with-deep-learning-by-nvidia-tickets-45464548689&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1538729603/ritchieng.com/nus_nvidia/nus_nvidia_dli_2018_1.jpg&quot; alt=&quot;NVIDIA Poster&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Mon, 09 Apr 2018 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>I am an NVIDIA Deep Learning Institute Instructor!</title>
+            <description>&lt;p&gt;As you know that through my website and my deep learning courses (&lt;a href=&quot;https://www.deeplearningwizard.com/&quot;&gt;Deep Learning Wizard&lt;/a&gt;), I have been vigorously pushing for making deep learning more accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;And I am thankful to announce that NVIDIA has given me the opportunity to be an NVIDIA Deep Learning Institute (DLI) instructor and ambassador in NUS to enable everyone to solve the most challenging problems in deep learning.&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;br /&gt;Ritchie&lt;/p&gt;
+</description>
+            <pubDate>Wed, 01 Nov 2017 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/nvidia-dli/ritchie-dli-instructor</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/nvidia-dli/ritchie-dli-instructor</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Practical Deep Learning with PyTorch</title>
+            <description>&lt;p&gt;I have launched a course on deep learning with PyTorch that gets you starting with the PyTorch framework as well as understanding the transition from PyTorch fundamentals all the way to more complicated deep learning models. Sign up here: &lt;a href=&quot;https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD&quot;&gt;https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The course is specifically designed such that if you are interested in diving deeper into the concepts and mathematics, you would be able to transition gradually with our upcoming courses in a series specializing in deep learning with PyTorch. It is also designed for anyone who wants to learn deep learning or are familiar with other frameworks and wish to use a framework that puts Python first.&lt;/p&gt;
+
+</description>
+            <pubDate>Thu, 29 Jun 2017 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/courses/practical-deep-learning-with-PyTorch</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/courses/practical-deep-learning-with-PyTorch</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Deep Learning for Self-Driving Cars and Medical Diagnostics by NVIDIA</title>
+            <description>&lt;p&gt;I’ll be hosting a talk by Marek Bardoński, Senior Deep Learning Research Engineer, NVIDIA Switzerland. Our official partner is sponsoring the location at The Hangar by NUS Enterprise, and it will be held on 21 June, 1pm to 3.30pm.&lt;/p&gt;
+
+&lt;p&gt;We will be touching on cutting-edge applications of deep learning for self-driving cars and medical diagnostics. Also there will be a tutorial followed by networking with deep learning researchers from NUS and NVIDIA.&lt;/p&gt;
+
+&lt;p&gt;Sign up here for free: &lt;a href=&quot;https://goo.gl/PLCU23&quot;&gt;https://goo.gl/PLCU23&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1495426268/final_poster_nvidia_deep_learning_wizard_V2_vagehd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+            <pubDate>Mon, 22 May 2017 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia</guid>
+            
+            <category>news</category>
+            
+            <category>machine_learning</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Comic Series: Life&#39;s Journey is Like Gradient Descent</title>
+            <description>&lt;p&gt;If we keep learning and tweaking from our previous experiences, we would eventually reach the destination we desire.&lt;br /&gt;
+&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1494072056/gradient_descent_6_5_2017_d7bd5z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+            <pubDate>Sat, 06 May 2017 00:00:00 +0800</pubDate>
+            <link>http://www.ritchieng.com/comic-series/gradient-descent-life-journey</link>
+            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/gradient-descent-life-journey</guid>
+            
+            <category>comic_series</category>
+            
+            
+        </item>
         
         <item>
             <title>Comic Series: Plain Vanilla</title>
@@ -20,226 +222,6 @@
             <guid isPermaLink="true">http://www.ritchieng.com/comic-series/plain-vanilla</guid>
             
             <category>comic_series</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>REWORK Deep Learning Summit Singapore</title>
-            <description>&lt;p&gt;I’ll be presenting at &lt;a href=&quot;https://www.re-work.co/events/deep-learning-summit-singapore-april-2017&quot;&gt;REWORK Deep Learning Summit Singapore&lt;/a&gt; on 27-28 April 2017!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;br /&gt;
-With every deep learning algorithm comes a set of hyperparameters. Optimizing them is crucial in achieving faster convergence and lower error rates. For many years, the majority of people in the deep learning community has been using common heuristics to tune hyperparameters such as learning rates, decay rates and L2 regularization. In recent works, researchers have attempted to cast hyperparameter optimization as a deep learning problem but they are limited by their lack of scalability. I show how it is now possible for scalable hyperparameter optimization that accelerates convergence that can be trained on one problem while enjoying the benefits of transfer learning that is scalable. This has impact on the industrial level where deep learning algorithms can be accelerated to convergence without manual hand-tuning even for large models.&lt;/p&gt;
-</description>
-            <pubDate>Mon, 13 Mar 2017 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/conferences/rework-deep-learning-summit-singapore-2017</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/conferences/rework-deep-learning-summit-singapore-2017</guid>
-            
-            <category>news</category>
-            
-            <category>machine_learning</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Gloqo: Search for code for research papers on arXiv</title>
-            <description>&lt;p&gt;This is basically “the Google” for searching code for computer science papers on arXiv. It’s currently concentrated on deep learning and machine learning. I started this companion website to arXiv.org to encourage reproducible research. You can easily search for code that are implemented by the authors themselves or often by others.&lt;/p&gt;
-
-&lt;p&gt;As an undergraduate conducting research in deep learning, I actively try to verify past papers’ experiments before building on them for major projects and papers. And I found that many, if not most, authors do not release their codes. And there are many issues associated with research that is not reproducible as shown in &lt;a href=&quot;http://www.nature.com/news/reproducibility-1.17552&quot;&gt;Nature Reproducible Research&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And because I ran out of ways to extend this website well that is proudly served through Github by Github Pages for free forever, I decided to create a separate application. If you understand how Github Pages only allow static pages, you would come to realize why I could not effectively build this function on this website; or at least effectively build one where others can post too. It’s meant for myself, but I hope some people would find gloqo useful too and contribute!&lt;/p&gt;
-
-&lt;p&gt;I will keep it short and just repeat the &lt;a href=&quot;http://sciencecodemanifesto.org&quot;&gt;Science Code Manifesto&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.&lt;/strong&gt;&lt;/p&gt;
-</description>
-            <pubDate>Fri, 18 Nov 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/gloqo/arxiv-like-code</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/gloqo/arxiv-like-code</guid>
-            
-            <category>news</category>
-            
-            <category>machine_learning</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Comic Series: The Future of Labelled Data</title>
-            <description>&lt;p&gt;Weirdly, there is something similar offered by &lt;a href=&quot;https://www.scaleapi.com&quot;&gt;Scale&lt;/a&gt;
-&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375618/labels_ritchie_14_10_2016_hiwspz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 14 Oct 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/comic-series/labels</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/labels</guid>
-            
-            <category>comic_series</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Comic Series: Support Vector Machines</title>
-            <description>&lt;p&gt;Support Vector Machines are often called Largest Margin Classifier.
-&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375612/svm_ritchie_30_09_2016_q2sxkj.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-            <pubDate>Wed, 05 Oct 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/comic-series/svms</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/svms</guid>
-            
-            <category>comic_series</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Comic Series: Convolutional Neural Nets</title>
-            <description>&lt;p&gt;As a disclaimer, Derpina intentionally set the output to two classes: “pretty girl” or “not so pretty girl”. We do not know if she intentionally manipulated the labels that led to her findings.
-&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1489375614/convnets_ritchie_24_09_2016_mnp9ue.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/comic-series/convnet-derpina/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/convnet-derpina/</guid>
-            
-            <category>comic_series</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Comic Series: Markov Decision Processes with High Rewards</title>
-            <description>&lt;p&gt;Imagine yourself in a grid-like world with two end goals (absorbing states), what would you do? Would you reach for the drumstick or drop into the hole? 
-&lt;br /&gt;&lt;img src=&quot;https://res.cloudinary.com/ritchieng/image/upload/v1474072798/mdp_ritchie_16_09_2016_irve8t.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 16 Sep 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/comic-series/mdp-high-rewards/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/comic-series/mdp-high-rewards/</guid>
-            
-            <category>comic_series</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Completed Data School&#39;s Pandas Q&amp;A Series</title>
-            <description>&lt;h2 id=&quot;pandas-series-by-data-school&quot;&gt;Pandas Series by Data School&lt;/h2&gt;
-
-&lt;p&gt;This is a free course offered by Data School.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Introduction to Pandas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
-&lt;p&gt;If you do not like reading books or guides, this is a very good series. You might think it’s simply a series of videos but it covers a lot of essential parts of pandas that allow you to have an adequate knowledge to work with scikit-learn and actual data sets.&lt;/p&gt;
-
-&lt;p&gt;Again, I cannot emphasise how Mark has a way to deliver simple and succinct explanations on complicated topics. This is very important for beginners.&lt;/p&gt;
-
-&lt;p&gt;I hope you found the &lt;a href=&quot;http://www.ritchieng.com/pandas-introduction/&quot;&gt;notes&lt;/a&gt; that I have derived from the course useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer.&lt;/p&gt;
-
-&lt;p&gt;I will be moving on to Udacity’s Machine Learning nanodegree along with other online resources where I will document my progress. You can view my personal list on how to be a Machine Learning Engineer &lt;a href=&quot;http://www.ritchieng.com/machine-learning-resources/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;All the best, Ritchie.&lt;/p&gt;
-</description>
-            <pubDate>Thu, 18 Aug 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/completed-pandas-qna-data-school/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/completed-pandas-qna-data-school/</guid>
-            
-            <category>news</category>
-            
-            <category>machine_learning</category>
-            
-            <category>becoming_a_machine_learning_engineer</category>
-            
-            <category>pandas</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Completed Data School&#39;s free Machine Learning tutorials</title>
-            <description>&lt;h2 id=&quot;machine-learning-with-scikit-learn-with-data-school&quot;&gt;Machine Learning with scikit-learn with Data School&lt;/h2&gt;
-
-&lt;p&gt;This is a free course offered by Data School.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/machine-learning-with-scikit-learn/&quot;&gt;Machine Learning with scikit-learn&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Introduction to Pandas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
-&lt;p&gt;The course is good for people who have completed Andrew Ng’s class on Machine Learning. You would start to realise how scikit-learn automates a lot of the low-level Octave code you implemented in Andrew Ng’s class from the simple gradient descent algorithm, to regularization, and the mind-boggling neural networks. Although I will be writing more on Neural Networks using Tensorflow (formerly known as Skflow).&lt;/p&gt;
-
-&lt;p&gt;Also, the tutorials offered by Data School are good for people who are new to scikit-learn and Python in general. If you do not want to watch his free open-source videos, you can check out my notes on all his tutorials.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-intro-easy/&quot;&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/ipython-introduction/&quot;&gt;IPython Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-iris-dataset/&quot;&gt;Exploring Iris Dataset&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-k-nearest-neighbors-knn/&quot;&gt;KNN Classification Model&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-linear-regression/&quot;&gt;Linear Regression Model&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-cross-validation/&quot;&gt;Cross-validation for Parameter Tuning, Model Selection and Feature Selection&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/&quot;&gt;Efficiently Searching Optimal Tuning Parameters&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ritchieng.com/machine-learning-evaluate-classification-model/&quot;&gt;Evaluating a Classification Model&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I hope you found my &lt;a href=&quot;http://www.ritchieng.com/machine-learning-intro-easy/&quot;&gt;notes&lt;/a&gt; useful! They are some variations on Github by others so feel free to use them too if you feel their explanations are clearer.&lt;/p&gt;
-
-&lt;p&gt;I will be moving on &lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Pandas Series by Data School&lt;/a&gt;. Pandas plays an important role in data wrangling. Check out my review on this series soon!&lt;/p&gt;
-</description>
-            <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/completed-machine-learning-data-school-start/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/completed-machine-learning-data-school-start/</guid>
-            
-            <category>news</category>
-            
-            <category>machine_learning</category>
-            
-            <category>becoming_a_machine_learning_engineer</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Completed Machine Learning by Andrew Ng, Stanford University!</title>
-            <description>&lt;h2 id=&quot;machine-learning-by-andrew-ng&quot;&gt;Machine Learning by Andrew Ng&lt;/h2&gt;
-
-&lt;p&gt;I completed the course and I have documented my notes under &lt;a href=&quot;http://127.0.0.1:4005/machine-learning/&quot;&gt;Machine Learning&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, you can check out my full Github repository &lt;a href=&quot;https://github.com/ritchieng&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
-
-&lt;p&gt;This course teaches you the theoretical foundations of Machine Learning and allows you to apply the theory you learn using Octave (Matlab). I had my doubts about Octave. But because of the simplicity of it, it is indeed a very good choice over many other programming languages.&lt;/p&gt;
-
-&lt;p&gt;The course began and the workload and content were manageable. But halfway through, I almost died.&lt;/p&gt;
-
-&lt;p&gt;The most challenging part of this course is on Neural Networks. The mathematical theory and implementation in code are both very challenging, at least to me. The other parts of the course are much easier than the Neural Networks’ weeks. So do not give up when you are undergoing the weeks teaching Neural Networks. Keep perservering and you will make it through. You can seek help from “Discussions” and with some guides on the tutorials given.&lt;/p&gt;
-
-&lt;p&gt;I learnt a lot from this course and I could finally understand all the articles I read online and go through the famous scikit-learn documentation understanding many of the algorithms that have been nicely implemented and you can use them with a few lines of codes compared to implementing them from the bottom-up using Octave (Matlab), R, Java, Python, C++ or any other programming languages.&lt;/p&gt;
-
-&lt;p&gt;I believe I found a good accompanying course for this course offered by Carnegie Mellon University (CMU) in case you want to cover topics that were not covered by Andrew Ng or delve into the topics he covered from a different perspective. You can access the course &lt;a href=&quot;http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml&quot;&gt;here&lt;/a&gt; from CMU.&lt;/p&gt;
-
-&lt;p&gt;For now, I am going to complete Data School’s introduction to &lt;a href=&quot;http://www.dataschool.io/machine-learning-with-scikit-learn/&quot;&gt;Machine Learning&lt;/a&gt; using scikit-learn and their guide on &lt;a href=&quot;http://www.dataschool.io/easier-data-analysis-with-pandas/&quot;&gt;Pandas&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And from late August, I will be embarking on Udacity’s Machine Learning nanodegree programme where I will offer my detailed review!&lt;/p&gt;
-
-</description>
-            <pubDate>Sun, 17 Jul 2016 00:00:00 +0800</pubDate>
-            <link>http://www.ritchieng.com/completed-machine-learning-andrew-ng-stanford/</link>
-            <guid isPermaLink="true">http://www.ritchieng.com/completed-machine-learning-andrew-ng-stanford/</guid>
-            
-            <category>news</category>
-            
-            <category>machine_learning</category>
-            
-            <category>becoming_a_machine_learning_engineer</category>
             
             
         </item>

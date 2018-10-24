@@ -13,20 +13,21 @@ My passion for enabling anyone to leverage on deep learning has led to the creat
 
 In my free time, I'm into deep learning research with researchers based in [NExT++ (NUS) led by Chua Tat-Seng](http://www.nextcenter.org/) and [MILA led by Yoshua Bengio](https://mila.quebec/en/). I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton). During my time there, I managed to publish in top-tier conferences and workshops like ICML and IJCAI.
 
+I will be teaching Deep Learning Foundations with Alfredo Canziani at Rwanda, Africa for the African Masters in Machine Intelligence (AMMI) in 2018 supported by Google and Facebook.
+
 I'm based in Singapore currently. Previously I was based in Seoul (South Korea), Indiana (USA), and Milan (Italy) for extended periods.
 
-Oh yes! You can check out some of my cool stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
+Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
-## The Purpose of Artificial Intelligence
-John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I believe we can do that with even fewer stupendously productive hours. We can then spend the rest of our time doing other awesome things like [Black Water Rafting](http://www.waitomo.com/black-water-rafting/Pages/default.aspx). I bet you have never heard of that.
+<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540343136/logos/ritchie_website_affliated_logos.png" /></p>
 
-We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
 ## Deep Learning Courses
 These are some of the courses I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
 <br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
-![](https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png)
+<br />
+<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
 AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018
@@ -106,12 +107,7 @@ Scikit-learn           |                     | Stata             |
 OpenCV                 |                     | Adobe Illustrator | 
 PyTorch                |                     | Adobe Photoshop   | 
  
-## Headshot
-This is me attempting to look dapper with my blazer, albeit I rarely wear suits.
-<br />
-![Ritchie Ng](https://res.cloudinary.com/ritchieng/image/upload/v1468818829/ritchieng.com/ritchieng_web_gt0o50.png)
-
 ## Credits
 I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
 
-I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, Data School and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful. 
+I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful. 

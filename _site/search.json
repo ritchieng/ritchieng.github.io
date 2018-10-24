@@ -1154,6 +1154,96 @@
 
 
 {
+"title": "Recap of 2018 PyTorch Developer Conference",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/pytorch/pytorch-devcon-2018",
+"summary": "Invited by PyTorch to PyTorch's first Devcon!"
+}
+,
+
+
+{
+"title": "NVIDIA Image Classification at NUS-NUHS-MIT Datathon",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/nvidia-dli/nvidia-dli-nuhs-mit-nus-datathon",
+"summary": "Singapore's AI healthcare datathon with NUS, NUHS, and MIT."
+}
+,
+
+
+{
+"title": "NVIDIA Object Detection with DIGITS 2018",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/nvidia-dli/nvidia-dli-deep-learning-workshop-2",
+"summary": "NUS NVIDIA DLI Workshop 2"
+}
+,
+
+
+{
+"title": "NVIDIA Image Classification with DIGITS 2018",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/nvidia-dli/nvidia-dli-deep-learning-workshop-postmort",
+"summary": "NUS NVIDIA Inaugural Workshop Review"
+}
+,
+
+
+{
+"title": "NVIDIA Deep Learning Workshop 2018",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/nvidia-dli/nvidia-dli-deep-learning-workshop",
+"summary": "NUS NVIDIA Inaugural Workshop"
+}
+,
+
+
+{
+"title": "I am an NVIDIA Deep Learning Institute Instructor!",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/nvidia-dli/ritchie-dli-instructor",
+"summary": "I am grateful to NVIDIA for giving me the opportunity to enable people to leverage on Deep Learning."
+}
+,
+
+
+{
+"title": "Practical Deep Learning with PyTorch",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/courses/practical-deep-learning-with-PyTorch",
+"summary": "A course by deep learning wizard on practical deep learning with PyTorch"
+}
+,
+
+
+{
+"title": "Deep Learning for Self-Driving Cars and Medical Diagnostics by NVIDIA",
+"tags": "newsmachine_learning",
+"keywords": "",
+"url": "/events/deep-learning-self-driving-cars-medical-nvidia",
+"summary": "A talk and tutorial by NVIDIA at The Hangar, NUS Enterprise"
+}
+,
+
+
+{
+"title": "Comic Series: Life&#39;s Journey is Like Gradient Descent",
+"tags": "comic_series",
+"keywords": "",
+"url": "/comic-series/gradient-descent-life-journey",
+"summary": "Life's Journey is Like Gradient Descent"
+}
+,
+
+
+{
 "title": "Comic Series: Plain Vanilla",
 "tags": "comic_series",
 "keywords": "",
