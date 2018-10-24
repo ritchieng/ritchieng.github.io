@@ -23,13 +23,14 @@ John Keynes predicted we would only work 15 hours a week. Yup, you heard it! I b
 We can and will reach there by improving machine intelligence that can directly and indirectly improve people's lives.
 
 ## Deep Learning Courses
-These are some of the courses I created that will gradually build up your deep learning capabilities.
+These are some of the courses I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
 <br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
+<img src="https://res.cloudinary.com/ritchieng/image/upload/v1540341011/logos/nvidia_inception.png" alt="drawing" width="200"/>
 
 ## Upcoming Talks/Workshops
-Explainable Deep Learning, Nanjing, China, November 2018
-<br />Deep Learning for Financial Time Series, NVIDIA, Singapore, December 2018 (more details coming soon)
+AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018
+Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
