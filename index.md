@@ -15,7 +15,7 @@ In my free time, I'm into deep learning research with researchers based in [NExT
 
 I will be teaching Deep Learning Foundations with Alfredo Canziani at Rwanda, Africa for the African Masters in Machine Intelligence (AMMI) in 2018 supported by Google and Facebook.
 
-I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award winner.
+I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient.
 
 Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
 
