@@ -83,7 +83,7 @@ AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018
 
 **Philip Yeo Innovation Fellowship 2017, NUS**
 <br /> $20,000 Award with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
-<br /> I was fortunately also under the mentorship of [Kiren Kumar (AMD, EDB)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html). 
+<br /> I am fortunately also under the mentorship of [Kiren Kumar (AMD, EDB)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html) and [Abel Ang (CEO, EDIS)](https://www.edis.sg/the-executive-team/). 
 
 **Valedictorian (Reserve) Class of 2018, NUS**
 <br /> It happened.
