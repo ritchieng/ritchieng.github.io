@@ -30,7 +30,7 @@ These are some of the courses I created that will gradually build up your deep l
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
-[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/)
+[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) (Post Link)[https://www.ritchieng.com//conferences/next++-nanjing--2018]
 <br />Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
 
 ## Key Papers
