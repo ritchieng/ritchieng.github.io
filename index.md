@@ -110,4 +110,6 @@ PyTorch                |                     | Adobe Photoshop   |
 ## Credits
 I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
 
-I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful. 
+I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful.
+
+Take note that I'm currently concentrating entirely on building materials Deep Learning with PyTorch from mastering deep learning, to deploying deep learning algorithms in production to solve many problems through [Deep Learning Wizard](https://www.deeplearningwizard.com/).
