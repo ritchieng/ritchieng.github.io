@@ -33,7 +33,7 @@ These are some of the courses I created that will gradually build up your deep l
 <br />Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
 
 ## Key Papers
-[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://www.researchgate.net/profile/Ritchie_Ng/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates/links/5a4ef11faca2726172bbd7c8/Neural-Optimizers-with-Hypergradients-for-Tuning-Parameter-Wise-Learning-Rates.pdf)
+[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
 [AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
