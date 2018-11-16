@@ -37,16 +37,25 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-<br />[Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
-<br />[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
-<br />[PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)
-<br />[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)
-<br />[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
-<br />[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
-<br />[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
-<br />[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
-<br />[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
-<br />[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
+**[Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google & Facebook, Kigali, Rwanda, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)**
+
+**[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)**
+
+**[PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)**
+
+**[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)**
+
+**[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)**
+
+**[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)**
+
+**[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)**
+
+**[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)**
+
+**[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)**
+
+**[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)**
 
 ## Past Projects
 **[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
