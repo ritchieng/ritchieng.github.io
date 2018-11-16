@@ -30,13 +30,15 @@ These are some of the courses I created that will gradually build up your deep l
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
-<br />Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018
+Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
+<br />Computer Vision with Deep Learning 2.0, NVIDIA, Singapore, 2019
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
+<br />[Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google and Facebook, Rwanda, Africa, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
+<br />[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
 <br />[PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)
 <br />[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)
 <br />[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
