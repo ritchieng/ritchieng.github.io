@@ -123,4 +123,4 @@ I would like to thank all my readers for their encouraging participation on this
 
 I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful.
 
-Take note that I'm currently concentrating entirely on building materials Deep Learning with PyTorch from mastering deep learning, to deploying deep learning algorithms in production to solve many problems through [Deep Learning Wizard](https://www.deeplearningwizard.com/).
+Take note that I'm currently concentrating entirely on building materials for Deep Learning with PyTorch from mastering deep learning, to deploying deep learning algorithms in production, and to to solve many problems through [Deep Learning Wizard](https://www.deeplearningwizard.com/).
