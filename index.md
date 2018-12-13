@@ -19,8 +19,6 @@ I was previously conducting research in meta-learning for hyperparameter optimiz
 
 I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient.
 
-Oh yes! You can check out some of my "cool" stickman [comics](http://www.ritchieng.com/tag_comic_series/) on Machine Learning if you are looking to chill with my stickman.
-
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
 
