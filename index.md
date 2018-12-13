@@ -9,7 +9,7 @@ Currently I am leading artificial intelligence with my colleagues in [ensembleca
 
 I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
-In my free time, I'm into deep learning research with [MILA](https://mila.quebec/en/) and NUS where I am a research associate in [NExT (NUS)](http://www.nextcenter.org/).
+In my free time, I'm into deep learning research on hyperspectral satellite imaging and financial time series with researchers in NUS, Montreal Institute for Learning Algorithms (MILA), New York University (NYU), African Institute for Mathematical Sciences (AIMS) and Hong Kong University of Science and Technology (HKUST). I am a research associate in [NExT (NUS)](http://www.nextcenter.org/).
 
 My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 2000 students in over 60 countries around the world. The course is recognized by [Soumith Chintala](https://pytorch.org/2018/01/19/a-year-in.html), Facebook AI Research, and [Alfredo Canziani](https://www.linkedin.com/feed/update/urn:li:activity:6407592585275142144), Post-Doctoral Associate under Yann Lecun, as the first comprehensive PyTorch Video Tutorial. 
 
