@@ -111,7 +111,7 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **Machine Learning**   | **Web Development** | **Others**     |
 Python                 | JavaScript          | LaTeX          |
 C/C++                  | MeteorJS            | Bash Scripting |
-TensorFlow             | NodeJS              | MongoDB        |
+TensorFlow             | NodeJS              | MongoDB / Apache Cassandra |
 TensorLayer            |                     | SQL            | 
 Keras                  |                     | EViews            |
 Scikit-learn           |                     | Stata             |
