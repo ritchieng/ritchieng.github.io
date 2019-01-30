@@ -6,7 +6,7 @@ summary: "I'm excited to announce that we've been awarded the Monetary Authority
 tags: [news, machine_learning]
 ---
 
-'m excited to announce that we've been awarded the Monetary Authority of Singapore’s (MAS) Artificial Intelligence and Data Analytics [grant](https://ensemblecap.ai/2019/01/30/ensemble-awarded-mass-artificial-intelligence-and-data-analytics-grant-in-2019/) in 2019. 
+I'm excited to announce that we've been awarded the Monetary Authority of Singapore’s (MAS) Artificial Intelligence and Data Analytics [grant](https://ensemblecap.ai/2019/01/30/ensemble-awarded-mass-artificial-intelligence-and-data-analytics-grant-in-2019/) in 2019. 
 
 I will be leading the team on research and production deployment of deep reinforcement learning algorithms to capital allocation decisions at the portfolio level. #reinforcementlearning #artificialintelligence #ensemblecapai
 
