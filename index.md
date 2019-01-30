@@ -82,9 +82,6 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
-**AI and Data Analytics Grant, Monetary Authority of Singapore (MAS)**
-<br /> Clinched via ensemblecap.ai for research and production deployment of deep reinforcement learning for financial portfolio allocation. 
-
 **Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
 <br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
