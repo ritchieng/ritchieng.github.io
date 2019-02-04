@@ -108,15 +108,15 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 
 ## Languages, Libraries and Frameworks
 
-**Machine Learning**   | **Web Development** | **Others**     |
-Python                 | JavaScript          | LaTeX          |
-C/C++                  | MeteorJS            | Bash Scripting |
-TensorFlow             | NodeJS              | MongoDB / Apache Cassandra |
-TensorLayer            |                     | SQL            | 
-Keras                  |                     | EViews            |
-Scikit-learn           |                     | Stata             |
-OpenCV                 |                     | Adobe Illustrator | 
-PyTorch                |                     | Adobe Photoshop   | 
+**Machine Learning**   | **Database**      | **General Programming**|
+PyTorch         | Apache Cassandra  | C++             |
+TensorFlow      | Apache Spark      | Python          |
+Keras           |                   | Bash Scripting  |
+TensorLayer     |                   | LaTeX           |
+OpenCV          |                   |                 |
+Scikit-learn    |                   |                 |
+OpenCV          |                   |                 | 
+                |                   |                 | 
  
 ## Credits
 I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
