@@ -83,9 +83,7 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 
 ## Awards
 **IT Youth Leader of The Year 2019, Singapore Computer Society**
-<br /> Prestigious award for individuals who have made extraordinary impact on the infocomm and digital media industry
-<br /> For my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
-<br /> [Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)
+<br /> Prestigious [award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)  for my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
 
 **Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
@@ -98,9 +96,8 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 <br /> $10,000 Award.
 
 **Philip Yeo Innovation Fellowship 2017, NUS**
-<br /> $20,000 Award with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
+<br /> [Award](https://enterprise.nus.edu.sg/entrepreneurship-initiatives/philip-yeo-initiative) with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
 <br /> I am fortunately also under the mentorship of [Kiren Kumar (AMD, EDB)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html) and [Abel Ang (CEO, EDIS)](https://www.edis.sg/the-executive-team/). 
-<br /> [Fellowship Link](https://enterprise.nus.edu.sg/entrepreneurship-initiatives/philip-yeo-initiative)
 
 **Valedictorian (Reserve) Class of 2018, NUS**
 
