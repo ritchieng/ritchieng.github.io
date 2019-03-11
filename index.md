@@ -17,7 +17,7 @@ In my free time, I'm into deep learning research on hyperspectral satellite imag
 
 I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton).
 
-I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient.
+I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient. I was awarded the [IT Youth of the Year Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) in 2019.
 
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
@@ -82,6 +82,11 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
+**IT Youth of The Year 2019, Singapore Computer Society**
+<br /> Prestigious award for individuals who have made extraordinary impact on the infocomm and digital media industry
+<br /> For my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
+<br /> [Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)
+
 **Global Merit Scholarship 2014-2018, NUS**
 <br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
 <br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
@@ -95,9 +100,9 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **Philip Yeo Innovation Fellowship 2017, NUS**
 <br /> $20,000 Award with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
 <br /> I am fortunately also under the mentorship of [Kiren Kumar (AMD, EDB)](https://www.edb.gov.sg/content/edb/ja/about-edb/our-leadership/executive-management/assistant-managing-directors/kiren-kumar.html) and [Abel Ang (CEO, EDIS)](https://www.edis.sg/the-executive-team/). 
+<br /> [Fellowship Link](https://enterprise.nus.edu.sg/entrepreneurship-initiatives/philip-yeo-initiative)
 
 **Valedictorian (Reserve) Class of 2018, NUS**
-<br /> It happened.
 
 **Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
 <br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
