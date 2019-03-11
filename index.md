@@ -17,7 +17,7 @@ In my free time, I'm into deep learning research on hyperspectral satellite imag
 
 I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton).
 
-I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient. I was awarded the [IT Youth of the Year Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) in 2019.
+I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Fellow, and NUS Enterprise I&E Praticum Award recipient. I was awarded the [IT Youth Leader of the Year Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) in 2019.
 
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
@@ -82,7 +82,7 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
 
 ## Awards
-**IT Youth of The Year 2019, Singapore Computer Society**
+**IT Youth Leader of The Year 2019, Singapore Computer Society**
 <br /> Prestigious award for individuals who have made extraordinary impact on the infocomm and digital media industry
 <br /> For my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
 <br /> [Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)
