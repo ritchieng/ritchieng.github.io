@@ -85,15 +85,8 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 **IT Youth Leader of The Year 2019, Singapore Computer Society**
 <br /> Prestigious [award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)  for my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
 
-**Global Merit Scholarship 2014-2018, NUS**
-<br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
-<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
-
-**Dean's List 2015/2016, NUS**
-<br /> Top 5% of my cohort.
-
-**I&E Practicum Award 2017, NUS**
-<br /> $10,000 Award.
+**Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
+<br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
 
 **Philip Yeo Innovation Fellowship 2017, NUS**
 <br /> [Award](https://enterprise.nus.edu.sg/entrepreneurship-initiatives/philip-yeo-initiative) with mentorship by [Philip Yeo](https://en.wikipedia.org/wiki/Philip_Yeo), Chairman of Spring Singapore.
@@ -101,8 +94,15 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 
 **Valedictorian (Reserve) Class of 2018, NUS**
 
-**Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
-<br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
+**Global Merit Scholarship 2014-2018, NUS**
+<br /> NUS top scholarship with only 4 awarded in NUS across all faculties for the year of my admission.
+<br /> Full scholarship amounting to more than $100,000 covering tuition, allowance, accommodation, and overseas trips.
+
+**I&E Practicum Award 2017, NUS**
+<br /> $10,000 Award.
+
+**Dean's List 2015/2016, NUS**
+<br /> Top 5% of my cohort.
 
 ## Online Profiles
 [Github](https://github.com/ritchieng)
