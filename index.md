@@ -22,10 +22,10 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
 ## Deep Learning Courses with Deep Learning Wizard
-- These are some of the courses/tutorials I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
+- These are some of the courses/tutorials I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner based in Singapore.
 	- [Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 	- [Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
-- [Deep Learning Tutorials (Libaries: Pytho, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
+- [Deep Learning and Deep Reinforcement Learning Tutorials (Libraries: Pytho, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
     - [Course Progression](https://www.deeplearningwizard.com/deep_learning/course_progression/)
     - [Matrices](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_matrices/)
     - [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
@@ -43,7 +43,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Supervised to Reinforcement Learning](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/supervised_to_rl/)
     - [Markov Decision Processes and Bellman Equations](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/bellman_mdp/)
     - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
-- [Scalable Database Tutorials (Libaries: Apache Cassandra, Bash and Python)](https://www.deeplearningwizard.com/database/intro/)
+- [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash and Python)](https://www.deeplearningwizard.com/database/intro/)
     - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
 
 <br />
