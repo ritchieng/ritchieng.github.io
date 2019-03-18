@@ -21,13 +21,35 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
-
-## Deep Learning Courses
+## Deep Learning Courses with Deep Learning Wizard
 These are some of the courses I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
 <br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 <br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
 <br />
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
+
+### Deep Learning Wizard
+- [Deep Learning Tutorials (Libaries: Python, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
+    - [Course Progression](https://www.deeplearningwizard.com/deep_learning/course_progression/)
+    - [Matrices](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_matrices/)
+    - [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
+    - [Linear Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_linear_regression/)
+    - [Logistic Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_logistic_regression/)
+    - [Feedforward Neural Network](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_feedforward_neuralnetwork/)
+    - [Convolutional Neural Network (CNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_convolutional_neuralnetwork/)
+    - [Recurrent Neural Network (RNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_recurrent_neuralnetwork/)
+    - [Long Short-Term Memory (LSTM) network](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_lstm_neuralnetwork/)
+    - [Derivative, Gradient and Jacobian](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/derivative_gradient_jacobian/)
+    - [Forwardpropagation, Backpropagation and Gradient Descent](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/forwardpropagation_backpropagation_gradientdescent/)
+    - [Learning Rate Scheduling](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/lr_scheduling/)
+    - [Optimization Algorithms](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/optimizers/)
+    - [Weight Initialization and Activation Functions](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/weight_initialization_activation_functions/)
+    - [Supervised to Reinforcement Learning](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/supervised_to_rl/)
+    - [Markov Decision Processes and Bellman Equations](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/bellman_mdp/)
+    - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
+- [Scalable Database Tutorials (Libaries: Apache Cassandra, Bash and Python)](https://www.deeplearningwizard.com/database/intro/)
+    - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
+
 
 ## Upcoming Talks/Workshops
 Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
@@ -83,7 +105,7 @@ Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 
 ## Awards
 **IT Youth Leader of The Year 2019, Singapore Computer Society**
-<br /> Prestigious [award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019)  for my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
+<br /> Prestigious [award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) for my industry, academic and charitable work in ensemblecap.ai, Deep Learning Wizard, NVIDIA and NUS
 
 **Chua Thian Poh Community Leadership Programme Fellow 2018, NUS**
 <br /> Established with generous gifts from Mr Chua Thian Poh, the Centre aims to nurture Singapore’s next generation of community leaders. These leaders will not only be intellectually engaged with social and community issues, but will also be passionate about addressing social and community challenges in Singapore.
