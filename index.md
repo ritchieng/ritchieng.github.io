@@ -22,14 +22,10 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1540354047/logos/ritchie_website_affliated_logos.png" /></p>
 
 ## Deep Learning Courses with Deep Learning Wizard
-These are some of the courses I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
-<br />[Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
-<br />[Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
-<br />
-<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
-
-### Deep Learning Wizard
-- [Deep Learning Tutorials (Libaries: Python, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
+- These are some of the courses/tutorials I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner.
+	- [Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
+	- [Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
+- [Deep Learning Tutorials (Libaries: Pytho, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
     - [Course Progression](https://www.deeplearningwizard.com/deep_learning/course_progression/)
     - [Matrices](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_matrices/)
     - [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
@@ -50,55 +46,38 @@ These are some of the courses I created that will gradually build up your deep l
 - [Scalable Database Tutorials (Libaries: Apache Cassandra, Bash and Python)](https://www.deeplearningwizard.com/database/intro/)
     - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
 
+<br />
+<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
-Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
-<br />Computer Vision with Deep Learning 2.0, NVIDIA, Singapore, 2019
+- Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
+- Computer Vision with Deep Learning 2.0, NVIDIA, Singapore, 2019
 
 ## Key Papers
 [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
 
 ## Past Talks/Workshops
-**[Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google & Facebook, Kigali, Rwanda, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)**
-
-**[AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)**
-
-**[PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)**
-
-**[Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)**
-
-**[Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)**
-
-**[Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)**
-
-**[Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)**
-
-**[Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)**
-
-**[Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)**
-
-**[Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)**
+- [Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google & Facebook, Kigali, Rwanda, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
+- [AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
+- [PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)
+- [Hyperparameter Optimization with Neural Optimizers, Big Data & AI Leaders Summit, Singapore, September 2018](https://forwardleading.co.uk/speakers/ritchie-ng-2891)
+- [Image Classification Workshop, NUS-NUH-MIT Datathon, NVIDIA, Singapore, July 2018](http://www.nus-datathon.com/workshop)
+- [Object Detection with DIGITS, NVIDIA, Singapore, June 2018](https://www.facebook.com/nus.nvidia/posts/166945523975924)
+- [Image Classification with DIGITS, NVIDIA, Singapore, May 2018](http://www.ritchieng.com/nvidia-dli/nvidia-dli-deep-learning-workshop)
+- [Meta Learning, AutoML, ICML, Sydney, 2017](https://sites.google.com/site/automl2017icml/accepted-papers)
+- [Deep Learning for Self-Driving Cars and Medical Diagnostics, NVIDIA, Singapore, 2017](http://www.ritchieng.com/events/deep-learning-self-driving-cars-medical-nvidia)
+- [Scalable Hyperparameter Optimization, REWORK Deep Learning Summit, Singapore, 2017](https://www.re-work.co/events/deep-learning-summit-singapore-april-2017)
 
 ## Past Projects
-**[Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)**
-
-**[Wide Residual Networks with TensorFlow](https://github.com/ritchieng/wideresnet-tensorlayer)**
-
-**[Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)**
-
-**[Training a Smart Cab (Reinforcement Learning)](http://www.ritchieng.com/machine-learning-proj-smart-cab/)**
-
-**[Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)**
-
-**[Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)**
-
-**[Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)** 
-
-**[The Incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)**
-<br /> This is an awesome curated list of tutorials, papers, projects, communities and more relating to PyTorch.
-
-**[DLAMI](https://github.com/ritchieng/dlami)**
-<br /> A Deep Learning Amazon Web Service (AWS) AMI that is open, free and works. Run any deep learning framework in less than 5 minutes including TensorFlow, Keras, PyTorch, Theano, MXNet, CNTK, Torch, and Caffe.
+- [Residual Networks with TensorFlow](https://github.com/ritchieng/resnet-tensorflow)
+- [Wide Residual Networks with TensorFlow](https://github.com/ritchieng/wideresnet-tensorlayer)
+- [Large Scale Identification of Multiple Digits from Real-world Images with Convolutional Neural Networks (CNN)](https://github.com/ritchieng/NumNum)
+- [Training a Smart Cab (Reinforcement Learning)](http://www.ritchieng.com/machine-learning-proj-smart-cab/)
+- [Identifying Customer Segments (Unsupervised Learning)](http://www.ritchieng.com/machine-learning-project-customer-segments/)
+- [Building a Student Intervention System (Supervised Learning)](http://www.ritchieng.com/machine-learning-project-student-intervention/)
+- [Predicting Boston House Prices](http://www.ritchieng.com/machine-learning-project-boston-home-prices/)
+- [The Incredible PyTorch, curated list of tutorials and projects in PyTorch](https://github.com/ritchieng/the-incredible-pytorch)
+- [DLAMI, deep learning Amazon Web Service (AWS) that's free and open-source](https://github.com/ritchieng/dlami)
 
 ## Past Articles
 **[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
@@ -143,7 +122,7 @@ OpenCV          |                   |                 |
                 |                   |                 | 
  
 ## Credits
-I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.  
+I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.
 
 I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from them. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful.
 
