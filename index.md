@@ -113,13 +113,13 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 
 **Machine Learning**   | **Database**      | **General Programming**|
 PyTorch         | Apache Cassandra  | C++             |
-TensorFlow      | Apache Spark      | Python          |
+TensorFlow      |                   | Python          |
 Keras           |                   | Bash Scripting  |
 TensorLayer     |                   | LaTeX           |
 OpenCV          |                   |                 |
 Scikit-learn    |                   |                 |
-OpenCV          |                   |                 | 
-                |                   |                 | 
+cuDF/cuML (RAPIDS)    |                   |                 | 
+Pandas/NumPy                |                   |                 | 
  
 ## Credits
 I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.
