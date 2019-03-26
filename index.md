@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising quants and traders from JPMorgan and Nomura. I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I co-run, as portfolio manager, our systematic end-to-end deep learning portfolio with the Chief Investment Officer.
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [quants and traders from JPMorgan](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund). I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I co-run, as portfolio manager, our systematic end-to-end deep learning portfolio with the Chief Investment Officer.
 
 I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
