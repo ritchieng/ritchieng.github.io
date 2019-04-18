@@ -53,8 +53,9 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 - Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
 - Computer Vision with Deep Learning 2.0, NVIDIA, Singapore, 2019
 
-## Key Papers
-[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, ICML 2017](https://sites.google.com/site/automl2017icml/accepted-papers/AutoML_2017_paper_7.pdf)
+## Publications
+[Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
+[Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
 ## Past Talks/Workshops
 - [Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google & Facebook, Kigali, Rwanda, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
