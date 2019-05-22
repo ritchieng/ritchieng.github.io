@@ -25,7 +25,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 - These are some of the courses/tutorials I created that will gradually build up your deep learning capabilities. We are an NVIDIA Inception Partner based in Singapore.
 	- [Main Website, Deep Learning Wizard](https://www.deeplearningwizard.com/)
 	- [Practical Deep Learning with PyTorch, Deep Learning Wizard](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
-- [Deep Learning and Deep Reinforcement Learning Tutorials (Libraries: Pytho, PyTorch, Gym, NumPy and Matplotlib)](https://www.deeplearningwizard.com/deep_learning/intro/)
+- [Deep Learning and Deep Reinforcement Learning Tutorials (Libraries: Python, PyTorch, Gym, NumPy, Matplotlib and more)](https://www.deeplearningwizard.com/deep_learning/intro/)
     - [Course Progression](https://www.deeplearningwizard.com/deep_learning/course_progression/)
     - [Matrices](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_matrices/)
     - [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
@@ -43,17 +43,22 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Supervised to Reinforcement Learning](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/supervised_to_rl/)
     - [Markov Decision Processes and Bellman Equations](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/bellman_mdp/)
     - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
-- [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash and Python)](https://www.deeplearningwizard.com/database/intro/)
-    - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
-
+    - [Machine Learning Tutorials (Libraries: Python, cuDF RAPIDS, cuML RAPIDS, pandas, numpy, scikit-learn and more)](https://www.deeplearningwizard.com/machine_learning/intro/)
+        - [GPU DataFrames](https://www.deeplearningwizard.com/machine_learning/gpu/rapids_cudf/)
+    - [Programming Tutorials (Libraries: C++, Python, Bash and more)](https://www.deeplearningwizard.com/programming/intro/)
+        - [C++](https://www.deeplearningwizard.com/programming/cpp/cpp/)
+    - [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash, Python and more)](https://www.deeplearningwizard.com/database/intro/)
+        - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
+    
 <br />
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
-- Natural Language Processing with Deep Learning, NVIDIA, Singapore, 2019
-- Computer Vision with Deep Learning 2.0, NVIDIA, Singapore, 2019
+- Introduction to AI, DSTA and NVIDIA, Singapore, June 2019
+- Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019
 
 ## Publications
+- [Detecting Waterborne Debris with Sim2Real and Randomization](https://aiforsocialgood.github.io/icml2019/proposals.htm)
 - [Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
