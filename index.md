@@ -58,7 +58,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 - Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019
 
 ## Publications
-- [Detecting Waterborne Debris with Sim2Real and Randomization](https://aiforsocialgood.github.io/icml2019/proposals.htm)
+- [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://aiforsocialgood.github.io/icml2019/proposals.htm)
 - [Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
