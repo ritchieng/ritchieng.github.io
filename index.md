@@ -31,10 +31,11 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
     - [Linear Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_linear_regression/)
     - [Logistic Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_logistic_regression/)
-    - [Feedforward Neural Network](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_feedforward_neuralnetwork/)
+    - [Feedforward Neural Network (FNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_feedforward_neuralnetwork/)
     - [Convolutional Neural Network (CNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_convolutional_neuralnetwork/)
     - [Recurrent Neural Network (RNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_recurrent_neuralnetwork/)
-    - [Long Short-Term Memory (LSTM) network](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_lstm_neuralnetwork/)
+    - [Long Short-Term Memory Network (LSTM)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_lstm_neuralnetwork/)
+    - [Autoencoders (AE)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_autoencoder/)
     - [Derivative, Gradient and Jacobian](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/derivative_gradient_jacobian/)
     - [Forwardpropagation, Backpropagation and Gradient Descent](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/forwardpropagation_backpropagation_gradientdescent/)
     - [Learning Rate Scheduling](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/lr_scheduling/)
@@ -43,22 +44,25 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Supervised to Reinforcement Learning](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/supervised_to_rl/)
     - [Markov Decision Processes and Bellman Equations](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/bellman_mdp/)
     - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
-    - [Machine Learning Tutorials (Libraries: Python, cuDF RAPIDS, cuML RAPIDS, pandas, numpy, scikit-learn and more)](https://www.deeplearningwizard.com/machine_learning/intro/)
-        - [GPU DataFrames](https://www.deeplearningwizard.com/machine_learning/gpu/rapids_cudf/)
-    - [Programming Tutorials (Libraries: C++, Python, Bash and more)](https://www.deeplearningwizard.com/programming/intro/)
-        - [C++](https://www.deeplearningwizard.com/programming/cpp/cpp/)
-    - [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash, Python and more)](https://www.deeplearningwizard.com/database/intro/)
-        - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
+- [Machine Learning Tutorials (Libraries: Python, cuDF RAPIDS, cuML RAPIDS, pandas, numpy, scikit-learn and more)](https://www.deeplearningwizard.com/machine_learning/intro/)
+    - [GPU DataFrames](https://www.deeplearningwizard.com/machine_learning/gpu/rapids_cudf/)
+- [Programming Tutorials (Libraries: C++, Python, Bash and more)](https://www.deeplearningwizard.com/programming/intro/)
+    - [C++](https://www.deeplearningwizard.com/programming/cpp/cpp/)
+    - [Bash](https://www.deeplearningwizard.com/programming/bash/bash/)
+    - [Python](https://www.deeplearningwizard.com/programming/python/python/)
+- [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash, Python and more)](https://www.deeplearningwizard.com/database/intro/)
+    - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
     
 <br />
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_200/v1540341011/logos/nvidia_inception.png" /></p>
 
 ## Upcoming Talks/Workshops
-- Introduction to AI, DSTA and NVIDIA, Singapore, June 2019
-- Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019
+- Computer Vision with Deep Learning Fundamentals, AI Summer Camp, NVIDIA and NUS, July 2019
+- [Introduction to AI, DSTA and NVIDIA, Singapore, June 2019](https://www.deeplearningwizard.com/news/defence_and_science_technology_agency_dsta_nvidia_talk_2016_06/)
+- [Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
 
 ## Publications
-- [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://aiforsocialgood.github.io/icml2019/proposals.htm)
+- [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
 - [Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
