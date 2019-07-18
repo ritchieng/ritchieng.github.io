@@ -54,7 +54,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
     
 <br />
-<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1563422169/logos/aws_inception.png" /></p>
+<p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/v1563422287/logos/aws_inception_for.png" /></p>
 
 ## Upcoming Talks/Workshops
 - Computer Vision with Deep Learning Fundamentals, AI Summer Camp, NVIDIA and NUS, July 2019
