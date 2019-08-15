@@ -57,16 +57,17 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_450/v1563422287/logos/aws_inception_for.png" /></p>
 
 ## Upcoming Talks/Workshops
-- Computer Vision with Deep Learning Fundamentals, AI Summer Camp, NVIDIA and NUS, July 2019
-- [Introduction to AI, DSTA and NVIDIA, Singapore, June 2019](https://www.deeplearningwizard.com/news/defence_and_science_technology_agency_dsta_nvidia_talk_2016_06/)
-- [Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
 
 ## Publications
 - [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
+- [GFD: GPU Fractional Differencing for Rapid Large-scale Stationarizing of Time Series Data while Minimizing Memory Loss, NVIDIA, 2019](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss)
 - [Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
 ## Past Talks/Workshops
+- [Computer Vision with Deep Learning Fundamentals, AI Summer Camp, NVIDIA and NUS, July 2019](https://aisummerschool.aisingapore.org/docs/AISummerSchool_Program_Revised_19July.pdf)
+- [Introduction to AI, DSTA and NVIDIA, Singapore, June 2019](https://www.deeplearningwizard.com/news/defence_and_science_technology_agency_dsta_nvidia_talk_2016_06/)
+- [Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
 - [Foundations of Deep Learning, African Masters of Machine Intelligence (AMMI), Google & Facebook, Kigali, Rwanda, November 2018](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
 - [AI and Unstructured Analytics in Fintech, Nanjing, China, November 2018](http://www.nextcenter.org/event/next-workshop-2018-nanjing/) [Post Link](https://www.ritchieng.com//conferences/next++-nanjing--2018)
 - [PyTorch Developer Conference, Facebook, San Francisco, USA, October 2018](https://www.ritchieng.com/pytorch/pytorch-devcon-2018)
