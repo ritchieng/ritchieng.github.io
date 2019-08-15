@@ -46,6 +46,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
 - [Machine Learning Tutorials (Libraries: Python, cuDF RAPIDS, cuML RAPIDS, pandas, numpy, scikit-learn and more)](https://www.deeplearningwizard.com/machine_learning/intro/)
     - [GPU DataFrames](https://www.deeplearningwizard.com/machine_learning/gpu/rapids_cudf/)
+    - [CPU/GPU Fractional Differencing](https://www.deeplearningwizard.com/machine_learning/gpu/gpu_fractional_differencing/)
 - [Programming Tutorials (Libraries: C++, Python, Bash and more)](https://www.deeplearningwizard.com/programming/intro/)
     - [C++](https://www.deeplearningwizard.com/programming/cpp/cpp/)
     - [Bash](https://www.deeplearningwizard.com/programming/bash/bash/)
