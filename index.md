@@ -57,6 +57,8 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_450/v1563422287/logos/aws_inception_for.png" /></p>
 
 ## Upcoming Talks/Workshops
+- GPU Fractional Differencing, Big Data & AI Leaders Summit, Singapore, September 2019
+- Advances in Deep Learning for Finance, SUTD, Singapore, October 2019
 
 ## Publications
 - [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
