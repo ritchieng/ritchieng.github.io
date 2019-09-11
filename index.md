@@ -51,6 +51,8 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [C++](https://www.deeplearningwizard.com/programming/cpp/cpp/)
     - [Bash](https://www.deeplearningwizard.com/programming/bash/bash/)
     - [Python](https://www.deeplearningwizard.com/programming/python/python/)
+    - [Javascript](https://www.deeplearningwizard.com/programming/javascript/javascript/)
+    - [Electron](https://www.deeplearningwizard.com/programming/electron/electron/)
 - [Scalable Database Tutorials (Libraries: Apache Cassandra, Bash, Python and more)](https://www.deeplearningwizard.com/database/intro/)
     - [Apache Cassandra Cluster Setup](https://www.deeplearningwizard.com/database/setting_up_cluster/)
     
@@ -59,6 +61,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 
 ## Upcoming Talks/Workshops
 - GPU Fractional Differencing, Big Data & AI Leaders Summit, Singapore, September 2019
+- GPU Fractional Differencing, DBS, Singapore September 2019
 - Advances in Deep Learning for Finance, SUTD, Singapore, October 2019
 
 ## Publications
