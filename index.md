@@ -5,7 +5,7 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [quants and traders from JPMorgan](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund). I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I co-run, as portfolio manager, our deep learning systematic portfolio, delivering positive annual returns since 2018.
+Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [research scientists, engineers, quants, and traders from NVIDIA and JP Morgan](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund). I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I co-run, as portfolio manager, our deep learning systematic portfolio, delivering positive annual returns since 2018.
 
 I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
@@ -13,7 +13,7 @@ My passion for enabling anyone to leverage on deep learning has led to the creat
 
 I have taught [Deep Learning Foundations](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse) with Alfredo Canziani at Rwanda, Africa for the African Masters in Machine Intelligence (AMMI) in 2018 supported by Google and Facebook.
 
-In my free time, I'm into applied deep learning research on AI for Social Good with researchers in NUS, Montreal Institute for Learning Algorithms (MILA), New York University (NYU), and African Institute for Mathematical Sciences (AIMS). I am a research scholar in [NExT (NUS)](http://www.nextcenter.org/).
+In my free time, I'm into applied deep learning research on AI for Social Good with researchers in NUS, Montreal Institute for Learning Algorithms (MILA), New York University (NYU), and African Institute for Mathematical Sciences (AIMS). I am a research scholar in [NExT (NUS)](http://www.nextcenter.org/) and a PYI Fellow.
 
 I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton).
 
