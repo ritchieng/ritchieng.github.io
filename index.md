@@ -47,6 +47,7 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Supervised to Reinforcement Learning](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/supervised_to_rl/)
     - [Markov Decision Processes and Bellman Equations](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/bellman_mdp/)
     - [Dynamic Programming](https://www.deeplearningwizard.com/deep_learning/deep_reinforcement_learning_pytorch/dynamic_programming_frozenlake/)
+    - [Speed Optimization Basics Numba](https://www.deeplearningwizard.com/deep_learning/production_pytorch/speed_optimization_basics_numba/)
 - [Machine Learning Tutorials (Libraries: Python, cuDF RAPIDS, cuML RAPIDS, pandas, numpy, scikit-learn and more)](https://www.deeplearningwizard.com/machine_learning/intro/)
     - [GPU DataFrames](https://www.deeplearningwizard.com/machine_learning/gpu/rapids_cudf/)
     - [CPU/GPU Fractional Differencing](https://www.deeplearningwizard.com/machine_learning/gpu/gpu_fractional_differencing/)
