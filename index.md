@@ -36,8 +36,11 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
     - [Recurrent Neural Network (RNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_recurrent_neuralnetwork/)
     - [Long Short-Term Memory Network (LSTM)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_lstm_neuralnetwork/)
     - [Autoencoders (AE)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_autoencoder/)
+    - [Fully Connected Overcomplete Autoencoders](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_fc_overcomplete_ae/)
     - [Derivative, Gradient and Jacobian](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/derivative_gradient_jacobian/)
-    - [Forwardpropagation, Backpropagation and Gradient Descent](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/forwardpropagation_backpropagation_gradientdescent/)
+    - [Forward- and Backward-propagation and Gradient Descent (From Scratch FNN Regression)](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/forwardpropagation_backpropagation_gradientdescent/)
+    - [From Scratch Logistic Regression Classification](https://www.deeplearningwizard.com/deep_learning/fromscratch/fromscratch_logistic_regression/)
+    - [From Scratch CNN Classification](https://www.deeplearningwizard.com/deep_learning/fromscratch/fromscratch_cnn/)
     - [Learning Rate Scheduling](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/lr_scheduling/)
     - [Optimization Algorithms](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/optimizers/)
     - [Weight Initialization and Activation Functions](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/weight_initialization_activation_functions/)
@@ -59,18 +62,17 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 <br />
 <p align="center"><img width="40%" src="https://res.cloudinary.com/ritchieng/image/upload/c_scale,w_450/v1563422287/logos/aws_inception_for.png" /></p>
 
-## Upcoming Talks/Workshops
-- GPU Fractional Differencing, Big Data & AI Leaders Summit, Singapore, September 2019
-- GPU Fractional Differencing, DBS, Singapore September 2019
-- Advances in Deep Learning for Finance, SUTD, Singapore, October 2019
-
-## Publications
+## Presentations and Publications
 - [Detecting Waterborne Debris with Sim2Real and Randomization, AI for Social Good, ICML, 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
 - [GFD: GPU Fractional Differencing for Rapid Large-scale Stationarizing of Time Series Data while Minimizing Memory Loss, NVIDIA, 2019](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss)
-- [Deep Learning Fundamentals, Zenodo, 2018](https://zenodo.org/badge/latestdoi/139945544)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
 ## Past Talks/Workshops
+- Preparing for Disruption in an AI Future, Prudential Singapore, January 2020
+- Machine Learning for Humans, MAS Fintech Festival, November 2019
+- Large-scale Stationarizing of Time Series while Maximizing Memory, Visa Data Summit, November 2019
+- GPU Fractional Differencing, DBS, Singapore September 2019
+- GPU Fractional Differencing, Big Data & AI Leaders Summit, Singapore, September 2019
 - [Computer Vision with Deep Learning Fundamentals, AI Summer Camp, NVIDIA and NUS, July 2019](https://aisummerschool.aisingapore.org/docs/AISummerSchool_Program_Revised_19July.pdf)
 - [Introduction to AI, DSTA and NVIDIA, Singapore, June 2019](https://www.deeplearningwizard.com/news/defence_and_science_technology_agency_dsta_nvidia_talk_2016_06/)
 - [Detecting Waterborne Debris with Sim2Real and Randomization, ICML, Los Angeles, USA, June 2019](https://www.researchgate.net/publication/333915635_Detecting_Waterborne_Debris_with_Sim2Real_and_Randomization)
@@ -97,7 +99,8 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 - [DLAMI, deep learning Amazon Web Service (AWS) that's free and open-source](https://github.com/ritchieng/dlami)
 
 ## Past Articles
-**[The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)**
+- [RAPID Fractional Differencing to Minimize Memory Loss While Making a Time Series Stationary, 2019](https://medium.com/rapids-ai/rapid-fractional-differencing-to-minimize-memory-loss-while-making-a-time-series-stationary-2052f6c060a4)
+- [The Great Conundrum of Hyperparameter Optimization, REWORK, 2017](https://re-work.co/blog/deep-learning-ritchie-ng-nus-singapore-regularization-hyperparameter-optimization)
 
 ## Awards
 **IT Youth Leader of The Year 2019, Singapore Computer Society**
