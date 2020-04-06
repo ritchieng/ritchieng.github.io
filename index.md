@@ -7,8 +7,11 @@ type: homepage
 
 ## Hello! 
 ---
+
 Now: Hessian Matrix, NUS, NVIDIA
+
 ---
+
 (1) I lead as Chief Investment Officer, Head of AI at [Hessian Matrix](https://www.hessianmatrix.com/) where we develop systematic strategies with deep Learning, reinforcement learning and bayesian learning for thin-tailed and fat-tailed distributions. 
 
 (2) I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning industry workshops in NUS, Singapore and conducting workshops across Southeast Asia.
@@ -18,13 +21,19 @@ Now: Hessian Matrix, NUS, NVIDIA
 (4) My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 3000 undergraduates, graduates and professionals in over 60 countries around the world.
 
 ---
+
 Previously in AI Quant Hedge Fund: ensemblecap.ai
+
 ---
+
 I spent 2.5 years leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [research scientists, engineers, quants, and traders](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund) from NVIDIA and JP Morgan. I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I led, as portfolio manager, our deep learning systematic portfolio, delivering high positive returns in highly volatile years like 2018 (US-China trade war initiation) and 2020 YTD (covid-19 virus)
 
 ---
+
 Previously in AI Academia:  NUS
+
 ---
+
 I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton).
 
 I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Associate, and NUS Enterprise I&E Praticum Award recipient. I was awarded the [IT Youth Leader of the Year Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) in 2019.
