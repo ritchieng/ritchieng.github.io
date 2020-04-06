@@ -8,7 +8,7 @@ type: homepage
 ## Hello! 
 ---
 
-Now: Hessian Matrix, NUS, NVIDIA
+<center>Now: Hessian Matrix, NUS, NVIDIA</center>
 
 ---
 
@@ -22,7 +22,7 @@ Now: Hessian Matrix, NUS, NVIDIA
 
 ---
 
-Previously in AI Quant Hedge Fund: ensemblecap.ai
+<center>Previously in AI Quant Hedge Fund: ensemblecap.ai</center>
 
 ---
 
@@ -30,7 +30,7 @@ I spent 2.5 years leading artificial intelligence with my colleagues in [ensembl
 
 ---
 
-Previously in AI Academia:  NUS
+<center>Previously in AI Academia:  NUS</center>
 
 ---
 
