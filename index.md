@@ -5,16 +5,25 @@ sidebar: mydoc_sidebar
 type: homepage
 ---
 ## Hello! 
-Currently I am leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [research scientists, engineers, quants, and traders from NVIDIA and JP Morgan](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund). I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I co-run, as portfolio manager, our deep learning systematic portfolio, delivering positive annual returns since 2018.
+—————————————————————————
+Now: Hessian Matrix, NUS, NVIDIA
+—————————————————————————
+(1) I lead as Chief Investment Officer, Head of AI at [Hessian Matrix](https://www.hessianmatrix.com/) where we develop systematic strategies with deep Learning, reinforcement learning and bayesian learning for thin-tailed and fat-tailed distributions. 
 
-I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning workshops in NUS, Singapore and conducting workshops across Southeast Asia.
+(2) I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning industry workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
-My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 2000 students in over 60 countries around the world. The course is recognized by [Soumith Chintala](https://pytorch.org/2018/01/19/a-year-in.html), Facebook AI Research, and [Alfredo Canziani](https://www.linkedin.com/feed/update/urn:li:activity:6407592585275142144), Post-Doctoral Associate under Yann Lecun, as the first comprehensive PyTorch Video Tutorial. 
+(3) I’m into applied research for systematic trading strategies with deep learning at NUS where I am a research scholar in [NExT (NUS)](http://www.nextcenter.org/)) and a PYI Fellow.
 
-I have taught [Deep Learning Foundations](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse) with Alfredo Canziani at Rwanda, Africa for the African Masters in Machine Intelligence (AMMI) in 2018 supported by Google and Facebook.
+(4) My passion for enabling anyone to leverage on deep learning has led to the creation of [Deep Learning Wizard](https://www.deeplearningwizard.com/) where I have taught and still continue to teach more than 3000 undergraduates, graduates and professionals in over 60 countries around the world.
 
-In my free time, I'm into applied deep learning research on AI for Social Good with researchers in NUS, Montreal Institute for Learning Algorithms (MILA), New York University (NYU), and African Institute for Mathematical Sciences (AIMS). I am a research scholar in [NExT (NUS)](http://www.nextcenter.org/) and a PYI Fellow.
+—————————————————————————   
+Previously in AI Quant Hedge Fund: ensemblecap.ai
+—————————————————————————
+I spent 2.5 years leading artificial intelligence with my colleagues in [ensemblecap.ai](https://ensemblecap.ai/), an AI hedge fund based in Singapore comprising [research scientists, engineers, quants, and traders](https://www.bloomberg.com/news/articles/2017-11-29/ex-jpmorgan-traders-start-singapore-currency-options-quant-fund) from NVIDIA and JP Morgan. I have built the whole AI tech stack in a production environment with rigorous time-sensitive and fail-safe software testing powering multi-million dollar trades daily. Additionally, I led, as portfolio manager, our deep learning systematic portfolio, delivering high positive returns in highly volatile years like 2018 (US-China trade war initiation) and 2020 YTD (covid-19 virus)
 
+—————————————————————————
+Previously in AI Academia:  NUS
+—————————————————————————
 I was previously conducting research in meta-learning for hyperparameter optimization for deep learning algorithms in NExT Search Centre that is jointly setup between National University of Singapore (NUS), Tsinghua University and University of Southampton led by co-directors [Prof Tat-Seng Chua](https://www.chuatatseng.com/) (KITHCT Chair Professor at the School of Computing), [Prof Sun Maosong](http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224193416561782037/20101224193416561782037_.html) (Dean of Department of Computer Science and Technology, Tsinghua University), and [Prof Dame Wendy Hall](https://www.ecs.soton.ac.uk/people/wh) (Director of the Web Science Institute, University of Southampton).
 
 I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Community Leadership Programme Fellow, Philip Yeo Innovation Associate, and NUS Enterprise I&E Praticum Award recipient. I was awarded the [IT Youth Leader of the Year Award](https://www.scs.org.sg/it-leader-awards/winners-by-year.php?year=2019) in 2019.
