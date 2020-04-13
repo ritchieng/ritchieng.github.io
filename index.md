@@ -87,6 +87,9 @@ I graduated from NUS where I was an NUS Global Merit Scholar, Chua Thian Poh Com
 - [GFD: GPU Fractional Differencing for Rapid Large-scale Stationarizing of Time Series Data while Minimizing Memory Loss, NVIDIA, 2019](https://www.researchgate.net/publication/335159299_GFD_GPU_Fractional_Differencing_for_Rapid_Large-scale_Stationarizing_of_Time_Series_Data_while_Minimizing_Memory_Loss)
 - [Neural Optimizers with Hypergradients for Tuning Parameter-Wise Learning Rates, AutoML, ICML, 2017](https://www.researchgate.net/publication/322265379_Neural_Optimizers_with_Hypergradients_for_Tuning_Parameter-Wise_Learning_Rates)
 
+## Challenges at Conferences
+- [FinIR 2020 Grand Challenge at SIGIR 2020, SIGIR 2020, Co-organized by NExT++ and Hessian Matrix (Ritchie Ng)](https://www.biendata.com/competition/finir/)
+
 ## Past Talks/Workshops
 - Preparing for Disruption in an AI Future, Prudential Singapore, January 2020
 - Machine Learning for Humans, MAS Fintech Festival, November 2019
