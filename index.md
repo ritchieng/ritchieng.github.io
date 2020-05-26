@@ -12,7 +12,7 @@ type: homepage
 
 ---
 
-(1) I lead as Chief Investment Officer, Head of AI, at [Hessian Matrix](https://www.hessianmatrix.com/) where we develop systematic strategies with deep learning, reinforcement learning and bayesian learning for thin-tailed and fat-tailed distributions. We are a systematic global hedge fund led by a team with deep experience formerly from GIC, NUS, and NVIDIA.
+(1) I lead applied AI research and live systematic trading with multi-billion dollar notional sizes at [Hessian Matrix](https://www.hessianmatrix.com/). We develop scalable systematic strategies with deep learning, reinforcement learning and bayesian learning for thin-tailed and fat-tailed distributions. We are a systematic global hedge fund led by a team with deep experience formerly from GIC, NUS, and NVIDIA.
 
 (2) I am also an [NVIDIA Deep Learning Institute instructor](https://www.facebook.com/nus.nvidia/) leading all deep learning industry workshops in NUS, Singapore and conducting workshops across Southeast Asia.
 
