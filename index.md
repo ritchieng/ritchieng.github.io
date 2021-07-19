@@ -1,7 +1,7 @@
 ---
 title: Ritchie Ng
 type: homepage
-disqus: false
+comments: false
 ---
 <style> #disqus_thread { display: none } </style>
 
