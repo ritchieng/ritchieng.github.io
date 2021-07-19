@@ -1,7 +1,13 @@
 ## Ritchie Ng
 
-Hello, this is my personal Github page repository that has all my personal notes. It's served on [ritchieng.github.io](ritchieng.github.io) and [http://www.ritchieng.com/](ritchieng.github.io), both via Github page through this repository.
+## Deprecated Repository
 
-All the pages with notes are python notebooks where I appended my own notes previously to the materials from free deep learning courses online. I would like to thank Github Pages for serving these notebooks for free through this repository as it has helped many people in going through these free courses. And I would like to thank the authors that made these courses and materials available for free online.
+Take note that this blog is no longer actively maintained and it's deprecated. I am concentrating mainly on [ritchieng.live](https://ritchieng.live/) and [deeplearningwizard.com](https://www.deeplearningwizard.com/).
 
-Connections on all my website's pages are secured via SSL, credits to Let's Encrypt for making the Internet a safer place.
+### Credits
+
+This is my personal Github page repository that has all my old personal notes. It's served on [ritchieng.github.io](ritchieng.github.io) and [http://www.ritchieng.com/](ritchieng.github.io), both via Github page through this repository.
+
+I would like to thank all my readers for their encouraging participation on this Github page. I would also like to thank Github Pages for serving this [respository](https://github.com/ritchieng/ritchieng.github.io) of notes for free.
+
+I would like to give full credit to the respective authors for their free courses and materials online like Andrew Ng, [Data School](https://www.dataschool.io/about/) and Udemy where my notes are from there. These personal notes are meant for my personal review but I have open-sourced my repository of personal notes as a lot of people found it useful.
