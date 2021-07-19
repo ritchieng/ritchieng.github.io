@@ -2,8 +2,16 @@
 title: Ritchie Ng
 type: homepage
 ---
-## About
----
+## My Websites
+
+About: [ritchieng.live](https://ritchieng.live/)
+
+Guides: [deeplearningwizard.com](https://www.deeplearningwizard.com/)
+
+Notes: [ritchieng.com](https://www.ritchieng.com/)
+
+
+## My Profile
 
 Industry: Assistant Director in EastSpring Investments, one of Asia's largest asset manager, where I am responsible for leading AI algorithms research and production deployment with multimodal and multilingual data in Asian systematic investment portfolios.
 
@@ -11,12 +19,3 @@ Academia: Visiting Research Scholar, Sea-NExT Lab, a joint AI research lab based
 
 Education: Master's degree from Imperial College London and Bachelor's degree from NUS.
 
----
-## Websites
----
-
-About: [ritchieng.live](https://ritchieng.live/)
-
-Guides: [deeplearningwizard.com](https://www.deeplearningwizard.com/)
-
-Notes: [ritchieng.com](https://www.ritchieng.com/)
