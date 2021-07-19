@@ -3,6 +3,8 @@ title: Ritchie Ng
 type: homepage
 disqus: false
 ---
+<style> #disqus_thread { display: none } </style>
+
 ## My Websites
 
 About: [ritchieng.live](https://ritchieng.live/)
