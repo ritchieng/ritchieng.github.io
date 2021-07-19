@@ -1,6 +1,7 @@
 ---
 title: Ritchie Ng
 type: homepage
+disqus: false
 ---
 ## My Websites
 
