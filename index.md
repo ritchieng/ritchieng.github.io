@@ -3,7 +3,7 @@ title: Ritchie Ng
 type: homepage
 comments: false
 ---
-<style> #disqus_thread { display: none } </style>
+<style> #disqus_thread { display: none } #disqus_recommendations { display: none }</style>
 
 ## My Websites
 
