@@ -16,7 +16,7 @@ comments: false
 
 ## My Profile
 
-**Industry**: Assistant Director in EastSpring Investments, one of Asia's largest asset manager, where I am responsible for leading AI algorithms research and production deployment with multimodal and multilingual data in Asian systematic investment portfolios.
+**Industry**: Assistant Director in AI & Quantitative Strategies at EastSpring Investments, leading AI algorithms research and production deployment with multimodal and multilingual data for alpha generation in multi-billion dollar systematic investment portfolios.
 
 **Academia**: Visiting Research Scholar, Sea-NExT Lab, a joint AI research lab based in National University of Singapore (NUS) between NUS, Tsinghua University, and Sea.
 
