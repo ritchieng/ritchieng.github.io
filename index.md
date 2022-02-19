@@ -16,9 +16,13 @@ comments: false
 
 ## My Profile
 
-**Industry**: Assistant Director in AI & Quantitative Strategies at EastSpring Investments, leading AI algorithms research and production deployment with multimodal and multilingual data for alpha generation in multi-billion dollar systematic investment portfolios.
+**Industry**
+- Head of Data & AI at Eastspring Investments leading AI and data engineering globally.
+- Core tech stack: Python, C++, CUDA, SQL, Bash, and Docker.
+- Previously programmed end-to-end systems covering data engineering, systematic trading, and deep learning signals in systematic global macro hedge funds.
 
-**Academia**: Visiting Research Scholar, Sea-NExT Lab, a joint AI research lab based in National University of Singapore (NUS) between NUS, Tsinghua University, and Sea.
+**Academia**:
+- Visiting Research Scholar in NExT++ Lab, a joint AI research lab based in National University of Singapore (NUS) between NUS and Tsinghua University.
 
-**Education**: Master's degree from Imperial College London and Bachelor's degree from NUS.
-
+**Education**
+- Master's degree from Imperial College London and Bachelor's degree from NUS.
