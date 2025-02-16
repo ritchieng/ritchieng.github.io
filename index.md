@@ -17,12 +17,20 @@ comments: false
 ## My Profile
 
 **Industry**
-- Head of Data & AI at Eastspring Investments leading AI and data engineering globally.
-- Core tech stack: Python, C++, CUDA, SQL, Bash, and Docker.
-- Previously programmed end-to-end systems covering data engineering, systematic trading, and deep learning signals in systematic global macro hedge funds.
+- **Distinguished AI Scientist** at the largest bank in Australia, Commonwealth Bank of Australia  
+- **Co-Founder** of Gloqo AI, a community of former NVIDIA deep learning engineers sharing best practices for Applied Generative AI Research  
+- Previously **Head of Data & AI** at one of the largest asset managers in Asia, Eastspring Investments (USD 250 billion asset management arm of Prudential)  
+- Previously one of the pioneering **NVIDIA Deep Learning Institute instructors** in Singapore  
+- Previously **Founder** of a deep learning systematic hedge fund in Singapore  
 
-**Academia**:
-- Visiting Research Scholar in NExT++ Lab, a joint AI research lab based in National University of Singapore (NUS) between NUS and Tsinghua University.
+**Academia**
+- **Visiting Research Scholar** at NExT++ based in National University of Singapore (NUS)  
 
 **Education**
-- Master's degree from Imperial College London and Bachelor's degree from NUS.
+- **Postgraduate** from Imperial College London  
+- **Undergraduate** from the National University of Singapore (NUS)  
+
+### Fun Facts
+- Created **"The Incredible PyTorch,"** one of the world's first and largest PyTorch resource repositories, alongside open-source guides under **"Deep Learning Wizard"**  
+- Collaborated with **Facebook** and **Google** to deliver a deep learning course for the African Institute for Mathematical Sciences (AIMS) African Master's in Machine Intelligence (AMMI) in Kigali, Rwanda  
+```
