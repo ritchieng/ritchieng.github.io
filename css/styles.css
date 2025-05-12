@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #101216;
+  color: #00ff88;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  line-height: 1.4; /* More consistent spacing */
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 4rem;
+}
+
+.prompt { color: #00ccff; }
+.command { color: #f1c40f; }
+.cursor {
+  color: #efefef;
+  animation: blink 1s step-start infinite;
+}
+
+.output-text {
+  color: #efefef;
+  margin-top: 0.25rem; /* Adjusted spacing */
+  margin-bottom: 1rem; /* Added bottom spacing for even vertical spacing */
+  padding-left: 0;
+}
+
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+a:hover { color: #f1c40f; }
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.menu {
+  /* margin-bottom: 1rem; */
+  font-family: inherit;
+}
+
+.menu .prompt, .menu .command {
+  display: inline;
+}
+
+.menu .output-text {
+  display: block;
+  color: #ff5577;
+  margin-top: 0.25rem; /* Ensures consistent spacing */
+}
+
+.bash-line {
+  display: flex;
+  align-items: flex-start;
+  font-family: inherit;
+  margin-bottom: 0.25rem; /* Ensures consistent spacing between bash lines */
+}
+
+.bash-block {
+  margin-bottom: 1rem; /* Even spacing between bash blocks */
+}
+
+.section-header {
+  /* color: #ff5577; */
+  color: #efefef;
+
+}
+
+.status-current {
+  color: #00ff88c8;
+  /* font-weight: bold; */
+  font-weight: normal;
+}
+
+.status-past {
+  color: #989898;
+  font-weight: normal;
+}
