@@ -7,8 +7,6 @@ comments: false
 
 ## My Websites
 
-**About**: [ritchieng.live](https://ritchieng.live/)
-
 **Guides**: [deeplearningwizard.com](https://www.deeplearningwizard.com/)
 
 **Notes**: [ritchieng.com](https://www.ritchieng.com/)
