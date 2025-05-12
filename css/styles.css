@@ -7,7 +7,7 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  line-height: 1.4; /* More consistent spacing */
+  line-height: 1.4;
 }
 
 .container {
@@ -18,6 +18,7 @@ body {
 
 .prompt { color: #00ccff; }
 .command { color: #f1c40f; }
+
 .cursor {
   color: #efefef;
   animation: blink 1s step-start infinite;
@@ -25,8 +26,8 @@ body {
 
 .output-text {
   color: #efefef;
-  margin-top: 0.25rem; /* Adjusted spacing */
-  margin-bottom: 1rem; /* Added bottom spacing for even vertical spacing */
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
   padding-left: 0;
 }
 
@@ -40,7 +41,6 @@ a:hover { color: #f1c40f; }
 @keyframes blink { 50% { opacity: 0; } }
 
 .menu {
-  /* margin-bottom: 1rem; */
   font-family: inherit;
 }
 
@@ -51,29 +51,26 @@ a:hover { color: #f1c40f; }
 .menu .output-text {
   display: block;
   color: #ff5577;
-  margin-top: 0.25rem; /* Ensures consistent spacing */
+  margin-top: 0.25rem;
 }
 
 .bash-line {
   display: flex;
   align-items: flex-start;
   font-family: inherit;
-  margin-bottom: 0.25rem; /* Ensures consistent spacing between bash lines */
+  margin-bottom: 0.25rem;
 }
 
 .bash-block {
-  margin-bottom: 1rem; /* Even spacing between bash blocks */
+  margin-bottom: 1rem;
 }
 
 .section-header {
-  /* color: #ff5577; */
   color: #efefef;
-
 }
 
 .status-current {
   color: #00ff88c8;
-  /* font-weight: bold; */
   font-weight: normal;
 }
 
@@ -81,3 +78,35 @@ a:hover { color: #f1c40f; }
   color: #989898;
   font-weight: normal;
 }
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 600px) {
+    body {
+      padding: 1rem;
+      font-size: 0.85rem;
+    }
+  
+    .container {
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+  
+    .bash-line {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      white-space: nowrap;
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .bash-output, .output-text {
+      font-size: 0.75rem;
+      white-space: normal;
+      margin-bottom: 1rem;
+    }
+  
+    .menu .bash-line, .menu .output-text {
+      font-size: 0.75rem;
+    }
+  }
+  
