@@ -1,10 +1,18 @@
 const blogPosts = [
     {
-    title: "Sample Blog Post Name",
-    date: "01-01-2025",
-    excerpt: "Sample blog post description.",
-    link: "./sample_blog_post/",
-    category: "Blog Post Category"},
+        title: "Building Agentic AI Systems",
+        date: "21-05-2025",
+        excerpt: "Understanding how autonomous components work together.",
+        link: "./blog_post_one/",
+        category: "AI Insights"
+    },
+    {
+        title: "Scaling Deep Learning Infrastructure",
+        date: "22-05-2025",
+        excerpt: "Lessons from production deployments of large models.",
+        link: "./blog_post_two/",
+        category: "AI Insights"
+    },
 ];
 
 const POSTS_PER_PAGE = 5;
