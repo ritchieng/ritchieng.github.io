@@ -1,0 +1,36 @@
+<!-- blog/index.html adapted to bash theme -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ritchie@blog ~ AI Insights$</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="bg-[#101216] text-gray-200 font-mono">
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+
+    <div class="bash-line">
+      <span class="prompt">ritchie@blog</span>:<span class="command">~/blog</span>$ ls posts/
+    </div>
+
+    <div id="blog-list" class="grid gap-4 mt-4"></div>
+
+    <div id="loading" class="text-center py-6 text-gray-500 hidden">
+      loading...
+    </div>
+
+    <div class="bash-line">
+      <span class="prompt">ritchie@blog</span>:<span class="command">~/blog</span>$ <span class="cursor">|</span>
+    </div>
+
+  </main>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
