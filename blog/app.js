@@ -20,15 +20,21 @@ function formatDate(dateStr) {
 
 function createBlogCard(post) {
     return `
-    <article class="bg-gray-800/40 p-6 rounded-xl border border-gray-700 hover:border-blue-500 transition duration-300">
-        <span class="text-xs text-blue-400 bg-blue-400/10 px-2 py-1 rounded-full inline-block mb-3">${post.category}</span>
-        <time class="block text-sm text-gray-500 mb-2">${formatDate(post.date)}</time>
-        <h2 class="text-xl font-semibold mb-2 hover:text-blue-400 transition">
+    <article class="bg-gray-900/80 p-6 rounded-lg border-l-4 border-[#00ff88] hover:border-[#00ccff] shadow-lg shadow-blue-500/10 transition-all duration-300 transform hover:-translate-y-1">
+        <div class="flex justify-between items-start mb-3">
+            <span class="text-xs text-[#00ccff] bg-[#00ccff]/10 px-3 py-1 rounded-full font-bold">${post.category}</span>
+            <time class="text-sm text-gray-500 font-mono">${formatDate(post.date)}</time>
+        </div>
+        <h2 class="text-xl font-semibold mb-3 text-[#f1c40f] hover:text-[#00ff88] transition">
             <a href="${post.link}">${post.title}</a>
         </h2>
-        <p class="text-gray-400 mb-4">${post.excerpt}</p>
-        <a href="${post.link}" class="text-blue-400 inline-flex items-center hover:underline">Read More →
-        </a>
+        <p class="text-gray-300 mb-4 pl-2 border-l-2 border-gray-700">${post.excerpt}</p>
+        <div class="flex justify-between items-center">
+            <a href="${post.link}" class="text-[#00ccff] inline-flex items-center hover:underline group">
+                Read More <span class="ml-1 group-hover:ml-2 transition-all">→</span>
+            </a>
+            <span class="text-gray-500 text-xs">~/${post.link.replace('./', '')}</span>
+        </div>
     </article>
     `;
 }
