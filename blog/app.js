@@ -1,16 +1,9 @@
 const blogPosts = [
     {
-        title: "Building Agentic AI Systems",
-        date: "21-05-2025",
-        excerpt: "Understanding how autonomous components work together.",
-        link: "./blog_post_one/",
-        category: "AI Insights"
-    },
-    {
-        title: "Scaling Deep Learning Infrastructure",
+        title: "Multi-vector Embeddings",
         date: "22-05-2025",
-        excerpt: "Lessons from production deployments of large models.",
-        link: "./blog_post_two/",
+        excerpt: "An alternative to traditional embeddings for potentially better performance.",
+        link: "./multi-vector-embeddings/",
         category: "AI Insights"
     },
 ];
