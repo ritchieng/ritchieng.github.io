@@ -1,10 +1,10 @@
 const blogPosts = [
     {
-        title: "Multi-vector Embeddings",
-        date: "22-05-2025",
-        excerpt: "An alternative to traditional embeddings for potentially better performance.",
-        link: "./multi-vector-embeddings/",
-        category: "AI Insights"
+        title: "RENT: Reinforcement Learning via Entropy Minimization",
+        date: "29-05-2025",
+        excerpt: "A completely unsupervised RL approach that boosts reasoning by treating the model’s own confidence as the reward signal.",
+        link: "./rent-reinforcement-learning-via-entropy-minimization/",
+        category: "Reinforcement Learning"
     },
 ];
 
