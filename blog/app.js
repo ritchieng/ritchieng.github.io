@@ -3,7 +3,7 @@ const blogPosts = [
         title: "RENT: Reinforcement Learning via Entropy Minimization",
         date: "29-05-2025",
         excerpt: "A completely unsupervised RL approach that boosts reasoning by treating the model’s own confidence as the reward signal.",
-        link: "./rent-reinforcement-learning-via-entropy-minimization/",
+        link: "./rent/",
         category: "Reinforcement Learning"
     },
 ];
