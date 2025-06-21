@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ritchie@singapore ~ Matrices are Graphs, Graphs are Matrices$</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- MathJax Configuration -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    .matrix-container, .graph-container {
+      border: 1px solid #333;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 300px;
+      background-color: #101216;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .matrix-cell {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      border: 1px solid #333;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .matrix-cell:hover {
+      background-color: #1a1e24;
+    }
+    .matrix-input {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #00ff88;
+      background-color: transparent;
+    }
+    .matrix-cell[data-value="1"] {
+      background-color: #1a3a2a;
+    }
+    #matrix {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    #matrix th {
+      padding: 8px;
+      color: #00ff88;
+    }
+    svg {
+      background-color: #101216;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      width: 100%;
+      height: 350px;
+    }
+    .terminal-button {
+      background-color: #202327;
+      color: #00ff88;
+      border: 1px solid #00ff88;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+      margin: 5px;
+      font-family: monospace;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0, 255, 136, 0.15);
+    }
+    .terminal-button:hover {
+      background-color: #2a2e33;
+      box-shadow: 0 2px 8px rgba(0, 255, 136, 0.3);
+      transform: translateY(-1px);
+    }
+    .terminal-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 1px 3px rgba(0, 255, 136, 0.2);
+    }
+    .terminal-button::before {
+      content: '>';
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      margin: 15px 0;
+      background-color: #161921;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+    .node-control {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 10px;
+      background-color: #161921;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      margin-bottom: 15px;
+    }
+    .node-label {
+      color: #00ff88;
+      font-family: monospace;
+    }
+    .node-slider {
+      -webkit-appearance: none;
+      height: 7px;
+      border-radius: 5px;
+      background: #333;
+      outline: none;
+      width: 150px;
+    }
+    .node-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #00ff88;
+      cursor: pointer;
+    }
+    .node-slider::-moz-range-thumb {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #00ff88;
+      cursor: pointer;
+    }
+    .node-count {
+      background-color: #202327;
+      color: #00ff88;
+      padding: 3px 8px;
+      border-radius: 4px;
+      min-width: 30px;
+      text-align: center;
+      font-family: monospace;
+      border: 1px solid #333;
+    }
+    /* Visualization container specific styling */
+    .viz-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    /* Fixed responsive layout */
+    @media (max-width: 768px) {
+      .viz-container {
+        flex-direction: column;
+      }
+      .matrix-container, .graph-container {
+        min-width: 100%;
+        width: 100%;
+      }
+      .controls {
+        flex-direction: column;
+        align-items: center;
+      }
+      .terminal-button {
+        width: 100%;
+        max-width: 250px;
+      }
+      .node-control {
+        flex-direction: column;
+      }
+      .matrix-cell {
+        width: 30px;
+        height: 30px;
+      }
+      .matrix-input {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+      }
+      svg {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu"></div>
+
+    <!-- Bash Content Block -->
+    <div class="bash-block">
+
+      <!-- Command Line Prompt -->
+      <div class="bash-line">
+        <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/matrix-graph</span>$ bat explainer.md
+      </div>
+
+      <!-- Main Content -->
+      <div class="bash-output output-text space-y-6">
+
+        <h1 class="text-xl font-bold">Matrices are Graphs, Graphs are Matrices</h1>
+        <p><em>Understanding the fundamental duality between linear algebra and graph theory</em></p>
+
+        <h2 class="text-lg font-semibold">Conceptual Overview</h2>
+        <p>
+          Adjacency matrices and graphs are two ways of representing the same information. 
+          A graph shows nodes and their connections visually, while an adjacency matrix encodes this information numerically.
+        </p>
+
+        <h2 class="text-lg font-semibold">Interactive Visualization</h2>
+        <p>
+          Click on any cell in the matrix to toggle connections between nodes. Observe how changes in the matrix directly affect the graph structure.
+        </p>
+
+        <div class="controls">
+          <button id="reset" class="terminal-button">Reset</button>
+          <button id="random" class="terminal-button">Random Graph</button>
+          <button id="complete" class="terminal-button">Complete Graph</button>
+          <button id="cycle" class="terminal-button">Cycle Graph</button>
+        </div>
+        
+        <div class="node-control">
+          <span class="node-label">Number of Nodes:</span>
+          <input type="range" min="3" max="8" value="5" class="node-slider" id="node-slider">
+          <div class="node-count" id="node-count">5</div>
+        </div>
+        
+        <div class="viz-container">
+          <div class="matrix-container">
+            <h2 class="text-lg font-semibold text-[#00ff88]">Adjacency Matrix</h2>
+            <table id="matrix"></table>
+          </div>
+          
+          <div class="graph-container">
+            <h2 class="text-lg font-semibold text-[#00ff88]">Graph Representation</h2>
+            <svg id="graph"></svg>
+          </div>
+        </div>
+        
+        <h2 class="text-lg font-semibold">How This Works</h2>
+        <p>An adjacency matrix is a square matrix where rows and columns represent nodes in a graph:</p>
+        <ul class="list-disc pl-6">
+          <li>Entry (i,j) = 1 means there's an edge from node i to node j</li>
+          <li>Entry (i,j) = 0 means there's no edge from node i to node j</li>
+          <li>Diagonal entries (i,i) = 1 represent self-loops</li>
+        </ul>
+        
+        <h3 class="font-semibold">Matrix-Graph Duality</h3>
+        <p>This duality enables us to:</p>
+        <ul class="list-disc pl-6">
+          <li>Apply linear algebra techniques to solve graph problems</li>
+          <li>Visualize matrix operations as transformations on graphs</li>
+          <li>Represent complex relationships in a compact numerical format</li>
+        </ul>
+        
+        <p>Try creating different graph structures using the buttons above or by manually toggling connections in the matrix!</p>
+
+        <!-- Citation Section -->
+        <div class="bash-line">
+          <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/matrix-graph</span>$ bat citation.md
+        </div>
+        <div class="bash-output output-text">
+          <p>
+            Citation: <a href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/" class="text-blue-400 hover:underline" target="_blank">Linear Algebra - MIT OpenCourseWare</a>
+          </p>
+        </div>
+    
+        <!-- Final Prompt Line -->
+        <div class="bash-line">
+          <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/matrix-graph</span>$ <span class="cursor">|</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="../../js/menu.js"></script>
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.MathJax) MathJax.typesetPromise();
+    });
+  </script>
+</body>
+
+</html>

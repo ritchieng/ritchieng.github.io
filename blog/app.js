@@ -1,11 +1,18 @@
 const blogPosts = [
     {
+        title: "Matrices and Graphs",
+        date: "21-06-2025",
+        excerpt: "Relationship between matrices and graphs",
+        link: "./matrix-graph/",
+        category: "Linear Algebra"
+    },
+    {
         title: "RENT: Reinforcement Learning via Entropy Minimization",
         date: "29-05-2025",
         excerpt: "A completely unsupervised RL approach that boosts reasoning by treating the model’s own confidence as the reward signal.",
         link: "./rent/",
         category: "Reinforcement Learning"
-    },
+    }
 ];
 
 const POSTS_PER_PAGE = 5;
