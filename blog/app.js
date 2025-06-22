@@ -1,6 +1,6 @@
 const blogPosts = [
     {
-        title: "Matrices and Graphs",
+        title: "Matrices represented as Graphs",
         date: "21-06-2025",
         excerpt: "Relationship between matrices and graphs",
         link: "./matrix-graph/",
