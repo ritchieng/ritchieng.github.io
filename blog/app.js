@@ -1,14 +1,21 @@
 const blogPosts = [
     {
+        title: "Building Agents",
+        date: "08-07-2025",
+        excerpt: "Architect of building agents that can reason, plan, and act in complex environments.",
+        link: "./building-agents/",
+        category: "Agentic AI"
+    },
+    {
         title: "Matrices represented as Graphs",
-        date: "21-06-2025",
+        date: "08-06-2025",
         excerpt: "Relationship between matrices and graphs",
         link: "./matrix-graph/",
         category: "Linear Algebra"
     },
     {
         title: "RENT: Reinforcement Learning via Entropy Minimization",
-        date: "29-05-2025",
+        date: "08-05-2025",
         excerpt: "A completely unsupervised RL approach that boosts reasoning by treating the model’s own confidence as the reward signal.",
         link: "./rent/",
         category: "Reinforcement Learning"
