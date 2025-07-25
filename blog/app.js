@@ -1,5 +1,12 @@
 const blogPosts = [
     {
+        title: "Automated Reasoning with Large Language Models",
+        date: "08-08-2025",
+        excerpt: "Exploring how LLMs can be used for automated reasoning tasks, including SAT solving and logical inference.",
+        link: "./automated-reasoning/",
+        category: "AI Guardrails"
+    },
+    {
         title: "Building Agents",
         date: "08-07-2025",
         excerpt: "Architect of building agents that can reason, plan, and act in complex environments.",

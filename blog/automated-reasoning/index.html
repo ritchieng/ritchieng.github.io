@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ritchie@singapore~$ Automated Reasoning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <style>
+    .input-field {
+      margin: 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #e0e0e0;
+      font-family: monospace;
+      font-size: 14px;
+    }
+    
+    .input-field input[type="number"] {
+      background-color: #1a1e24;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 6px 10px;
+      color: #00ff88;
+      font-family: monospace;
+      width: 80px;
+    }
+    
+    .input-field input[type="number"]:focus {
+      outline: none;
+      border-color: #00ff88;
+      box-shadow: 0 0 5px rgba(0, 255, 136, 0.3);
+    }
+    
+    .input-field input[type="checkbox"] {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #333;
+      border-radius: 3px;
+      background-color: #1a1e24;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .input-field input[type="checkbox"]:checked {
+      background-color: #00ff88;
+      border-color: #00ff88;
+    }
+    
+    .input-field input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: -2px;
+      left: 1px;
+      color: #000;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+    .interactive-button {
+      background-color: #202327;
+      color: #00ff88;
+      border: 1px solid #00ff88;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+      margin: 10px 0;
+      font-family: monospace;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0, 255, 136, 0.15);
+    }
+    
+    .interactive-button:hover {
+      background-color: #2a2e33;
+      box-shadow: 0 2px 8px rgba(0, 255, 136, 0.3);
+      transform: translateY(-1px);
+    }
+    
+    .interactive-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 1px 3px rgba(0, 255, 136, 0.2);
+    }
+    
+    .interactive-button::before {
+      content: '>';
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    
+    .result-output {
+      margin-top: 15px;
+      padding: 12px;
+      background-color: #0a1a0f;
+      border: 1px solid #00ff88;
+      border-radius: 6px;
+      color: #00ff88;
+      font-weight: bold;
+      font-family: monospace;
+      min-height: 20px;
+    }
+    
+    .equation-display {
+      background-color: #161921;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 12px;
+      margin: 10px 0;
+      color: #00ff88;
+      font-family: monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+      line-height: 1.4;
+    }
+    
+    .interactive-section {
+      background-color: #101216;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .interactive-section h3 {
+      color: #00ff88;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    
+    .policy-formula {
+      background-color: #0a0c10;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 12px;
+      margin: 15px 0;
+      color: #ffa500;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu"></div>
+
+    <!-- Bash Content Block -->
+    <div class="bash-block">
+
+      <!-- Command Line Prompt -->
+      <div class="bash-line">
+        <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/automated-reasoning</span>$ bat guide.md
+      </div>
+      <!-- End Command Line Prompt -->
+
+      <!-- Main Content -->
+      <div class="bash-output output-text space-y-6">
+        <h1 class="text-2xl font-bold">Automated Reasoning</h1>
+        <p><em>Learn how to bridge natural language policies with formal logic using LLMs and SMT solvers</em></p>
+
+        <h2 class="text-lg font-semibold">What is Automated Reasoning?</h2>
+        <p>
+          Automated reasoning focuses on the automation of formal methods, that is,
+          using logic to reason about models of systems. SMT, or satisfiability modulo theories, is the problem of determining
+          whether a mathematical formula is satisfiable; SMT solvers generalize the Boolean satisfiability problem to richer
+          theories and return <code class="bg-gray-800 px-1 rounded">sat</code> or <code class="bg-gray-800 px-1 rounded">unsat</code>.
+        </p>
+
+        <h3 class="text-lg font-semibold">Build Time: Mapping Policies to Logic</h3>
+        <p>
+          Policies written in natural language can be ambiguous. During the build
+          process, a large language model (LLM) translates each policy into a
+          precise logical formula. For example, the following employee leave policy
+          allows leave if it's less than 20 consecutive days and the employee has worked for more than 3 months:
+        </p>
+        <div class="policy-formula">LeaveApproved ≡ (LeaveDays < 20) ∧ (TenureMonths > 3)</div>
+        <p>
+          Encoding policies as equations removes ambiguity and makes the rules
+          machine-checkable.
+        </p>
+
+        <h3 class="text-lg font-semibold">Run Time: Mapping Questions to Variables</h3>
+        <p>
+          At run time, the LLM interprets a user's question to extract the
+          variables needed to evaluate the policy. For example, a request of
+          "I've been here 6 months, can I take 15 days off?" maps to:
+        </p>
+        <ul class="list-disc ml-6 space-y-1">
+          <li><strong>LeaveDays:</strong> <code class="bg-gray-800 px-1 rounded">15</code></li>
+          <li><strong>TenureMonths:</strong> <code class="bg-gray-800 px-1 rounded">6</code></li>
+        </ul>
+
+        <h3 class="text-lg font-semibold">Solving with SMT</h3>
+        <p>
+          Once substituted, the logical expression is passed to an SMT solver. If
+          the solver finds an interpretation that satisfies the formula, it returns
+          <code class="bg-gray-800 px-1 rounded">sat</code>; otherwise it returns <code class="bg-gray-800 px-1 rounded">unsat</code>.
+          Unknown results arise only on difficult problems, for example when
+          quantifiers are involved. Automated reasoning tools can provide proofs
+          or unsat cores explaining their answer.
+        </p>
+
+        <h3 class="text-lg font-semibold">Why Use Automated Reasoning?</h3>
+        <ul class="list-disc ml-6 space-y-2">
+          <li>Removes ambiguity from natural-language policies by converting them to formal logic</li>
+          <li>Enables machine-checkable guarantees about compliance and access control</li>
+          <li>Scales to complex systems by leveraging powerful SMT solvers and theorem provers</li>
+          <li>Allows integration with LLMs for natural language interfaces</li>
+        </ul>
+
+        <h3 class="text-lg font-semibold">Mathematical Symbols Reference</h3>
+        <p>The logical formulas in this post use standard mathematical notation:</p>
+        <div class="equation-display">
+          <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+              <tr style="border-bottom: 1px solid #333;">
+                <th style="text-align: left; padding: 8px; color: #ffa500;">Symbol</th>
+                <th style="text-align: left; padding: 8px; color: #ffa500;">Meaning</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">≡</td>
+                <td style="padding: 8px;">Logically equivalent to (definition)</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">∧</td>
+                <td style="padding: 8px;">Logical AND. Both conditions must be true.</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">≥</td>
+                <td style="padding: 8px;">Greater than or equal to.</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">&lt;</td>
+                <td style="padding: 8px;">Less than.</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">&gt;</td>
+                <td style="padding: 8px;">Greater than.</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; color: #00ff88; font-weight: bold;">()</td>
+                <td style="padding: 8px;">Grouping to clarify precedence.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <!-- End Main Content -->
+
+      <!-- Interactive Example 1 -->
+      <div class="bash-output output-text">
+        <div class="interactive-section">
+          <h3>Example 1: Employee Leave Policy</h3>
+          <p>
+            Test an employee leave policy: "Employees can take leave if it's less than 20 consecutive days 
+            and they have worked for more than 3 months."
+          </p>
+          
+          <div class="policy-formula">LeaveApproved ≡ (LeaveDays < 20) ∧ (TenureMonths > 3)</div>
+          
+          <div class="input-field">
+            <label>Leave Days Requested:</label>
+            <input type="number" id="leave-days-input" min="1" max="50" value="15" />
+          </div>
+          <div class="input-field">
+            <label>Employee Tenure (months):</label>
+            <input type="number" id="tenure-input" min="0" max="120" value="6" />
+          </div>
+          
+          <button class="interactive-button" id="check-button">Check Leave Request</button>
+          
+          <div id="equation-output" class="equation-display" style="display:none;"></div>
+          <div id="result-output" class="result-output"></div>
+        </div>
+      </div>
+
+      <!-- Interactive Example 2 -->
+      <!-- <div class="bash-line">
+        <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/automated-reasoning</span>$ interactive-example2
+      </div> -->
+      <div class="bash-output output-text">
+        <div class="interactive-section">
+          <h3>Example 2: Student Course Enrollment</h3>
+          <p>
+            Test a university enrollment policy: "Students can enroll in advanced courses if they have 
+            completed at least 60 credit hours and maintain a GPA of 3.0 or higher."
+          </p>
+          
+          <div class="policy-formula">EnrollmentAllowed ≡ (CreditHours ≥ 60) ∧ (GPA ≥ 3.0)</div>
+          
+          <p>Adjust the student parameters to see if enrollment is allowed:</p>
+          
+          <div class="input-field">
+            <label>Completed Credit Hours:</label>
+            <input type="number" id="credit-hours-input" min="0" max="200" value="45" />
+          </div>
+          <div class="input-field">
+            <label>Current GPA:</label>
+            <input type="number" id="gpa-input" min="0" max="4" step="0.1" value="3.2" />
+          </div>
+          
+          <button class="interactive-button" id="evaluate-button">Check Enrollment</button>
+          
+          <div id="equation-output2" class="equation-display" style="display:none;"></div>
+          <div id="result-output2" class="result-output"></div>
+        </div>
+      </div>
+
+      <!-- Citation Section -->
+      <div class="bash-line">
+        <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/automated-reasoning</span>$ bat references.md
+      </div>
+      <div class="bash-output output-text">
+        <p>
+          References: 
+          <a href="https://aws.amazon.com/what-is/automated-reasoning/" class="text-blue-400 hover:underline" target="_blank">What is Automated Reasoning</a>
+        </p>
+      </div>
+      <!-- End Citation Section -->
+
+      <!-- Final Prompt Line -->
+      <div class="bash-line">
+        <span class="prompt">ritchie@singapore</span>:<span class="command">~/blog/automated-reasoning</span>$ <span class="cursor">|</span>
+      </div>
+      <!-- End Prompt Line -->
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../../js/menu.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
