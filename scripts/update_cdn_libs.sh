@@ -2,8 +2,17 @@
 
 # Update CDN Libraries Script
 # This script downloads the latest versions of CDN dependencies to local lib folder
+# Run from project root or scripts directory
+
+# Get the script directory and project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Change to project root to ensure correct paths
+cd "$PROJECT_ROOT"
 
 echo "🔄 Updating local CDN libraries..."
+echo "📂 Working directory: $(pwd)"
 
 # Create directories if they don't exist
 mkdir -p lib/{tailwind,d3,mathjax}

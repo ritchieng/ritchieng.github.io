@@ -37,20 +37,41 @@ lib/
 
 ## Maintenance
 
-### Updating Libraries
+### Using the Management Script
 
-Run the update script to download the latest versions:
+Use the main management script for all CDN operations:
 
 ```bash
-./update_cdn_libs.sh
+# New modular commands
+./manage.sh cdn update      # Update libraries
+./manage.sh cdn convert     # Convert HTML files to use local libraries
+./manage.sh cdn status      # Check CDN status
+./manage.sh dev start       # Start development server
+./manage.sh site status     # Overall website status
+
+# Legacy commands (still supported)
+./manage.sh update          # Update libraries
+./manage.sh convert         # Convert HTML files
+./manage.sh test            # Start development server
+./manage.sh status          # Check CDN status
+
+# See all available commands
+./manage.sh help
 ```
 
-### Converting HTML Files
+### Direct Script Access
 
-If you need to convert HTML files from CDN to local references:
+Alternatively, run scripts directly from the `scripts/` directory:
 
 ```bash
-./convert_to_local_libs.sh
+# Update libraries
+./scripts/update_cdn_libs.sh
+
+# Convert HTML files
+./scripts/convert_to_local_libs.sh
+
+# Start local server
+./scripts/test_local.sh
 ```
 
 ### File Structure in HTML
@@ -88,11 +109,16 @@ find . -name '*.html.backup' | while read f; do mv "$f" "${f%.backup}"; done
 After conversion, test your website locally to ensure all functionality works:
 
 ```bash
-# If you have a local server setup
-./test_local.sh
+# Using the management script
+./manage.sh dev start
+# Or legacy command
+./manage.sh test
 
-# Or use Python's built-in server
-python3 -m http.server 8000
+# Or directly using the test script
+./scripts/test_local.sh
+
+# Or use Python's built-in server manually
+python3 -m http.server 8003
 ```
 
-Then visit `http://localhost:8000` to verify everything works correctly.
+Then visit `http://localhost:8003` to verify everything works correctly.

@@ -40,8 +40,8 @@ css/styles.css
 - Example inclusion in `index.html`:
 
 ```html
-<link rel="stylesheet" href="../css/styles.css" />
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="../../css/styles.css">
+<script src="../../lib/tailwind/tailwind-cdn.js"></script>
 ```
 
 ## Custom CSS Improvements

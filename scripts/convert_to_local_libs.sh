@@ -2,16 +2,21 @@
 
 # Convert CDN references to local libraries
 # This script updates all HTML files to use local library files instead of CDN
+# Run from project root or scripts directory
+
+# Get the script directory and project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Change to project root to ensure correct paths
+cd "$PROJECT_ROOT"
 
 echo "🔄 Converting HTML files to use local libraries..."
+echo "📂 Working directory: $(pwd)"
 
 # Function to get relative path from HTML file to lib directory
 get_relative_path() {
     local html_file="$1"
-    local lib_path="lib"
-    
-    # Count directory depth
-    local depth=$(echo "$html_file" | grep -o "/" | wc -l)
     
     if [[ "$html_file" == *"/blog/"* ]]; then
         echo "../../lib"
@@ -22,7 +27,7 @@ get_relative_path() {
     fi
 }
 
-# Find all HTML files
+# Find all HTML files in project
 find . -name "*.html" -type f | while read -r html_file; do
     echo "📝 Processing: $html_file"
     
@@ -37,7 +42,7 @@ find . -name "*.html" -type f | while read -r html_file; do
         -e "s|https://cdn\\.tailwindcss\\.com|$lib_path/tailwind/tailwind-cdn.js|g" \
         -e "s|https://d3js\\.org/d3\\.v7\\.min\\.js|$lib_path/d3/d3.v7.min.js|g" \
         -e "s|https://cdn\\.jsdelivr\\.net/npm/mathjax@3/es5/tex-mml-chtml\\.js|$lib_path/mathjax/tex-mml-chtml.js|g" \
-        -e "s|https://cdn\\.jsdelivr\\.net/npm/mathjax@3/es5/tex-mml-chtml\\.js|$lib_path/mathjax/tex-mml-chtml.js|g" \
+        -e "s|https://cdn\\.jsdelivr\\.net/npm/mathjax@3/es5/tex-mtml-chtml\\.js|$lib_path/mathjax/tex-mml-chtml.js|g" \
         "$html_file"
     
     echo "✅ Updated: $html_file"
