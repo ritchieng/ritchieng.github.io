@@ -21,6 +21,7 @@ show_help() {
     echo -e "${CYAN}Categories:${NC}"
     echo -e "  ${GREEN}cdn${NC}         CDN library management"
     echo -e "  ${GREEN}dev${NC}         Development tools"
+    echo -e "  ${GREEN}perf${NC}        Performance testing"
     echo -e "  ${GREEN}site${NC}        Website maintenance"
     echo ""
     echo -e "${CYAN}CDN Commands:${NC}"
@@ -34,6 +35,11 @@ show_help() {
     echo -e "  ${GREEN}dev start${NC}       Start local development server"
     echo -e "  ${GREEN}dev stop${NC}        Stop development server (if running in background)"
     echo ""
+    echo -e "${CYAN}Performance Commands:${NC}"
+    echo -e "  ${GREEN}perf test${NC}       Run comprehensive performance tests"
+    echo -e "  ${GREEN}perf setup${NC}      Install performance testing dependencies"
+    echo -e "  ${GREEN}perf quick${NC}      Quick performance check using curl"
+    echo ""
     echo -e "${CYAN}Site Commands:${NC}"
     echo -e "  ${GREEN}site status${NC}     Show overall website status"
     echo -e "  ${GREEN}site info${NC}       Display website information"
@@ -42,6 +48,7 @@ show_help() {
     echo "  $0 cdn update       # Download latest libraries"
     echo "  $0 cdn convert      # Convert HTML files to use local libraries"
     echo "  $0 dev start        # Start development server"
+    echo "  $0 perf test        # Run comprehensive performance tests"
     echo "  $0 site status      # Show overall website status"
     echo ""
     echo -e "${YELLOW}Legacy support: Single commands still work (e.g., '$0 update')${NC}"
@@ -128,6 +135,98 @@ cdn_revert() {
         echo -e "${RED}❌ No backup files found${NC}"
     fi
 }
+
+# ===========================================
+# Performance Functions
+# ===========================================
+
+perf_setup() {
+    echo -e "${BLUE}🔧 Setting up performance testing dependencies...${NC}"
+    if ! npm list puppeteer >/dev/null 2>&1; then
+        npm install puppeteer --no-save && echo -e "${GREEN}✅ Puppeteer installed successfully${NC}"
+    else
+        echo -e "${GREEN}✅ Puppeteer is already installed${NC}"
+    fi
+}
+
+perf_test() {
+    echo -e "${BLUE}🚀 Running comprehensive performance tests...${NC}"
+    
+    # Check if puppeteer is installed first
+    if ! npm list puppeteer >/dev/null 2>&1; then
+        echo -e "${YELLOW}⚠️  Puppeteer not found. Installing dependencies...${NC}"
+        perf_setup
+    fi
+    
+    # Check if server is already running on port 8080
+    if ! curl -s http://localhost:8080 >/dev/null 2>&1; then
+        echo -e "${YELLOW}📡 Starting local server on port 8080...${NC}"
+        python3 -m http.server 8080 --directory . >/dev/null 2>&1 &
+        SERVER_PID=$!
+        sleep 2  # Give server time to start
+        
+        # Ensure server started successfully
+        if ! curl -s http://localhost:8080 >/dev/null 2>&1; then
+            echo -e "${RED}❌ Failed to start local server${NC}"
+            return 1
+        fi
+        echo -e "${GREEN}✅ Local server started (PID: $SERVER_PID)${NC}"
+        STARTED_SERVER=true
+    else
+        echo -e "${GREEN}✅ Local server already running${NC}"
+        STARTED_SERVER=false
+    fi
+    
+    # Run the performance tests
+    node scripts/performance.js
+    
+    # Stop the server if we started it
+    if [ "$STARTED_SERVER" = true ]; then
+        echo -e "${BLUE}🛑 Stopping local server...${NC}"
+        kill $SERVER_PID 2>/dev/null
+        echo -e "${GREEN}✅ Server stopped${NC}"
+    fi
+}
+
+perf_quick() {
+    echo -e "${BLUE}⚡ Quick performance check using curl...${NC}"
+    
+    # Check if server is already running on port 8080
+    if ! curl -s http://localhost:8080 >/dev/null 2>&1; then
+        echo -e "${YELLOW}📡 Starting local server on port 8080...${NC}"
+        python3 -m http.server 8080 --directory . >/dev/null 2>&1 &
+        SERVER_PID=$!
+        sleep 2  # Give server time to start
+        
+        # Ensure server started successfully
+        if ! curl -s http://localhost:8080 >/dev/null 2>&1; then
+            echo -e "${RED}❌ Failed to start local server${NC}"
+            return 1
+        fi
+        echo -e "${GREEN}✅ Local server started (PID: $SERVER_PID)${NC}"
+        STARTED_SERVER=true
+    else
+        echo -e "${GREEN}✅ Local server already running${NC}"
+        STARTED_SERVER=false
+    fi
+    
+    echo "--- Home Page ---"
+    curl -o /dev/null -s -w "Home Load Time: %{time_total}s\n" http://localhost:8080/
+    echo "--- About Page ---"
+    curl -o /dev/null -s -w "About Load Time: %{time_total}s\n" http://localhost:8080/about/
+    echo "--- Blog Index ---"
+    curl -o /dev/null -s -w "Blog Load Time: %{time_total}s\n" http://localhost:8080/blog/
+    echo "--- Building Agents (Heavy) ---"
+    curl -o /dev/null -s -w "Building Agents Load Time: %{time_total}s\n" http://localhost:8080/blog/building-agents/
+    
+    # Stop the server if we started it
+    if [ "$STARTED_SERVER" = true ]; then
+        echo -e "${BLUE}🛑 Stopping local server...${NC}"
+        kill $SERVER_PID 2>/dev/null
+        echo -e "${GREEN}✅ Server stopped${NC}"
+    fi
+}
+
 
 # ===========================================
 # Development Functions
@@ -270,6 +369,19 @@ case "$1" in
             "stop") dev_stop ;;
             *) 
                 echo -e "${RED}❌ Unknown dev command: $2${NC}"
+                echo ""
+                show_help
+                exit 1
+                ;;
+        esac
+        ;;
+    "perf")
+        case "$2" in
+            "setup") perf_setup ;;
+            "test") perf_test ;;
+            "quick") perf_quick ;;
+            *) 
+                echo -e "${RED}❌ Unknown performance command: $2${NC}"
                 echo ""
                 show_help
                 exit 1

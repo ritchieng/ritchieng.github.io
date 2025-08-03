@@ -46,6 +46,39 @@ Starts a local HTTP server for development and testing.
 - Starts Python HTTP server on port 8003
 - Provides access at `http://localhost:8003`
 
+### `performance.js`
+Performance testing script that measures page load metrics using Puppeteer.
+
+**Usage:**
+```bash
+# Using manage.sh (recommended)
+./manage.sh perf setup    # Install dependencies (first time only)
+./manage.sh perf test     # Run comprehensive performance tests
+./manage.sh perf quick    # Quick curl-based performance check
+
+# Or run directly (from project root)
+node scripts/performance.js
+```
+
+**What it tests:**
+- Total page load times
+- First Paint and First Contentful Paint metrics
+- DOM node counts and memory usage
+- Resource loading breakdown by type
+- Network idle detection
+
+**Pages tested:**
+- Home page (`/`)
+- About page (`/about/`)
+- Blog index (`/blog/`)
+- Building Agents blog post (heavy page with D3.js, MathJax)
+
+**Performance Optimizations Implemented:**
+- **Deferred JavaScript**: All non-critical JS loaded with `defer` attribute
+- **Font Preloading**: Google Fonts preloaded asynchronously to prevent render blocking
+- **Critical CSS Priority**: Core styles loaded synchronously, external CSS preloaded
+- **Heavy Library Optimization**: Tailwind CDN, D3.js, and MathJax don't block initial render
+
 ## Path Handling
 
 All scripts automatically detect their location and work correctly whether run from:

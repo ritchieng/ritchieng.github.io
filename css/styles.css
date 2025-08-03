@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+/* Font will be preloaded in HTML head for better performance */
 
 body {
   font-family: 'Fira Code', monospace;

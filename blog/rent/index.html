@@ -5,17 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ritchie@singapore~$ RENT: Reinforcement Learning via Entropy Minimizatiion</title>
-  <script src="../../lib/tailwind/tailwind-cdn.js"></script>
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"></noscript>
+  
+  <!-- Critical CSS loaded synchronously -->
   <link rel="stylesheet" href="../../css/styles.css">
+  
+  <!-- Defer heavy scripts to prevent render blocking -->
+  <script src="../../lib/tailwind/tailwind-cdn.js" defer></script>
 
-  <!-- MathJax Configuration -->
+  <!-- MathJax Configuration - defer loading -->
   <script>
     window.MathJax = {
       tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
       svg: { fontCache: 'global' }
     };
   </script>
-  <script src="../../lib/mathjax/tex-mml-chtml.js"></script>
+  <script src="../../lib/mathjax/tex-mml-chtml.js" defer></script>
 </head>
 
 <body>
@@ -141,13 +149,13 @@
   </div>
 
   <!-- Scripts -->
-  <script src="../../js/menu.js"></script>
-  <script>
+  <script src="../../js/menu.js" defer></script>
+  <script defer>
     document.addEventListener("DOMContentLoaded", () => {
       if (window.MathJax) MathJax.typesetPromise();
     });
   </script>
-  <script src="./app.js"></script>
+  <script src="./app.js" defer></script>
 
 </body>
 
