@@ -6,7 +6,6 @@ document.getElementById('menu').innerHTML = `
     <div class="output-text">
       <a href="/">/home</a>  
       <a href="/about/">/about</a>
-      <a href="/blog/">/blog</a>
     </div>
   </div>
 `;
