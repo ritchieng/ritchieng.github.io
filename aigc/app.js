@@ -37,7 +37,8 @@ async function loadPosts() {
         
         for (const filename of postFiles) {
             try {
-                const response = await fetch(`./posts/${filename}.md`);
+                // Use absolute path from root for GitHub Pages compatibility
+                const response = await fetch(`/aigc/posts/${filename}.md`);
                 if (!response.ok) continue;
                 
                 const content = await response.text();
