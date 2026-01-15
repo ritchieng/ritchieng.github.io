@@ -326,6 +326,9 @@ EOF
     cp "aigc/sample-post/index.html" "aigc/posts/$post_name/"
     cp "aigc/sample-post/app.js" "aigc/posts/$post_name/"
     
+    # Automatically update app.js files with the new post
+    aigc_sync_app_js
+    
     echo -e "${GREEN}✅ Post created: $post_name${NC}"
     echo ""
     echo -e "${CYAN}Files created:${NC}"
@@ -335,8 +338,7 @@ EOF
     echo ""
     echo -e "${YELLOW}Next steps:${NC}"
     echo "  1. Edit the post: $0 aigc edit $post_name"
-    echo "  2. Register: $0 aigc register $post_name"
-    echo "  3. Access at: /aigc/posts/$post_name/"
+    echo "  2. Access at: /aigc/posts/$post_name/"
 }
 
 aigc_list() {
@@ -396,6 +398,47 @@ aigc_edit() {
     fi
 }
 
+aigc_sync_app_js() {
+    # Find all existing markdown posts
+    local posts=()
+    if [ -d "aigc/posts" ]; then
+        while IFS= read -r md_file; do
+            local filename=$(basename "$md_file" .md)
+            posts+=("$filename")
+        done < <(find "aigc/posts" -maxdepth 1 -name "*.md" -type f | sort)
+    fi
+    
+    # If no posts found, keep intro-to-aigc as default
+    if [ ${#posts[@]} -eq 0 ]; then
+        posts=("intro-to-aigc")
+    fi
+    
+    # Generate postFiles array content
+    local post_array="const postFiles = ["
+    for i in "${!posts[@]}"; do
+        post_array+=$'\n            '"'${posts[$i]}'"
+        if [ $i -lt $((${#posts[@]} - 1)) ]; then
+            post_array+=","
+        fi
+    done
+    post_array+=$'\n        ];'
+    
+    # Update aigc/app.js
+    if [ -f "aigc/app.js" ]; then
+        # Use a temporary file for complex replacement
+        sed "/const postFiles = \[/,/\];/c\\
+$post_array" "aigc/app.js" > "aigc/app.js.tmp" && mv "aigc/app.js.tmp" "aigc/app.js"
+    fi
+    
+    # Update app.js in all post directories
+    find "aigc/posts" -maxdepth 1 -type d | while read post_dir; do
+        if [ -f "$post_dir/app.js" ] && [ "$post_dir" != "aigc/posts" ]; then
+            sed "/const postFiles = \[/,/\];/c\\
+$post_array" "$post_dir/app.js" > "$post_dir/app.js.tmp" && mv "$post_dir/app.js.tmp" "$post_dir/app.js"
+        fi
+    done
+}
+
 aigc_register() {
     local post_name="$1"
     
@@ -440,6 +483,10 @@ aigc_remove() {
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         rm -f "aigc/posts/$post_name.md"
         rm -rf "aigc/posts/$post_name"
+        
+        # Automatically update app.js files to reflect removal
+        aigc_sync_app_js
+        
         echo -e "${GREEN}✅ Post removed: $post_name${NC}"
     else
         echo "Operation cancelled"

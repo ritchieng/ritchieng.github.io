@@ -30,9 +30,7 @@ async function loadPosts() {
     try {
         // Try to fetch a list of posts - we'll use a fallback approach
         const postFiles = [
-            'intro-to-aigc',
-            'transformer-architecture',
-            'fine-tuning-techniques'
+            'intro-to-aigc'
         ];
         
         const posts = [];
