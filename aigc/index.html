@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ritchie@singapore~$ AIGC Research</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"></noscript>
+  
+  <!-- Critical CSS loaded synchronously -->
+  <link rel="stylesheet" href="../css/styles.css" />
+  
+  <!-- Defer Tailwind to prevent render blocking -->
+  <script src="../../lib/tailwind/tailwind-cdn.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu"></div>
+
+    <div class="bash-line">
+      <span class="prompt">ritchie@singapore</span>:<span class="command">~/aigc</span>$ ls posts/
+    </div>
+
+    <div id="aigc-list" class="grid gap-4 mt-4"></div>
+
+    <div id="loading" class="text-center py-6 text-gray-500 hidden">
+      loading...
+    </div>
+
+    <div class="bash-line">
+      <span class="prompt">ritchie@singapore</span>:<span class="command">~/aigc</span>$ <span class="cursor">|</span>
+    </div>
+
+  </div>
+
+  <script src="../js/menu.js" defer></script>
+  <script src="./app.js" defer></script>
+
+</body>
+</html>

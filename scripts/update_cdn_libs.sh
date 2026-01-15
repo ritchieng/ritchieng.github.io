@@ -15,7 +15,7 @@ echo "🔄 Updating local CDN libraries..."
 echo "📂 Working directory: $(pwd)"
 
 # Create directories if they don't exist
-mkdir -p lib/{tailwind,d3,mathjax}
+mkdir -p lib/{tailwind,d3,mathjax,marked}
 
 # Download Tailwind CSS (Play CDN version)
 echo "📦 Downloading Tailwind CSS..."
@@ -39,6 +39,14 @@ if curl -o lib/mathjax/tex-mml-chtml.js https://cdn.jsdelivr.net/npm/mathjax@3/e
     echo "✅ MathJax updated successfully"
 else
     echo "❌ Failed to download MathJax"
+fi
+
+# Download Marked (Markdown parser)
+echo "📦 Downloading Marked.js..."
+if curl -s https://cdn.jsdelivr.net/npm/marked/marked.min.js -o lib/marked/marked.min.js; then
+    echo "✅ Marked.js updated successfully"
+else
+    echo "❌ Failed to download Marked.js"
 fi
 
 # Show file sizes

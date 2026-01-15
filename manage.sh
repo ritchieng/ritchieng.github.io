@@ -44,12 +44,19 @@ show_help() {
     echo -e "  ${GREEN}site status${NC}     Show overall website status"
     echo -e "  ${GREEN}site info${NC}       Display website information"
     echo ""
+    echo -e "${CYAN}AIGC Blog Commands:${NC}"
+    echo -e "  ${GREEN}aigc new${NC} <name>      Create a new blog post with template"
+    echo -e "  ${GREEN}aigc list${NC}           List all existing posts"
+    echo -e "  ${GREEN}aigc edit${NC} <name>    Edit post markdown file"
+    echo -e "  ${GREEN}aigc register${NC} <name> Register post in app.js"
+    echo -e "  ${GREEN}aigc remove${NC} <name>  Remove a post"
+    echo ""
     echo -e "${CYAN}Examples:${NC}"
-    echo "  $0 cdn update       # Download latest libraries"
-    echo "  $0 cdn convert      # Convert HTML files to use local libraries"
-    echo "  $0 dev start        # Start development server"
-    echo "  $0 perf test        # Run comprehensive performance tests"
-    echo "  $0 site status      # Show overall website status"
+    echo "  $0 cdn update           # Download latest libraries"
+    echo "  $0 dev start            # Start development server"
+    echo "  $0 aigc new my-post     # Create new AIGC post"
+    echo "  $0 aigc list            # List all AIGC posts"
+    echo "  $0 site status          # Show overall website status"
     echo ""
     echo -e "${YELLOW}Legacy support: Single commands still work (e.g., '$0 update')${NC}"
 }
@@ -248,8 +255,198 @@ dev_stop() {
     fi
 }
 
+# ===========================================# AIGC Blog Management Functions
 # ===========================================
-# Site Management Functions
+
+validate_post_name() {
+    if [[ ! "$1" =~ ^[a-z0-9]([a-z0-9-]*[a-z0-9])?$ ]]; then
+        echo -e "${RED}❌ Invalid post name: '$1'${NC}"
+        echo -e "${YELLOW}Post names must start with lowercase letter/number, contain only lowercase letters, numbers, and hyphens${NC}"
+        return 1
+    fi
+    return 0
+}
+
+aigc_new() {
+    local post_name="$1"
+    
+    validate_post_name "$post_name" || return 1
+    
+    if [ -d "aigc/posts/$post_name" ]; then
+        echo -e "${RED}❌ Post '$post_name' already exists${NC}"
+        return 1
+    fi
+    
+    local title=$(echo "$post_name" | sed 's/-/ /g' | sed 's/\b\(.\)/\u\1/g')
+    local date=$(date +%Y-%m-%d)
+    
+    cat > "aigc/posts/$post_name.md" << EOF
+---
+title: "$title"
+date: "$date"
+category: "AIGC"
+excerpt: "Brief description of your post that appears in the listing page"
+---
+
+# $title
+
+Write your introduction here...
+
+## Main Section
+
+Your content goes here. You can use:
+
+- **Bold text** with \`**bold**\`
+- *Italic text* with \`*italic*\`
+- \`inline code\` with backticks
+- Links with \`[text](url)\`
+
+### Code Example
+
+\`\`\`python
+def hello():
+    print("Hello, AIGC!")
+\`\`\`
+
+### Math Equations
+
+Inline math: \$E = mc^2\$
+
+Display math:
+\$\$
+\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}
+\$\$
+
+## Conclusion
+
+Wrap up your post here.
+EOF
+
+    mkdir -p "aigc/posts/$post_name"
+    cp "aigc/sample-post/index.html" "aigc/posts/$post_name/"
+    cp "aigc/sample-post/app.js" "aigc/posts/$post_name/"
+    
+    echo -e "${GREEN}✅ Post created: $post_name${NC}"
+    echo ""
+    echo -e "${CYAN}Files created:${NC}"
+    echo "  • aigc/posts/$post_name.md (markdown file)"
+    echo "  • aigc/posts/$post_name/index.html"
+    echo "  • aigc/posts/$post_name/app.js"
+    echo ""
+    echo -e "${YELLOW}Next steps:${NC}"
+    echo "  1. Edit the post: $0 aigc edit $post_name"
+    echo "  2. Register: $0 aigc register $post_name"
+    echo "  3. Access at: /aigc/posts/$post_name/"
+}
+
+aigc_list() {
+    echo -e "${BLUE}📚 AIGC Blog Posts${NC}"
+    echo ""
+    
+    if [ ! -d "aigc/posts" ]; then
+        echo -e "${YELLOW}No posts directory found${NC}"
+        return
+    fi
+    
+    local post_count=$(find "aigc/posts" -maxdepth 1 -name "*.md" -type f | wc -l | tr -d ' ')
+    
+    if [ "$post_count" -eq 0 ]; then
+        echo -e "${YELLOW}No posts found${NC}"
+        return
+    fi
+    
+    echo -e "${CYAN}Markdown Files (posts):${NC}"
+    echo ""
+    
+    find "aigc/posts" -maxdepth 1 -name "*.md" -type f | sort | while read md_file; do
+        local basename=$(basename "$md_file" .md)
+        local title=$(grep '^title:' "$md_file" | head -1 | sed 's/^title: //g' | tr -d '"')
+        local date=$(grep '^date:' "$md_file" | head -1 | sed 's/^date: //g' | tr -d '"')
+        
+        if grep -q "'$basename'" "aigc/app.js"; then
+            echo -e "  ${GREEN}✓${NC} $basename"
+        else
+            echo -e "  ${YELLOW}⚠${NC} $basename (not registered)"
+        fi
+        
+        if [ ! -z "$title" ]; then
+            echo -e "    Title: $title"
+        fi
+        if [ ! -z "$date" ]; then
+            echo -e "    Date: $date"
+        fi
+        echo ""
+    done
+}
+
+aigc_edit() {
+    local post_name="$1"
+    
+    validate_post_name "$post_name" || return 1
+    
+    if [ ! -f "aigc/posts/$post_name.md" ]; then
+        echo -e "${RED}❌ Post '$post_name' not found${NC}"
+        return 1
+    fi
+    
+    ${EDITOR:-nano} "aigc/posts/$post_name.md"
+    
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}✅ Post saved${NC}"
+    fi
+}
+
+aigc_register() {
+    local post_name="$1"
+    
+    validate_post_name "$post_name" || return 1
+    
+    if [ ! -f "aigc/posts/$post_name.md" ]; then
+        echo -e "${RED}❌ Post markdown file not found: aigc/posts/$post_name.md${NC}"
+        return 1
+    fi
+    
+    if grep -q "'$post_name'" "aigc/app.js"; then
+        echo -e "${YELLOW}⚠️  Post already registered${NC}"
+        return 0
+    fi
+    
+    if grep -q "const postFiles = \[" "aigc/app.js"; then
+        sed -i.bak "/const postFiles = \[/,/\];/s/\];/    '$post_name',\n];/" "aigc/app.js"
+        rm -f "aigc/app.js.bak"
+        echo -e "${GREEN}✅ Post registered: $post_name${NC}"
+    else
+        echo -e "${RED}❌ Could not find postFiles array in aigc/app.js${NC}"
+        return 1
+    fi
+}
+
+aigc_remove() {
+    local post_name="$1"
+    
+    validate_post_name "$post_name" || return 1
+    
+    if [ ! -d "aigc/posts/$post_name" ] && [ ! -f "aigc/posts/$post_name.md" ]; then
+        echo -e "${RED}❌ Post '$post_name' not found${NC}"
+        return 1
+    fi
+    
+    echo -e "${YELLOW}⚠️  This will remove:${NC}"
+    [ -f "aigc/posts/$post_name.md" ] && echo "  • aigc/posts/$post_name.md"
+    [ -d "aigc/posts/$post_name" ] && echo "  • aigc/posts/$post_name/ (directory and files)"
+    
+    read -p "Continue? (y/N): " -n 1 -r
+    echo
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        rm -f "aigc/posts/$post_name.md"
+        rm -rf "aigc/posts/$post_name"
+        echo -e "${GREEN}✅ Post removed: $post_name${NC}"
+    else
+        echo "Operation cancelled"
+    fi
+}
+
+# ===========================================# Site Management Functions
 # ===========================================
 
 site_status() {
@@ -394,6 +591,21 @@ case "$1" in
             "info") site_info ;;
             *) 
                 echo -e "${RED}❌ Unknown site command: $2${NC}"
+                echo ""
+                show_help
+                exit 1
+                ;;
+        esac
+        ;;
+    "aigc")
+        case "$2" in
+            "new") aigc_new "$3" ;;
+            "list") aigc_list ;;
+            "edit") aigc_edit "$3" ;;
+            "register") aigc_register "$3" ;;
+            "remove") aigc_remove "$3" ;;
+            *) 
+                echo -e "${RED}❌ Unknown AIGC command: $2${NC}"
                 echo ""
                 show_help
                 exit 1
