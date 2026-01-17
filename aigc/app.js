@@ -29,7 +29,7 @@ function parseFrontmatter(content) {
 async function loadPosts() {
     try {
         // Try to fetch a list of posts - we'll use a fallback approach
-        const postFiles = [
+const postFiles = [
             'intro-to-aigc'
         ];
         

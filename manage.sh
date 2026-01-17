@@ -413,30 +413,65 @@ aigc_sync_app_js() {
         posts=("intro-to-aigc")
     fi
     
-    # Generate postFiles array content
-    local post_array="const postFiles = ["
-    for i in "${!posts[@]}"; do
-        post_array+=$'\n            '"'${posts[$i]}'"
-        if [ $i -lt $((${#posts[@]} - 1)) ]; then
-            post_array+=","
+    # Helper function to update postFiles array in a file
+    update_app_js_file() {
+        local file="$1"
+        local temp_file="${file}.tmp"
+        
+        if [ ! -f "$file" ]; then
+            return 1
         fi
-    done
-    post_array+=$'\n        ];'
+        
+        # Find line numbers
+        local start_line=$(grep -n "const postFiles = \[" "$file" | cut -d: -f1)
+        local end_line=$(grep -n "^        \];" "$file" | cut -d: -f1)
+        
+        if [ -z "$start_line" ] || [ -z "$end_line" ] || [ "$start_line" -ge "$end_line" ]; then
+            echo -e "${RED}❌ Could not find postFiles array in $file${NC}" >&2
+            return 1
+        fi
+        
+        # Write the file with updated postFiles array
+        {
+            sed -n "1,$((start_line - 1))p" "$file"
+            printf "const postFiles = [\n"
+            for i in "${!posts[@]}"; do
+                printf "            '%s'" "${posts[$i]}"
+                if [ $i -lt $((${#posts[@]} - 1)) ]; then
+                    printf ",\n"
+                else
+                    printf "\n"
+                fi
+            done
+            printf "        ];\n"
+            sed -n "$((end_line + 1)),\$p" "$file"
+        } > "$temp_file"
+        
+        if [ -s "$temp_file" ]; then
+            mv "$temp_file" "$file"
+            return 0
+        else
+            rm -f "$temp_file"
+            echo -e "${RED}❌ Failed to write to temporary file for $file${NC}" >&2
+            return 1
+        fi
+    }
     
     # Update aigc/app.js
-    if [ -f "aigc/app.js" ]; then
-        # Use a temporary file for complex replacement
-        sed "/const postFiles = \[/,/\];/c\\
-$post_array" "aigc/app.js" > "aigc/app.js.tmp" && mv "aigc/app.js.tmp" "aigc/app.js"
+    if update_app_js_file "aigc/app.js"; then
+        :  # Success
+    else
+        echo -e "${YELLOW}⚠️  Failed to update aigc/app.js${NC}" >&2
     fi
     
     # Update app.js in all post directories
-    find "aigc/posts" -maxdepth 1 -type d | while read post_dir; do
-        if [ -f "$post_dir/app.js" ] && [ "$post_dir" != "aigc/posts" ]; then
-            sed "/const postFiles = \[/,/\];/c\\
-$post_array" "$post_dir/app.js" > "$post_dir/app.js.tmp" && mv "$post_dir/app.js.tmp" "$post_dir/app.js"
-        fi
-    done
+    if [ -d "aigc/posts" ]; then
+        find "aigc/posts" -maxdepth 1 -type d ! -name "posts" | while read post_dir; do
+            if [ -f "$post_dir/app.js" ]; then
+                update_app_js_file "$post_dir/app.js" > /dev/null 2>&1 || true
+            fi
+        done
+    fi
 }
 
 aigc_register() {
