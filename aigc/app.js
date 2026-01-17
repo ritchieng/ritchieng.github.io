@@ -30,6 +30,7 @@ async function loadPosts() {
     try {
         // Try to fetch a list of posts - we'll use a fallback approach
 const postFiles = [
+            'hallucination-mitigation',
             'intro-to-aigc'
         ];
         
@@ -49,7 +50,7 @@ const postFiles = [
                         title: metadata.title || 'Untitled',
                         date: metadata.date || 'Unknown Date',
                         excerpt: metadata.excerpt || 'No description available',
-                        category: metadata.category || 'AIGC',
+                        category: metadata.category || 'general',
                         filename: filename,
                         link: `./posts/${filename}/`
                     });

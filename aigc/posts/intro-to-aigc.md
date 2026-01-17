@@ -1,8 +1,8 @@
 ---
 title: "Introduction to AI Generated Content (AIGC) Section"
 date: "2026-01-15"
-category: "AIGC"
-excerpt: "To log random musings while I work with AI"
+category: "general"
+excerpt: "To Log Random Musings with AI"
 ---
 
 ## Why I Started This
