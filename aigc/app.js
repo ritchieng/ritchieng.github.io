@@ -38,7 +38,7 @@ async function loadPosts() {
         for (const filename of postFiles) {
             try {
                 // Use absolute path from root for GitHub Pages compatibility
-                const response = await fetch(`/aigc/posts/${filename}.md`);
+                const response = await fetch(`./posts/${filename}.md`);
                 if (!response.ok) continue;
                 
                 const content = await response.text();
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     if (allPosts.length === 0) {
         const loadingEl = document.getElementById('loading');
-        loadingEl.innerText = 'No posts found. Create markdown files in ./posts/ directory.';
+        loadingEl.innerText = 'No posts found.';
         loadingEl.classList.remove('hidden');
         return;
     }
