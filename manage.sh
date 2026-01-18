@@ -285,6 +285,7 @@ aigc_new() {
 title: "$title"
 date: "$date"
 category: "AIGC"
+pinned: false
 excerpt: "Brief description of your post that appears in the listing page"
 ---
 

@@ -3,6 +3,7 @@ title: "Introduction to AI Generated Content (AIGC) Section"
 date: "2026-01-15"
 category: "general"
 excerpt: "To Log Random Musings with AI"
+pinned: true
 ---
 
 ## Why I Started This

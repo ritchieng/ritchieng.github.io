@@ -31,7 +31,8 @@ async function loadPosts() {
         // Try to fetch a list of posts - we'll use a fallback approach
 const postFiles = [
             'hallucination-mitigation',
-            'intro-to-aigc'
+            'intro-to-aigc',
+            'tokenization-embeddings'
         ];
         
         const posts = [];
@@ -51,6 +52,7 @@ const postFiles = [
                         date: metadata.date || 'Unknown Date',
                         excerpt: metadata.excerpt || 'No description available',
                         category: metadata.category || 'general',
+                        pinned: metadata.pinned === 'true' || metadata.pinned === true,
                         filename: filename,
                         link: `./posts/${filename}/`
                     });
@@ -59,6 +61,19 @@ const postFiles = [
                 // Post file doesn't exist, skip it
             }
         }
+        
+        // Sort posts: pinned first (by date), then unpinned (by date)
+        posts.sort((a, b) => {
+            // If one is pinned and one isn't, pinned comes first
+            if (a.pinned !== b.pinned) {
+                return a.pinned ? -1 : 1;
+            }
+            
+            // Both pinned or both unpinned: sort by date (newest first)
+            const dateA = new Date(a.date);
+            const dateB = new Date(b.date);
+            return dateB - dateA;
+        });
         
         return posts;
     } catch (err) {
@@ -83,10 +98,14 @@ function formatDate(dateStr) {
 }
 
 function createPostCard(post) {
+    const pinnedBadge = post.pinned ? '<span class="text-xs text-[#ff00ff] bg-[#ff00ff]/10 px-3 py-1 rounded-full font-bold ml-2">📌 PINNED</span>' : '';
     return `
-    <article class="bg-gray-900/80 p-6 rounded-lg border-l-4 border-[#00ff88] hover:border-[#00ccff] shadow-lg shadow-blue-500/10 transition-all duration-300 transform hover:-translate-y-1">
+    <article class="bg-gray-900/80 p-6 rounded-lg border-l-4 ${post.pinned ? 'border-[#ff00ff]' : 'border-[#00ff88]'} hover:border-[#00ccff] shadow-lg shadow-blue-500/10 transition-all duration-300 transform hover:-translate-y-1">
         <div class="flex justify-between items-start mb-3">
-            <span class="text-xs text-[#00ccff] bg-[#00ccff]/10 px-3 py-1 rounded-full font-bold">${post.category}</span>
+            <div class="flex gap-2">
+                <span class="text-xs text-[#00ccff] bg-[#00ccff]/10 px-3 py-1 rounded-full font-bold">${post.category}</span>
+                ${pinnedBadge}
+            </div>
             <time class="text-sm text-gray-500 font-mono">${formatDate(post.date)}</time>
         </div>
         <h2 class="text-xl font-semibold mb-3 text-[#f1c40f] hover:text-[#00ff88] transition">
