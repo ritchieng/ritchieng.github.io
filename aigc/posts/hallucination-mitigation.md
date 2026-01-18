@@ -21,7 +21,7 @@ Prevention is your "Design-Time" strategy. It ensures the model has the right ma
 
 The primary cause of hallucinations is a model relying on its training weights rather than factual data.
 
-* **Vector Databases:** Store your technical manuals, customer data, and logs as embeddings
+* **Vector Databases:** Store your technical manuals, customer data, and logs as embeddings.
 * **The Workflow:** When a user queries the agent, the system first retrieves relevant context from your Knowledge Base. The agent is then instructed: *"Answer using ONLY the provided context. If the answer is missing, state that you do not know."*
 
 ### **Knowledge Graphs for Complex Reasoning**
