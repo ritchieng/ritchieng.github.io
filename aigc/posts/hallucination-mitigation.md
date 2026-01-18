@@ -58,7 +58,7 @@ When an agent calls a tool (e.g., `refund_user`), it often hallucinates a parame
 
 Force the agent to output its reasoning *before* its action.
 
-* **The Logic:** If the agent's "Thought" process is , but its "Action" is , a secondary guardrail can flag the inconsistency.
+* **The Logic:** If the agent's "Thought" process is $A \rightarrow B \rightarrow C$, but its "Action" is $D$, a secondary guardrail can flag the inconsistency.
 
 ## 4. Output Guardrails: The Safety Net
 
