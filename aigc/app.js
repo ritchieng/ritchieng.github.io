@@ -112,10 +112,7 @@ function createPostCard(post) {
             <a href="${post.link}">${post.title}</a>
         </h2>
         <p class="text-gray-300 mb-4 pl-2 border-l-2 border-gray-700">${post.excerpt}</p>
-        <div class="flex justify-between items-center">
-            <a href="${post.link}" class="text-[#00ccff] inline-flex items-center hover:underline group">
-                Read More <span class="ml-1 group-hover:ml-2 transition-all">→</span>
-            </a>
+        <div class="text-right">
             <span class="text-gray-500 text-xs">~/${post.link.replace('./', '')}</span>
         </div>
     </article>
