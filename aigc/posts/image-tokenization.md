@@ -1,7 +1,7 @@
 ---
 title: "Image Tokenization"
 date: "2026-01-22"
-category: "AIGC"
+category: "toknization-embeddings"
 pinned: false
 excerpt: "How CLIP Bridges Pixels and Prose"
 ---
