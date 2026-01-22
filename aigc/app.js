@@ -31,6 +31,7 @@ async function loadPosts() {
         // Try to fetch a list of posts - we'll use a fallback approach
 const postFiles = [
             'hallucination-mitigation',
+            'image-tokenization',
             'intro-to-aigc',
             'tokenization-embeddings'
         ];
