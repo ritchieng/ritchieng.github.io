@@ -33,6 +33,7 @@ const postFiles = [
             'hallucination-mitigation',
             'image-tokenization',
             'intro-to-aigc',
+            'tokanization-efficiency',
             'tokenization-embeddings'
         ];
         

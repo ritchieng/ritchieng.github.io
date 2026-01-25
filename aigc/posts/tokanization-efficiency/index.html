@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ritchie@singapore~$ AIGC Post</title>
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"></noscript>
+  
+  <!-- Critical CSS loaded synchronously -->
+  <link rel="stylesheet" href="/css/styles.css">
+  
+  <!-- Load Marked.js for markdown rendering - load before app.js -->
+  <script src="/lib/marked/marked.min.js"></script>
+
+  <!-- Defer heavy scripts to prevent render blocking -->
+  <script src="/lib/tailwind/tailwind-cdn.js" defer></script>
+
+  <!-- MathJax Configuration - defer loading -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="/lib/mathjax/tex-mml-chtml.js" defer></script>
+  
+  <style>
+    .post-content {
+      color: #efefef;
+      line-height: 1.8;
+    }
+
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-content h4,
+    .post-content h5,
+    .post-content h6 {
+      color: #f1c40f;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .post-content h1 { font-size: 2rem; }
+    .post-content h2 { font-size: 1.5rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
+    .post-content h3 { font-size: 1.25rem; }
+
+    .post-content p {
+      margin-bottom: 1rem;
+    }
+
+    .post-content code {
+      background-color: #1a1a1a;
+      color: #00ff88;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-size: 0.9em;
+      font-family: 'Fira Code', monospace;
+    }
+
+    .post-content pre {
+      background-color: #1a1a1a;
+      border-left: 3px solid #00ff88;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin: 1rem 0;
+      font-family: 'Fira Code', monospace;
+    }
+
+    .post-content pre code {
+      background-color: transparent;
+      color: #00ff88;
+      padding: 0;
+      border-radius: 0;
+    }
+
+    .post-content blockquote {
+      border-left: 4px solid #00ccff;
+      padding-left: 1rem;
+      color: #b0b0b0;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+
+    .post-content ul,
+    .post-content ol {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .post-content li {
+      margin-bottom: 0.5rem;
+    }
+
+    .post-content a {
+      color: #00ccff;
+      text-decoration: underline;
+    }
+
+    .post-content a:hover {
+      color: #00ff88;
+    }
+
+    .post-content table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      border: 1px solid #333;
+    }
+
+    .post-content table th,
+    .post-content table td {
+      border: 1px solid #333;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    .post-content table th {
+      background-color: #1a1a1a;
+      color: #f1c40f;
+      font-weight: bold;
+    }
+
+    .post-content table tr:hover {
+      background-color: #0a0a0a;
+    }
+
+    .post-header {
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .post-header::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background: #00ff88;
+      margin-top: 1rem;
+    }
+
+    .post-title {
+      color: #f1c40f;
+      font-size: 2.5rem;
+      margin-bottom: 0;
+      margin-top: 0;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+
+    .post-meta {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .post-meta-item {
+      color: #00ccff;
+      font-size: 0.9rem;
+      font-family: 'Fira Code', monospace;
+    }
+
+    .post-meta-label {
+      color: #989898;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu"></div>
+
+    <div id="post-container" class="post-content">
+      <!-- Post content will be loaded here -->
+    </div>
+
+    <div class="bash-line" style="margin-top: 2rem;">
+      <span class="prompt">ritchie@singapore</span>:<span class="command">~/aigc/posts</span>$ <span class="cursor">|</span>
+    </div>
+  </div>
+
+  <!-- Load marked.js synchronously before app.js -->
+  <script src="/lib/marked/marked.min.js"></script>
+  <script src="/js/menu.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
