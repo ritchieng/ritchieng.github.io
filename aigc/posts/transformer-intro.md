@@ -1,7 +1,7 @@
 ---
 title: "The Great Token Assembly Line: How Transformers Actually Think"
 date: "2026-02-19"
-category: "AIGC"
+category: "transformers"
 pinned: false
 excerpt: "To understand how a Large Language Model (LLM) works, we have to follow a single word (a token) as it travels through the assembly line."
 ---
