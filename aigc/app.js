@@ -34,7 +34,8 @@ const postFiles = [
             'image-tokenization',
             'intro-to-aigc',
             'tokanization-efficiency',
-            'tokenization-embeddings'
+            'tokenization-embeddings',
+            'transformer-intro'
         ];
         
         const posts = [];
